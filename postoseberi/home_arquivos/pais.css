@@ -1,0 +1,21 @@
+.forma-visualizacao {
+	BACKGROUND: url(bg-box_forma_visualizacao.jpg) no-repeat left top
+}
+.pais-mundo .box-brasil {
+	BACKGROUND: url(bg-box_pais.jpg) no-repeat left top
+}
+.pais-mundo .box-mundo {
+	BACKGROUND: url(bg-box_mundo.jpg) no-repeat left top
+}
+.pais-mundo .box-brasil DIV {
+	MARGIN: 88px 0px 0px 13px
+}
+.pais-mundo .box-mundo DIV {
+	MARGIN: 117px 0px 0px 13px
+}
+.mundo-full .box-mundo {
+	BACKGROUND: url(bg-box_mundo_full.jpg) no-repeat left top
+}
+.pais-full .box-mundo {
+	BACKGROUND: url(bg-box_pais_full.jpg) no-repeat left top
+}

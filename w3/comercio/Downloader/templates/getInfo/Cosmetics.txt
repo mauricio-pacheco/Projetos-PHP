@@ -1,0 +1,1 @@
+<template><id>Cosmetics</id><name>Cosmetics</name><version>1.5</version><colors><color><name>Pale Green</name><hex>#647E75</hex><preview>%%ISCURL%%templates/previews/Cosmetics_palegreen_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/Cosmetics_palegreen.jpg</previewFull></color></colors></template>

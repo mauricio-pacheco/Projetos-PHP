@@ -1,0 +1,23 @@
+<script type="text/javascript">
+
+	// Make sure at least one product is selected
+	$('#productUpdatesForm').submit(function() {
+		var f = document.getElementById('productUpdatesForm');
+		var num = 0;
+		
+		for(i = 0; i < f.elements.length; i++) {
+			if(f.elements[i].type == "checkbox" && f.elements[i].checked) {
+				num++;
+			}
+		}
+
+		if(num == 0) {
+			alert("%%LNG_ChooseProductsForUpdates%%");
+			return false;
+		}
+		else {
+			return true;
+		}
+	});
+
+</script>

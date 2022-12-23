@@ -1,0 +1,1584 @@
+CRM-CTT CHANGELOG
+	(SEE THE UPGRADING FILE FOR UPGRADE ISSUES)
+
+CRM-CTT [ http://www.crm-ctt.com - hidde AT crm DASH ctt DOT com ]	
+(c) 2001-2006 Hidde Fennema
+
+This is the change log for CRM-CTT. It is updated on-the-fly, so if you're 
+reading this on-line from the project web site you might see features in here 
+which are not yet released.
+
+Don't forget to check the UPGRADING file
+
+Mail me if you have a good idea to improve CRM-CTT.
+
+23/05/2006 - Version 3.4.2
+	
+	New features
+
+	- Text area's can now also contain rich text (see extra fields section)
+	- New feature: NOBARSWINDOW. When enabled, opens CRM-CTT in a full-screen window without
+	  menu- and address bars.
+	- A new report method was added to the summary page: management information. When using this report
+	  method, you'll end up in the management information section, where everything you'll see will be
+	  filtered based upon the query you made on the summary page.
+	- The upgrade script can now also be ran from the command line (see manual)
+        
+	Performance
+
+	- Reduced the size of the main list output. Gain about 40% (on large pages) by using more CSS and javascript (thanks to 
+	  ES Automatisering).
+	- Deleted obsolete functions printeditform() & printeditform2(). Gain about 160KB in package size.
+
+	Lay-out/cosmetics
+
+	- Replaced the WYSIWYG editor 
+	- Improved the trigger interface
+	- The templates admin page is now tab-ized
+	- Some tooltip hints in the extra fields page were added
+
+	Extra fields
+
+	- Custom created buttons which only trigger triggers. You can now add buttons, which save an entity and execute
+	  some defined triggers. Cool option; you can combine the advanced access rights possibilities of an extra field with a 
+	  form element (which is cool, trust me). Other triggers will also fire when appropriate, but the button trigger will fire 
+	  last. If no value in a form is altered, only the triggers attached to the button will fire. This way you can create workflow
+	  bypasses for specific users or groups.
+	- New extra field type: rich text area. This will show a rich text editor so rich text can be stored in CRM-CTT. Copy-pasting from
+	  applications like Word works perfect. Please do mind that the content will be saved as HTML, so when you offer this field for exports,
+	  it will export HTML code.
+	- New extra field type: checkbox (by popular demand)
+	- Text area extra fields can now be sized
+	- Text area extra fields can now have the clock-icon to insert date and time printed above them
+	
+	Misc
+
+	- Next to the administration manual, there's now also a "configuration and management essentials" document
+	  especially for non-technical users.
+	- Bug not fixed: cache problem (customer field filter in main entity list) (couldn't reproduce this)
+	- Replaced the 3.4.0 -> 3.4.1 upgrade routine. On very large tables (>1GB) it was killed by the kernel because it consumed
+	  too much memory. The new routine is slower, though more memory-efficient.
+	- The init page with the green moving gif will never be visible for more than 20 seconds even if cache buildup was
+	  unsuccesfull.
+
+        Custom HTML forms
+	
+	- Save as new entity-button for custom made forms (varuss@sf)
+	- Add-text-only box for custom made forms
+
+	Bug fixes
+
+	- Bug fixed: Main entity list: Sortable by each field (links were not shown)
+	- Bug fixed: Export Excel customers: list-of-crm-users displays as number, not names	
+	- Bug fixed: SQL error when customer fields are used as filter in main list
+	- Bug fixed: Vanished values in main list when showing customer field of User-List type
+	- Bug fixed: management.php form-id saved wrong
+	- Bug fixed: deleted users will no longer be exported
+	- Bug fixed: LoV-extrafield in dropdown "more" list shows serialized array
+	- Bug fixed: WebDAV check should be HTTPS-only compatible (Joaquim)
+	- Bug fixed: inserted entities don't show extra field values (thanks to Gert) (3.4.1 patch on request)
+	- Bug fixed: Language pack display on new installations shows 'PACK' as language pack
+	- Bug fixed: Clicking "add a record" from customer page doesn't work with self made forms
+
+	
+26/02/2006 - Version 3.4.1
+
+	Performance
+
+	- Extensive intelligent caching routines added. To be switched on (default) or off by
+	  altering global directive USE_EXTENDED_CACHE. This method may gain performace im-
+	  provements up to 80%. When this function is enabled, you'll see a CRM-CTT logo and
+	  an animated GIF image when you log on or switch repostories. When you see this, CRM
+	  is building your cache arrays. It takes a little time but believe me, it's very use-
+	  ful in most cases. To test if your database is faster with EXTENDED_CACHE enabled, run
+	  "php -q update_cache.php -c MYSQLDATABASENAME" on the command line.
+	- Binairy data is now stored in a tertiary table. Faster, but it makes the upgrade routine
+	  a little heavy this time.
+	
+	Extra fields
+
+	- Per-user and per-group access rights definition for extra fields (cool option!)
+	- Box sizes can now be set for numeric and text fields (e.g. not for textareas)
+	- New extra field type: "List Of Values". This is a field (type textbox) which can
+	  hold multiple values.
+	- New extra field type: "Drop-down based on customer list of values" (entity only). This
+	  type will present a drop-down box, filled with values based upon an extra customer
+	  field of type "List of values". (cool option!)
+
+	Forms & templates
+
+	- You can now also create your own (summary page) HTML-reports. Thanks to hakansoyler@sf
+	  for bringing up the idea. (cool option!)
+	- Under the main edit screen, a pulldown box is presented to switch the entity to 
+	  another form type (admins only)
+	- Customer edit screens now contain the RTF-report icon, and it is also available 
+	  as template tag.
+	- Attaching files from WebDav is now also possible with custom made forms
+
+	Triggers
+	
+	- New trigger available: on event XX set form-id of the concerning entity to YY
+	
+	Security & user accounts
+
+	- New clearance level: "full access though only see own assigned entities". This 
+	  user is the same as the "full access though only edit own assigned entities" except
+	  that this new user cannot see any other entities than the ones assigned to him/her.
+	- Personal list layout settings are now stored in the database instead of in a cookie.
+	- Custom navigation tabs can now be assigned to profiles (next to users)
+	- Custom navigation tabs can now also show any of your HTML templates
+	
+	Administrative
+
+	- New admin item (system configuration) : show trace link. Using a cookie you can now
+	  enable the trace link (with log info) only for yourself (e.g. without bothering other
+	  users with it)
+	- Entity double-add-within-the-hour checking is now configurable (though still on by default)
+	- Updated manual
+
+	Management information
+
+	- Added section "Form breakdown" to the "Quick summary" management information section
+
+	Bug fixes
+
+	- Bug fixed: when FormFinity is switched off, form-access-checking is disabled now to
+	             avoid the nobody-can-see-any-entity-bug.
+	- Bug fixed: the calendar sometimes showed entities which shouldn't be visible
+	- Bug fixed: single-entity-invoicing icon works again
+	- Bug fixed: adding entities from e-mail is now FormFinity-compatible (thanks to Edwin)
+	- Bug fixed: EntityRelations select box now looks normal in custom made form
+	- Bug fixed: Exchange HTML-emails now are stripped (HTML is stripped off)
+	- Bug fixed: calendar shows no red duedate links in next months, only current
+	- Bug fixed: Priority isn't saved when a limited user adds an entity in a 
+	             custom made form
+	- Bug fixed: The AutoComplete list sometimes contained categories of entities the
+	             user is not allowed to see.
+	
+
+11/01/2006 - Version 3.4.0 (a lot of items, so this time we've put in some structure)
+	
+	Important changes for administrators
+
+	- Clearance level change: when a user has CLLEVEL full-access-own-entities, he/she 
+	  will from now on also be able to add entities unless specifically denied in user profile or 
+	  group profile.
+	
+	Stunning (general new functionality)
+
+	- FormFinity - Entities can now have their own HTML-forms. Users (and profiles) can
+	  be authorized to use only a specific set of forms. When a user with rights to multiple
+	  forms wants to add an entity, he/she gets to choose from the available forms. The resulting
+	  entity will always show up in that form. Now it's really possible to use CRM-CTT for 
+	  helpdesk tickets and coffee orders at the same time!
+	- A new export-icon was added to the main entity list. Next to the usual MS Excel-icon there's a
+	  new one showing 2 excel icons. This icon, when clicked, will export the list with the fields
+	  you're viewing in your main list immediately without asking you which fields to export.
+	- The main entity list filter boxes FINALLY work correct and fast! (whooho)
+	
+	Extra fields
+
+	- Custom made forms can now have hidden (extra) fields containing pre-defined values.
+	- New extra field type: numeric. This field can only have a numeric value; the user will
+	  not be able to save an entity when it contains anything other than a number. Numeric 
+	  fields are added up by default on the main entity list. This can be switched off by 
+	  disabling global directive DISPLAYNUMSUMINMAINLIST.
+	- New extra field type: User-list. This fields will be presented as a drop-down list con-
+	  taining the users in CRM-CTT. This field can in turn be used for triggers (see below). It
+	  can contain all admin users, all limited users, or all users.
+
+	Forms & templates
+	
+	- HTML Forms can now have hidden extra fields containing values. With this you can make sure that
+	  when a specific form is used, you can set some values without bothering the user with it.
+	- Added HTML Form tag #PARENTBOX# to display entity parent-child information and select box
+	- Customer forms can now also be templated (few words, lots of work :))
+
+	Triggers
+
+	- New trigger available: on event xx extend duedate with 1|2|3|4|5|10|20|30 days.
+	- New trigger available: on event xx set assignee or owner to value selected in extra 
+	  field yy (which must be of type 'user list').
+	- New trigger available: on event xx e-mail the person selected in extra 
+	  field yy (which must be of type 'user list').
+	- New trigger available: fields which are not of type drop-down fields, can now also be
+	  used for creating triggers, though only to_value [something else], not specific values.
+	
+	Security (related)
+
+	- When an "Access denied" message is shown, a [trace] link is printed behind it. Clicking
+	  it will show the qlog trace for the page the user is viewing.
+	- Customer access check layer; just like entities, CRM-CTT now always checks a user's access 
+	  to a customer. This makes CRM-CTT a little slower, but more secure and more consistent.
+	- Authorisation models (CheckEntityAccess & CheckCustomerAccess) now also apply to management 
+	  information section.
+	- Improved security.
+	- Better customer journaling.
+	- From now on, Invoice Cost and Invoice Qty. fields will be checked to see if the user 
+	  submitted numeric values. The user will not be able to save an entity when it contains 
+	  anything other than a number. 
+
+	Debug
+
+	- Added getset.php debug-help ShowTraceLink. When set to 'true', a [trace] link is printed
+	  at the end of each page, which when clicked shows the qlog trace for that page
+
+	Misc
+
+	- Base infrastructure for user-to-user messaging was build, but not yet made visible/active
+	- Updated PHPMailer classes to latest version
+	- Manual was updated, and more than 40 spelling bugs were "fixed" :)
+	- Deleted flag bitmaps from jp/ directory. Package is now 1,5 MB smaller.
+	- Updated build script. A nightly CRM-CTT development snapshot can now be downloaded from the
+	  project download directory.
+	- Next to normal builds, MAX builds are new. These builds are the same as the default
+	  builds, except that all debugging information (qlog entries) is removed from the source code.
+	  For very heavy installations (or very slow hardware) use this version. Please note that when
+	  you encounter a problem, you'll need to have default (e.g. non-MAX) installation to get any 
+	  debug information.
+	- MySQL 5.x compatibility (experimental, but tested and found to work)
+	- PHP 5.x compatibility (experimental, but tested and found to work)
+	- Mail me if you've read this far so I know I don't put all this effort in the CHANGELOG for nothing :)
+
+11/12/2005 - Version 3.3.2 rev1.
+
+	- Custom made entity add and edit forms now also work OK for limited users
+	- Little cosmetic change to the customer edit form (less icons)
+	- A unified email FROM-address can now be set (in this version only in getset.php,
+	  line 68, set $GLOBALS['UNIFIED_FROMADDRESS'] = "you@your.address.com", in future
+	  releases this will be a global setting). This one is especially for Ryan.
+	- ENABLEENTITYLOCKING is now set to 'Yes' by default
+
+04/12/2005 - Version 3.3.2
+
+	- Expirimental LDAP support
+	- Entity parent/child support (expirimental). By enabling the global setting
+	  ENABLEENTITYRELATIONS (and optionally HIDECHILDSFROMMAINLIST) you can relate
+	  entities to each other.
+	- Extra drop-down field lists can be be sorted (on request)
+	- RSS Support. The administrator is now able to define an unlimited number of RSS
+	  feeds based on SQL queries (examples are given). The result of the query, will 
+	  always be matched against the user's rights - e.g. the authentication model is
+	  still appliccable when viewing RSS fieds.
+	- Users can now be limited (by user or profile) to working with only a given list
+	  of customers. All other entities will be hidden.
+		
+
+20/08/2005 - Version 3.3.1 (important, major bug fix!)
+	
+	- Major 3.3.0 fixed. When using templated entity forms, all extra field values which 
+	  you did *NOT* place in your form will be deleted when you save it. This also happens on
+	  normal forms when the user is not entitled to see al fields - the field values the user 
+	  cannot see will also be emptied on save.
+	- Three triggers added: entity_add, entity_edit and entity_edit_checkbox
+
+14/08/2005 - Version 3.3.0
+
+	- Templated entity forms! The entity forms can now be designed to meet 
+	  your demands. Using the known HTML-editor, you can model the forms 
+	  using the same tags as you use for other templates. There are four 
+	  types of entity forms which you can create yourself:
+		1. The entity add form for full-access users
+		2. The entity edit form for full-access users
+		3. The entity add form for limited users 
+		4. The entity edit form for limited users
+	
+	- HTTP Realm (BASIC) authentication is now supported. When a user is authenticated already
+	  by the webserver, CRM-CTT will assume this is correct, and let the user in. This will
+	  only work when a) the user indeed has an CRM-CTT account and b) the CRM-CTT configuration
+	  directive AUTH_TYPE is set to "HTTP REALM". This feature should only be used in installations
+	  which are not connected to the big bad internet.
+	- User profiles now exist. Profiles can be created, and users can 
+	  be coupled to such a profile. 
+	- Configuration directive BODY_LIMITEDHEADER enables you to create a 
+	  little HTML-header for the limited interface
+	- Configuration directive BODY_URGENTMESSAGE enables you to display a 
+	  message above each (full-user) page.
+	- When using extra fields with default values, the records containing these values will now
+	  be created immediately for each entity or customer. This is much better for statistics.
+	- Added tooltips in the administration section. They can be disabled by disabling the
+	  SHOW_ADMIN_TOOLTIPS directive in the main admin section.
+	- Added a search box for the Global System Values section
+	- MASSIVE performance improvement for repositories with much extra fields
+	- Extra fields can now be emptied (thanks to Cheyenne) -> update, feature disabled!
+	- The order in which triggers are processed is now OK - a trigger will always work
+	  with the new values (also thanks to Cheyenne!)
+
+02/07/2005 - Version 3.2.0 (2nd release)
+
+	- Fixed a little "save and close" bug on the summary page
+	- Fixed limited interface
+
+26/06/2005 - Version 3.2.0 (E-mail integration and more)
+
+	- Incoming (read-only) e-mail box over POP3 support (personal + system-wide)
+	- Fixed a WebDAV bug - files with singlequotes no longer crash the 
+	  database query
+	- Added a misc trigger which when set can mail to users when the due date
+	  (not the alarm date) is reached, request from forum (Pabloquintana, Fabrice)
+	- Refurbished the install routine
+	- Double entity add check now also on limited inserts of entities
+	- Under water: all edit screens now use the same function - this makes 
+	  all edit screens consistent and recognisable.
+	- The administrator is now able to add customized navigation tabs linking to 
+	  a specific page witin CRM or external webpages which will be displayed in 
+	  a frame to the CRM-CTT navigation tabs will still be visible
+	- Lots of bugs fixed in the invoice routine
+	- When selected from the main list, the entity page now contains two arrows
+	  which can be used to navigate trough the search results.
+	- The layout of the add entity form for limited (insert-only) users can now
+	  be adjusted. The admin can choose wether the limited user is able to set
+	  the status, priority and duedate (by hiding or showing the field)
+	- When a different report method is chosen when requesting a bookmarked
+	  selection, this method overrules the bookmarked one; this enables the
+	  user to request a PDF, RTF or CSV export whilst the bookmark was saved 
+	  reporting method "brief" or "verbose".
+	- The (old) "doesn't belong here" and "waiting for somebody else's action"
+	  fields are now disabled by default. For compatibility reasons they can be
+	  enabled using the USEWAITINGANDDOESNTBELONGHERE directive.
+	- PDF Exports now have a reasonable name
+	- Fixed a VAT calculation bug in the invoice routine, only occurring when 
+	  values are entered including VAT (thanks to Philippe)
+
+24/04/2005 Version 3.1.0 (small database adjustments, feature enhanchements)
+	
+	- Totally redesigned administration page. Let me know what you think.
+	- Users can now also imported using plain-text CSV sheets
+	- Extra fields can now be given a default value
+	- Summary page searches can now be bookmarked
+	- Authenticated SMTP servers are now supported
+	- The mailer type is now configurable; can be either Sendmail (using the com-
+	  mand line), mail (using the native PHP function) or smtp (using a network
+	  connection to your or your provider's SMTP-server)
+	- Refurbished the triggers page. It's more readable now.
+	- Added 3 new event trigger options: stop-clock, start-clock, and reset-clock
+	- Added extra field breakdown in the quick summary (management information)
+	- Fixed an error which can cause a loop when having logtext set to "true".
+	- Fixed cookie problem - username and password will now always be remembered
+	  and the main list layout will be displayed correctly
+	- Added support for exporting and importing the global settings table
+	- Added support for exporting and importing extra field definitions
+	- Read-only users will no longer lock an entity
+	- Fixed: Colorpicker popup wont close
+	- Fixed: invoicing with VAT-inclusive amounts (template issue: use LVAT i.s.o. VAT!)
+
+10/04/2005 Version 3.0.0 (major update, templates will have to be re-written)
+
+	Please mind: this version implements a complete new way of managing extra fields. This
+	affects the user experience, and the upgrade routine is pretty heavy. It will take 
+	care of all conversions to be done. The way it's implemented now makes CRM-CTT much 
+	more flexible for future enhanchements. 
+
+	Before upgrading, please check your unreferenced extra fields. After upgrading, fields
+	which are already unreferenced in your current 2.6.2 installation cannot be restored. To
+	avoid this, restore your unreferenced fields before upgrading, and delete them again
+	afterwards.
+
+	>| Because of the extra field change, you will have to edit all templates which use extra 
+	>| fields values because the reference will be changed. Also, you'll need to re-set your
+	>| main entity and customer list layout (if you had any extra fields in it)
+
+	This version will display a (blocking) error message when you are running on 3.0.0 software
+	using an 2.6.2 database (and vice-versa!). You (the administrator) will have to upgrade 
+	before users can access the system.
+
+	Test this release on a backup repository before upgrading your production system!
+
+	- The extra field subsystem was completely revised. When upgrading,
+	  take extra care. See the UPGRADING file for details.
+	- Added support for required default and extra fields (!!!)
+	- Adding and editing of extra fields is now done using a menu instead
+	  of a syntax like "TB_name" or "DD_name|option1|option2". Next to
+	  that, extra fields can now have any name you like - special
+	  charactes like commas or quotes are now allowed.
+	- Extra fields can now be placed on 4 places on the main edit entity page
+	- Added a configuration option 'REQUIREDDEFAULTFIELDS' which enables you 
+	  to set some standard fields to "required"
+	- Added a configuration option 'FORCEDFIELDSTEXT': the message which is 
+	  prompted when a user did not fill in all required fields
+	- Added 2 extra field types: "comment" and "hyperlink". Using the first,
+	  you can add comments in your list of extra fields to tell the
+	  user something. The comments are based on HTML templates in your
+	  database. 
+	- Extra fields can now be hidden from non-full access users, like 
+	  customers, - and, additionally, to all users but administrators.
+	  When this is enabled, it will only show up with user having a "full 
+	  access" or "administrator" clearance level.
+	- An extra field type "invoice cost including VAT" was added. This enables
+	  you to enter values which already include the VAT cost. The invoicing
+	  routine will still break down the costs.
+	- Default and extra customer fields can now also be shown in the main 
+	  entity list. The extra fields can also be used as filters, but be 
+	  aware; filtering on extra customer fields in your main enity list 
+	  is sloooow and will generate quite heavy server load. You might want 
+	  to restrict this. Customer fields in the main entity list will show 
+	  up in blue.
+	- Added configuration option ENABLEENTITYLOCKING which, when enabled, locks
+	  an entity (for max. 10 minutes) when somebody opens an entity edit screen.
+	  This is to prevent two people from editing the same entity at the same time.
+	- Added the possibility to summarized fields in invoices. For instance, a
+	  tag named @SUMEFID123@ will print the sum of extra field 123 of the 
+	  entities used to generate the invoice.
+	- Added "extra field inline edit modus". Works just as the language
+	  tag display modus. All extra field names become links (only for the
+	  current session) so you can edit the layout of your entity field
+	  better.
+	- Four styles (colors) can now be chosen: the default foreground color, 
+	  the background color, the form element color, and the fieldset 
+	  legend color. Embedded as configuration directives DFT_FOREGROUND_COLOR,
+	  DFT_PLAIN_COLOR, DFT_FORM_COLOR, and DFT_LEGEND_COLOR.
+	- The main font face and font color can now be alteren (DFT_FONT and
+	  DFT_FONT_SIZE)
+	- Added two more event triggers; "Limited user adds an entity" and
+	  "Limited users updates an entity".
+	- Improved the week calendar
+	- Due dates in the past will now also show up in the main page calendar
+	- HTML E-mail are better (better HTML layout)
+	- Added "import entities" function to the administration section (!)
+	- Added possibility to check if a customer already exists when adding 
+	  a new customer (for Dick and Nicolaas)
+	- All colors and fonts can be adjusted now (admin -> system config)
+	- Added on-screen logging mode for administrators
+	- Added a separated cache table and better cache housekeeping
+	- Fixed garbled dates (in list, edit screen, PDF, CSV) when using a 
+	  windows MySQL server
+	- Added a Russian language pack to the project site
+
+14/03/2005 Version 2.6.2
+
+	- This version supports the use of different types of character 
+	  encoding in your language pack. The default is still ISO-8859-1, 
+	  but if you add a language tag to your language pack called 
+	  "CHARACTER-ENCODING" (in capitals, without the quotes) 
+	  containing the correct value, CRM-CTT will use this to override
+	  the default encoding. (e-mail is not yet covered)
+	- Event trigger options were vastly expanded; next to sending an
+	  e-mail it's now also possible to (un)delete an entity, set it to
+	  read-only or -write or update the status, priority, owner or 
+	  assignee on any field value change event. Read: workflow!
+	- The e-mail_in script, which can be used to insert entities
+	  via e-mail, is no longer beta. It now also fully supports 
+	  triggers and auto-assignments of entities to the owner
+	  of the customer.
+	- Triggered e-mails can now be configured to also attach a
+	  report (an RTF report or the default PDF report)
+	- Fixed a bug which caused extra fields to be parsed wrong
+	  when using field numbers instead of names
+	- Fixed a little age culculation bug
+	- The customer id (CID) can now be used for searching a customer
+	  and it can be used in templates (@CID@).
+
+06/03/2005 Version 2.6.1 - SR1
+
+	- In all read-only profiles the second entity text
+	  box (allowing read-only users to add text) were added
+	  back to the screen.
+	- When parsing a single entity invoice, all entity fields in 
+	  the whole template get parsed, instead of only the fields 
+	  enclosed by the @REPEAT@ and @ENDREPEAT@ tags. The latter
+	  is still the case when parsing invoices based on more than 
+	  one entity.
+
+27/02/2005 Version 2.6.1
+
+	- ** Experimental support for PHP installations without having
+	     PHP configuration directive REGISTER_GLOBALS set to 'On'. 
+	     
+	     CRM-CTT should now also work correctly without this dan-
+	     gerous setting enabled, though testing is required. Any
+	     volunteers out there?
+
+	     Meanwhile, for production usage, it's still advised to
+	     have the setting set to 'On'.
+
+	- 2.6.1 fix1 updates: some profile bugs were fixed, and, more
+	  important, in all read-only profiles the second entity text
+	  box (allowing read-only users to add text) were removed.
+
+	- The main entity list now supports filtering on status and
+	  priority in a NOT-way; like all but having status "Open". This
+	  can be switched on and off using the DISPLAYNOTOPTIONINFILTERS
+	  directive in the Change Systems Values section
+	- The main entity list now shows the number of found entities
+	  in the fieldset title
+	- Added support for numbered template tags instead of the full
+	  extra field name
+	- Incoming entities can now be assigned to the customer owner auto-
+	  matically. This bypasses the "Incoming entity" list. To enable this,
+	  set configuration directive AUTOASSIGNINCOMINGENTITIES to 'Yes'
+	- RTF Reports are now streamed to the browser (instead of building 
+	  the whole report in memory first). This decreases server-side
+	  memory usage *a lot*
+	- In the management information section, clicking on the customer
+	  name now brings you to a more detailed screen containing specific
+	  statistics for that customer
+	- RTF Mailmerge functionality based on a selection was added to the 
+	  customer page
+	- The fixed fields in the customer list can now be used for sorting
+	- Extra fields can now be placed (all at the time, not per field)
+	  on either the top (just above the contents textarea) or at the
+	  "normal" place, just above the file list. This can be cofigured
+	  using the EXTRAFIELDLOCATION directive in the Change Systems
+	  values section
+	- Added trigger support to crmlogger and email_in
+	- Triggered e-mails were attached by default; this can now be chosen
+	- Sorting the entity list now also works in the limited interface
+	- Fixed a little mail-merge bug causing customer e-mail merge
+	  subjects not to be parsed
+
+30/01/2005 Version 2.6.0 
+
+	--- WARNING: This version includes new language tags. A new
+		     English language pack is distributed with it,
+		     and when upgrading, your English pack will be 
+		     upgraded. All other languages now need an update.
+		     The Dutch language pack is alread up-to-date, but
+		     all other packs need to be completed. Please, please
+		     send me your updated language pack, so I can place 
+		     it on the project page for other users.
+
+	- A new CRM-CTT logo is implemented in this version, thanks to 
+	  the effort of Marcin and Lukasz. Please let me know what you 
+	  think!
+	- Custom-made entity (RTF) reports are now fully supported. (!)
+	- Triggers on entity change actions are now supported. The admini-
+	  strator is able to set a triggered event on almost all possible
+	  entity changes. The e-mails which are sent as result of a 
+	  triggered event are automatically attached to the concerning
+	  entity and, if appliccable, the customer dossier
+	- HTML Templates can now be uploaded and edited in the templates
+	  section of the administration section. These HTML templates are
+	  used for triggered events and for the mailmerge
+	- E-mail merges can now be performed from the customers page.
+	- E-mail merges can now be performed on any custom customer field (EML_*)
+	- The summary search function was totally re-written. It is a 
+	  little bit slower now, but much better. Selecting multiple 
+	  extra fields in the search query now works.
+	- An option "Generate entity report" was added as a display 
+	  method on the summary page
+	- The main entity list now has three icons in the top-right
+	  corner: PDF, CSV (excel), and entity report export. These
+	  exports are automatically based on the currently displayed
+	  list of entities
+	- A check was build in to make sure an entity is never added twice
+	- The customer search funtion was replaced by the routine of
+	  summary page. This means that multiple extra fields can be 
+	  used for filtering, and that customer dossier attachments
+	  also will be searched through. It's a little slower now. To 
+	  avoid slow searching on simple queries, a second box was added
+	  which only searches for customer names
+	- All extra fields can now be used in all templates (RTF and HTML).
+	  A link called "List of valid template tags" was added to the main 
+	  admin page. It will show a list of all available tags based 
+	  on hard-coded tags and the extra fields in your installation.
+	- A setting called PDF-ExtraFieldsInTable was added; this lets 
+	  you control the way extra fields show up in a PDF report. When
+	  this setting is set to "Yes", extra fields will be printed in 
+	  a table. Otherwise, each extra field will be printed on its own 
+	  line (like in earlier versions).
+	- When exporting entities (in PDF or CSV/Excel) more customer data
+	  than just the name will be printed. In the PDF it's hardcoded
+	  only the contact name, phone and e-mail, in the list exports
+	  it will contain all fields (and extra fields).
+	- Two more control options were added to the user profiles: 
+	  Show customer tab and show deleted entities. These tabs can now also
+	  be controlled per user (and still also global)
+	- Customer exports based on a query doens't crash anymore when 
+	  having selected many customers; the query is now handed over to the
+	  export handler via the database instead of the old POST/tempfile
+	  construction. This is faster and more safe.
+	- The DIV showing customer info on the main edit entity page now 
+	  contains another DIV which displays the attached files.
+	- A configuration option called EnableSingleEntityInvoicing, which
+	  enables a user to generate an invoice over a single entity. An
+	  icon (MS Word-style) will be shown on the main edit entity page
+	  when this feature is enabled. Everybody can use this function.
+	- MAJOR performance improvements by adding more indexes
+	- Some calendar performance updates were implemented
+	- Fixed the "The image xxxxx.php cannot be displayed, because it contains
+	  errors" bug when using CRM-CTT in Firefox.
+	- Fixed a bug causing extra fields not being saved when saving an
+	  entity for the first time.
+	- Fixed a bug which made it impossible to edit extra customer fields
+	- The manual was updated
+	- Double-insert check on entities added
+
+
+31/12/2004 Version 2.5.3
+
+	- Customer dossiers can now also have file attachments
+	- The PDF export routine for customers is now *much* better (=useful)
+	- Added a configuration item called "ForceSecureHTTP" which enables the
+	  admin to have CRM-CTT automatically redirect users to the HTTPS:// 
+	  equivalent of the URL he/she is using when it's not HTTPS already. 
+	  Naturally, your webserver must be configured to do this. On the logon
+	  page, secure repositories are marked darker in the dropdown list.
+	- A message can now be displayed on the main page (directive 
+	  BODY_MainPageMessage in the "Change Systems Values" admin section)
+	- Added 5 extra statistics (online and in the PDF report) :
+
+			Top 20 entities (based on journal)
+			Top 20 Users (based on journal (=actions))
+			Top 20 Users (based on uselog (=every click)) 
+			Top 20 slow open entities
+			Top 20 slow deleted entities
+
+	- Extra customer fields are can now also be ordered
+	- All PDF tables of content are replaced by PDF-supported bookmarks (which
+	  will display in the left pane in Acrobat)
+	- A new extra field type was added: DATE_ Fields prefixed with DATE_ will show 
+	  up as a date field (and pop the calendar when clicked)
+	- The 'Edit Extra Fields' admin sections were improved
+	- Invoicing now supports 2 types of invoices: one with a static VAT
+	  percentage summed at the bottom, and one capable of generating 
+	  invoices with multiple VAT percentages. The latter one requires 
+	  new tags to be used in the template, after upgrading to 2.5.3 two new
+	  example templates will be available in your installation.
+	- When invoicing, the IHS_ (invoice hours spent) is no longer required. If
+	  the extra field is not there, or if it just isn't entered, the invoice
+	  routine will default this value to 1. Wether or not it appears on the
+	  result invoice, is up to the template.
+	- Invoice numbers now work. It's a 6-digit number (when needed prefixed 
+	  with 0's) which auto-increments. A prefix for this number can be set 
+	  using the administration section. (change systems values)
+	- When invoicing, the customer journal is now kept up-to-date, and the
+	  concerning (individual) invoice can also be attached to the customer 
+	  when requested, even when generating a complete multi-customer invoice.
+	- When mailmerging, it's an option to attach the individual documents to
+	  the customer dossier (for archive purposes)
+	- EID's of deleted entities now appear in red in the main and brief lists
+	- Added the age/duration field as an option to the lists (sortable)
+	- The main page now also displays recent entities in color in Firefox
+	- Journals are now sorted by log id instead of the timestamp (which is better)
+	- Fixed a bug causing extra fields longer than 20 chars to generate an
+	  error when saving a second entity
+	- Fixed a bug causing entities to be saved w/o a customer when the customer
+	  list was used to create the entity from
+	- Fixed a bug in the managemen information (waiting entities and 'entities
+	  that don't belong here are now displayed correct)
+	- Fixed a bug which deleted a little too much journal entries
+	- Fixed a little bug in the customer search function
+	- Fixed a bug which kept the duedate alarm subject the same within one cycle
+	- Fixed a little bug in crmlogger.php - the "waiting" value was not set to
+	  'n' when adding a new entity
+
+05/12/2004 Version 2.5.2
+
+	- Invoice and mailmerge support based on RTF templates added. CRM-CTT is 
+	  able to create invoices and mailmerges based on RTF-format templates.
+	  See the manual for more details.
+	- Added a plug-in which can be used to insert entities into CRM-CTT
+	  from e-mail. An example for a Sendmail MTA is included in the manual.
+	  The script is called email_in.php; it's able to process attachments,
+	  and will send a nice (configurable) reply to the sender. E-mails inserted
+	  into CRM-CTT will appear on the "inserted entities" list. For now, this
+	  plug-in has beta status.
+	- Added a "database cleanup" function which enables admins to 
+	  physically delete a set of entities (by logical delete date) to
+	  reduce used disk space and increase performance
+	- Added a setting called "MAINPAGELINKS". You can now display some
+	  links on the main page.
+	- Extra fields can now be ordered
+	- The "inserted entities" list now has a delete button which enables 
+	  administrators only to physically delete the inserted entity (without
+	  any form of confirmation that is!)
+	- E-mail subjects can now be adjusted in the main administration section:
+
+		- SUBJECT_NEW_ENTITY
+		- SUBJECT_CUSTOMER_COUPLE
+		- SUBJECT_UPDATE_ENTITY 
+		- SUBJECT_ALARM
+		- SUBJECT_EMAILINSERT_REPLY
+
+	  The usual tags can also be used in these subjects, except for @CONTENTS@.
+
+	- Changed the date/time/user insert function from 2 lines to 1
+	- Added support for setting alarm dates using crmlogger
+
+	- crmlogger was not logging the "closeepoch" when setting an 
+	  entity to "deleted" - this garbles statistics
+	- Fixed a duration/age bug when exporting excel sheets
+	- Fixed some week detail calendar bugs (private entities won't show up anymore)
+	- Fixed a bug in the management information PDF wich caused the "entities
+	  closed this week" (and month) to always be 0. 
+	- Fixed a bug in the function which creates WebDAV links. WebDAV now also works
+	  over a secure (HTTPS) connection.
+	- Fixed a bug in the PDF management information. The "entities opened this week" 
+	  and "entities opened this month" values were always shown as 0
+	  
+	
+
+07/11/2004 Version 2.5.1
+		
+	- Added a console logger (crmlogger.php) which enables you to add
+	  and edit entities from your Windows or Linux (UNIX) command prompt.
+	  This method can thus be used for (e.g.) logging your backup script
+	  results or, with a little configuration of you mail server, make it
+	  possible to e-mail directly into CRM. All this is covered in the 
+	  manual, so please read that first.
+	- Added week calendar and entity duetime scheduling.
+	  By clicking the week number in the calender,
+	  the user will get a week overview of that week. This works in all
+	  calendar appearances but the alarm date calendar; alarms still
+	  can occur only once a day (not ok? let me know plz)
+	- Navigation tabs "Add", "Entities", "CSV", "PB" and "Summary" can
+	  now be blocked on a system level, but also blocked or unblocked
+	  per user user profile. You now have total control. :)
+	- The creation date can now also be shown in the main entity list
+	- It's now possible to on-line copy a customer database from another
+	  repository to the one you're working in. This is quite handy when
+	  you want to share customers between mulitple repositories. One repository
+	  must be master, while the other will be slave.
+	- Added an extra field type for e-mail addresses: use "EML_" as prefix. When
+	  clicked, a CRM-CTT screen for emailing will occur (e.g not the default system
+	  mail client)
+	- Fixed a bug in the management information wich caused the "entities
+	  closed this week" (and month) to always be 0. 
+	- The customer can now also be e-mailed from the main edit enitity page
+	- The e-mail link in the phonebook now points to a CRM-CTT e-mail screen
+	  instead of the "mailto:" link
+	- Fixed a bug causing the tabs to highlight incorrect when having 
+	  HIDECUSTOMERTAB set to on (and using CRM as a non-admin user).
+	- The creation date in the main entity list is now displayed in 24-hour format
+	- Fixed a (non-critical) bug in the "Import language pack" function
+
+17/10/2004 Version 2.5.0
+	
+	- Revised the "Check database" function. It now also has a command line
+	  interface (to run it daily or weekly using cron) and it checks more tables
+	  for consistancy
+	- Updated the manual. An appendix explaining to use of command-line scripts
+	  has been added
+	- Added the option to let every update of a specific entity be mailed to the
+	  owner or the assignee of that entity
+	- Added configuration setting for the temporary filespace location
+	- Added an option to let the duedate notify script also check for due dates
+	  (and thus email alarms) on already deleted entities (directive ALSO_PROCESS_DELETED)
+	- Added a 'private' checkbox to each entity. When set to private, nobody 
+	  else will see this entity; only the owner and the assignee will see it
+	- Added an option to only view today's log messages
+	
+19/09/2004 Version 2.4.6
+
+	- Added a print-icon on the main edit entity page, which when clicked
+	  opens a window which immediately prints the PDF summary.
+	- Added functionality for importing and exporting user-accounts, which
+	  is handy when cloning repositories.
+	- When FORCECATEGORYPULLDOWN is set to Yes, the summary page displays a
+	  filter box for the category (request #369)
+	- Added duration and age reporting to all exports and summary pages (age 
+	  when the entity is not deleted, duration when it is deleted) Please mind;
+	  this information will only be available when an entity was added in CRM 
+	  version 2.4.6 or higher.
+	- Added support for pre-defined entity comments. This way the admini-
+	  strator can define some lines of text (like "I'm on it" or "Done") which
+	  can be easily inserted into the body of an entity by the users. This is 
+	  obviously for lines of text which are often the same. The option to 
+	  configure this can be found in the Change Global System values section
+	  under directive "STANDARD_TEXT".
+	- The summary page now also remembers the extra fields searched in the 
+	  previous search and displays this again when the form returns. Also,
+	  the "More" tab will remain open.
+	- Adjusted the PDF report - the extra fields no longer display in a table;
+	  they're just printed (wordwrapped). This fixes the wrapping problem when 
+	  having large values in your extra fields. Thanks to Steve Mueller.
+	- Made the customer page main list treshold configurable. Before, CRM-CTT 
+	  didn't display the list if it was longer than 150 customers, for bandwith
+	  reasons. This number is (out of the box ) still 150, yet it can be con-
+	  figured in the Change Global Systems values section under directive 
+	  "CUSTOMER_LIST_TRESHOLD".
+	- Updated the layout of the account management page
+	- Fixed a WebDAV bug
+	- The manual was updated
+	- Little layout bug fixed in cust-insert.php and management.php
+
+05/09/2004 Version 2.4.5 
+
+	- Fixed a little bug in management.php
+	- JavaScript error in cust_insert.php fixed
+	- More trigger options added - an owner or an assigne is now able to 
+	  select to receive e-mail updates every time the entity is edited
+	- A higher-than-i-liked number of little (buried deep-down) bugs fixed in:
+		- The management interface
+		- The limited interface
+		- The check-db routine
+		- The edit status and priority variable routines
+		- The installer 
+	- Some e-mail functions were optimized
+	- Added an administrative option to block all Excel and PDF export functions
+	  for non-adminisrative users
+
+30/08/2004 Version 2.4.4 (feature addons, no database changes)
+	
+	- Added more navigation shortkeys. Press ALT-H to see them.
+	- Added a little icon to the tab header bar for switching between
+	  repositories.
+	- Fixed a little bug in the original ShowRepositorySwitch routine
+	- Improved the "Change systems values" section
+	- Replaced the HTML editor
+	- Some escape bugs fixed
+
+22/08/2004 Version 2.4.3 (feature addons)
+
+	- Users can now switch dynamically between repositories, if their account 
+	  information (username/password) is consistant. As always, the administrator
+	  can disable this feature, or set it to only show when the user is an admin.
+	  The repository switcher appears on the main page and on the admin page.
+	- The due_notify now can also send an e-mail containing all the receipients
+	  non-deleted entities (both HTML and text)
+	- Users can now edit their own profile (full name, password, daily entity
+	  mail subscription). This can be disabled in the administration section 
+	  (directive LetUserEditOwnProfile)
+	- The administrator can send an entity list mail to all users manually (admin section)
+	- Improved the routine which pops up the calendar (it now only comes once)
+	- Improved the routine which auto-inserts the date and time
+	- Major code cleanup
+	- 2.4.2 error with temporary files location fixed
+	- New build procedure (lots of work, but you won't mention :))
+
+12/08/2004 Version 2.4.2 (2.4.1 bugfixes, minor feature addons)
+	
+	- Added the configuration directive AutoInsertDateTime (default = Yes (!)) - with this
+	  option you can enable auto-insertion of date and time when a user adds text to 
+	  an entity
+	- Fixed the "id=" bug.
+	- Fixed the "non-writeable content field with read-only-assigned entities" bug
+	- Fixed the double escape bug in the customers table. Comment fields in
+	  this table containing an ' are now processed ok
+	- On the summary and customer pages, extra fields can now also be selected as filters (!)
+	- A database maintenance option was added in the admin section. This 
+	  function optimizes all tables (mysql: OPTIMIZE TABLE), repairs them,
+	  and it checks all references of customers, extra fields, and files.
+	- PDWAS links on main page were removed
+
+20/06/2004 Version 2.4.1 (2.4 bugfixes, performance)
+    
+	- Added a lot of caching routines to decrease the number of database
+	  queries needed to process a page. For instance, the main page uses
+	  around 20 queries less then before only due to caching. Large PDF
+	  reports are significantly faster.
+	- The category field can now also be auto-completed based on category
+	  fields already in the database. It's not forced to select a value which
+	  already exists; the user may still enter any value. As this is only
+	  handy and never blocking, this option is set to "Yes" by default.
+	- Added a "Save as new entity" button to the main edit entity page,
+	  which is only displayed when the "ShowSaveAsNewEntityButton" directive
+	  is set in the administration setting. Default is "Yes".	
+	- The customer database and page is much better. When searching, extra
+	  fiels are also searched through. The list lay-out can now be configured
+	  in the administration section in the same way the entity list can be
+	  configured. The result of a search can now be exported.
+	- Image file inclusions are now done using temporary file storage instead
+	  of fetching the image using HTTP.
+	- Added enhanched error checking and (when chosen) automatic submission
+	  of SQL errors directly into the Development repository at 
+	  http://crmstage.it-combine.com or via e-mail.
+	- Links in the TOC of PDF reports now work again
+	- The main list can now also be sorted by duedate
+	- Command-line tool added to generate a PDF report for all entities. This
+	  command can also be used for batch generating reports (e.g. using cron). 
+	  Syntax: php -q ./generate_total_pdf_summary.php - use --help for usage
+	  instructions.
+	- Rebuilt the "view log" function. You can now query the log for any text,
+	  or filter all warnings and errors.
+
+23/05/2004 Version 2.4.0 (WebDAV, International dates, improved flow, +features)
+		
+	- Added an option to disable the customers page for non-administrative
+	  users (directive HideCustomerTab). If set, the tab "customers" will 
+	  disappear (for non-administrators) and the page will be inaccessable 
+	  (also when deeplinked). Also, when set, the phonebook will not display 
+	  information from the customers table. The only way for a normal user 
+	  to see the customer information, is to click on the dropdown arrow 
+	  on the main entity screen. He/she will never be able to get a list 
+	  of all your customers for export purposes.
+	- The filter and sort variables in the main entity list are stored when 
+	  using them, and if the next time the list is shown no filter and/or
+	  sort options are supplied, CRM retrieves the old filter and sort 
+	  variables and shows the list exactly the way the user last viewed it.
+	  CRM remembers the difference in sorts and filters between the main
+	  and the deleted entities lists.
+	- If an entity was accessed via the main list, after saving it CRM will
+	  bring the user back to the list. Same goes for the summary list.
+	- Date format support. You can now choose between MM-DD-YYYY (USA) and 
+	  DD-MM-YYYY (rest o/t world). Set DateFormat in Systems Values section.
+	- All priority and status pulldown boxes are now colored
+	- All e-mails (entity and customer) are now logged in the appropriate 
+	  journals (sometimes only in the entity journal, sometimes in the 
+	  customer journal, sometimes in both)
+	- The main page recent and "today" list have status and priority in color
+	- The PDF export are much, much better (including extra fields and colored
+	  status and priority variables)
+	- When e-mailing, the EntityContents.txt file was replaced by the PDF report
+	  of the concerning entity
+	- In the main edit entity window, ALT-S saves the entity
+	- Status and priority colors now also appear in the HTML e-mails
+	- Added an admin function which exports the complete working repository
+	  to disk in a directory/file structure
+	- WebDAV Support. WebDAV a.k.a Webfolders is a method to access
+	  files over the HTTP protocol. The expirimental PDWAS system works
+	  great, though WebDAV works using a standard protocol. The advantage
+	  of PDWAS is that it works with all types of applications, where WebDAV
+	  only works with applications which support the WebDAV protocol. Most 
+	  office applications support WebDAV however, like MS Office, OpenOffice,
+	  and KDE even has an protocal handler for it (webdav://). The best part
+	  of CRM WebDAV support lies in the fact that, as all things in CRM, it's
+	  completely built in PHP using the HTTP_WebDAV_Server classes made by
+	  Hartmut Holzgraefe <hholzgra@php.net>. Hartmut; Thanks!
+	  The CRM Adminmanual is updated. Please read the WebDAV section on more
+	  information on how WebDAV is used in CRM. Please be aware that you
+	  need at least PHP 4.3.0 in order to use WebDAV. 
+	  ** Please mind ** CRM-CTT ships with WebDAV subsystem disabled.
+	- Changed the "Journal", "PDF Report" and (for the 2.4 pre1 users) WebDAV
+	  text links on the main edit entity pages to icons.
+	- Added activity graphs to entity PDF reports
+	- Added a little icon on the main entity screen which when clicked spawns
+	  a little window showing the activity graph of the concerning entity.
+	- Automatic session management (expired sessions are cleaned up better)
+	- Enhanched security (I'm not going to tell what; it's not critical)
+	- The field length of custom field *names* was expanded from 240 chars
+	  to LONGTEXT.
+	- Fixed alarm date screen - USA date now also works
+
+	Fixes:
+
+	- 358 fixed - Critical	- Extra fields not saved on first save
+	- 351 fixed - High	- after editing from main list, return to list
+	- 352 fixed - High	- Remember last sort
+	- 326 fixed - High	- Being able to hide custom fields in customer screen
+	- 362 fixed - High	- ALT-S to save an entity
+	- 278 fixed - Medium	- Date format
+	- 300 fixed - Medium	- Add customer owner
+	- 314 fixed - Medium	- Link on customers page to list of entities of that customer
+	- 317 fixed - Medium	- List of links to Language packs to automatically install
+	- 350 fixed - Medium	- custom fields too narrow
+	- 320 fixed - Medium	- Make e-mail to customer an internal link
+	- 355 fixed - Medium	- Add PNG stat images to PDF report (mansum and normal)
+
+28/03/2004 Version 2.3.0
+
+	- Customer journaling added partially. The journal logs adding a customer
+	  and joining an entity to a customer
+	- Customer owner added, with an option to e-mail the owner when an entity
+	  is joined to that customer
+	- It's now possible to add a user with the same name as a previously deleted
+	  user, as long as the previous user was deleted with CRM 2.3.0 or higher. 
+	  When you're in need of a script or intructions on how to physically delete
+	  users deleted with CRM <2.3.0, please send me an e-mail.
+	- CRM_PDWAS Added (EXPIRIMENTAL). PDWAS means Pretty Dirty Web Authoring
+	  System. It's a Windows installer which enables you to open a file 
+	  (e.g. Excel, Word) directly from CRM, and when you close your application
+	  the file will be automatically uploaded to CRM and joined to the entity 
+	  which it came from as a new file. READ THE MANUAL BEFORE USING PDWAS. There
+	  is a specific manual for PDWAS included in the distribution. PDWAS is
+	  DISABLED by default. Enable the ShowPDWASLink directive to enable it.
+	- The main entity list can now also be sorted by EID
+	- 327 High BUG: Help windows dont show up [fixed]
+
+
+07/03/2004 Version 2.2.0
+
+	- Added an option to install language packs directly from the CRM project 
+	  page - please note that your server needs to be able to reach the web 
+	  if you want to use this function.
+	- Added mail to {everybody} functionality. One can now mail the owner, the
+	  assignee, the customer, and (if selected) any other user of your CRM 
+	  installation.
+	- When deleting an entity, the 'closedate' field is now always set
+	- Adjust sort order of fieldsets in main edit entity screen; custom fields
+	  are now displayed above files
+	- Added a link from the [customers] page to the list of entities coupled to
+	  that customer
+
+
+01/03/2004 Version 2.1.0 (focus: +clearance level, +features, +security, +performance)
+
+	- The administrator is now able to choose the global colums configuration
+	  to show in the several entity lists, including extra fields(!). When
+	  enabled (LetUserSelectOwnListLayout), the user can override this 
+	  with his/her personal preference (stored in a cookie). In the management 
+	  and cust-insert modus the user cannot override, ofcourse.
+	- Performance improvement. An entity main page list containing 27
+	  entities now executes 70 MySQL instead of over 140, and when
+	  switching on showing the number of attachments, the page is
+	  about 324% faster! (indexing helps!). Searching trough binairy
+	  documents (Word, Excel etc) is also dramatically faster.
+	- A link on the main page "User Name's dashboard" which links to 
+	  a page with a clear overview of own entities, assigned entities,
+	  calendar, and recent entities.
+	- New clearance level; based on te customer-insert-user, but then
+	  with an option to let this user see the contents of the entities 
+	  add by him/her and add comments to those entities like in the 
+	  restricted interface (management.php). 
+	  
+	  So, we had clearance level:
+
+		Insert-only customer-user
+	  
+	  Which now is:
+		
+		Insert-only customer-user unable to read contents of added entities
+	     +  Insert-only customer-user able to read contents of added entities
+
+	  Please note: the second user can see both unassigned AND assigned entities he/she
+	  has inserted (or are entered otherwise) as long as those entities are attached 
+	  to the [customer] to which the insert-only user is coupled!
+
+	- Security improvements regarding PDF exports. Mail me if you want
+	  any details on this.
+	- Rewrite of upgrade procedure - from 2.1.0 and higher it's much more
+	  database-safe and more user-friendly.
+	- Improved the import_files.php script - had a bug and was
+	  slow. A test proved that loading over 20,000 files into CRM
+	  is no problem: "Total 36962042 bytes (approx.35 MB) in 20,596 files."
+	  The syntax for this script still is $ php ./import_files.php or 
+	  c:\php\php.exe import_files.php (from the command line that is!)
+	- A new German language pack (thanks to Thomas Kaminski)
+
+22/02/2004 Version 2.0.0 (please read - security related issues)
+
+	Proudly announcing version 2.0 of CRM
+
+	Since even the Linux Journal wrote an article about CRM, it becomes
+	even more challenging to keep everybody happy with it. Over the last
+	two years I've received many thousands reactions, feature requests,
+	and bug reports. Some questions considered functionality buried so 
+	deep down in the "basement" that I too had to check what it was and
+	how it worked again. Very nice to see that people are really using
+	the product to the maximum of its extend. One reaction I remember 
+	very good was about the customer overview page: "I've imported around
+	5000 customers into CRM and the customers page becomes a little hard
+	to work with. Can you improve this?". When I designed CRM, and we first
+	started to use it, we had around 25 customers registered in it. :)
+
+	With version 2.0 a new lay-out is introduced. This lay-out has been 
+	chosen to make it more intuitive to work with, and more recognisable.
+
+	I'd very much would like to know what you think about the new style, 
+	so please, please send me feedback - I cannot improve CRM without 
+	feedback. So, please send your opinion to hidde AT it-combine.com.
+
+	Also regarding the lay-out: be sure to test version 2.0 first. Apart
+	from the database version number nothing has been changed in the 
+	data-model so you can safely use the new code against your old
+	database (but don't forget to run upgrade.php later on if you 
+	start really using 2.0)
+
+	In 2.0 lots of feature requests are implemented, though not all. Refer
+	to http://crmstage.it-combine.com (user CRM, pass crm, repos. Main Devel.)
+	for a list of things to come in 2.1.
+
+	- SECURITY RELATED: An administrative option was added to execute 
+	  custom-made queries. This option comes in 2 forms; a wizard-like 
+	  interface which leads you through several steps and creates a query, 
+	  and an option to execute a query directy (e.g. you can type the
+	  query and execute it). The latter is potentionally dangereous. It
+	  only excludes DELETE, DROP and TRUNCATE; all other queries are
+	  allowed. To disable the latter function, edit admin.php and 
+	  uncomment '// $Disable_direct = "1";' to '$Disable_direct = "1";'
+	  at the top of the file. Note: you can ONLY disable direct queries,
+	  not the wizard queries.
+	- Added a new Clearance Level: "Full access though only edit own assigned entities"
+	  this user is able to read *everything*, though can only edit his/her own
+	  assigned entities (but cannot change the owner, assignee, or [deleted] status).
+	  He or she can view customers, though not edit or add them. He/she is also
+	  unable to add entities. This clearance level should actually be the main
+	  operating level for non-managing assignees.
+	- Added command-line interface for uploading files into CRM. You 
+	  need to have an administrative account to use it. With this tool
+	  you can attach the contents of a local (server that is) directory
+	  to a specific entity ID. Syntax: php import_files.php.
+	- Shortcut keys to the tabs (ALT-1 .. ALT-0) added with an option to show 
+	  these numbers on the tabs (ShowShortKeyLegend).
+	- Added config option ShowFilterInMainList - when setting this to yes drop-down
+	  boxes will appear at the top of the main entity overview list so the list can 
+	  be filtered. Very handy.
+	- Added config option DontShowPopupWindow - when setting this to yes the
+	  pop-up menu in the main entity list will not appear anymore but instead,
+	  when clicking on the row, you will be brought to the main edit entity
+	  screen immediately
+	- You can now click Prev and Next in the calendar
+	- Added an icon to insert time/date/username into textbox on main edit
+	  entity form, as well as two icons to de- or increase the text box size.
+	- When exporting customers, the extra fields are now also exported
+	- Native Microsoft Excel exports now possible (with nice colors) - you need
+	  the PEAR libs to use this function -> http://pear.php.net/
+	- Fixed little bug in 'create new repository' function
+	- Fixed little journal bug (wrong e-mail address displayed)
+	- 259 Critical BUG: error when only searching for a specific assignee
+	- 294 Critical BUG: Read-only-all profile broken
+	- 262 Critical BUG: Mainpage cal days <10 in month dont show
+	- 256 Critical BUG: Accounts Edition
+	- 259 Critical BUG: ERR where Summary of entities is requested where Owner = "all" and Assignee <> "all"
+	- 264 Critical BUG: AutoCompleteCustomerNames broken
+	- 222 High Calendar adjustments
+	- 244 High Being able to disable a customer
+	- 261 High Radically change design
+	- 286 Medium BUG: Setting an entity to RO when adding a new one doesn't work
+	- 248 Medium BUG: Also search filenames of which contents is ignored (e.g. JPG)
+	- 251 Medium BUG: Extra fields dont show up on incoming entities
+	- 254 Medium Being able to disable rich text editing
+	- 267 Medium Make extra customer fields exportable
+	- 283 Medium BUG: History drop-down box keeps repeating date
+	- 250 Low 1.9.4-1.9.5
+	- 289 Low BUG: NOTABS navigation home page screwed
+	- 246 n/a Restyle limited interface
+	- 260 n/a BUG: Disabling a cust must set "No" in database,
+
+23/01/2004 Version 1.9.6 (mainly bug fixes - important bug (#256) fixed)
+
+	- Customers can now be disabled - disabling a customer means that 
+	  when disabled, a customer can no longer be selected in ONLY the
+	  add and edit forms of CRM. When searching, the disabled customer
+	  WILL appear, as it will also appear for insert-only users (e.g. 
+	  disabling just a customer won't disable an insert-only account)
+	- Deeplinking to entities or summary pages now is possible. A non-
+	  logged in user will be presented with a login page, though the
+	  original URL deeplink will be preserved
+	- The installer now checks for register_globals
+	- The insert-only interface got a makeover
+	- File downloads (views) are now also mentioned in the journal
+	- Bug #248 Fixed: Also search filenames of which contents is ignored
+	- Bug #251 Fixed: Extra fields dont show up on incoming entities
+	- Bug #256 Fixed: Error in account edit function
+	- Bug in installer fixed thanks to Jamie (j-me) - the configuration
+	  directive BODY_ENTITY_EDIT was not created using the last versions
+	  of install.php. This is fixed, and the upgrade procedure of 1.9.6
+	  checks if the field exists, and if not, creates it.
+
+11/01/2004 Version 1.9.5 (important changes included, please read!)
+	
+	- Important- please note! insert-only users can now also see
+	  the list of entities they (or others using the same account)
+	  have added earlier. Please check if this matches your wishes.
+	- Added more journal entry points
+	- Adjusted calendar - dates in the past can now also be selected
+	- View Journals option added to administration page
+	- Added support for custom text-boxes using TB_ syntax similar
+	  to the TB_ customer fields syntax	
+	- Entity contents journaling support; Option added to show a 
+	  drop-down box wich contains the timestamps of all changes to 
+	  an entity; the user can roll back as far as desired. This option 
+	  is always enabled, though only displayed if system directive 
+	  EnableEntityContentsJournaling is set to "Yes" - which it is 
+	  by default. Thanks to Kaveh Goudarzi <kaveh AT arkasoft DOT KOM> 
+	  for the patch!
+	- Numerous layout improvements
+	- The "Active" option for accounts is gone - now, when deleting an
+	  account, the account is actually set to inactive. Accounts cannot
+	  be physically deleted anymore but an inactive account will not show
+	  up in the login accounts management section. The account could be 
+	  re-activated directly in the database, by setting "active" from "no"
+	  to "yes". CRM is not going to provide this option.
+	- Notification when en entity is changed - as soon as a value in the 
+	  main edit entity page is changed, the user is notified. Also, when
+	  leaving the page without saving, the user will be promted and asked
+	  if the changes should be saved.
+	- Customer e-mail address on main edit entity page now is a mailto: link
+	- Customer address and remarks on main edit entity page now also show
+	  line breaks
+	- If customer home page exists, but isn't prefixed with http://, CRM
+	  adds this to make the link work
+	- Security improved (please mail if you need details on this)
+	- Bug #216 Fixed (SetCustomer when having autocomplete on)
+	- Bug #230 Fixed (Contact e-mail doesn"t display in entity edit pulldown arrow window)
+	- Bug #235 Fixed (Owner & Assignee always same in update email)
+	- Bug #226 Fixed (Show category value in main edit entity window)
+	- Bug #227 Canceled - we couldn't reproduce this problem
+	  (Number instead of name in e-mail)
+
+
+07/12/2003 Version 1.9.4 (feature addons, bug fixes)
+	
+	- Entity journaling support. The complete history of changes
+	  (when, who, and what) now can be viewed.
+	- Added an option AutoCompleteCustomerNames which enables
+	  the auto-complete customer text-box on the main edit
+	  entity page (instead of the customer pulldown box).
+	- Added an "add entity to this customer" link on the
+	  customer page (request #207)
+	- Added a "entities due totday" select option in summary
+	  page "due date" pulldown menu (request #200)
+	- Improved file sorting on main edit page (oldest first)
+	- PDF Export of customers option added
+	- Manual updated
+	- Bug #197 Fixed (Main Page Calendar Entities)
+	- Bug #188 Fixed (Test CRM in a db without any TBLPRFX set to CRM*)
+	- Bug #191 Fixed (Duedate notify error)
+	- Bug #185 Fixed (ereg_replace enters for BRs when showing TB_ boxes)
+
+
+23/11/2003 Version 1.9.3 (major code changes, feature addons)
+
+	- Table prefix support: MySQL tables now can
+	  be prefixed with any characters you like. This
+	  makes multiple repositories within 1 MySQL
+	  database possible.
+	- Popup list over calendar on main page 
+	  now shows more information (added customer
+	  and status)
+	- Added custom TEXTAREA type fields (only
+	  in customer database). Field prefixed
+	  with "TB_" will now be textarea's in which
+	  enters (linebreaks) can also be used.
+	- Added an edit button in the [customer]
+	  detail overview (under the arrow) on the
+	  main edit page (feature request #174)
+	- Recent edited items list on main page
+	  option added (ShowRecentEditedEntities)
+	- Dropdown arrow on entity edit page now only
+	  shows available [customer] information, and
+	  does not show empty fields anymore
+	- Better error handling
+	- Bug #156 fixed (multi-receipients alarm bug)
+	- Bug #175 fixed (link to [customer] web page)
+	- Bug #173 fixed (extra fields must be unique)
+	- Bug #172 fixed (faulty window.close in main screen)
+
+
+19/10/2003 Version 1.9.2 (feature addon, minor changes)
+	
+	- Categories are now configurable and when
+	  configured they will appear in a drop-down
+	  list
+	- Administration page revision
+	- Main page calendar now only shows entities
+	  which are not deleted
+	- Link style is now consistant and recognisable
+	- Management interface list is now also sortable
+	- Main page language adjustment
+	- Standard menu items removed from main page
+	- Bug #142 fixed; inserted entities with an
+	  attachment are now handled ok
+	- " and ' bug in main page calendar fixed (#147)
+	- HTML summary is now correct (had some errors)
+	- NOTABS navigation style updated
+	- Manual updated
+
+
+12/10/2003 Version 1.9.1 (minor changes)
+
+	- Added an option to show a three-month
+	  calendar overview on the main page
+	- PDF reports are now created using FPDF,
+	  all characters show up right now, and 
+	  the reports are much prettier
+	- Bug 140,105,134,136,135 and 118 fixed (see below)
+	- Customers can now be imported and ex-
+	  ported
+	- Customer main names can now also be adjusted
+
+	Fixed bug list:
+
+	140 BUG: Summary also searches deleted items when
+		 not asked to do so 
+	105 BUG: Close window when deleting file
+	134 BUG: extract $_REQUEST in help
+	136 BUG: handle_error() in install.php
+	135 BUG: Prio var resets to default in summary page
+	118 BUG: diacritical chars in PDF-export 
+
+
+05/10/2003 Version 1.9.0 (major changes)
+
+	Please note: the CRM global usage structure has been 
+	changed for this version. The standard status 
+	variable "close" is not interpreted anymore since
+	status variables are now configurable. The upgrade
+	procedure handles this, however it requires a 
+	little "getting used to" if you are used to using
+	former versions of CRM.
+	
+	- Added the option to send the assignee an e-mail
+	  when an entity is added and assigned to him/her
+	  or when one of his/hers entities is updated
+	- Total customer administration and navigation
+	  revesion
+	- Fixed a language bug in the calendar
+	- Backup and restore functionality added (can also
+	  be used for cloning repositories)
+	- Status and priority variables can now be changed 
+	  in name and color
+	- The text search function now also search trough
+	  extra field values
+	- PDF-reports now are multi-lingual
+	- Improved search status popup window
+	- Better error handling
+	- Several bugfixes
+
+
+06/09/2003 Version 1.8.2 
+
+	- Communicated queries (from summary to csv page) now
+	  are coded and unreadable
+	- Added a pop-up window when searching for random text
+	  strings. The window closes automatically when the 
+	  search is ready.
+	- Added the possibility to mark an entity as "read-only"
+	  for users who are neither owner nor assignee. When this
+	  box is checked, attached documents are also protected to
+	  being read by a read-only user.
+	- When searching, binairy attachments now will also be
+	  searched. e.g. all text in a Word document will be 
+	  matched case-IN-sensitive, though binairy (executable)
+	  files and images will be skipped. Works really well.
+	- Fixed a bug when physically deleting an entity
+	- The phonebook now searches also in the [customer]
+	  contact data
+	- PDF reports and exports now are lined out, though the font
+	  type now is Courier, which in turn is not really pretty
+	- Increased the width of the overlib popup windows
+	- 2 languages added for download (Brasilian- Portuguese 
+	  and French)
+	- Little link bug fixed (lan_entries to lan_entries.php)
+	  (this did work on the test systems)
+	- Some spell corrections in the English pack file
+	- Standard supplied language packs now only display
+	  the language name in the native language instead
+	  of showing it in Englisch (i.e. Frech became Francais)
+	- Updated a deprecated directive in install.php which might
+	  have caused warnings when installing on a very new PHP
+	  installation (mysql_create_db() -> "SQL CREATE DATABASE")
+	- Added a user type which can view all entities, not only
+	  his/her own. New user type is called "Read-only all entities"
+	- When an entity is added, the standard owner now is the
+	  the user which adds the entity.
+	- Improved session deletion when logging out
+	- Bug #85 fixed
+	- Added a check_config function to check for double configuration
+	  entries.
+
+
+30/06/2003 Version 1.8.1
+
+	- Complete mail subsystem revision (containing:)
+	- Email bodies are now editable
+	- When an add-entity alarm email is sent, the
+	  entity contents and attached documents are
+	  now mailed also as attachments.
+	- Fixed a bug in duedate-notify-cron.php
+	- The SMTP server to use now is configurable
+	- Extra error handling added for cookie errors
+	- Inserted entities can now also be deleted 
+	  without being assigned/owned first
+	- Now used array $_FILE for uploads instead
+	  of $userfile (this fixes the windows 
+	  upload bug)
+	- Admin's can now only alter repositories in
+	  which they have an admin account
+
+
+20/06/2003 Version 1.8 stable (major issues included)
+	
+	- All 7 items from 1.8-pre1 (including 2 majors)
+	- Major: Customer insert subsystem added. This adds the
+	  possibility for [customers] to add entities by them-
+	  selves. (by coupling a certain user to a customer)
+	- Security issue entity #46 fixed (see devel CRM for details)
+	- Two more appearences of "Edit Extra Fields" removed
+	- Clearance level method adjusted (the 'limited' and 'administrator
+	  bullets when managing users are gone)
+	- Some of the tables in the main view can now be sorted. It 
+	  concers "status","priority","category" and "customer".
+	- Lots and lots and lots of logging points added.
+	- Flatlogging disabled (only actions are logged, not all hits)
+	- Option to empty the session table added in the repository
+	  management section
+	- Option to download the log in CSV added in the View logs
+	  & stats section
+	- Administration page modified (it now looks better and
+	  is more consistant)
+	- Some security enhanchments (no alarming issues)
+	- Statistics page dramatically reduced. Only activity sta-
+	  tistics are shown, all other graphs were removed.
+	- The edit page for restricted users (read-only own entities) now 
+	  is also multilingual
+	- Manual updated
+	- Little fixes to install and upgrade procedures
+
+04/06/2003 Version 1.8-pre1 (major issues included)
+
+	- Major: "login users" and "owners/assignees" are now merged.
+	- Major: Complete Extra Field Management interface added, extra 
+	  fields are now consistant and 100% safe to work with (they 
+	  were safe to work with already but now it's also understandable)
+	- Option added to empty the phonebook before importing new data
+	- The first installed user (during installation procedure) is 
+	  now directly an administrator. Users with only the right 
+	  admin password cannot grand administrative rights to
+	  themselves or other users anymore.
+	- Custom fields are now displayed in the regular edit window
+	  which also means that the "Edit extra values" option is 
+	  removed on various locations
+	- Added option to edit an entity in the main window when using
+	  the popup window in the main entity list
+	- PDF manual added (draft state)
+	- Installer procedure adjusted (better checks)
+
+06/05/2003 Version 1.7d
+
+	- PDF exports of your phonebook now works again
+	- Added a configuration option to adjust the number of months which are chown 
+	  in the various calendar appearences.
+	- Cookie timeout problem handled
+	- Added "owner" tag when listing files
+	- Owners/assignees can now be deleted given they have no entities connected to them
+
+04/02/2003 Version 1.7c
+	
+	- Added epoch values in links to prevent page caching when using a Microsoft proxy (e.g. ISA)
+	  (mentioning ISA because is keeps caching no matter what is in your (pragma) source)
+	- Fixed a bug which prevented a newly added entity to show up on the summary page (sorting problem)
+	- "Tag display mode" added in the language management module. When switched on, all language
+	  identifitaction tags are displayed with the values. Very handy when translating CRM.
+
+21/01/2003 Version 1.7b
+
+	- Little CSV download bug fixed
+
+14/01/2003 Version 1.7a (clean installs only, do not upgrade!)
+
+	- Windows login bug fixed
+
+29/12/2002 Version 1.7 stable (clean installs only, do not upgrade!)
+	
+	- Language pack management
+	- Multi repository support (add/remove entire databases)
+	- E-mail notification when adding a new entity (still limited, though)
+	- Possibility to install CRM without creating a main database first
+	- Multilingual support
+	- Translation module 
+	- Extended PDF support
+	- Support for custom entity fields (!)
+	- Enhanched translation module
+	- Enhanched navigation
+	- Enhanched administration module
+	- Some iconisation
+	- Link fixed in summary short view mode
+	- Character escape bug fixed
+	- Language masks for easy adaption of the language set
+	- Language selection override from admin menu
+
+
+09/11/2002 Version 1.7 prerelease 2 (clean installs only, do not upgrade!)
+
+	- Everything from 1.7pre1 
+	- Support for custom entity fields (!)
+	- Language selection override from admin menu
+	- Enhanched translation module
+
+20/10/2002 Version 1.7 prerelease 1 (clean installs only, do not upgrade!)
+    
+	- Multilingual support
+	- Translation module 
+	- Extended PDF support
+	- Enhanched navigation
+
+26/08/2002 Version 1.6 stable (major issues included)
+    
+	- Fixed to-complex-to-mention bug in users.php
+	- Fixed a bug in edit.php. When typing a category name with a single quote (') in it, the SQL 
+	  query returned an error. I forgot to escape it.
+	- I Visio'd a diagram to explain how the user thing works. Available at http://www.it-combine.com/crm
+	- Added PDF report support for several functions. You can get a PDF summary of an entity, and you can
+	  download the management information in PDF-format. 
+	- A simple but very efficient phonebook was implemented. It can also be exported to PDF.
+
+	- IT IS RECOMMENDED that you install this version 'clean' e.g. do not upgrade an older version. The install
+	  procedure however SHOULD handle an upgrade quite well, though it was never thoroughly tested.
+	
+14/08/2002 Version 1.6 (pre-release) (major issues included)
+
+	- Instead of the C | E | A | D links, there is now a pop-up quickmenu. This works much better, 
+	  though it probably limits the number of browsers in which this works. This hasn't been 
+	  tested yet, though
+	- Adjusted the colors to more readable values
+	- Added a config option for a login message which will be displayed when a user logs in
+	- Dramatically improved the log routine. User adds, edits and modifications will now also be 
+	  logged. Every click a user makes was already logged, though from now on the used account 
+	  name is also saved to the database
+	- The upgrade procedure handles the database changes 
+	- Added the option to grant administrator priviledges to a login account. The user who owns 
+	  such an account will not be promped for a password when entering the 'Administration'-section
+	- MAJOR:
+	
+	    - Limited login accounts now MUST be named after a username which resides in the main
+	      users table. When a limited login account is created for a perticular user, the name
+	      of this user cannot be changed in the main users list untill the limited account is 
+	      deleted.
+	    
+	    - When logging on as a limited user, you are no longer prompted to select your name from the 
+	      presented list of NON-..-members. Instead, limited accounts, as discribed ealier, MUST MATCH
+	      wich a user in the main user list (or: a user to whom entities can be assigned).
+	      The limited user will immediately see his or her open 
+	      entities after logging on. The possibility of marking a user as a member now is useless, and
+	      therefore removed.
+	    
+	    These 2 points mark the completion of the user-thing makeover. The user administration is now
+	    almost 100% the same as you're used to in most applications.
+
+
+10/07/2002 Version 1.5f
+
+	- Fixed a bug in the duedate-notify script. It had a hard-coded testsite URL in it.
+	- Fixed a bug in the calendar. It generated 2 warnings when showing a month in the next year.
+	
+02/07/2002 Version 1.5e
+
+	- Fixed a little summary bug in the statistics code.
+	- Removed the outdated manual
+
+29/06/2002 Version 1.5d
+	
+	- Changed database structure for CRMloginusers.password from "NOT NULL default ''" to 
+	  "default NULL" hoping to solvee the "Column password cannot be NULL" problem
+	- Increased the dimensions of the TEXTAREA used when editing an entity
+	- Added a config option for the auto-logoff-timeout
+	- Completed work on auto-appearing calendar. One can only insert a date using the calendar, 
+	  whilst after that there also is an extra server-side date validation
+
+When upgrading: version 1.5d comes with an added config option - see the UPGRADING in the tarball for details
+
+18/06/2002 Version 1.5c
+
+	- Revised date validation (worked only on IE, now in all browsers)
+	  Thanks to David Blandel
+	- Fixed little bug with [alarm settings] also showing when adding a new enitity. This is illegal
+	  because an alarm is connected to an enitity by its entity id, which is not yet set when adding
+	  a new one.
+
+15/06/2002 Version 1.5b
+
+	- Added date validation to "Due date" and "Alarm date" forms
+	- Added the option to try to write the config file from within the installer procedure.
+
+14/06/2002 Version 1.5a
+	
+	- Major update. Added install.php install script which takes
+	  care of almost all installation stuff
+	- Updated documentation
+
+13/06/2002 Version 1.4a
+
+	- Documentation updated
+	- Added section 'manage accounts' in the admin section
+	  to update account type, passwords, and create new
+	  accounts
+	- Only hard-coded account left is debug, 'management'-type
+	  accounts now go under the 'limited' profile
+	- Site statistics code fixes
+	- Some grammar fixes
+
+When upgrading: version 1.4a comes with a little database structure change!
+
+11/06/2002 Version 1.3d
+
+	- Freshmeat release
+
+05/05/2002 Version 0.99	
+
+	- Fist major production usage
+
+04/05/2002 Versions prior to 0.99
+
+	- Testing, building etcetera. Never released.

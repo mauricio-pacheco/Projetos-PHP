@@ -1,0 +1,60 @@
+.td_cinza_direita {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: 0px; BORDER-LEFT: #999999 1px; BORDER-BOTTOM: 0px
+}
+.tahoma_laranja_11 {
+	FONT-SIZE: 11px; COLOR: #e08214; FONT-FAMILY: Tahoma, Verdana, Arial; TEXT-DECORATION: none
+}
+.tahoma_cinza_11 {
+	FONT-SIZE: 11px; COLOR: #727272; FONT-FAMILY: Tahoma, Verdana, Arial; TEXT-DECORATION: none
+}
+.txt_box_1 {
+	BORDER-RIGHT: #f1f1f1 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #d1d1d1 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; BORDER-LEFT: #d1d1d1 1px solid; COLOR: #666666; PADDING-TOP: 1px; BORDER-BOTTOM: #f1f1f1 1px solid; FONT-FAMILY: Tahoma, Verdana, Arial; HEIGHT: 18px; BACKGROUND-COLOR: #fcfcfc
+}
+.lateral_1 {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(../imagens/home_lat_dir.gif); BORDER-LEFT: #666666 1px solid; BACKGROUND-REPEAT: repeat-y
+}
+.lateral_2 {
+	BORDER-RIGHT: #666666 1px solid; BACKGROUND-POSITION: right 50%; BACKGROUND-IMAGE: url(../imagens/home_lat_esq.gif); BACKGROUND-REPEAT: repeat-y
+}
+BODY {
+	BACKGROUND-POSITION: center 50%; BACKGROUND-IMAGE: url(../imagens/home_backshadow.gif); BACKGROUND-REPEAT: repeat-y
+}
+.tahoma_cinza_12 {
+	FONT-SIZE: 12px; COLOR: #727272; FONT-FAMILY: Tahoma, Verdana, Arial
+}
+.input-txt {
+	BORDER-RIGHT: #f1f1f1 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #d1d1d1 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; BORDER-LEFT: #d1d1d1 1px solid; WIDTH: 100%; COLOR: #333333; PADDING-TOP: 1px; BORDER-BOTTOM: #f1f1f1 1px solid; FONT-FAMILY: Tahoma, sans-serif; HEIGHT: 20px; TEXT-DECORATION: none
+}
+.input-Multiline {
+	BORDER-RIGHT: #f1f1f1 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #d1d1d1 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; BORDER-LEFT: #d1d1d1 1px solid; WIDTH: 100%; COLOR: #333333; PADDING-TOP: 1px; BORDER-BOTTOM: #f1f1f1 1px solid; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.input-btn {
+	BORDER-RIGHT: 1px outset; PADDING-RIGHT: 1px; BORDER-TOP: 1px outset; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 9px; BACKGROUND-IMAGE: url(../imagens/input_fd_btn.gif); PADDING-BOTTOM: 1px; MARGIN: 0px 0px 0px 1px; BORDER-LEFT: 1px outset; WIDTH: 150px; CURSOR: pointer; PADDING-TOP: 1px; BORDER-BOTTOM: 1px outset; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Tahoma, sans-serif; HEIGHT: 20px; backgroung-image: repeat-x
+}
+.input-txt-variavel {
+	BORDER-RIGHT: #f1f1f1 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #d1d1d1 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; BORDER-LEFT: #d1d1d1 1px solid; COLOR: #333333; PADDING-TOP: 1px; BORDER-BOTTOM: #f1f1f1 1px solid; FONT-FAMILY: Tahoma, sans-serif; HEIGHT: 20px; TEXT-DECORATION: none
+}
+.superfaq_box {
+	BORDER-RIGHT: #b2b2b2 1px solid; BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; BACKGROUND-COLOR: #f3f3f3
+}
+.tahoma_preta_11 {
+	FONT-SIZE: 11px; COLOR: #333333; FONT-FAMILY: Tahoma, Verdana, Arial
+}
+.superfaq_boxSubmenu {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.input-btnSuperFaq {
+	BORDER-RIGHT: 1px outset; PADDING-RIGHT: 1px; BORDER-TOP: 1px outset; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 10px; BACKGROUND-IMAGE: url(../imagens/input_fd_btn.gif); PADDING-BOTTOM: 1px; MARGIN: 0px 0px 0px 1px; BORDER-LEFT: 1px outset; WIDTH: 80px; CURSOR: pointer; PADDING-TOP: 1px; BORDER-BOTTOM: 1px outset; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Tahoma, sans-serif; HEIGHT: 20px; backgroung-image: repeat-x
+}
+.txt_box_1Multiline {
+	BORDER-RIGHT: #f1f1f1 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #d1d1d1 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; BORDER-LEFT: #d1d1d1 1px solid; COLOR: #666666; PADDING-TOP: 1px; BORDER-BOTTOM: #f1f1f1 1px solid; FONT-FAMILY: Tahoma, Verdana, Arial; BACKGROUND-COLOR: #fcfcfc
+}
+.seta {
+	BACKGROUND-POSITION: left center; BACKGROUND-IMAGE: url(/imagens/setinha.gif); BACKGROUND-REPEAT: no-repeat
+}
+.setaazul {
+	BACKGROUND-POSITION: left center; BACKGROUND-IMAGE: url(/imagens/setinha_azul.gif); BACKGROUND-REPEAT: no-repeat
+}
+#hospedagem A {
+	FONT-SIZE: 2px; COLOR: #e08214; FONT-FAMILY: Arial, Helvetica, sans-serif
+}

@@ -1,0 +1,97 @@
+<script type="text/javascript">
+
+	/* Make sure all new shipping address details are filled in */
+	function check_shipping_address_form() {
+		var ship_fullname = g("ship_fullname");
+		var ship_address1 = g("ship_address1");
+		var ship_city = g("ship_city");
+		var ship_country = g("ship_country");
+		var ship_state = g("ship_state");
+		var ship_state_1 = g("ship_state_1");
+		var ship_zip = g("ship_zip");
+
+		if(ship_fullname.value == "") {
+			alert("%%LNG_EnterShippingFullName%%");
+			ship_fullname.focus();
+			return false;
+		}
+
+		if(ship_address1.value == "") {
+			alert("%%LNG_EnterShippingAddress%%");
+			ship_address1.focus();
+			return false;
+		}
+
+		if(ship_city.value == "") {
+			alert("%%LNG_EnterShippingCity%%");
+			ship_city.focus();
+			return false;
+		}
+
+		if(ship_country.selectedIndex == 0) {
+			alert("%%LNG_ChooseShippingCountry%%");
+			ship_country.focus();
+			return false;
+		}
+
+		if(ship_state.style.display == "" && ship_state.selectedIndex == 0) {
+			// The shipping dropdown is visible, is one selected?
+			alert("%%LNG_ChooseShippingState%%");
+			ship_state.focus();
+			return false;
+		}
+
+		if(ship_zip.value == "") {
+			alert("%%LNG_EnterShippingZip%%");
+			ship_zip.focus();
+			return false;
+		}
+
+		return true;
+	}
+
+	function GetStates(selObj, dest, stateTextBox)
+	{
+		var country = selObj.options[selObj.selectedIndex].value;
+
+		selDest = document.getElementById(dest);
+		otherBox = document.getElementById(stateTextBox);
+		DoCallback("w=countryStates&c="+country);
+	}
+
+	function ResetStates(ShowChoose)
+	{
+		selDest.options.length = 0;
+
+		if(ShowChoose)
+			selDest.options[selDest.options.length] = new Option("%%LNG_ChooseState%%", "");
+	}
+
+	function ProcessData(html)
+	{
+		ResetStates(true);
+		states = html.split("~");
+		numStates = 0;
+
+		for(i = 0; i < states.length; i++)
+		{
+			vals = states[i].split("|");
+
+			if(states[i].length > 0) {
+				selDest.options[selDest.options.length] = new Option(vals[0], vals[1]);
+				numStates++;
+			}
+		}
+
+		// If there are no states then hide the state dropdown list
+		if(numStates == 0) {
+			selDest.style.display = "none";
+			otherBox.style.display = "";
+		}
+		else {
+			selDest.style.display = "";
+			otherBox.style.display = "none";
+		}
+	}
+
+</script>

@@ -1,0 +1,12 @@
+	<tr>
+		<td class="CartThumb">
+			%%GLOBAL_ProductImage%%&nbsp;
+		</td>
+		<td class="ProductName"><a href="%%GLOBAL_ProductLink%%">%%GLOBAL_ProductName%%</a>%%GLOBAL_ProductOptions%%<br />%%GLOBAL_ProductAvailability%%</td>
+		<td align="center">
+			%%GLOBAL_CartItemQty%%
+			<br /><a href="cart.php?action=remove&item=%%GLOBAL_CartItemId%%" onclick="Cart.RemoveItem('%%GLOBAL_CartItemId%%'); return false;" class="CartRemoveLink">%%LNG_Remove%%</a>
+		</td>
+		<td align="center">%%GLOBAL_ProductPrice%%</td>
+		<td align="right"><em class="ProductPrice">%%GLOBAL_ProductTotal%%</em></td>
+	</tr>

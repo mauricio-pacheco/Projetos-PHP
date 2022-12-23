@@ -1,0 +1,284 @@
+	A:link { TEXT-DECORATION: none; }
+	A:visited { TEXT-DECORATION: none; }
+	A:hover { TEXT-DECORATION: underline; }
+
+.paginacao {
+    font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #1F1F1F;
+}
+.menu_titulos_selected {
+	BORDER-RIGHT: gainsboro 1px solid; BORDER-TOP: gainsboro 1px solid; FONT-SIZE: 11px; BORDER-LEFT: gainsboro 1px solid; COLOR: #0F61A4; BORDER-BOTTOM: gainsboro 1px solid; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.caixacontato {
+	BORDER-RIGHT: #EF2F72 1px solid; BORDER-TOP: #EF2F72 1px solid; FONT-SIZE: 10px; MARGIN: 1px; BORDER-LEFT: #EF2F72 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #EF2F72 1px solid; FONT-FAMILY: Verdana; HEIGHT: 16px; BACKGROUND-COLOR: #000000
+}
+.caixacadastroarea {
+	BORDER-RIGHT: #EF2F72 1px solid; BORDER-TOP: #EF2F72 1px solid; FONT-SIZE: 11px; MARGIN: 1px; OVERFLOW: auto; BORDER-LEFT: #EF2F72 1px solid; WIDTH: 240px; COLOR: #ffffff; BORDER-BOTTOM: #EF2F72 1px solid; FONT-FAMILY: Verdana; HEIGHT: 112px; BACKGROUND-COLOR: #000000
+}
+.texto {
+	FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Tahoma, Arial
+}
+.paginacao:hover {
+    font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #1F1F1F;
+}
+.paginacao:visited {
+    font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #005CA1;
+}
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-image: url(../imagens/bg_pont_diag.jpg);
+	}
+
+.bgCabecEsq {
+	background-image: url(../imagens/bg_cabec_esq.jpg);
+	background-repeat: repeat-x;
+	background-position: right top;
+	height: 226px;
+}
+.bgMenuEsq {
+
+	background-image: url(../imagens/bg_menu_esq.gif);
+	background-repeat: repeat-x;
+	background-position: right top;
+	height: 43px;
+}
+
+.formBusca {
+	FONT-SIZE: 10px; WIDTH: 166px; BACKGROUND: #F9FAF4; COLOR: #242424; HEIGHT: 20px
+}
+.formLinhaPet {
+	FONT-SIZE: 10px; WIDTH: 170px; BACKGROUND: #23820A; COLOR: #ffffff; HEIGHT: 20px
+}
+.formLinhaComercial {
+	FONT-SIZE: 10px; WIDTH: 170px; BACKGROUND: #2774A8; COLOR: #ffffff; HEIGHT: 20px
+}
+.formLinhaSemente {
+	FONT-SIZE: 10px; WIDTH: 170px; BACKGROUND: #CC0000; COLOR: #ffffff; HEIGHT: 20px
+}
+
+.bgCabecDir {
+
+	background-image: url(../imagens/bg_cabec_dir.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 226px;
+}
+.bgMenuDir {
+
+
+	background-image:  url(../imagens/bg_menu_dir.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 43px;
+	}
+.bgRodapeDir {
+
+
+	background-image: url(../imagens/bg_rodape_dir.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 43px;
+}
+.bgRodapeEsq {
+
+
+
+	background-image: url(../imagens/bg_rodape_esq.jpg);
+	background-repeat: repeat-x;
+	background-position: right top;
+	height: 43px;
+}
+.bgPontVert1 {
+	background-image: url(../imagens/bg_pont_vert1.gif);
+	background-repeat: repeat-y;
+	background-position: top;
+	width: 1px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 1px;
+
+}
+.bgColunaEsqHome {
+	background-image: url(../imagens/home/bg_coluna_esq.jpg);
+	background-repeat: repeat-y;
+	width: 250px;
+}
+.bgColunaDir {
+	background-image:   url(../imagens/direita/bg_coluna_dir.jpg);
+	background-repeat: repeat-y;
+	width: 218px;
+}
+.tahoma10cinza666666 {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+}
+.bgRodapeDobra {
+	background-image: url(../imagens/bg_dobra_rodape.jpg);
+	background-repeat: repeat-y;
+	width: 5px;
+	font-size: 1px;
+
+
+}
+.formularioDir {
+	border: 1px solid #2774A8;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	background: #F9FAF4;
+	color: #333333;
+}
+.tahoma10laranja {
+
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #E25805;
+}
+.texto {
+	FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma, Arial
+}
+.tahoma10branco {
+
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+.tahoma10preto {
+
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #1F1F1F;
+}
+.tahoma10preto5 {
+
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #1F1F1F;
+}
+.texto3 {
+
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #1F1F1F;
+}
+.texto2 {
+
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #005DA2;
+}
+.bgBoxLogoDestaqueHome {
+	background-image: url(../imagens/home/bg_box_logo_destaque_inf.jpg);
+	background-repeat: repeat-x;
+	height: 4px;
+	font-size: 1px;
+
+}
+.tahoma14cinza666666 {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666666;
+	font-weight: bold;
+
+}
+.tahoma12vermelho {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #CC0000;
+	font-weight: bold;
+
+}
+.bgPontHor1 {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 1px;
+	background-image: url(../imagens/bg_pont_hor1.gif);
+	background-repeat: repeat-x;
+	height: 2px;
+	background-position: top;
+}
+.tahoma11cinza666666 {
+
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+}
+.link_paginas2 {
+	FONT-SIZE: 16px; COLOR: #2774A8; TEXT-DECORATION: none; font-family: Geneva, Arial, Helvetica, sans-serif; color: #2774A8
+}
+.link_paginas2:hover {
+	COLOR: #034901; TEXT-DECORATION: none; font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.link_paginas {
+	FONT-SIZE: 12px; COLOR: #2774A8; TEXT-DECORATION: none; font-family: Geneva, Arial, Helvetica, sans-serif; color: #2774A8
+}
+.link_paginas:hover {
+	COLOR: #034901; TEXT-DECORATION: none; font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.link_album {
+	FONT-SIZE: 11px; COLOR: #336699; TEXT-DECORATION: underline
+}
+.link_album:hover {
+	COLOR: orangered
+}
+.links_paginacao {
+	FONT-SIZE: 11px; COLOR: #336699; TEXT-DECORATION: none
+}
+.links_paginacao:hover {
+	COLOR: orangered; TEXT-DECORATION: none
+}
+.tabelasImgs {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 1px;
+	margin: 1px;
+	height: 80px;
+	width: 100px;
+	border: 1px solid;
+}
+.bgMenuColunaDir {
+
+
+
+	background-image:  url(../imagens/direita/bg_menu_dir.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 43px;
+}
+.formularioLojas {
+
+	border: 1px solid #DA0505;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+.bgPontHor2 {
+
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 1px;
+	background-image: url(../imagens/bg_pont_hor2.gif);
+	background-repeat: repeat-x;
+	height: 2px;
+	background-position: top;
+}
+.bgPontHor3 {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	background-image: url(../imagens/bg_pont_hor3.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	font-weight: bold;
+	color: #FF6600;
+	text-align: left;
+	clip:   rect(auto auto auto auto);
+
+
+
+
+
+}

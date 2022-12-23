@@ -1,0 +1,1 @@
+<template><id>Fashion</id><name>Fashion</name><version>2.2</version><colors><color><name>Orange</name><hex>orange</hex><preview>%%ISCURL%%templates/previews/Fashion_orange_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/Fashion_orange.jpg</previewFull></color></colors></template>

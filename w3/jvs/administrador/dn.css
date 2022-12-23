@@ -1,0 +1,421 @@
+.menu_titulos {
+	BORDER-RIGHT: gainsboro 1px solid; BORDER-TOP: gainsboro 1px solid; FONT-SIZE: 11px; BORDER-LEFT: gainsboro 1px solid; COLOR: black; BORDER-BOTTOM: gainsboro 1px solid; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.menu_titulos_over {
+	BORDER-RIGHT: #019839 1px solid; BORDER-TOP: #019839 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #019839 1px solid; COLOR: black; BORDER-BOTTOM: #019839 1px solid; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.menu_titulos_selected {
+	BORDER-RIGHT: gainsboro 1px solid; BORDER-TOP: gainsboro 1px solid; FONT-SIZE: 11px; BORDER-LEFT: gainsboro 1px solid; COLOR: black; BORDER-BOTTOM: gainsboro 1px solid; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.menu_fundo {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+.submenu_fundo {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #FCEDC9
+}
+.menu_transparent {
+	FILTER: progid:DXImageTransform.Microsoft.Alpha(Opacity=90)
+}
+.menu_sombra {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FILTER: progid:DXImageTransform.Microsoft.Shadow(strength=5,color=gray,direction=135); BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid
+}
+.menu_sombra3 {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FILTER: progid:DXImageTransform.Microsoft.Shadow(strength=5,color=gray,direction=135); BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid
+}
+.texto2 {
+	FONT-SIZE: 10px; 
+}
+.texto {
+	FONT-SIZE: 11px; COLOR: black; 
+}
+.texto3 {
+	FONT-SIZE: 11px; COLOR: white; 
+}
+A:link {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+BODY {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: center 50%; PADDING-LEFT: 0px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(images/fundado2.gif); PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #3e3e3e; PADDING-TOP: 0px; FONT-FAMILY: "Trebuchet MS",verdana, sans-serif; HEIGHT: 100%
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+P.spip {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+H1 {
+	FONT-SIZE: 18px
+}
+H2 {
+	FONT-SIZE: 15px
+}
+H3 {
+	FONT-SIZE: 12px
+}
+H4 {
+	FONT-SIZE: 11px
+}
+#conteudo {
+	BACKGROUND-POSITION: left 50%; LEFT: 50%; BACKGROUND-IMAGE: url(images/fundado5.gif); MARGIN-LEFT: -390px; WIDTH: 780px; BACKGROUND-REPEAT: repeat-y; POSITION: absolute; BACKGROUND-COLOR: #fff
+}
+.hr {
+	CLEAR: both; BACKGROUND-POSITION: center 50%; BACKGROUND-IMAGE: url(images/hr.gif); MARGIN: 0px; WIDTH: 100%; BACKGROUND-REPEAT: no-repeat; HEIGHT: 30px
+}
+A {
+	 COLOR: #107eea; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #EB3D00; TEXT-DECORATION: none
+}
+A IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.texto {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 10px
+}
+.chapo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 10px
+}
+.login INPUT {
+	WIDTH: 150px
+}
+#ultratopo {
+	BACKGROUND-POSITION: 50% bottom; DISPLAY: block; BACKGROUND-IMAGE: url(images/cabecalho.png); BACKGROUND-REPEAT: no-repeat; HEIGHT: 113px
+}
+#topo {
+	PADDING-RIGHT: 8px; DISPLAY: block; PADDING-LEFT: 8px; BACKGROUND-IMAGE: url(images/fundado5.gif); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 120px
+}
+#topo_esquerda {
+	FLOAT: left; WIDTH: 220px
+}
+#logo {
+	HEIGHT: 128px
+}
+#topo_direita {
+	FLOAT: left; WIDTH: 764px; HEIGHT: 180px
+}
+#bloco_criacao {
+	BACKGROUND-POSITION: left top; DISPLAY: block; BACKGROUND-IMAGE: url(images/fundobusca.gif); WIDTH: 220px; HEIGHT: 56px
+}
+#bloco_criacao FIELDSET {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 45px; FONT-SIZE: 9px; PADDING-BOTTOM: 0px; COLOR: #fff; PADDING-TOP: 13px
+}
+#bloco_criacao LEGEND {
+	DISPLAY: none
+}
+#menu_horiz {
+	DISPLAY: block; PADDING-LEFT: 8px; BACKGROUND-IMAGE: url(images/fundado5.gif); HEIGHT: 38px
+}
+#menu_horiz UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#menu_horiz LI {
+	BORDER-RIGHT: #3b96ed 1px solid; PADDING-RIGHT: 30px; BACKGROUND-POSITION: left 50%; PADDING-LEFT: 29px; FLOAT: left; BACKGROUND-IMAGE: url(images/fundo_menu.jpg); PADDING-BOTTOM: 8px; PADDING-TOP: 6px; LIST-STYLE-TYPE: none
+}
+#menu_horiz LI A {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #535353; TEXT-DECORATION: none
+}
+#s_flash {
+	BORDER-RIGHT: #fff 3px solid; BORDER-TOP: #fff 3px solid; DISPLAY: block; BORDER-LEFT: #fff 3px solid; WIDTH: 530px; BORDER-BOTTOM: #fff 3px solid; HEIGHT: 178px
+}
+#s_flash H2 {
+	FONT-SIZE: 25px; MARGIN: 100px 0px 0px 30px
+}
+#s_flash H3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 18px; FLOAT: right; MARGIN-RIGHT: 30px
+}
+#s_flash H2 {
+	COLOR: #fff
+}
+#s_flash H3 {
+	COLOR: #fff
+}
+#pagina {
+	BORDER-TOP-WIDTH: 0px; CLEAR: both; DISPLAY: block; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 5px 13px 0px; BACKGROUND-COLOR: #eee; BORDER-RIGHT-WIDTH: 0px
+}
+#esquerda {
+	DISPLAY: block; FLOAT: left
+}
+#centro {
+	DISPLAY: block; FLOAT: center; WIDTH: 746px
+}
+#centro7 {
+	DISPLAY: block; FLOAT: center; WIDTH: 746px
+}
+.centro_titulo {
+	DISPLAY: block; BACKGROUND-IMAGE: url(images/suporte.gif); HEIGHT: 35px
+}
+.centro_titulo2 {
+	DISPLAY: block; BACKGROUND-IMAGE: url(images/contatos.gif); HEIGHT: 35px
+}
+.centro_tituloempresa {
+	DISPLAY: block; BACKGROUND-IMAGE: url(images/empresa.gif); HEIGHT: 35px
+}
+.centro_titulooferta {
+	DISPLAY: block; BACKGROUND-IMAGE: url(images/ofertas.gif); HEIGHT: 35px
+}
+.centro_tituloservico {
+	DISPLAY: block; BACKGROUND-IMAGE: url(images/servicos.gif); HEIGHT: 35px
+}
+.centro_titulomarca {
+	DISPLAY: block; BACKGROUND-IMAGE: url(images/marcas.gif); HEIGHT: 35px
+}
+.centro_titulo3 {
+	DISPLAY: block; BACKGROUND-IMAGE: url(images/clientes.gif); HEIGHT: 35px
+}
+.tflash {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 25px; PADDING-BOTTOM: 0px; PADDING-TOP: 12px
+}
+.tflash H1 {
+	PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 13px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: small-caps
+}
+.tflash H2 {
+	PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 13px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: small-caps
+}
+.centro_cont {
+	DISPLAY: block; BACKGROUND-IMAGE: url(images/fundado3.gif)
+}
+.centro_cont_fundo {
+	MARGIN: 0px 30px
+}
+.centro_rodape {
+	DISPLAY: block; BACKGROUND-IMAGE: url(images/rodado.gif); HEIGHT: 16px
+}
+#referencia {
+	DISPLAY: block; FLOAT: left; WIDTH: 752px
+}
+.referencia_titulo {
+	DISPLAY: block; BACKGROUND-IMAGE: url(images/topoquadro3.gif); HEIGHT: 35px
+}
+.tflash {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 25px; PADDING-BOTTOM: 0px; PADDING-TOP: 12px
+}
+.tflash H1 {
+	PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: small-caps
+}
+.tflash H2 {
+	PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: small-caps
+}
+.referencia_cont {
+	DISPLAY: block; BACKGROUND-IMAGE: url(images/fundoquadro3.gif)
+}
+.referencia_cont_fundo {
+	MARGIN: 0px 15px
+}
+.referencia_rodape {
+	DISPLAY: block; BACKGROUND-IMAGE: url(images/rodapequadro3.gif); HEIGHT: 16px
+}
+.ref {
+	FLOAT: left; WIDTH: 180px; HEIGHT: 130px; TEXT-ALIGN: center
+}
+.ref H2 {
+	FONT-SIZE: 10px
+}
+.ref IMG {
+	BORDER-RIGHT: #b1b1b1 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #b1b1b1 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #b1b1b1 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #b1b1b1 1px solid; BACKGROUND-COLOR: #fff
+}
+#ref_foto IMG {
+	BORDER-RIGHT: #b1b1b1 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #b1b1b1 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #b1b1b1 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #b1b1b1 1px solid; BACKGROUND-COLOR: #fff
+}
+.ref A {
+	COLOR: #3e3e3e
+}
+#ref_foto {
+	BORDER-RIGHT: #b1b1b1 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 5px; MARGIN: 4px 8px 5px 0px; WIDTH: 168px; PADDING-TOP: 10px
+}
+.trabalho_mot {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: right; PADDING-BOTTOM: 5px; MARGIN: 3px; WIDTH: 280px; PADDING-TOP: 5px; BACKGROUND-COLOR: #eeeeee
+}
+.trabalho_mot UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; PADDING-TOP: 10px
+}
+.prestations UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; PADDING-TOP: 10px
+}
+.trabalho_mot UL LI {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left 50%; PADDING-LEFT: 30px; PADDING-BOTTOM: 4px; PADDING-TOP: 7px; BACKGROUND-REPEAT: no-repeat; LIST-STYLE-TYPE: none
+}
+.prestations UL LI {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left 50%; PADDING-LEFT: 30px; PADDING-BOTTOM: 4px; PADDING-TOP: 7px; BACKGROUND-REPEAT: no-repeat; LIST-STYLE-TYPE: none
+}
+.trabalho_mot UL LI A {
+	FONT-SIZE: 9px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.prestations UL LI A {
+	FONT-SIZE: 9px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.total_ref {
+	FLOAT: left; WIDTH: 240px
+}
+.total_ref UL LI {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 15px; BACKGROUND-IMAGE: url(images/seta.gif); BACKGROUND-REPEAT: no-repeat; LIST-STYLE-TYPE: none
+}
+.total_ref UL {
+	MARGIN-LEFT: 10px
+}
+.contato {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 50px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.contato LABEL {
+	DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 11px; FLOAT: left; WIDTH: 160px
+}
+.contato INPUT {
+	WIDTH: 50%
+}
+#direita {
+	DISPLAY: block; FLOAT: left; WIDTH: 238px
+}
+.direita_titulo {
+	DISPLAY: block; BACKGROUND-IMAGE: url(images/suporte2.gif); HEIGHT: 35px
+}
+.direita_titulo2 {
+	DISPLAY: block; BACKGROUND-IMAGE: url(images/sup1.gif); HEIGHT: 35px
+}
+.direita_cont {
+	DISPLAY: block; BACKGROUND-IMAGE: url(images/fundado4.gif)
+}
+.direita_rodape {
+	DISPLAY: block; BACKGROUND-IMAGE: url(images/rodado2.gif); HEIGHT: 16px
+}
+H3.acc {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #0e7fe9; PADDING-TOP: 5px
+}
+H4.acc {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+IMG.acc {
+	BORDER-RIGHT: #b1b1b1 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #b1b1b1 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN-LEFT: 25px; BORDER-LEFT: #b1b1b1 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #b1b1b1 1px solid; BACKGROUND-COLOR: #fff
+}
+UL.acc {
+	MARGIN-LEFT: 20px; PADDING-TOP: 5px
+}
+UL.acc LI {
+	LIST-STYLE-IMAGE: url(images/seta.gif)
+}
+UL.acc LI A {
+	COLOR: #3e3e3e
+}
+.acc_anim {
+	FLOAT: left; WIDTH: 170px; BACKGROUND-COLOR: #eeeeee
+}
+.acc_anim P {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 9px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; TEXT-ALIGN: center
+}
+UL.actu LI {
+	LIST-STYLE-IMAGE: url(images/seta.gif); MARGIN-LEFT: 15px; PADDING-TOP: 5px
+}
+UL.actu LI H2 {
+	FONT-SIZE: 11px; COLOR: #0e7fe9
+}
+.logo_actu {
+	FLOAT: right
+}
+.actu_data {
+	FONT-SIZE: 9px
+}
+.rel_actus {
+	WIDTH: 100%; TEXT-ALIGN: right
+}
+.actu_outros A {
+	COLOR: #000
+}
+#rodape {
+	CLEAR: both; DISPLAY: block; BACKGROUND-IMAGE: url(images/abaixo.png); WIDTH: 780px; LINE-HEIGHT: 11px; HEIGHT: 68px
+}
+#rodape H2 {
+	DISPLAY: none
+}
+#rodape #coor {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; COLOR: #000; PADDING-TOP: 13px; TEXT-ALIGN: center
+}
+#rodape #coor A {
+	FONT-WEIGHT: normal! important; CURSOR: hand; COLOR: #000
+}
+#rodape #coor A:hover {
+	TEXT-DECORATION: none
+}
+#rodape #infos {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 9px; PADDING-BOTTOM: 2px; COLOR: #666; PADDING-TOP: 0px; FONT-STYLE: italic; TEXT-ALIGN: center
+}
+#menu_lang {
+	FLOAT: right
+}
+.lista_lang {
+	BORDER-RIGHT: #900427 1px solid; BORDER-TOP: #900427 1px solid; FONT-SIZE: 9px; BORDER-LEFT: #900427 1px solid; COLOR: #900427; MARGIN-RIGHT: 5px; BORDER-BOTTOM: #900427 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px
+}
+.campo {
+	BORDER-RIGHT: #d9d7d7 1px solid; BORDER-TOP: #d9d7d7 1px solid; FONT-SIZE: 9px; BORDER-LEFT: #d9d7d7 1px solid; WIDTH: 100px; BORDER-BOTTOM: #d9d7d7 1px solid; HEIGHT: 11px
+}
+.botao {
+	BORDER-RIGHT: #d9d7d7 1px solid; BORDER-TOP: #d9d7d7 1px solid; FONT-SIZE: 9px; BORDER-LEFT: #d9d7d7 1px solid; CURSOR: pointer; COLOR: #fff; BORDER-BOTTOM: #d9d7d7 1px solid; HEIGHT: 15px; BACKGROUND-COLOR: #d9d7d7
+}
+UL.spip {
+	PADDING-LEFT: 25px; MARGIN: 0px
+}
+LI.spip {
+	BACKGROUND-POSITION: left 4px; PADDING-LEFT: 20px; BACKGROUND-IMAGE: url(images/seta.gif); BACKGROUND-REPEAT: no-repeat; LIST-STYLE-TYPE: none
+}
+.direita_cont #ps UL.spip {
+	PADDING-LEFT: 2px; MARGIN: 0px
+}
+.spip_documentos {
+	MARGIN: 6px
+}
+
+.aesquerda {
+	CLEAR: both; DISPLAY: block; WIDTH: 100%; TEXT-ALIGN: left! important
+}
+.adireita {
+	CLEAR: both; DISPLAY: block; WIDTH: 100%; TEXT-ALIGN: right! important
+}
+.aucentro {
+	CLEAR: both; DISPLAY: block; WIDTH: 100%; TEXT-ALIGN: center! important
+}
+.azul {
+	COLOR: #FEC900
+}
+.saber_plus {
+	DISPLAY: none; WIDTH: 1px; HEIGHT: 1px
+}

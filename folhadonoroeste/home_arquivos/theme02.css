@@ -1,0 +1,12 @@
+#mp_ratings .header {
+	COLOR: #693
+}
+#toolbargroup H3 {
+	COLOR: #693
+}
+#page {
+	BACKGROUND-POSITION: 50% bottom; BACKGROUND-IMAGE: url(bg_grad_blueBot.gif); BACKGROUND-REPEAT: repeat-x
+}
+#content {
+	BACKGROUND-IMAGE: url(decoration/bg_grad_blueTop.gif); BACKGROUND-REPEAT: repeat-x
+}

@@ -1,0 +1,29 @@
+<script type="text/javascript" src="%%GLOBAL_AppPath%%/javascript/jquery/plugins/lightbox/lightbox.js"></script>
+<div id="LightBoxImages" style="display: none;">
+	%%GLOBAL_LightBoxImageList%%
+</div>
+
+<script type="text/javascript">
+	var originalImages = '';
+	function showProductImageLightBox() {
+		if($('body').attr('currentVariation') != '' && typeof($('body').attr('currentVariation')) != "undefined") {
+			$('#LightBoxImages').html('<a href="'+$('body').attr('currentVariationImage')+'">&nbsp;</a>');
+		}
+		else {
+			$('#LightBoxImages').html(originalImages);
+		}
+		initProductLightBox();
+		$('#LightBoxImages a:first').trigger('click');
+	}
+	function initProductLightBox() {
+		$('#LightBoxImages a').lightBox({
+			imageLoading: '%%GLOBAL_AppPath%%/javascript/jquery/plugins/lightbox/images/lightbox-ico-loading.gif',
+			imageBtnPrev: '%%GLOBAL_AppPath%%/javascript/jquery/plugins/lightbox/images/lightbox-btn-prev.gif',
+			imageBtnNext: '%%GLOBAL_AppPath%%/javascript/jquery/plugins/lightbox/images/lightbox-btn-next.gif',
+			imageBtnClose: '%%GLOBAL_AppPath%%/javascript/jquery/plugins/lightbox/images/lightbox-btn-close.gif',
+			imageBlank: '%%GLOBAL_AppPath%%/javascript/jquery/plugins/lightbox/images/lightbox-blank.gif',
+			fixedNavigation: true
+		});
+	}
+	$(document).ready(function() { originalImages = $('#LightBoxImages').html(); });
+</script>

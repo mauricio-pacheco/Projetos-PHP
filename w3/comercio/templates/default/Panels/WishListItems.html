@@ -1,0 +1,34 @@
+<div class="Block Moveable" style="%%GLOBAL_HideWishListItems%%" id="WishListItems">
+	<div class="Block Moveable Breadcrumb" id="WishListItemBreadcrumb">
+		<ul>
+			<li><a href="%%GLOBAL_ShopPath%%/">%%LNG_Home%%</a></li>
+			<li><a href="%%GLOBAL_ShopPathSSL%%/account.php">%%LNG_YourAccount%%</a></li>
+			<li><a href="%%GLOBAL_ShopPathSSL%%/wishlist.php">%%LNG_WishLists%%</a></li>
+			<li>%%GLOBAL_WishListName%%</li>
+		</ul>
+	</div>
+	<h2>%%GLOBAL_WishListName%%</h2>
+	<div class="BlockContent">
+		<p class="InfoMessage" style="display: %%GLOBAL_HideNormalMessage%%">
+			%%GLOBAL_WishListMessage%%
+		</p>
+
+		<p class="ErrorMessage" style="display: %%GLOBAL_HideErrorMessage%%">
+			%%GLOBAL_WishListMessage%%
+		</p>
+		
+		<p class="SuccessMessage" style="display: %%GLOBAL_HideSuccessMessage%%">
+			%%GLOBAL_WishListMessage%%
+		</p>
+
+		<ul class="ProductList WishlistProductList">
+			%%SNIPPET_WishListItems%%
+		</ul>
+	</div>
+	<div class="Block" style="%%GLOBAL_HideShareWishList%%">
+		<br />
+		<div class="%%GLOBAL_ShareWishListClass%%">
+			%%GLOBAL_ShareWishListIntro%% <strong>%%GLOBAL_PublicWishListUrl%%</strong>
+		</div>
+	</div>
+</div>

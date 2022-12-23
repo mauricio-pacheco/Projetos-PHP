@@ -1,0 +1,54 @@
+.login {
+	FONT-SIZE: 7pt; FONT-FAMILY: verdana
+}
+.scroll {
+	SCROLLBAR-FACE-COLOR: #f6f6f6; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #e4e4e4; SCROLLBAR-3DLIGHT-COLOR: #ffffff; SCROLLBAR-ARROW-COLOR: #b3b3b3; SCROLLBAR-TRACK-COLOR: #ffffff; SCROLLBAR-DARKSHADOW-COLOR: #b3b3b3; SCROLLBAR-BASE-COLOR: #ffffff
+}
+A {
+	COLOR: #993300; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #993300; TEXT-DECORATION: underline
+}
+.back {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Verdana
+}
+A.back {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Verdana
+}
+.link-11-azul {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.texto-11-azul {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.input-btn {
+	BORDER-RIGHT: 1px outset; PADDING-RIGHT: 1px; BORDER-TOP: 1px outset; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 9px; BACKGROUND-IMAGE: url(../imagens/input_fd_btn.gif); PADDING-BOTTOM: 1px; MARGIN: 0px 0px 0px 1px; BORDER-LEFT: 1px outset; WIDTH: 150px; CURSOR: pointer; PADDING-TOP: 1px; BORDER-BOTTOM: 1px outset; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Tahoma, sans-serif; HEIGHT: 20px; backgroung-image: repeat-x
+}
+.input-news {
+	BORDER-RIGHT: #000080 1px solid; BORDER-TOP: #000080 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #000080 1px solid; COLOR: #000080; BORDER-BOTTOM: #000080 1px solid; FONT-FAMILY: Verdana; HEIGHT: 15px; BACKGROUND-COLOR: #ffffff
+}
+.tahoma_cinza_11 {
+	FONT-SIZE: 11px; COLOR: #727272; FONT-FAMILY: Tahoma, Verdana, Arial; TEXT-DECORATION: none
+}
+.input-txt {
+	FONT-SIZE: 11px; FONT-FAMILY: Tahoma, sans-serif; HEIGHT: 20px
+}
+.destaque {
+	FONT-SIZE: 11px; COLOR: #666666; LINE-HEIGHT: 16px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.texto-site {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: tahoma,verdana,arial
+}
+.titulo_txt {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0062a5; HEIGHT: 16px
+}
+FORM {
+	DISPLAY: inline
+}
+INPUT {
+	MARGIN-TOP: 2px; MARGIN-BOTTOM: 2px; TEXT-INDENT: 2px
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: white; SCROLLBAR-HIGHLIGHT-COLOR: white; SCROLLBAR-SHADOW-COLOR: #58a7c8; SCROLLBAR-ARROW-COLOR: #993300; SCROLLBAR-BASE-COLOR: #993300; scrollbar-3d-light-color: #58A7C8; scrollbar-dark-shadow-color: #58A7C8
+}

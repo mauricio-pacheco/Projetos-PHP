@@ -1,0 +1,29 @@
+body, table {COLOR: black; TEXT-DECORATION: none; FONT-SIZE: 10pt; FONT-FAMILY:Verdana;
+
+SCROLLBAR-FACE-COLOR: silver; 
+
+SCROLLBAR-HIGHLIGHT-COLOR: gray; 
+
+		SCROLLBAR-SHADOW-COLOR: gray; 
+
+		SCROLLBAR-3DLIGHT-COLOR: white; 
+
+		SCROLLBAR-ARROW-COLOR: black; 
+
+		SCROLLBAR-TRACK-COLOR: white; 
+
+		SCROLLBAR-DARKSHADOW-COLOR: white; }
+
+h1 {COLOR: darkred; FONT-WEIGHT: bold; FONT-SIZE: 12pt; FONT-FAMILY:Verdana; margin-bottom: 1}
+
+h2 {COLOR: #FF8C08; FONT-WEIGHT: bold; FONT-SIZE: 12pt; FONT-FAMILY:Verdana; margin-bottom: 5; text-align: center}
+
+hr {width="300"; size="1"; color:black;}
+
+select {font-family:Verdana;font-size:12pt;border-style:solid;border-width:1; color:#FF6600}
+
+A:link  {COLOR: black; TEXT-DECORATION: none}
+
+A:visited {COLOR: black; TEXT-DECORATION: none}
+
+A:hover {COLOR: #FF6600; TEXT-DECORATION: none}

@@ -1,0 +1,86 @@
+<div class="Block Moveable" id="ChooseShippingAddress">
+	<h2>%%GLOBAL_CheckoutShippingTitle%%</h2>
+	<div class="BlockContent">
+		<p class="InfoMessage" style="%%GLOBAL_HideIntro%%">
+			%%GLOBAL_CheckoutShippingIntro%%
+		</p>
+		<p class="ErrorMessage" style="%%GLOBAL_HideErrors%%">
+			%%GLOBAL_ErrorMessage%%
+		</p>
+
+		<form method="post" action="checkout.php?action=%%GLOBAL_ShippingFormAction%%" onsubmit="return Checkout.ValidateNewAddress()">
+			<div class="FormContainer HorizontalFormContainer" style="float: left;">
+				<dl>
+					%%GLOBAL_CreateAccountForm%%
+
+					<dt style="%%GLOBAL_HideFullNameField%%"><span class="Required">*</span> %%LNG_FullName%%:</dt>
+					<dd style="%%GLOBAL_HideFullNameField%%"><input type="text" class="Textbox Field200" name="shipfullname" id="ship_fullname" value="%%GLOBAL_AddressFullName%%" /></dd>
+
+					<dt><span class="Required">*</span> %%LNG_Phone%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="shipphone" id="ship_phone" value="%%GLOBAL_AddressPhone%%" /></dd>
+
+					<dt><span class="Required">*</span> %%LNG_AddressLine1%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="shipaddress1" id="ship_address1" value="%%GLOBAL_AddressLine1%%" /></dd>
+
+					<dt>&nbsp;&nbsp; %%LNG_AddressLine2%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="shipaddress2" id="ship_address2" value="%%GLOBAL_AddressLine2%%" /></dd>
+
+					<dt><span class="Required">*</span> %%LNG_City%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="shipcity" id="ship_city" value="%%GLOBAL_AddressCity%%" /></dd>
+
+					<dt><span class="Required">*</span> %%LNG_Country%%:</dt>
+					<dd>
+						<select name="shipcountry" id="ship_country" class="Field200" onchange="Checkout.ToggleCountry();">
+							%%GLOBAL_CountryList%%
+						</select>
+					</dd>
+
+					<dt><span class="Required">*</span> %%LNG_StateProvince%%:</dt>
+					<dd>
+						<select style="display:%%GLOBAL_HideStateList%%" class="Field200" name="shipstate" id="ship_state">
+							%%GLOBAL_StateList%%
+						</select>
+						<input style="display:%%GLOBAL_HideStateBox%%" type="text" class="Textbox Field200" name="ship_state_1" id="ship_state_1" value="%%GLOBAL_AddressState%%" />
+					</dd>
+
+					<dt><span class="Required">*</span> %%LNG_ZipPostcode%%:</dt>
+					<dd><input type="text" class="Textbox" name="shipzip" id="ship_zip" value="%%GLOBAL_AddressZip%%" style="width:70px" /></dd>
+
+					<dd style="%%GLOBAL_HideShippingOptions%%"><label><input type="checkbox" name="ship_to_billing" id="ship_to_billing" checked="checked" value="1" /> %%LNG_AlsoWantToShipToThisAddress%%</label></dd>
+
+				</dl>
+				<p class="Submit">
+					<input type="submit" class="billButton" value="%%GLOBAL_ShipAddressButtonText%%" />
+					</p>
+				</div>
+			</div>
+		</form>
+		<script type="text/javascript">
+		$(document).ready(function() {
+			$('#ship_to_billing').click(function() {
+				if(this.checked) {
+					$('.billButton').val('%%GLOBAL_ShipAddressButtonText%%');
+				}
+				else {
+					$('.billButton').val('%%LNG_BillToThisAddress%%');
+				}
+			});
+		});
+
+		lang.AccountEnterPassword = "%%LNG_AccountEnterPassword%%";
+		lang.AccountPasswordsDontMatch = "%%LNG_AccountPasswordsDontMatch%%";
+		lang.AccountEnterFirstName = "%%LNG_AccountEnterFirstName%%";
+		lang.AccountEnterLastName = "%%LNG_AccountEnterLastName%%";
+		lang.EnterShippingFullName = "%%LNG_EnterShippingFullName%%";
+		lang.EnterShippingAddress = "%%LNG_EnterShippingAddress%%";
+		lang.EnterShippingCity = "%%LNG_EnterShippingCity%%";
+		lang.ChooseShippingCountry = "%%LNG_ChooseShippingCountry%%";
+		lang.ChooseShippingState = "%%LNG_ChooseShippingState%%";
+		lang.EnterShippingZip = "%%LNG_EnterShippingZip%%";
+		lang.EnterShippingPhone = "%%LNG_EnterShippingPhone%%";
+		lang.LoginEnterValidEmail = "%%LNG_LoginEnterValidEmail%%";
+		</script>
+	</div>
+</div>
+
+%%Panel.ChooseShippingAddressJavaScript%%

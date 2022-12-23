@@ -1,0 +1,27 @@
+<div class="Block Moveable" id="AccountRecentItems">
+	<h2>%%LNG_YouRecentlyViewed%%</h2>
+	<div class="BlockContent">
+		<div style="display: %%GLOBAL_HideRecentItemList%%">
+			<p class="InfoMessage">
+				%%LNG_AccountRecentItemsIntro%%
+			</p>
+
+			<script type="text/javascript">
+				lang.CompareSelectMessage = '%%LNG_CompareSelectMessage%%';
+			</script>
+			<form name="frmCompare" id="frmCompare" action="%%GLOBAL_CompareLink%%" method="get" onsubmit="return compareProducts('%%GLOBAL_CompareLink%%')">
+				<ul class="ProductList">
+					%%SNIPPET_AccountRecentItems%%
+				</ul>
+				<br class="Clear" />
+				<div class="CompareButton" style="display:%%GLOBAL_HideCompareItems%%">
+					<input type="image" value="%%LNG_CompareSelected%%" src="%%GLOBAL_TPL_PATH%%/images/%%GLOBAL_SiteColor%%/CompareButton.gif" />
+				</div>
+			</form>
+		</div>
+
+		<p class="InfoMessage" style="display: %%GLOBAL_HideNoRecentItemsMessage%%">
+			%%LNG_AccountNoRecentItems%%
+		</p>
+	</div>
+</div>

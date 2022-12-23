@@ -1,0 +1,1 @@
+<template><id>Food</id><name>Food</name><version>2.2</version><colors><color><name>Maroon</name><hex>maroon</hex><preview>%%ISCURL%%templates/previews/Food_maroon_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/Food_maroon.jpg</previewFull></color></colors></template>

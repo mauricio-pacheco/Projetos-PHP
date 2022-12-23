@@ -1,0 +1,17 @@
+<div class="Block Moveable" id="SideCouponCodeBox">
+	<h2>%%LNG_CouponCode%%</h2>
+	<div class="BlockContent">
+		<script type="text/javascript">
+			lang.EnterCouponCode = "%%LNG_EnterCouponCode%%";
+		</script>
+		<form onsubmit="return Cart.CheckCouponCode()" action="%%GLOBAL_ShopPath%%/cart.php" method="post">
+			<input type="hidden" name="action" value="applycoupon" />
+			<div class="CouponCode">
+				<p>%%LNG_CouponCodeIntro%%</p>
+				<input type="text" name="couponcode" id="couponcode" class="Textbox Field100" />
+				<input type="image" alt="%%LNG_Go%%" src="%%GLOBAL_TPL_PATH%%/images/%%GLOBAL_SiteColor%%/GoButton.gif" style="vertical-align: middle;" />
+			</div>
+		</form>
+		<hr />
+	</div>
+</div>

@@ -1,0 +1,64 @@
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+-->
+</style>
+<p align="center"><FORM action=http://www.google.com/custom method=get target=_blank>
+  <div align="center"><a href="http://www.google.com.br" target=_blank><img src="google.gif" border="0"></a>
+  </div>
+  <div align="center">
+    <INPUT maxLength=255 size=25 name=q> 
+    <br>
+    <INPUT type=submit value="Pesquisa Google" name=sa>
+   </div>
+</FORM>
+<div align="center">
+  <SCRIPT type=text/javascript charset=utf-8>
+function CheckBusca()
+{
+	
+	if ( document.buscaCidadesBR.strBusca.value.length <= 2 )
+	{
+		
+		alert('A cidade precisa ter mais de 3 caracteres');
+		return false;
+		
+	}
+	
+	if ( document.buscaCidadesBR.strBusca.value == 'Cidade' )
+	{
+		
+		alert('Cidade');
+		return false;	
+	
+	}
+
+	return true;
+	
+}
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+</SCRIPT>
+</div>
+<FORM id=buscaCidadesBR name=buscaCidadesBR 
+            onsubmit="return CheckBusca();" action=http://tempoagora.uol.com.br/busca.html/ 
+            method=post target=_blank><div align="center">  <img src="previsao.gif"><br></span>
+<iframe src="http://www.tempoagora.com.br/selos/custom/selo.php?cid=FredericoWestphalen-RS;" name="seloFredericoWestphalen-RS" width="120" height="125" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe></div>
+  <div align="center">
+    <INPUT class=txt_aeroportos id=strBusca 
+            onblur="if ( this.value == '' ){ this.value = 'Cidade' }" 
+            onfocus="if ( this.value == 'Cidade' ){ this.value = '' }" size=26 
+            value="Cidade" name=strBusca> 
+    <INPUT id=tipoBusca type=hidden 
+            value=CidadesBR name=tipoBusca>   
+    <br>
+    <INPUT class=btOK type=submit value="Buscar Cidades" name=ok> 
+  </div>
+</FORM>
+<div align="center">
+  </p>
+</div>

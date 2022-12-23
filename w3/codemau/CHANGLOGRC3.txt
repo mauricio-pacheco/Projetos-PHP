@@ -1,0 +1,36 @@
+This is a list of changes since RC2-3
+
+[b]Fixed[/b][list]
+
+[*] Bug in phpNuke 5 support
+[*] Bug in saving updated/edited Category (catmgr.php)
+[*] Bug albums count for users_list() in (index.php)
+[*] Bugs in showing user categories (index.php)
+[*] Batch upload errorpage searchnew.php
+[*] Copyright.php when directory has other name
+[*] pagetitle.inc.php "(users) gallery" where (user) was always no. 3
+[*] Bug always show albums and pictures to admins
+[*] Bug in usrmgr.php sorting on name
+[*} display more card link displayecard.php
+[/list]
+
+[b]Can be tested[/b][list]
+
+[*] changed in sql calls some fieldnames to globals so it also works in phpNuke 5.5-6.0
+[*] added include/oldnuke.php to "fake" Nuke6.5+ sql commands
+[*] modified all files so they can use: require_once("modules/".$name."/include/oldnuke.php");
+[*] install.php compliant to phpNuke 5.5+
+[*] added coppermine5.sql for Nuke 5.5-6.0
+[*] modified all files to require_once(load.inc.php) and removed a lot
+[*] NEW install.php NOTICE: write access to "include" dir not needed. also updates 1.1D and 1.2
+[*] Full postnuke integration (known bug: login/logout link)
+[*] changed part of theme to use language defines instead of arrays (for feature use)
+
+[/list]
+
+[b]Done[/b][list]
+
+[*] removed profile.php from cvs because it's not used
+[*] updated .sql files so debug_mode is turned on at install to track bugs instantly
+
+[/list]

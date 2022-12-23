@@ -1,0 +1,328 @@
+#page {
+	ZOOM: 1
+}
+.cf {
+	ZOOM: 1
+}
+UL.cf LI {
+	ZOOM: 1
+}
+#head {
+	WIDTH: 100%
+}
+#page {
+	WIDTH: 100%
+}
+#wrapper .parent H2 A.rss {
+	WIDTH: 24px
+}
+.promo.chrome4.parent H2 A {
+	COLOR: #fff! important
+}
+.promo.chrome5.parent H2 A {
+	COLOR: #fff! important
+}
+.promo.chrome7.parent H2 A {
+	COLOR: #fff! important
+}
+.promo2.chrome4.parent H2 A {
+	COLOR: #fff! important
+}
+.promo2.chrome5.parent H2 A {
+	COLOR: #fff! important
+}
+.promo2.chrome7.parent H2 A {
+	COLOR: #fff! important
+}
+
+@media Print    
+{
+.msnfoot1 .copyright {
+	ZOOM: 1
+}
+.msnfoot1 UL.primary {
+	ZOOM: 1
+}
+    }
+.hexa5 .c3 {
+	PADDING-LEFT: 53.5%
+}
+.article1 .articlebody > UL LI {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 0.5em; PADDING-LEFT: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.5em; PADDING-TOP: 0px
+}
+.article1 .articlebody > OL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.4em; LINE-HEIGHT: 1.2em; PADDING-TOP: 0px
+}
+.article1 .articlebody .pic2 {
+	ZOOM: 1
+}
+.article1 .articlebody .pic3 {
+	ZOOM: 1
+}
+.article1 .articlebody .placeholder2 {
+	ZOOM: 1
+}
+.article1 .articlebody .child .linklist16 LI {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 0.45em; PADDING-LEFT: 9px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.5em; PADDING-TOP: 0px
+}
+BLOCKQUOTE.column {
+	ZOOM: 1
+}
+.toolbar UL {
+	DISPLAY: inline
+}
+.toolbar UL LI {
+	DISPLAY: inline
+}
+.toolbar IMG {
+	VERTICAL-ALIGN: top
+}
+.toolbar SPAN {
+	VERTICAL-ALIGN: top
+}
+.toolbar SPAN {
+	PADDING-TOP: 0.4em
+}
+.imglinklist1 A {
+	WIDTH: auto
+}
+.linkedimglink2 A {
+	WIDTH: 100%
+}
+.linkedimglinklist1 A {
+	ZOOM: 1
+}
+.linkedimglinklist2 A {
+	ZOOM: 1
+}
+.linkedimglinklist4 A {
+	ZOOM: 1
+}
+.linkedimglinklist4 A:hover {
+	TEXT-DECORATION: none
+}
+﻿ .linkedimglinklist7 {
+	WHITE-SPACE: nowrap
+}
+﻿ .linkedimglinklist8 A:hover {
+	TEXT-DECORATION: underline
+}
+﻿ .linkedimglinklist9 {
+	WHITE-SPACE: nowrap
+}
+.linkedimglinklist9 A:hover {
+	TEXT-DECORATION: underline
+}
+﻿ .linkedimglinklist10 A:hover {
+	TEXT-DECORATION: underline
+}
+.linkedimglinklist13 A {
+	ZOOM: 1
+}
+.linkedimglinklist14 A {
+	ZOOM: 1
+}
+.linkedimglinklist15 A {
+	ZOOM: 1
+}
+﻿ .linkedimglinklist19 {
+	WHITE-SPACE: nowrap
+}
+﻿ .linkedimglinklist20 {
+	WHITE-SPACE: nowrap
+}
+.linkedimglinklist20 A:hover {
+	TEXT-DECORATION: underline
+}
+﻿ .linkedimglinklist21 A:hover {
+	TEXT-DECORATION: underline
+}
+﻿ .linkedimglinklist22 A:hover {
+	TEXT-DECORATION: underline
+}
+﻿ .linkedimglinklist23 A:hover {
+	TEXT-DECORATION: underline
+}
+﻿ .linkedimglinklist24 A:hover {
+	TEXT-DECORATION: underline
+}
+.linklist1 LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.4em; LINE-HEIGHT: 1.2em; PADDING-TOP: 0px
+}
+.linklist1 LI.first {
+	PADDING-TOP: 0.25em
+}
+.linklist2 LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.4em; LINE-HEIGHT: 1.2em; PADDING-TOP: 0px
+}
+.linklist2 LI.first {
+	PADDING-TOP: 0.25em
+}
+.linklist16 LI {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 0.45em; PADDING-LEFT: 9px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.5em; PADDING-TOP: 0px
+}
+.nested1 UL UL LI {
+	PADDING-RIGHT: 0.7em; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.orderedlist1 LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.4em; LINE-HEIGHT: 1.2em; PADDING-TOP: 0px
+}
+.orderedlist1 LI.first {
+	PADDING-TOP: 0.25em
+}
+.orderedlist2 LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.4em; LINE-HEIGHT: 1.2em; PADDING-TOP: 0px
+}
+.orderedlist2 LI.first {
+	PADDING-TOP: 0.25em
+}
+.orderedlist3 LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.4em; LINE-HEIGHT: 1.2em; PADDING-TOP: 0px
+}
+.orderedlist3 LI.first {
+	PADDING-TOP: 0.25em
+}
+.orderedlist4 LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.4em; LINE-HEIGHT: 1.2em; PADDING-TOP: 0px
+}
+.orderedlist4 LI.first {
+	PADDING-TOP: 0.25em
+}
+.orderedlist5 LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.4em; LINE-HEIGHT: 1.2em; PADDING-TOP: 0px
+}
+.orderedlist5 LI.first {
+	PADDING-TOP: 0.25em
+}
+.nav1 A {
+	ZOOM: 1
+}
+.nav2 LI.selected {
+	PADDING-BOTTOM: 0.4em
+}
+#head {
+	PADDING-BOTTOM: 0.5em
+}
+.msnhead1 .linklist9 LI {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#xnav LI.last {
+	PADDING-BOTTOM: 0.45em
+}
+#more {
+	ZOOM: 1
+}
+#brand .name {
+	ZOOM: 1
+}
+#more .linklist1 LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.1em; PADDING-TOP: 0.1em
+}
+#more .linklist1 LI.highlight {
+	MARGIN-TOP: -0.21em
+}
+#brand {
+	WIDTH: 100%; HEIGHT: auto
+}
+#more .linkedimglinklist1 LI IMG {
+	LINE-HEIGHT: 0.9em
+}
+#head .linklist9 LI.last {
+	MARGIN-RIGHT: 0.25em
+}
+#brand #optlinks {
+	MARGIN-TOP: 3.6em; MARGIN-RIGHT: 0.35em
+}
+#logo {
+	PADDING-TOP: 1.5em
+}
+#search {
+	MARGIN-TOP: 0.4em
+}
+* HTML #q {
+	DISPLAY: inline; FLOAT: none; MARGIN-RIGHT: -3px
+}
+#q {
+	PADDING-BOTTOM: 4px
+}
+#search #selectedscope {
+	MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+.region1 {
+	WIDTH: 25.36ex
+}
+.region2 {
+	WIDTH: 26.79ex
+}
+.region3 {
+	WIDTH: 30.71ex
+}
+.wide .page7 .region3#area3 {
+	WIDTH: 56.07ex
+}
+.region4 {
+	WIDTH: 56.07ex
+}
+#sitemap .region4 {
+	WIDTH: 69.46ex
+}
+.wide .page1 .region4#area1 {
+	WIDTH: 90.7ex
+}
+.region5 {
+	WIDTH: 81.43ex
+}
+.wide .region5 {
+	WIDTH: 90.7ex
+}
+.region6 {
+	WIDTH: 82.86ex
+}
+#sitemap .region6 {
+	WIDTH: 69.46ex
+}
+.wide .region6 {
+	WIDTH: 117.5ex
+}
+.region7 {
+	WIDTH: 108.21ex
+}
+.region8 {
+	WIDTH: 112.14ex
+}
+.wide .region8 {
+	WIDTH: 146.8ex
+}
+.region9 {
+	WIDTH: 139ex
+}
+.region9#wrapper {
+	WIDTH: 140ex
+}
+.wide .region9 {
+	WIDTH: 173.6ex
+}
+.wide .region9#wrapper {
+	WIDTH: 174ex
+}
+.singlelist1 LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 9px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.4em; LINE-HEIGHT: 1.2em; PADDING-TOP: 0px
+}
+.singlelist1 LI.first {
+	PADDING-TOP: 0.25em
+}
+.singlelist2 LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.4em; LINE-HEIGHT: 1.2em; PADDING-TOP: 0px
+}
+.singlelist2 LI.first {
+	PADDING-TOP: 0.25em
+}
+.singlelist3 LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.4em; LINE-HEIGHT: 1.2em; PADDING-TOP: 0px
+}
+.singlelist3 LI.first {
+	PADDING-TOP: 0.25em
+}
+.sitemaplinks1 LI.first {
+	PADDING-TOP: 0.25em
+}

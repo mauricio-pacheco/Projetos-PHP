@@ -1,0 +1,75 @@
+#
+#         This java file is a part of the
+#
+#          -  Plouf's Java IRC Client  -
+#
+#      Copyright (C) 2004 Philippe Detournay
+#
+#   This file is licensed under the GPL license
+#
+#        All contacts : theplouf@yahoo.com
+#
+#
+#  Syntax :
+#    Comments begin with the # character. This character must be the first character of the line.
+#    A data line has three parts : the data id, the data id description, the data string.
+#      - Data id : An hexadecimal figure identifying the string.
+#      - Data description : Begins by [ and ends by ]. The description is not parsed and
+#                           can be any string.
+#      - Data string : The string itself. Parameters are specified using the %i syntax.
+#
+#  Trailing spaces can be added using the \s escape character.
+
+8601 [SOURCE_YOU_KICKED] Deram um pontapé fora de você %1 por %2
+8602 [SOURCE_STATUS] Status
+8603 [SOURCE_CHANLIST] Salas para %1
+8604 [SOURCE_CHANLIST_RETREIVING] Abrindo salas...
+8605 [SOURCE_HAS_JOINED] %1 juntou-se %2
+8606 [SOURCE_HAS_LEFT] %1 partiu %2
+8607 [SOURCE_HAS_BEEN_KICKED_BY] %1 foi Kickado por %2
+8608 [SOURCE_HAS_QUIT] %1 saiu
+8609 [SOURCE_TOPIC_IS] O Tópico é %1
+860a [SOURCE_CHANGED_TOPIC] %1 mudou tópico para %2
+860b [SOURCE_CHANNEL_MODE] %1 selecionar modo de sala para %2
+860c [SOURCE_CHANNEL_MODE_IS] O modo da Sala é %1
+860d [SOURCE_USER_MODE] %1 selecionar modo %2 em %3
+860e [SOURCE_KNOWN_AS] %1 é conhecido agora como %2
+860f [SOURCE_YOUR_MODE] Modo mudado para %1
+8610 [SOURCE_YOUR_NICK] Você foi Kickado agora %1
+8611 [SOURCE_INFO] Info
+8612 [SOURCE_AWAY] %1 esta ausente
+8613 [SOURCE_YOU_INVITED] %1 convidar você para juntar-se %2
+8614 [SOURCE_YOU_JOINED_AS] Você esta falando em %1 como %2
+
+8701 [GUI_WHOIS] Whois
+8702 [GUI_QUERY] Query
+8703 [GUI_KICK] Kick
+8704 [GUI_BAN] Ban
+8705 [GUI_KICKBAN] Kick + Ban
+8706 [GUI_OP] Op
+8707 [GUI_DEOP] DeOp
+8708 [GUI_VOICE] Voice
+8709 [GUI_DEVOICE] DeVoice
+870a [GUI_PING] Ping
+870b [GUI_VERSION] Versão
+870c [GUI_TIME] Tempo
+870d [GUI_FINGER] Finger
+870e [GUI_RETREIVING_FILE] Recebendo arquivo (%1 bytes)
+870f [GUI_SENDING_FILE] Enviando arquivo (%1 bytes)
+8710 [GUI_TERMINATED] %1 finalizado
+8711 [GUI_FAILED] %1 falhou
+8712 [GUI_CLOSE] Fechar
+8713 [GUI_DISCONNECT] Disconectar
+8714 [GUI_CHANNELS] Salas
+8715 [GUI_HELP] Home
+8716 [GUI_PRIVATE] PRIVADO
+8717 [GUI_PUBLIC] PUBLICO
+8718 [GUI_CONNECT] Conectar
+8719 [GUI_ABOUT] IRC SERVER
+871a [GUI_CHANGE_NICK] Mudar nick para
+871c [GUI_FONT] Fonte
+871d [GUI_FONT_WINDOW] Selecionar fonte
+871e [GUI_FONT_WINDOW_OK] Ok
+871f [GUI_ENTER_TEXT_HERE] Entre com o texto aqui...
+
+ffff [ERROR_NOT_DEFINED] String indefinida

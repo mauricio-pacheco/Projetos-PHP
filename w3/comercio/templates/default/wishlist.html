@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<SCRIPT TYPE="text/javascript">
+<!--
+function ValidateWishListForm(formtype)
+{
+	var wishlistname = g("wishlistname");
+
+	wishlistname.value = wishlistname.value.replace(/^\s+|\s+$/g, '') ;
+	if(wishlistname.value == "") {
+		alert("%%LNG_EnterWishListName%%");
+		wishlistname.focus();
+		wishlistname.select();
+		return false;
+	} else {
+		return true;
+	}
+}
+
+
+function ValidateDeleteWishlist(bulkDelete, wishlistId)
+{
+	if (bulkDelete == true) {
+		var deleteWishList = g("wishlistsform").elements;
+
+		var wishlistSelected = false;
+		for(i = 0; i < deleteWishList.length; i++) {
+			if (deleteWishList[i].checked == true) {
+				wishlistSelected = true;
+				break;
+			}
+		}
+		if (wishlistSelected == true) {
+			return window.confirm('%%LNG_ConfirmDeleteWishLists%%');
+		} else {
+			alert('%%LNG_SelectAWishListToDelete%%');
+			return false
+		}
+	} else {
+		if (window.confirm('%%LNG_ConfirmDeleteWishLists%%') == true) {
+			window.location = 'wishlist.php?action=deletewishlist&wishlistid='+wishlistId;
+			return true;
+		} else {
+			return false;
+		}
+	}
+}
+
+function ToggleWishListDeleteBoxes(Status)
+{
+	var deleteWishList = g("wishlistsform").elements;
+
+	for(i = 0; i < deleteWishList.length; i++) {
+		deleteWishList[i].checked = Status;
+	}
+}
+//-->
+</SCRIPT>
+%%Panel.HTMLHead%%
+<body>
+	<div id="Container">
+		%%Panel.Header%%
+
+		<div id="Wrapper">
+			<div class="Left" id="LayoutColumn1" style = "%%GLOBAL_HideLeftMenu%%">
+				%%Panel.SideCategoryList%%
+				%%Panel.SideNewsletterBox%%
+			</div>
+			<div class="Content Wide" id="LayoutColumn2">
+				%%Panel.WishListItems%%
+				%%Panel.WishLists%%
+				%%Panel.WishListAddForm%%
+			</div>
+			<div class="Right" id="LayoutColumn3" style = "%%GLOBAL_HideRightMenu%%">
+				%%Panel.SideAccountMenu%%
+				%%Panel.SidePopularProducts%%
+			</div>
+			<br class="Clear" />
+		</div>
+		%%Panel.Footer%%
+	</div>
+</body>
+</html>

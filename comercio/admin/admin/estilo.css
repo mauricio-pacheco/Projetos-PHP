@@ -1,0 +1,11 @@
+.link_branco {  color: #000000; text-decoration: none}
+.link_branco:hover {  color: #FFFFFF; text-decoration: none}
+.link_verde {  color: #000000; text-decoration: none; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt}
+.link_verde:hover {  color: #FF6600; text-decoration: none; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt}
+.link_azul {  color: #000000; text-decoration: none; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt}
+.link_azul:hover {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #0066CC; text-decoration: none}
+.base_caixas {  color: #000000; background-color: #FFFFFF; height: 15px; width: 25px; border-color: #000000 #000000 #666666 #666666; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; font-style: normal; text-decoration: none; border: #000000; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+.fundo_azul_caixa {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #FFFFFF; background-color: #0066CC}
+.fundo_azul_caixa_dois {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #FFFFFF; text-decoration: none; background-color: #0066CC; height: 15px; width: 170px; border: 1px none; border-color: #0066CC none}
+.branco {  color: #FFFFFF; text-decoration: none}
+.branco:hover {  color: #FF9933; text-decoration: none}

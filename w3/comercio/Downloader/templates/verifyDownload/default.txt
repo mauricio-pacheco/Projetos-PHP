@@ -1,0 +1,1 @@
+<template><id>default</id><name>Default</name><version>2.5</version><colors><color><name>Blue</name><hex>blue</hex><preview>%%ISCURL%%templates/previews/default_blue_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/default_blue.jpg</previewFull></color></colors></template>

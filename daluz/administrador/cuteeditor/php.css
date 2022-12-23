@@ -1,0 +1,88 @@
+body,table,p,div,span {
+	font:normal 12px arial;
+}
+a:link {
+	color: #0033cc; text-decoration: underline
+}
+a:visited {
+	color: #0033cc; text-decoration: underline
+}
+a:active {
+	color: #0033cc; text-decoration: underline
+}
+a:hover {
+	color: #0000cc; text-decoration: none
+}
+hr { color: dimgrey; height:1px; text-align:left}
+p { margin:0px;}
+h1 { font:bold 17px verdana; margin-bottom:10px; color: #003399;}
+#footer { clear: both;	padding: 1em;	text-align: center;	border-top:solid 2px #ECECF6; }	
+.tab-inactive
+{
+	background-color: #003366; 
+	display:inline; 
+	padding-left: 6px;
+	padding-right: 6px;
+	height:20;
+	font:11px verdana;
+	font-weight: normal;
+	cursor:hand; 
+}
+.tab-active
+{
+	font:11px verdana;
+	font-weight: normal;
+	color: #000000;
+	border-top: 1px solid #c0c0c0;
+	border-right: 1px solid #c0c0c0;
+	border-left: 1px solid #c0c0c0;
+	border-bottom: 0px none #c0c0c0;
+	background-color: #efefef;
+	text-align: center;
+	display:inline;	
+	padding-top: 4px;
+	padding-right: 6px;
+	padding-left: 6px;
+}
+ 
+/*----Example CSS Class --*/ 
+img.greyborder {
+	border: 1px solid #c0c0c0;
+}
+img.invert {
+	filter: invert;
+}
+img.flip{
+	filter: fliph 
+}
+td.module {
+	background-color: #efefef;
+}
+td.content {
+	color: black; 
+	font-family: tahoma, arial, helvetica; 
+	font-weight: bold; 
+}
+/* hyperlink styles of the unselected tabs */
+a.othertabs:link, a.othertabs:visited, a.othertabs:active {
+	text-decoration: none;
+	color:#ffffff;
+}
+a.othertabs:hover {
+	text-decoration: underline;
+	color:#ffff00;
+}
+.subtabbg {
+	background-color: #efefef;
+}
+.redcolor{
+	color:red;
+}
+.boldgreen
+{
+	color: green; font-weight: bold;
+}
+.highlight
+{
+	background-color: yellow;
+}

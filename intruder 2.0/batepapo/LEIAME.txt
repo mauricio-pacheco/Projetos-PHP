@@ -1,0 +1,27 @@
+'========================================
+'= Desenvolvido por Armando Miani Neto  =
+'=     webestudos@webestudos.com.br     =
+'=  http://www.webestudos.com.br/sites  =
+'========================================
+
+INSTRUÇÕES: Descompacte o arquivo no servidor, coloque o arquivo
+global.asa na raiz do servidor e pronto!!
+
+Este chat conta com os seguintes recursos:
+	- Rolagem automática
+	- Mensagens reservadas
+	- Envio de imagens da web
+	- Caretas
+	- Apelidos coloridos
+	- Impressão do chat
+	- Envio de emails
+	- Envio de webpages para o ICQ
+
+
+Caso você adicione mais algum recurso, por favor, mande-me para o email:
+webestudos@webestudos.com.br estarei aguardando
+
+
+
+					Armando Miani Neto
+					webestudos@webestudos.com.br

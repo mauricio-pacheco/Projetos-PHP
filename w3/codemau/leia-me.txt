@@ -1,0 +1,13 @@
+*******************************************************************
+*            Adaptado por marcio alves de macedo                  *
+*******************************************************************              
+
+
+Está versão não está inicialmente em portugues!
+
+Quando tiver terminado de instalar de acordo com o Installation-english.txt
+então configure o idioma para o portugues!
+
+Ainda na configuração do coppermine ao escolher o tipo de compactação de imagens
+(GD1/GD2/ImageMagick) escolha 'Nenhum' para que o coppermine não crie thumbnails!
+Pronto agora é só criar um album e colocar suas figuras nele!

@@ -1,0 +1,481 @@
+UPGRADING
+
+CRM-CTT [ http://www.crm-ctt.com - hidde AT crm DASH ctt DOT com ]	
+
+## This document is used for noticing upgrade issues when upgrading CRM-CTT
+
+Upgrading from CRM 3.4.1 to 3.4.2
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-3.4.2
+3. Copy your old config file over the empty distributed one
+4. Small databases:
+	Point your browser to http://yoursite/your/upgrade.php and follow instructions
+   Large databases:
+	Go to your installation directory, type "php -q ./upgrade.php" and follow instructions
+5. You're done
+
+Upgrading from CRM 3.4.0 to 3.4.1
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-3.4.1
+3. Copy your old config file over the empty distributed one
+4. Small databases:
+	Point your browser to http://yoursite/your/upgrade.php and follow instructions
+   Large databases:
+	Go to your installation directory, type "php -q ./upgrade.php" and follow instructions
+5. This upgrade can take quite a long time (all binairy data (like files) will 
+   be copied to another table)
+6. You're done
+
+Upgrading from CRM 3.3.2 to 3.4.0
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-3.4.0
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. Check the FormFinity setting (very important!)
+6. You're done
+
+Upgrading from CRM 3.3.1 to 3.3.2
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-3.3.2
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 3.3.0 to 3.3.1
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-3.3.1
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. The emails which are sent when adding or updating an entity are now triggers. The 
+   settings BODY_ENTITY_ADD and BODY_ENTITY_EDIT are no longer used. Copy these 
+   e-mail templates to a real template, and create triggers for these functions.
+6. You're done.
+
+Upgrading from CRM 3.2.0 to 3.3.0
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-3.3.0
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 3.1.0 to 3.2.0
+
+Note!!
+
+- This upgrade routine executes a *large* number of heavy database queries. This is
+purely housekeeping; lots of obsolete indices are deleted and new ones are created. 
+On large databases, this will take a long a time. 
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-3.2.0
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 3.0.0 to 3.1.0
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-3.1.0
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+6. Re-set your required default fields (if you had any) for those 3 settings will be lost.
+
+Upgrading from CRM 2.6.2 to 3.0.0
+
+	Warning: this version implements a complete new way of managing extra fields. This
+	affects the user experience, and the upgrade routine is pretty heavy. It will take 
+	care of all conversions to be done. The way it's implemented now makes CRM-CTT much 
+	more flexible for future enhanchements. 
+
+	Before upgrading, please check your unreferenced extra fields. After upgrading, fields
+	which are already unreferenced in your current 2.6.2 installation cannot be restored. To
+	avoid this, restore your unreferenced fields before upgrading, and delete them again
+	afterwards.
+
+	Because of the extra field change, you will have to edit all templates which use extra 
+	field values because the reference will be changed. Also, you'll need to re-set your
+	main entity and customer list layout (if you had any extra fields in it)
+
+More than for the "normal" upgrades, point 1 of the list counts!
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-3.0.0
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 2.6.1(SR1) to 2.6.2
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-2.6.2
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 2.6.1 to 2.6.1-SR1
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-2.6.1-SR1
+3. Copy your old config file over the empty distributed one
+4. - NO DATABASE UPGRADE  
+5. You're done
+
+Upgrading from CRM 2.6.0 to 2.6.1
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-2.6.1
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 2.5.3 to 2.6.0
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-2.6.0
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. When you use Invoice & Mailmerge, be aware that 1 new sample report was attached, and
+   that, since CRM-CTT now uses types for RTF templates, you have to download and re-upload
+   your templates in order to tell CRM-CTT what type of template it is.
+6. You're done
+
+Upgrading from CRM 2.5.2 to 2.5.3
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-2.5.3
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. When you use Invoice & Mailmerge, be aware that 2 new sample invoices were attached
+6. You're done
+
+Upgrading from CRM 2.5.1 to 2.5.2
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-2.5.2
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 2.5.0 to 2.5.1
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-2.5.1
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 2.4.6 to 2.5.0
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-2.4.6
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. Go to the admin section, change system values, and check the value of the
+   TMP_FILE_PATH setting. It must be pointing to a (server-) disk location where
+   your webserver is allowed to store temporary files. (e.g. on *NIX commonly /tmp/)
+6. You're done
+
+Upgrading from CRM 2.4.5 to 2.4.6
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-2.4.6
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 2.4.4 to 2.4.5
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-2.4.5
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 2.4.3 to 2.4.4
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-2.4.4
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 2.4.2 to 2.4.3
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-2.4.3
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 2.4.1 to 2.4.2
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-2.4.2
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 2.4.0 to 2.4.1
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-2.4.1
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 2.3.0 to 2.4.0
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-2.4.0
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. Create a directory in you CRM installation directory called "webdav_fs" and 
+   make sure your webserver can write files to that directory.
+6. Create a file in the webdav_fs/ directory named ".htaccess", and paste the following 
+   text into that file:
+
+	AuthUserFile ITDOESNOTEXIST
+	AuthGroupFile None
+	AuthName YOU_CANNOT_LOGIN_HERE_DONT_TRY
+	AuthType Basic
+	require user YOU_CANNOT_LOGIN_HERE_DONT_TRY
+
+7. You're done
+
+Upgrading from CRM 2.2.0 to 2.3.0
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-2.3.0
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 2.1.0 to 2.2.0
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-2.2.0
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 2.0.0 to 2.1.0
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-2.1.0
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 1.9.6 to 2.0.0
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-2.0.0
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 1.9.5 to 1.9.6
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-1.9.6
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 1.9.4 to 1.9.5
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-1.9.5
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 1.9.3 to 1.9.4
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-1.9.4
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 1.9.2 to 1.9.3
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-1.9.3
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. (optional) In your config file, add a variable $table_prefix[nr] = "CRM"; to all
+   your ex-1.9.2 CRM installations, e.g. if you had a config file like this: (yes! ASCII art!)
+
+	----%<---------- config.inc.php -------------------
+	|						  |
+	|	$host[0] = "dbserver";			  |
+	|	$user[0] = "root";			  |
+	|	$pass[0] = "password";			  |
+	|	$database[0] = "CRM_DEP_A";		  |
+        |						  |
+	|	$host[1] = "dbserver";			  |
+	|	$user[1] = "root";			  |
+	|	$pass[1] = "password";			  |
+	|	$database[1] = "CRM_DEP_B";		  |
+	|						  |
+	---->%---------- /config.inc.php ------------------
+
+   Modify it to this:	
+
+	----%<---------- config.inc.php -------------------
+	|						  |
+	|	$host[0] = "dbserver";			  |
+	|	$user[0] = "root";			  |
+	|	$pass[0] = "password";			  |
+	|	$database[0] = "CRM_DEP_A";		  |
+	|	$table_prefix[0] = "CRM";		  |
+	|						  |
+	|	$host[1] = "dbserver";			  |
+	|	$user[1] = "root";			  |
+	|	$pass[1] = "password";			  |
+	|	$database[1] = "CRM_DEP_B";		  |
+	|	$table_prefix[1] = "CRM";		  |
+	|						  |
+	---->%---------- /config.inc.php ------------------
+   
+   If you don't do this, CRM will assume the table prefix being CRM for all
+   repositories which do not have these variables specified. The admin section
+   will generate an error, though everything will work. Nevertheless, it is
+   recommended you adjust your config file.
+
+6. You're done
+
+Upgrading from CRM 1.9.1 to 1.9.2
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-1.9.2
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 1.9.0 to 1.9.1
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-1.9.1
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. You're done
+
+Upgrading from CRM 1.8.2 to 1.9.0
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-1.9.0
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. Delete all your language packs but English (which you cannot delete)
+6. Install new language packs (available at http://crm.it-combine.com)
+7. You're done
+
+Upgrading from CRM 1.8.(x) to 1.8.2
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-1.8.2
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and follow instructions
+5. Delete all your language packs but English (which you cannot delete)
+6. Install new language packs (available at http://crm.it-combine.com)
+7. You're done
+
+
+Upgrading from CRM 1.8 to 1.8.1
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-1.8
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and watch what happens
+5. You're done
+
+
+Upgrading from CRM 1.8pre1 to 1.8 stable
+
+1. Backup your CRM directory and your database
+2. Unpack crm-ctt-1.8
+3. Copy your old config file over the empty distributed one
+4. Point your browser to http://yoursite/your/upgrade.php and watch what happens
+5. You're done
+
+Feel free to examine upgrade.php to see what exactly happens.
+
+
+Upgrading from CRM 1.7(a|b|c|d) to 1.8(..preX)
+
+-- It is generally not recommended to upgrade from 1.7() to 1.8. If you do want to, read the following
+or send me an e-mail.
+
+Execute the following statement in your CRM MySQL installation:
+
+ALTER TABLE `CRMloginusers` ADD `FULLNAME` VARCHAR(150) NOT NULL, ADD `EMAIL` VARCHAR(150) NOT NULL, ADD `CLLEVEL` ENUM('ro','rw','ooro','oorw') NOT NULL; 
+
+Upgrading from CRM 1.7c to 1.7d
+
+A configuration option was added. When upgrading, please issue to following SQL statement
+to your MySQL installation:
+
+    INSERT INTO `CRMsettings` (`settingid`, `setting`, `value`, `datetime`, `discription`) VALUES ('', 'MonthsToShow', '7', NOW(), 'The number of months to show in the various calendar appearances.')
+
+And an option to log file owners when adding a file was added for which you need to execute the following statement:
+
+    ALTER TABLE `CRMbinfiles` ADD `username` VARCHAR(150) NOT NULL;  
+    
+For questions (or if you need a script to do this for you) please mail me.
+
+Upgrading from CRM 1.7(a|b) to 1.7c (do not upgrade from 1.7 to 1.7c!)
+
+Backup you config.inc.php. Untar all installation files over the old files in your CRM in-
+stallation directory. When, copy back your config.inc.php file and you're all set.
+
+Upgrading from CRM 1.7(a) to 1.7b
+
+Just copy the csv.php file from the 1.7b distribution over the old one. 
+
+Upgrading from CRM 1.7 to 1.7a
+
+CRM 1.7a using a new way to encrypt it's passwords. Do not attempt to upgrade. If you still do,
+consider only replacing auth3.inc.php and emptying all your password in the CRMloginusers table.
+
+Upgrading from CRM =< 1.6 to CRM >= 1.7
+
+As also stated in the CHANGELOG, 1.7 can not be installed over a previous version.(unless it is VERY urgent)
+
+Upgrading from CRM =< 1.6 to 1.7pre1 or 1.7pre2
+
+As also stated in the CHANGELOG, 1.7 can not be installed over a previous version.
+
+Upgrading from CRM 1.5x to 1.6
+
+CRM 1.6 comes with a minor database structure update. A field must be added
+to the CRMuselog table, and to the CRMloginusers table. This is all handled 
+by the upgrade procedure.
+
+Upgrading from CRM 1.5e to 1.5f
+
+No installation issues. Unpack the 1.5f tarball over your old installation directory, but
+make sure you back up your config.inc.php file first. 
+
+Upgrading from CRM 1.5d to 1.5e
+
+No installation issues. Unpack the 1.5e tarball over your old installation directory, but
+make sure you back up your config.inc.php file first. Afterwards, remove the remaining manual.php file.
+
+Upgrading from CRM =< 1.5c to 1.5d
+
+- You'll have to execute an SQL statement using your MySQL console, or a tool like PHPMyAdmin. The
+query is:
+
+INSERT INTO CRMsettings VALUES (9, 'timeout','20','','Number of minutes before a user is automatically logged off when there is no activity');
+
+This will add the 'timeout' config setting to the database. It will automatically appear in you
+administration interface.

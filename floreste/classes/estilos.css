@@ -1,0 +1,12 @@
+BODY { background-image:url(../imagens/bg.jpg);
+}
+.fontemaior {
+font-family:Tahoma, Geneva, sans-serif; color:#f9f9f9; font-size:15px;
+}
+.fontegeral {
+font-family:Tahoma, Geneva, sans-serif; color:#f9f9f9; font-size:13px;
+}
+.fontegeral a:hover {
+font-family:Tahoma, Geneva, sans-serif; color:#f9f9f9; font-size:13px;
+}
+

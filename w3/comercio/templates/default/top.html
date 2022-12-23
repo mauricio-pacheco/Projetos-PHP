@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+%%Panel.HTMLHead%%
+<body>
+
+	<!-- Thie top.html and bottom.html files are *ONLY* used when ActiveKB -->
+	<!-- is integrated into your store. If you haven't integrated ActiveKB -->
+	<!-- then they don't need to be changed and wont affect anything. -->
+
+	<!-- Overwrite default ActiveKB min-height and width styles -->
+	<style>
+		.TitleHeading { padding-left:-25px; }
+		.Content img { padding-right:10px; }
+		#LayoutColumn2 #livesearch { display:none; }
+		#LayoutColumn2 #question_crumbs, #LayoutColumn2 .Box { border:none; background-color:#FFF; }
+		#LayoutColumn2 #question_crumbs { margin-left:0px; }
+	</style>
+	<!-- End styles -->
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#livesearch').css('width', '200px');
+			$('#livesearch').css('display', 'inline');
+		});
+	</script>
+
+	<!-- Positioning hack for FireFox (IE doesn't support comment tags) -->
+	<comment>
+		<style>
+			.TitleHeading { margin-left:-27px; }
+		</style>
+	</comment>
+	<!-- End IE hack -->
+
+	<div id="Container">
+	%%Panel.Header%%
+
+	<div id="Wrapper">
+		<div class="Left" id="LayoutColumn1">
+			%%Panel.SideCategoryList%%
+			%%Panel.SideShopByBrand%%
+			%%Panel.SideNewsletterBox%%
+		</div>
+		<div class="Content Wide" id="LayoutColumn2">
+
+
+<!-- End Top Template -->

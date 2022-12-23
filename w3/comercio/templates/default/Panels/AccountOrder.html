@@ -1,0 +1,81 @@
+<div class="Block Moveable AccountOrder" id="AccountOrder">
+	<div class="BlockContent">
+		<p class="InfoMessage">
+			%%LNG_YourOrderDetailsBelow%%
+		</p>
+
+		<p class="Meta">
+			<span style="display: %%GLOBAL_HideOrderStatus%%">
+				<strong>%%LNG_OrderStatus%%:</strong> %%GLOBAL_OrderStatus%%<br />
+			</span>
+			<strong>%%LNG_OrderDate%%:</strong> %%GLOBAL_OrderDate%%<br />
+			<strong>%%LNG_OrderRecipient%%:</strong> %%GLOBAL_Recipient%%<br />
+			<strong>%%LNG_OrderTotal%%: %%GLOBAL_OrderTotal%%</strong>
+		</p>
+
+		<hr />
+
+		<div class="BillingDetails">
+			<h3>%%LNG_BillingDetails%%</h3>
+			%%GLOBAL_BillingAddress%%
+		</div>
+
+		<div class="ShippingDetails">
+			<h3>%%LNG_ShippingDetails%%</h3>
+			%%GLOBAL_ShippingAddress%%
+		</div>
+
+		<hr class="Clear" />
+
+		<h3>Order #%%GLOBAL_OrderId%% %%LNG_ContainsTheFollowingItems%%:</h3>
+
+		<table cellspacing="0" cellpadding="0" class="CartContents">
+			<thead>
+				<tr>
+					<th>%%LNG_ItemDetails%%</th>
+					<th style="width: 15%; text-align: right;">%%LNG_Price%%</th>
+				</tr>
+			</thead>
+			<tbody>
+				%%SNIPPET_AccountOrderItemRow%%
+				<tr class="SubTotal">
+					<td>%%LNG_Items%%:</td>
+					<td><em class="ProductPrice">%%GLOBAL_OrderSubTotal%%</em></td>
+				</tr>
+				<tr class="SubTotal">
+					<td>%%LNG_Shipping%%:</td>
+					<td><em class="ProductPrice">%%GLOBAL_ShippingCost%%</em></td>
+				</tr>
+				<tr class="SubTotal" style="display: %%GLOBAL_HideHandling%%">
+					<td>%%LNG_Handling%%:</td>
+					<td><em class="ProductPrice">%%GLOBAL_HandlingCost%%</em></td>
+				</tr>
+
+				<tr class="SubTotal" style="display:%%GLOBAL_HideTax%%">
+					<td>%%GLOBAL_SalesTaxName%%:</td>
+					<td><em class="ProductPrice">%%GLOBAL_TaxCost%%</em></td>
+				</tr>
+
+				<tr class="SubTotal">
+					<td>%%LNG_TotalCost%%:</td>
+					<td><em class="ProductPrice">%%GLOBAL_OrderTotal%%</em></td>
+				</tr>
+				
+				<tr class="SubTotal" style="display:%%GLOBAL_HideTaxIncluded%%">
+					<td>%%GLOBAL_SalesTaxName%%:</td>
+					<td><em class="ProductPrice">%%GLOBAL_TaxCost%%</em></td>
+				</tr>				
+			</tbody>
+		</table>
+				<div style="%%GLOBAL_HideOrderComments%%">
+			<hr class="Clear" />
+			<h3>%%LNG_OrderComments%%</h3>
+			<div class="PL20">
+				<p>
+					%%GLOBAL_OrderComments%%
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+%%Panel.AccountOrderJavaScript%%

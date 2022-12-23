@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+%%Panel.HTMLHead%%
+<body>
+	<div id="Container">
+	%%Panel.Header%%
+
+	<div id="Wrapper">
+		<div class="Content Wide" id="LayoutColumn1">
+			%%Panel.AccountNewReturnBreadcrumb%%
+			<form action="%%GLOBAL_ShopPath%%/account.php?action=save_new_return" method="post" onsubmit="return check_return_form()">
+				<input type="hidden" name="order_id" value="%%GLOBAL_OrderId%%" />
+				<div class="Block">
+					<h2>%%LNG_SubmitNewReturn%%</h2>
+					<div class="BlockContent">
+						<p class="ErrorMessage" style="display:%%GLOBAL_HideErrorMessage%%">
+							%%GLOBAL_ErrorMessage%%
+						</p>
+						%%Panel.AccountNewReturnProducts%%
+						%%Panel.AccountNewReturnInfo%%
+					</div>
+				</div>
+			</form>
+			<script type="text/javascript">
+			function check_return_form() {
+				var sel = false;
+				$('.ReturnQty').each(function() {
+					if($(this).val() > 0) {
+						sel = true;
+					}
+				});
+
+				if(sel == false) {
+					alert('%%LNG_SelectOneMoreItemsReturn%%');
+					return false;
+				}
+
+				if($('#return_reason').val() == '') {
+					alert('%%LNG_SelectReturnReason%%');
+					$('#return_reason').focus();
+					return false;
+				}
+			}
+			</script>
+		</div>		
+		<div class="Right" id="LayoutColumn2">
+			%%Panel.SideAccountMenu%%
+		</div>
+		<br class="Clear" />
+	</div>
+	%%Panel.Footer%%
+</div>
+</body>
+</html>

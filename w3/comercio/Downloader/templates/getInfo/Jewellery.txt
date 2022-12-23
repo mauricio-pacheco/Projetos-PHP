@@ -1,0 +1,1 @@
+<template><id>Jewellery</id><name>Jewellery</name><version>1.6</version><colors><color><name>Black</name><hex>black</hex><preview>%%ISCURL%%templates/previews/Jewellery_black_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/Jewellery_black.jpg</previewFull></color></colors></template>

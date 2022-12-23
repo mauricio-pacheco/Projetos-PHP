@@ -1,0 +1,73 @@
+ONLY FOR PHPNUKE 5.5 and up ! or POST-NUKE 7.2.6+!
+For problems and support, go into the New Forum:  
+http://coppermine.findhere.org/modules.php?name=Forums
+
+
+ONLY DEFAULT THEME is included in this package.
+It is easy to change the look to match your theme by editing the css file. Copy the default directory to a folder in the themes directory of the name of your choice and edit to your delight.
+
+English and Italian and Indonesian have been tested and included, more languages are available at:
+http://sourceforge.net/project/showfiles.php?group_id=89658&release_id=201168
+
+Themes, Blocks, and Alternative Download
+http://coppermine.findhere.org/
+New Forum  
+http://coppermine.findhere.org/modules.php?name=Forums
+
+IPTC and EXIF functionality are newly introduced in CPG try them, if you find they don't work for you, please let us know the details with a sample URL where we can see the error.
+
+
+*** POST-NUKE IMPORTANT NOTICE ***
+
+this release should work in postnuke .7xx
+the directory "blocks" which include blocks doesn't work in postNuke we are searching for a solution.
+please notify us about any error/bug
+
+Use modules.php?op=modload&name=coppermine&file=install to install coppermine into postnuke
+
+*** NEW INSTALL ***
+
+1. Upload all content of this zip excluding this readme
+2. chmod the following folders to 777
+   - modules/coppermine/albums and all subfolders
+3. Go to http://yoursite.com/modules/coppermine/install.php
+   and proceed with the install
+4. When install succeeded:
+   - Remove modules/coppermine/install.php
+
+
+*** UPDATE from 1.1d OR 1.2 RC1/RC2/RC3/RC4 ***
+
+1. Delete from your server any language files or themes not included in this release (1.1d files)++
+2. Upload all content of this zip excluding this readme
+3. Go to http://yoursite.com/modules/coppermine/install.php
+   and proceed with the install. If install fails stop, search in forum.
+4. When install succeeded:
+   - Remove modules/coppermine/install.php
+5. RC5 blocks have changed since RC4
+
+
+*** How to install multiple galleries ***
+
+It's possible to have multiple galleries of coppermine in your phpNuke.
+1. Upload the content of modules/coppermine to a new folder say: modules/YourGallery there is no need for the coppermine/lang/*  language vars will be from your first install
+2. Go to modules/YourGallery/install.php and follow instructions
+3. Your second gallery is born :)
+4. You may also use the "block-CPG-*" blocks for that gallery copy the file and edit
+   $cpg_dir="coppermine"; Change "coppermine" to the other directory name
+   (for ex. "YourGallery") NOTICE: The block "CPG Stats" already uses all installs.
+
+WARNING! There is no seperate Group setup yet so be sure both galleries have the same groups. We added multigroup setup to CPG but only the setup works. The functionality for it will be added in next release
+
+----------------------------------------
+ADDONS:
+http://coppermine.sourceforge.net
+++
+you can safely remove the following files from your server:
+admin.php
+getlang.php
+login.php
+logout.php
+register.php
+include/pagetitle.inc.php
+showthumb.php

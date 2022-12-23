@@ -1,0 +1,81 @@
+<script type="text/javascript">
+
+	/* Make sure all credit card details have been provided and are valid */
+	function check_authorizenet_payment_form() {
+		var authorizenet_name = g("AuthorizeNet_name");
+		var authorizenet_ccno = g("AuthorizeNet_ccno");
+		var authorizenet_ccexpm = g("AuthorizeNet_ccexpm");
+		var authorizenet_ccexpy = g("AuthorizeNet_ccexpy");
+		var authorizenet_ccaddress = g("AuthorizeNet_ccaddress");
+		var authorizenet_cccity = g("AuthorizeNet_cccity");
+		var authorizenet_ccstate = g("AuthorizeNet_ccstate");
+		var authorizenet_zip = g("AuthorizeNet_zip");
+
+		if(authorizenet_name.value == "") {
+			alert("%%LNG_AuthorizeNetEnterName%%");
+			authorizenet_name.focus();
+			return false;
+		}
+
+		if(isNaN(authorizenet_ccno.value) || authorizenet_ccno.value == "") {
+			alert("%%LNG_AuthorizeNetEnterCardNumber%%");
+			authorizenet_ccno.focus();
+			authorizenet_ccno.select();
+			return false;
+		}
+
+		if(requiresCVV2() && ($('#cc_cvv2').val() == '' || isNaN($('#cc_cvv2').val()) || $('#cc_cvv2').val().length > 4)) {
+			alert('%%LNG_AuthorizeNetEnterCVV2Number%%');
+			$('#cc_cvv2').focus();
+			$('#cc_cvv2').select();
+			return false;
+		}
+
+		if(authorizenet_ccexpm.selectedIndex == 0) {
+			alert("%%LNG_AuthorizeNetEnterCreditCardMonth%%");
+			authorizenet_ccexpm.focus();
+			return false;
+		}
+
+		if(authorizenet_ccexpy.selectedIndex == 0) {
+			alert("%%LNG_AuthorizeNetEnterCreditCardYear%%");
+			authorizenet_ccexpy.focus();
+			return false;
+		}
+
+		if(authorizenet_ccaddress.value == "") {
+			alert("%%LNG_AuthorizeNetEnterBillingAddress%%");
+			authorizenet_ccaddress.focus();
+			return false;
+		}
+
+		if(authorizenet_cccity.value == "") {
+			alert("%%LNG_AuthorizeNetEnterCity%%");
+			authorizenet_cccity.focus();
+			return false;
+		}
+
+		if(authorizenet_ccstate.value == "") {
+			alert("%%LNG_AuthorizeNetEnterState%%");
+			authorizenet_ccstate.focus();
+			return false;
+		}
+
+		if(authorizenet_zip.value == "") {
+			alert("%%LNG_AuthorizeNetEnterPostcode%%");
+			authorizenet_zip.focus();
+			return false;
+		}
+
+		return true;
+	}
+
+	function requiresCVV2() {
+		if($('#CVV2Input').css('display') != 'none') {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+</script>

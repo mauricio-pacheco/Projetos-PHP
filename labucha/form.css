@@ -1,0 +1,998 @@
+INPUT {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #cccccc 1px solid; COLOR: #e6e6e6; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #000000
+}
+SELECT {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #cccccc 1px solid; COLOR: #e6e6e6; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #000000
+}
+INPUT {
+	BORDER-BOTTOM-COLOR: #88693A; BORDER-LEFT-COLOR: #88693A; BORDER-RIGHT-COLOR: #88693A; BORDER-TOP-COLOR: #88693A; COLOR: #88693A; FONT-SIZE: 10px; input.radio: #F4F6FB 
+}
+SELECT {
+	BORDER-BOTTOM-COLOR: #88693A; BORDER-LEFT-COLOR: #88693A; BORDER-RIGHT-COLOR: #88693A; BORDER-TOP-COLOR: #88693A; COLOR: #88693A; FONT-SIZE: 10px; input.radio: #F4F6FB 
+}
+FONT {
+	font-family: Verdana,Helvetica; 
+	font-size: 10px;
+}
+A:link {
+FONT-SIZE: 10px; 
+COLOR: #AF9B6D; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+A:visited {
+FONT-SIZE: 10px; 
+COLOR: #AF9B6D; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+A:active {
+FONT-SIZE: 10px; 
+COLOR: #ffffff; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+A:hover {
+FONT-SIZE: 10px; 
+COLOR: #666666; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+
+TD {
+	font-family: Verdana,Helvetica; 
+	font-size: 10px;
+}
+
+BODY {
+	font-family: Verdana,Helvetica; 
+	font-size: 10px;
+}
+
+P {
+	font-family: Verdana,Helvetica; 
+	font-size: 10px;
+}
+
+DIV {
+	font-family: Verdana,Helvetica; 
+	font-size: 10px;
+}
+
+/* The content of the posts (body of text) */
+body {
+	background:#ffffff;
+	color:#ffffff;
+	font:12px Verdana,Arial,Helvetica,sans-serif;
+	}
+
+/* General text */
+.gensmall {
+	font-size:10px;
+}
+
+td.genmed,.genmed {
+	font-size:11px;
+}
+
+.explaintitle {
+	font-size:11px;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+
+/* titles for the topics:could specify viewed link colour too */
+.topictitle {
+	font-size:11px;
+	font-weight:bold;
+}
+
+
+
+/* Name of poster in viewmsg.php and viewtopic.php and other places */
+.name {
+	font-size:11px;
+	font-weight: bold;
+}
+
+hr {
+	border: 0px solid #ffffff;
+	border-top-width:1px;
+	height:0px;
+}
+
+/* Category gradients*/
+td.cat {
+	font-weight:bold;
+	letter-spacing:1px;
+	background:#ffffff url(../forums/images/cellpic1.gif);
+	height:27px;
+	text-indent:4px;
+}
+
+.newsbar {
+	background: #FCFCFC url(../images/newsbar_top.jpg);
+	font-size:11px;
+	color: #F7F7F7;
+	font-weight: bold; 
+	text-align: left;
+	height: 29px;
+	padding:0px 4px 0px 4px;
+}
+
+.articles {
+	background: #FFFFFD url(../images/newsbar_bottom.jpg);
+	color: #006D16;
+	font-weight: normal; 
+	text-align: left;
+	height: 24px;
+	padding:0px 4px 0px 4px;
+}
+
+
+.articles_base {
+	background: #FFFFFD url(../images/newsbar_bottom.jpg);
+	color: #006D16;
+	font-weight: normal; 
+	padding:6px 4px 4px 4px;
+}
+
+/* Main table cell colours and backgrounds */
+.row1 {
+	background:#EBEBEB;
+}
+
+.row2,.helpline {
+	background:#E9E9E9;
+}
+
+.row3 {
+	background:#E6E5E5;
+}
+
+td.spacerow {
+	background:#DAD8D8;
+}
+
+/* This is for the table cell above the Topics,Post & Last posts on the index.php */
+td.rowpic {
+	background:url(../forums/images/cellpic1.gif) #ffffff repeat-x;
+}
+
+/* Table Header cells */
+th {
+	background:#151515;
+	color:#F7F7F7;
+	font-size:11px;
+	font-weight:bold;
+	height:2px;
+	white-space:nowrap;
+	text-align:center;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+/* This is the border line & background colour round the entire page */
+.bodyline {
+	background:#ffffff;
+	border:1px solid #98aab1;
+}
+
+/* This is the outline round the main forum tables */
+.forumline{background:#ffffff;border:1px solid #ffffff}
+
+/* The largest text used in the index page title and toptic title etc. */
+.maintitle,h1 {
+	font:bold 12px Verdana,Arial,Helvetica,sans-serif;
+	text-decoration:none;
+	color:#ffffff;
+}
+
+.subtitle,h2 {
+	font:bold 12px Verdana,Arial,Helvetica,sans-serif;
+	text-decoration:none;
+}
+
+/* Used for the navigation text,(Page 1,2,3 etc) and the navigation bar when in a forum */
+.nav {
+	font-size:11px;
+	font-weight:bold;
+}
+
+.postbody {
+	font-size:12px;
+	line-height:125%;
+}
+
+/* Location,number of posts,post date etc */
+.postdetails {
+	font-size:10px;
+	color:#00396a;
+}
+
+
+/* Code blocks */
+
+.code {
+	font-family: Courier, 'Courier New', sans-serif; font-size: 11px; color: #990000;
+	background-color: #FCFCFC; border: #ffffff; border-style: dotted;
+	border-left-width: 1px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px
+}
+
+.quote {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #0C0C0C; line-height: 125%;
+	background-color: #FCFCFC; border: #ffffff; border-style: dotted;
+	border-left-width: 1px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px
+}
+
+
+/* This is for the error messages that pop up */
+.errorline {
+	background:#B51F2A;
+	border:1px solid #ffffff;
+}
+
+/* Form elements */
+
+
+
+/* This is the line in the posting page which shows the rollover
+help line. Colour value in row2 */
+.helpline {
+	border-style:none;
+}
+
+
+/* This is the gradient background at the top of the page */
+.topbkg {
+	background: #EAEAEA url(../forums/images/cellpic_bkg.jpg) repeat-x;
+}
+
+.topnav {
+	font-size:10px;
+	background: #EAEAEA url(../forums/images/cellpic_nav.gif) repeat-x;
+	color:#FF7E00;
+	height:21px; 
+	white-space:nowrap;
+	border: 0px solid #91a0ae;
+	border-width: 1px 0px 1px 0px;
+}
+
+.topnav2 {
+	font-size:10px;
+	color:#FF7E00;
+	height:21px;
+	white-space:nowrap;
+	border: 0px;
+}
+
+/* Admin & Moderator Colours MODification */
+.admin,.mod {
+	font-size:11px;
+	font-weight:bold;
+}
+
+.admin,a.admin,a.admin:visited {
+	color:#ffa34f;
+}
+
+.mod,a.mod,a.mod:visited {
+	color:#006600;
+}
+
+a.admin:hover,a.mod:hover {
+	color:#FF7E00;
+}
+
+/* Specify the space around images */
+.imgtopic,.imgicon {
+	margin-left:3px;
+}
+
+.imgspace {
+	margin-left:1px;margin-right:2px;
+}
+
+.imgfolder {
+	margin:1px;margin-left:4px;margin-right:4px;
+}
+
+/* Gets rid of the need for border="0" on hyperlinked images */
+img {
+	border:0
+}
+
+.title {
+	background: none; 
+	color: #ffffff; 
+	font-size: 13px; 
+	font-weight: bold; 
+	font-family: Verdana, Helvetica; text-decoration: none;
+}
+
+.content {
+	background: none; 
+	color: #ffffff;
+	font-size: 10px; 
+	font-family: Verdana, Helvetica;
+}
+
+.block-title {
+	background: none; 
+	color: #ffffff; 
+	font-size: 11px; 
+	font-family: Verdana, Helvetica;
+}
+
+
+.storycat {
+	background: none; 
+	color: #ffffff; 
+	font-size: 10px; 
+	font-weight: bold; 
+	font-family: Verdana, Helvetica; text-decoration: underline;
+}
+
+.tiny {
+	background: none; 
+	color: #ffffff; 
+	font-size: 10px; 
+	font-weight: normal; 
+	font-family: Verdana, Helvetica; text-decoration: none;
+}
+
+.small {
+	background: none; 
+	color: #ffffff; 
+	font-size: 9px; 
+	font-weight: normal; 
+	font-family: Verdana, Helvetica; text-decoration: none;
+}
+
+.dcode {
+	background: none; 
+	color: #ffffff; 
+	font-size: 10px; 
+	font-weight: bold; 
+	font-family: Verdana, Helvetica; text-decoration: none;
+}
+
+.dcode2 {
+	background: none; 
+	color: #ffffff; 
+	font-size: 10px; 
+	font-weight: bold; 
+	font-family: Verdana, Helvetica; text-decoration: none;
+}
+
+.cr {
+	font-family: verdana; 
+	font-size: 10px; 
+	filter: DropShadow(Color=#ffffff, OffX=1, OffY=1, Positive=1);
+}
+
+/* Background images for tables */
+ .tbl{border-collapse:collapse;height:4px;width:100%}
+.tbll{background: url(../forums/images/tb4_l.gif) no-repeat;width:8px}
+.tblbot{background: url(../forums/images/tb4_m.gif) repeat-x;width:100%}
+.tblr{background: url(../forums/images/tb4_r.gif) no-repeat;width:8px}
+
+
+.sf {	FONT-SIZE: 10px; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+A:link {
+FONT-SIZE: 10px; 
+COLOR: #AF9B6D; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+A:visited {
+FONT-SIZE: 10px; 
+COLOR: #AF9B6D; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+A:active {
+FONT-SIZE: 10px; 
+COLOR: #ffffff; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+A:hover {
+FONT-SIZE: 10px; 
+COLOR: #666666; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+BODY {
+FONT-SIZE: 10px; 
+CURSOR: default; 
+COLOR: #ffffff; 
+BACKGROUND-color: #151515; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+
+TEXTAREA {
+background-image: url(../../../themes/XD-Obstuse/images/HD/textbg.gif);
+background-repeat: repeat-x;
+color:#ffffff;
+font-size: 11px;
+font-family: Arial,Helvetica,sans-serif;
+background-color : #373737;
+BORDER-TOP: #232323 1px solid; 
+BORDER-BOTTOM: #898988 1px solid; 
+BORDER-LEFT: #232323 1px solid; 
+BORDER-RIGHT: #898988 1px solid;
+}
+P {
+FONT-SIZE: 12px; 
+COLOR: #ffffff; 
+LINE-HEIGHT: 1.4; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+TABLE {
+FONT-SIZE: 12px; 
+COLOR: #ffffff; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+
+TD.content {
+FONT-SIZE: 12px;
+COLOR: #ffffff; 
+TEXT-DECORATION: none;
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif;
+ 
+}
+TD.extra {
+background-image: url(../../../themes/XD-Obstuse/images/HD/row111.gif);
+background-repeat: repeat-x;
+background-color : #171717;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+
+TD.extras {
+background-image: url(../../../themes/XD-Obstuse/images/HD/row111.gif);
+background-repeat: repeat-x;
+background-color : #171717;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+
+hr {
+border-top: 1px solid #272727;
+border-bottom: 1px solid #615F5F;
+height: 2px;
+width: 100%;
+}
+TD.info1 {
+background-image: url(../../../themes/XD-Obstuse/images/HD/row111.gif);
+background-repeat: repeat-x;
+background-color : #171717;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+
+
+UL {
+	LIST-STYLE-TYPE: square
+}
+.center {
+	TEXT-ALIGN: center
+}
+.justify {
+	TEXT-ALIGN: justify
+}
+.right {
+	TEXT-ALIGN: right
+}
+H1 {
+FONT-WEIGHT: bold; 
+FONT-SIZE: 12px; 
+COLOR: #ffffff; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+LETTER-SPACING: 0px; 
+TEXT-DECORATION: none
+}
+.heading {
+FONT-WEIGHT: bold; 
+FONT-SIZE: 12px; 
+COLOR: #ffffff; 
+FONT-FAMILY: Tahoma; 
+LETTER-SPACING: 0px; 
+TEXT-DECORATION: none
+}
+.heading1 {
+FONT-WEIGHT: bold; 
+FONT-SIZE: 12px; 
+COLOR: #ffffff; 
+FONT-FAMILY: Tahoma; 
+LETTER-SPACING: 0px; 
+TEXT-DECORATION: none
+}
+.blocktitle {
+FONT-WEIGHT: bold; 
+FONT-SIZE: 12px; 
+COLOR: #AF9B6D; 
+FONT-FAMILY: arial; 
+LETTER-SPACING: 0px; 
+TEXT-DECORATION: none
+}
+/*Only IE will show for the scroller style */
+BODY {
+SCROLLBAR-BASE-color:  #333333;
+SCROLLBAR-ARROW-color: #AF9B6D;
+}
+
+/* Copyright and bottom info */
+.copyright { font-size: 10px; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif; color: #AF9B6D;}
+a.copyright { font-size: 10px; font-weight: bold; color: #AF9B6D; text-decoration: none;}
+a.copyright:link { font-size: 10px; font-weight: bold; color: #AF9B6D; text-decoration: NONE;}
+a.copyright:active { font-size: 10px; font-weight: bold; color: #AF9B6D; text-decoration: NONE;}
+a.copyright:visited { font-size: 10px; font-weight: bold; color: #AF9B6D; text-decoration: NONE;}
+a.copyright:hover { font-size: 10px; font-weight: bold; color: #ffffff; text-decoration: NONE;}
+.copyright2 { font-size: 10px; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif; color: #AF9B6D;}
+
+.bodyline	{ 
+background-color: #474747; 
+border:0px solid; 
+border-color:#000000;
+}
+.tablein {
+background-image: url(../../../themes/XD-Obstuse/images/HD/row111.gif);
+background-repeat: repeat-x;
+background-color : #171717;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+
+.tableout {
+background-image: url(../../../themes/XD-Obstuse/images/HD/row111.gif);
+background-repeat: repeat-x;
+background-color : #171717;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}	
+/* This is the outline round the main forum tables */
+.forumline	{ 
+background: #474747;
+BORDER-TOP: #000000 0px solid; 
+BORDER-BOTTOM: #424258 0px solid; 
+BORDER-LEFT: #000000 0px solid; 
+BORDER-RIGHT: #424258 0px solid;
+}
+.forumline2	{ 
+color: #ffffff; 
+font-size: 12px; 
+font-weight : bold;
+background-image: url(../../../themes/XD-Obstuse/forums/images/HD/bar.gif);
+background-repeat: repeat-x;
+background-color : #5C5C5C;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+height: 29px;
+}
+
+/* Main table cell colours and backgrounds */
+td.row1	{
+background-image: url(../../../themes/XD-Obstuse/images/HD/row111.gif);
+background-repeat: repeat-x;
+background-color : #171717;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+
+td.row11	{
+background-image: url(../../../themes/XD-Obstuse/images/HD/row11.gif);
+background-repeat: repeat-x;
+background-color : #000000;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+td.row111	{
+background-image: url(../../../themes/XD-Obstuse/images/HD/row1111.gif);
+background-repeat: repeat-x;
+background-color : #000000;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+
+td.row22	{
+background-image: url(../../../themes/XD-Obstuse/images/HD/row22.gif);
+background-repeat: repeat-x;
+background-color : #000000;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+
+}
+td.row33	{
+background-image: url(../../../themes/XD-Obstuse/images/HD/row33.gif);
+background-repeat: repeat-x;
+background-color : #151515;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+
+}
+td.row1cell	{
+background-color : #171717;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+td.row1rt	{
+background-image: url(../../../themes/XD-Obstuse/images/HD/row111.gif);
+background-repeat: repeat-x;
+background-color : #171717;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 0px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+td.row1lt	{
+background-image: url(../../../themes/XD-Obstuse/images/HD/row111.gif);
+background-repeat: repeat-x;
+background-color : #171717;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 0px solid;
+}
+td.row1d	{
+background-image: url(../../../themes/XD-Obstuse/images/HD/row111.gif);
+background-repeat: repeat-x;
+background-color : #171717;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 0px solid; 
+BORDER-LEFT: #3e3e3e 0px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+td.row1u	{
+background-color : #171717;
+BORDER-TOP: #3e3e3e 0px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 0px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+td.row2u	{
+background-color : #4d4d4d;
+BORDER-TOP: #3e3e3e 0px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+td.row2	{
+background-image: url(../../../themes/XD-Obstuse/images/HD/row111.gif);
+background-repeat: repeat-x;
+background-color : #171717;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+td.row3	{
+background-color : #171717;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+td.row4	{
+background-color : #1A1A1A;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+td.rowpic {
+background-color : #1A1A1A;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+td.pic
+{
+color: #ffffff; 
+font-size: 11px; 
+font-weight : bold;
+height: 19px;
+background-image: url(../../../themes/XD-Obstuse/forums/images/HD/bar2.gif);
+background-repeat: repeat;
+background-color : #58554A;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+td.piclt
+{
+color: #ffffff; 
+font-size: 11px; 
+font-weight : bold;
+height: 19px;
+background-image: url(../../../themes/XD-Obstuse/forums/images/HD/bar2.gif);
+background-repeat: repeat;
+background-color : #58554A;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 0px solid;
+}
+td.picrt
+{
+color: #ffffff; 
+font-size: 11px; 
+font-weight : bold;
+height: 19px;
+background-image: url(../../../themes/XD-Obstuse/forums/images/HD/bar2.gif);
+background-repeat: repeat;
+background-color : #58554A;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 0px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+th	{
+color: #ffffff; 
+font-size: 12px; 
+font-weight : bold;
+background-image: url(../../../themes/XD-Obstuse/forums/images/HD/bar.gif);
+background-repeat: repeat-x;
+background-color : #5C5C5C;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+height: 29px;
+}
+th.bar	{
+color: #ffffff; 
+font-size: 12px; 
+font-weight : bold;
+background-image: url(../../../themes/XD-Obstuse/forums/images/HD/bar.gif);
+background-repeat: repeat-x;
+background-color : #5C5C5C;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+height: 29px;
+}
+th.1	{
+	color: #ffffff; 
+font-size: 12px; 
+font-weight : bold;
+background-image: url(../../../themes/XD-Obstuse/forums/images/HD/bar.gif);
+background-repeat: repeat-x;
+background-color : #5C5C5C;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+height: 29px;
+	
+}
+th.2	{
+color: #ffffff; font-size: 11px; font-weight : bold;
+background-color: #4d4d4d;
+BORDER-TOP: #3e3e3e 0px solid; 
+BORDER-BOTTOM: #000000 0px solid; 
+BORDER-LEFT: #3e3e3e 0px solid; 
+BORDER-RIGHT: #000000 0px solid;
+	
+}
+td.cat,td.catHead,td.catSides,td.catLeft,td.catRight,td.catBottom {
+background-color : #171717;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+height: 28px;
+}
+
+
+/*
+  Setting additional nice inner borders for the main table cells.
+  The names indicate which sides the border will be on.
+  Don't worry if you don't understand this, just ignore it :-)
+*/
+
+th.thHead,th.thSides,th.thTop,th.thLeft,th.thRight,th.thBottom,th.thCornerL,th.thCornerR {
+font-weight: bold; 
+background-color : #171717;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid; 
+}
+td.row3Right,td.spaceRow {
+background-color : #171717;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+
+/* The largest text used in the index page title and toptic title etc. */
+.maintitle,h1,h2	{
+			font-weight: bold; font-size: 18px; font-family: Arial, Helvetica, sans-serif;
+			text-decoration: none; line-height : 120%; color : #fdfdfd;
+}
+a.maintitle:link   { text-decoration: none; color : #fdfdfd; font-size: 18px; }
+a.maintitle:visited { text-decoration: none; color : #fdfdfd; font-size: 18px; }
+a.maintitle:hover	{ text-decoration: NONE; color : #AF9B6D; font-size: 18px; }
+
+/* General text */
+.gen { font-size : 12px; color : #ffffff; }
+.genmed { font-size : 11px; }
+.gensmall { font-size : 10px; }
+.gen,.genmed,.gensmall { color : #ffffff; }
+a.gen,a.genmed,a.gensmall { color: #ffffff; text-decoration: none; }
+a.gen:hover,a.genmed:hover,a.gensmall:hover	{ color: #AF9B6D; text-decoration: none; }
+
+
+/* The register, login, search etc links at the top of the page */
+.mainmenu		{ font-size : 11px; color : #ffffff;}
+a.mainmenu		{ text-decoration: none; color : #AF9B6D;}
+a.mainmenu:hover{ text-decoration: none; color : #666666;}
+
+
+/* Forum category titles */
+.cattitle		{ font-weight: bold; font-size: 12px ; letter-spacing: 0px; color : #ffffff}
+a.cattitle		{ text-decoration: none; color : #AF9B6D; }
+a.cattitle:hover{ text-decoration: none; color : #666666;}
+
+
+/* Forum title: Text and link to the forums used in: index.php */
+.forumlink		{ font-weight: bold; font-size: 12px; color : #ffffff; }
+a.forumlink 	{ text-decoration: none; color : #AF9B6D; }
+a.forumlink:hover{ text-decoration: NONE; color : #666666; }
+
+
+/* Used for the navigation text, (Page 1,2,3 etc) and the navigation bar when in a forum */
+.nav			{ font-weight: bold; font-size: 11px; color : #ffffff;}
+a.nav			{ text-decoration: none; color : #AF9B6D; }
+a.nav:hover		{ text-decoration: NONE; color : #666666;}
+
+
+/* titles for the topics: could specify viewed link colour too */
+.topictitle			{ font-weight: bold; font-size: 11px; color : #ffffff; }
+a.topictitle:link   { text-decoration: none; color : #AF9B6D; }
+a.topictitle:visited { text-decoration: none; color : #AF9B6D; }
+a.topictitle:hover	{ text-decoration: NONE; color : #666666; }
+
+
+/* Name of poster in viewmsg.php and viewtopic.php and other places */
+.name			{ font-size : 11px; color : #AF9B6D;}
+
+/* Location, number of posts, post date etc */
+.postdetails		{ font-size : 10px; color : #ffffff; }
+
+
+/* The content of the posts (body of text) */
+.postbody { font-size : 12px; color : #ffffff; }
+a.postlink:link	{ text-decoration: none; color : #ffffff; }
+a.postlink:visited { text-decoration: none; color : #ffffff; }
+a.postlink:hover { text-decoration: NONE; color : #AF9B6D; }
+
+.quote {
+background-image: url(../../../themes/XD-Obstuse/images/HD/textbg.gif);
+background-repeat: repeat-x;
+color:#ffffff;
+font-size: 11px;
+font-family: Arial,Helvetica,sans-serif;
+background-color : #373737;
+BORDER-TOP: #232323 1px solid; 
+BORDER-BOTTOM: #898988 1px solid; 
+BORDER-LEFT: #232323 1px solid; 
+BORDER-RIGHT: #898988 1px solid;
+}
+
+.code {
+background-image: url(../../../themes/XD-Obstuse/images/HD/textbg.gif);
+background-repeat: repeat-x;
+color:#ffffff;
+font-size: 11px;
+font-family: Arial,Helvetica,sans-serif;
+background-color : #373737;
+BORDER-TOP: #232323 1px solid; 
+BORDER-BOTTOM: #898988 1px solid; 
+BORDER-LEFT: #232323 1px solid; 
+BORDER-RIGHT: #898988 1px solid;
+}
+
+input.sub {
+color:#ffffff;
+font-size:11px;
+font-family: Arial,Helvetica,sans-serif;
+background-color : #373737;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+/* The text input fields background colour */
+input.post {
+	background-color : #737373;
+}
+
+
+/* The buttons used for bbCode styling in message post */
+input.button {
+color:#ffffff;
+font-size:11px;
+font-family: Arial,Helvetica,sans-serif;
+background-color : #4d4d4d;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+
+/* The main submit button option */
+input.mainoption {
+color:#ffffff;
+font-size:11px;
+font-family: Arial,Helvetica,sans-serif;
+background-color : #4d4d4d;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+
+/* None-bold submit button */
+input.liteoption {
+color:#ffffff;
+font-size:11px;
+font-family: Arial,Helvetica,sans-serif;
+background-color : #4d4d4d;
+BORDER-TOP: #3e3e3e 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #3e3e3e 1px solid; 
+BORDER-RIGHT: #000000 1px solid;
+}
+
+/* This is the line in the posting page which shows the rollover
+  help line. This is actually a text box, but if set to be the same
+  colour as the background no one will know ;)
+*/
+.helpline {
+background-image: url(../../../themes/XD-Obstuse/images/HD/input.gif);
+background-repeat: repeat-x;
+background-color : #737373;
+BORDER-TOP: #232323 1px solid; 
+BORDER-BOTTOM: #898988 1px solid; 
+BORDER-LEFT: #232323 1px solid; 
+BORDER-RIGHT: #898988 1px solid;
+font-size: 11px;
+color: #AF9B6D;
+}
+

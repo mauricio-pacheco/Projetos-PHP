@@ -1,0 +1,3 @@
+<div align="center">
+          <SCRIPT src="festas/1/festa1.js"></SCRIPT><SCRIPT language=javascript>carregaFlash('festas/1/festa1.swf','500','140');</SCRIPT>
+        </div>

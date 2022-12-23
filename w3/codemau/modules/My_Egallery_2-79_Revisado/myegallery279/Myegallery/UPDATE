@@ -1,0 +1,17 @@
+//################################################################/
+//#                          MyGallery                           #/
+//#                             By:                              #/
+//#                          MarsIsHere                          #/
+//#                       Addon for PhpNuke                      #/
+//#                                                              #/
+//#        Use the Readme1st for Instructions on how to Install  #/
+//#            This package is complete with DB Create.          #/
+//################################################################/
+                  	 ### UPDATE ###
+                  	 
+Update to v2.7.9 from v2.7.6
+Should just be:
+- Replace all files with new ones. 
+
+- Patrick Montanari aka MarsIsHere - http://www.marsishere.net
+

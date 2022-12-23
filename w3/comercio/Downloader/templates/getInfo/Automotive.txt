@@ -1,0 +1,1 @@
+<template><id>Automotive</id><name>Automotive</name><version>2.2</version><colors><color><name>Black</name><hex>black</hex><preview>%%ISCURL%%templates/previews/Automotive_black_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/Automotive_black.jpg</previewFull></color></colors></template>

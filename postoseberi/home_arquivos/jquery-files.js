@@ -1,0 +1,16 @@
+﻿var version = "?11";
+document.write('<script language="javascript" src="/extension/ezflow/design/weg/javascript/jquery-1.1.4.pack.js' + version +'" type="text/javascript"></script>');
+document.write('<script language="javascript" src="/extension/ezflow/design/weg/javascript/jquery.example.js' + version +'" type="text/javascript"></script>');
+document.write('<script language="javascript" src="/extension/ezflow/design/weg/javascript/jquery.metadata.js' + version +'" type="text/javascript"></script>');
+document.write('<script language="javascript" src="/extension/ezflow/design/weg/javascript/jquery.easing.1.1.1.js' + version +'" type="text/javascript"></script>');
+document.write('<script language="javascript" src="/extension/ezflow/design/weg/javascript/jquery.bgiframe.js' + version +'" type="text/javascript"></script>');
+document.write('<script language="javascript" src="/extension/ezflow/design/weg/javascript/jquery.dimensions.js' + version +'" type="text/javascript"></script>');
+document.write('<script language="javascript" src="/extension/ezflow/design/weg/javascript/jquery.jdMenu.js' + version +'" type="text/javascript"></script>');
+document.write('<script language="javascript" src="/extension/ezflow/design/weg/javascript/jquery.idTabs.pack.js' + version +'" type="text/javascript"></script>');
+document.write('<script language="javascript" src="/extension/ezflow/design/weg/javascript/jquery.cookie.pack.js' + version +'" type="text/javascript"></script>');
+document.write('<script language="javascript" src="/extension/ezflow/design/weg/javascript/jquery.jcarousellite.pack.js' + version +'" type="text/javascript"></script>');
+document.write('<script language="javascript" src="/extension/ezflow/design/weg/javascript/jquery.pngfix.js' + version +'" type="text/javascript"></script>');
+document.write('<script language="javascript" src="/extension/ezflow/design/weg/javascript/jquery.sifr.min.js' + version +'" type="text/javascript"></script>');
+document.write('<script language="javascript" src="/extension/ezflow/design/weg/javascript/jquery.flash.min.js' + version +'" type="text/javascript"></script>');
+document.write('<script language="javascript" src="/extension/ezflow/design/weg/javascript/jquery.history.js' + version +'" type="text/javascript"></script>');
+document.write('<script language="javascript" src="/extension/ezflow/design/weg/javascript/jquery.numeric.js' + version +'" type="text/javascript"></script>');

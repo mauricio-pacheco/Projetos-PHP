@@ -1,0 +1,108 @@
+BODY {
+	MARGIN: 0px
+}
+BODY {
+	FONT-SIZE: 11px; COLOR: #595959; LINE-HEIGHT: 11px; FONT-FAMILY: tahoma
+}
+TD {
+	FONT-SIZE: 11px; COLOR: #595959; LINE-HEIGHT: 11px; FONT-FAMILY: tahoma
+}
+TH {
+	FONT-SIZE: 11px; COLOR: #595959; LINE-HEIGHT: 11px; FONT-FAMILY: tahoma
+}
+IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+A {
+	FONT-SIZE: 11px; COLOR: #595959; FONT-FAMILY: tahoma
+}
+A:visited {
+	COLOR: #595959
+}
+A:hover {
+	COLOR: #a1a0a0
+}
+A:active {
+	COLOR: #595959
+}
+INPUT {
+	BORDER-RIGHT: #a9a9a9 1px solid; BORDER-TOP: #a9a9a9 1px solid; FONT-SIZE: 10px; MARGIN: 0px; BORDER-LEFT: #a9a9a9 1px solid; COLOR: #f7941d; BORDER-BOTTOM: #a9a9a9 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #fafbfa
+}
+SELECT {
+	BORDER-RIGHT: #a9a9a9 1px solid; BORDER-TOP: #a9a9a9 1px solid; FONT-SIZE: 10px; MARGIN: 0px; BORDER-LEFT: #a9a9a9 1px solid; COLOR: #f7941d; BORDER-BOTTOM: #a9a9a9 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #fafbfa
+}
+TEXTAREA {
+	BORDER-RIGHT: #a9a9a9 1px solid; BORDER-TOP: #a9a9a9 1px solid; FONT-SIZE: 10px; MARGIN: 0px; BORDER-LEFT: #a9a9a9 1px solid; COLOR: #f7941d; BORDER-BOTTOM: #a9a9a9 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #fafbfa
+}
+.box {
+	BORDER-RIGHT: #d9d9d9 1px solid; BORDER-TOP: #d9d9d9 1px solid; BORDER-LEFT: #d9d9d9 1px solid; BORDER-BOTTOM: #d9d9d9 1px solid; BACKGROUND-COLOR: #f4f5f7
+}
+.pequeno {
+	FONT-SIZE: 10px; COLOR: #595959; LINE-HEIGHT: 13px; FONT-FAMILY: 'verdana', 'arial'
+}
+.texto_pequeno {
+	FONT-SIZE: 10px; COLOR: #595959; LINE-HEIGHT: 15px; FONT-FAMILY: 'verdana', 'arial'
+}
+.textob {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #373737; LINE-HEIGHT: 18px; FONT-FAMILY: 'verdana', 'arial'
+}
+.textgreen {
+	COLOR: #359a00
+}
+.textgreen2 {
+	TEXT-TRANSFORM: uppercase; COLOR: #2d9500
+}
+.textorange {
+	COLOR: #f0ac00
+}
+.textblack {
+	COLOR: #000000
+}
+.system {
+	BORDER-RIGHT: #cccccc thin dotted; BORDER-TOP: #cccccc thin dotted; BORDER-LEFT: #cccccc thin dotted; BORDER-BOTTOM: #cccccc thin dotted
+}
+.systemheading {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.systemtext {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.systemsmalltext {
+	FONT-SIZE: 9px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.creation {
+	BORDER-RIGHT: #ffffff thin dotted; BORDER-TOP: #ffffff thin dotted; FONT-SIZE: 12px; BORDER-LEFT: #ffffff thin dotted; COLOR: #000000; BORDER-BOTTOM: #ffffff thin dotted; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.thinline {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+.dottedline {
+	BORDER-RIGHT: #cccccc thin dotted; BORDER-TOP: #cccccc thin dotted; BORDER-LEFT: #cccccc thin dotted; BORDER-BOTTOM: #cccccc thin dotted
+}
+.blackline {
+	BORDER-RIGHT: #000000 thin solid; BORDER-TOP: #000000 thin solid; BORDER-LEFT: #000000 thin solid; BORDER-BOTTOM: #000000 thin solid
+}
+.whiteline {
+	BORDER-RIGHT: #ffffff thin solid; BORDER-TOP: #ffffff thin solid; BORDER-LEFT: #ffffff thin solid; BORDER-BOTTOM: #ffffff thin solid
+}
+.domaintable {
+	BORDER-RIGHT: #dddddd thin solid; BORDER-TOP: #dddddd thin solid; MARGIN-LEFT: 20px; BORDER-LEFT: #dddddd thin solid; BORDER-BOTTOM: #dddddd thin solid; BORDER-COLLAPSE: collapse
+}
+.domaintable TD {
+	BORDER-RIGHT: #d6d6d6 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #d6d6d6 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #d6d6d6 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #d6d6d6 1px solid
+}
+.hostingtable {
+	BORDER-RIGHT: #dddddd thin solid; BORDER-TOP: #dddddd thin solid; MARGIN-LEFT: 20px; BORDER-LEFT: #dddddd thin solid; BORDER-BOTTOM: #dddddd thin solid; BORDER-COLLAPSE: collapse
+}
+.hostingtable TD {
+	BORDER-RIGHT: #d6d6d6 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #d6d6d6 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #d6d6d6 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #d6d6d6 1px solid
+}
+TR.top {
+	FONT: bold 11px Verdana; COLOR: #ffffff; BACKGROUND-COLOR: #b3bcc3
+}
+#capdiv {
+	VISIBILITY: hidden; WIDTH: 149px; POSITION: absolute
+}
+.noborder {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}

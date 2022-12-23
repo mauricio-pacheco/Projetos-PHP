@@ -1,0 +1,48 @@
+BODY { background-image:url(../imagens/imagemfundo.png); background-color:#1A181D;
+}
+.boxSombra{
+box-shadow: 0 0 .95em #000; /* Implementação W3C */
+-moz-box-shadow: 0 0 .95em #000;  /* Implementação Mozilla */
+-webkit-box-shadow: 0 0 .95em #000; /* Implementação para browsers que renderizam via webkit */
+behavior: url(PIE.htc); /* Comportamento adicionado para renderização das propriedades acima no IE 7 e IE 8 */
+}
+.fontemenu {
+font-family:Tahoma, Geneva, sans-serif; color:#559BBF; font-size:12px;
+}
+.fontemenu2 {
+font-family:Tahoma, Geneva, sans-serif; color:#494949; font-size:12px;
+}
+.fontetabela5 {
+font-family:Tahoma, Geneva, sans-serif; color:#f9f9f9; font-size:18px; text-decoration:none
+}
+.fontetabela {
+font-family:Tahoma, Geneva, sans-serif; color:#333333; font-size:11px; text-decoration:none
+}
+.fontetabela a:hover {
+font-family:Tahoma, Geneva, sans-serif; color:#333333; font-size:11px; text-decoration:underline
+}
+.fonteadm {
+font-family:Tahoma, Geneva, sans-serif; color:#333333; font-size:11px; text-decoration:none
+}
+.fontetitulo {
+font-family:Tahoma, Geneva, sans-serif; color:#f9f9f9; font-size:11px; text-decoration:none
+}
+.fontetitulo a:hover {
+font-family:Tahoma, Geneva, sans-serif; color:#f9f9f9; font-size:11px; text-decoration:underline
+}
+.fonteadm a:hover {
+font-family:Tahoma, Geneva, sans-serif; color:#B3271A; font-size:11px; text-decoration:none
+}
+.fonterodape {
+font-family:Tahoma, Geneva, sans-serif; color:#f9f9f9; font-size:11px; text-decoration:none
+}
+.fonterodape a:hover {
+font-family:Tahoma, Geneva, sans-serif; color:#FDE052; font-size:11px; text-decoration:none
+}
+.pontilhada{ 
+border-style: dashed;
+border-width: 1px; 
+border-color: #4893B9; 
+background-color: f3f3f3; 
+font-size: 10pt; 
+} 

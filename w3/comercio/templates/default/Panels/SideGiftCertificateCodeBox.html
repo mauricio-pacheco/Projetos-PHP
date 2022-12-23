@@ -1,0 +1,17 @@
+<div class="Block Moveable" id="SideGiftCertificateCodeBox">
+	<h2>%%LNG_GiftCertificateCode%%</h2>
+	<div class="BlockContent">
+		<script type="text/javascript">
+			lang.EnterGiftCertificateCode = "%%LNG_EnterGiftCertificateCode%%";
+		</script>
+		<form onsubmit="return Cart.CheckGiftCertificateCode()" action="%%GLOBAL_ShopPath%%/cart.php" method="post">
+			<input type="hidden" name="action" value="applygiftcertificate" />
+			<div class="GiftCertificateCode">
+				<p>%%LNG_GiftCertificateCodeIntro%%</p>
+				<input type="text" name="giftcertificatecode" id="giftcertificatecode" class="Textbox Field100" />
+				<input type="image" alt="%%LNG_Go%%" src="%%GLOBAL_TPL_PATH%%/images/%%GLOBAL_SiteColor%%/GoButton.gif" style="vertical-align: middle;" />
+			</div>
+		</form>
+		<hr />
+	</div>
+</div>

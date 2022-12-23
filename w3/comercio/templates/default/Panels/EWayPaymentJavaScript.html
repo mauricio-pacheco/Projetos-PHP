@@ -1,0 +1,52 @@
+<script type="text/javascript">
+
+	/* Make sure all credit card details have been provided and are valid */
+	function check_eway_payment_form() {
+		var eway_name = g("eway_name");
+		var eway_ccno = g("eway_ccno");
+		var eway_ccaddress = g("eway_ccaddress");
+		var eway_ccexpm = g("eway_ccexpm");
+		var eway_ccexpy = g("eway_ccexpy");
+		var eway_zip = g("eway_zip");
+
+		if(eway_name.value == "") {
+			alert("%%LNG_EWayEnterName%%");
+			eway_name.focus();
+			return false;
+		}
+
+		if(isNaN(eway_ccno.value) || eway_ccno.value == "") {
+			alert("%%LNG_EWayEnterCardNumber%%");
+			eway_ccno.focus();
+			eway_ccno.select();
+			return false;
+		}
+
+		if(eway_ccaddress.value == "") {
+			alert("%%LNG_EWayEnterBillingAddress%%");
+			eway_ccaddress.focus();
+			return false;
+		}
+
+		if(eway_ccexpm.selectedIndex == 0) {
+			alert("%%LNG_EWayEnterCreditCardMonth%%");
+			eway_ccexpm.focus();
+			return false;
+		}
+
+		if(eway_ccexpy.selectedIndex == 0) {
+			alert("%%LNG_EWayEnterCreditCardYear%%");
+			eway_ccexpy.focus();
+			return false;
+		}
+
+		if(eway_zip.value == "") {
+			alert("%%LNG_EWayEnterPostcode%%");
+			eway_zip.focus();
+			return false;
+		}
+
+		return true;
+	}
+
+</script>

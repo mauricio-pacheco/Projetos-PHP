@@ -1,0 +1,1 @@
+<template><id>Electronics</id><name>Electronics</name><version>2.0</version><colors><color><name>Magenta</name><hex>magenta</hex><preview>%%ISCURL%%templates/previews/Electronics_magenta_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/Electronics_magenta.jpg</previewFull></color></colors></template>

@@ -1,0 +1,27 @@
+DIV#holder {
+	Z-INDEX: 100; FLOAT: left; VISIBILITY: visible; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 160px; POSITION: relative; HEIGHT: 97px
+}
+DIV#win {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; Z-INDEX: 1; LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 160px; PADDING-TOP: 0px; POSITION: relative; TOP: 0px; HEIGHT: 97px
+}
+DIV#layer1 {
+	WIDTH: 160px; PADDING-TOP: 0px; POSITION: absolute
+}
+DIV#layer1 P {
+	FONT-SIZE: 11px
+}
+DIV#scrollbar_main {
+	FONT-SIZE: 1px; Z-INDEX: 2; LEFT: 0px; FLOAT: left; VISIBILITY: visible; MARGIN: 0px; WIDTH: 5px; POSITION: relative; TOP: 0px; HEIGHT: 97px
+}
+DIV#scrolltrack {
+	Z-INDEX: 1; BACKGROUND: url(/images/dx/track.gif) #fff; LEFT: -1px; WIDTH: 5px; POSITION: absolute; TOP: 6px; HEIGHT: 84px
+}
+DIV#scrollbar {
+	BORDER-TOP: #737870 1px solid; Z-INDEX: 1; BACKGROUND: url(/images/g_bar.gif) #fff repeat-y; LEFT: 1px; WIDTH: 5px; BORDER-BOTTOM: #737870 1px solid; POSITION: absolute; TOP: 1px; HEIGHT: 6px
+}
+DIV#up_arrow {
+	Z-INDEX: 2; LEFT: 0px; POSITION: absolute; TOP: 0px
+}
+DIV#down_arrow {
+	Z-INDEX: 2; LEFT: 0px; BOTTOM: 0px; POSITION: absolute
+}

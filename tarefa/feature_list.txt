@@ -1,0 +1,179 @@
+Feature list based on version 3.4.2.
+CRM-CTT [ http://www.crm-ctt.com - hidde AT crm DASH ctt DOT com ]	
+
+Log tickets by web-interface
+Log tickets by e-mail
+Log tickets by console logger
+
+Alter tickets by web
+Alter tickets by console logger
+
+Create users
+Define user-groups
+Import users
+Export users
+
+Create own HTML reports
+
+Attach files
+Attach files using WebDAV
+Edit (open & save) files using WebDAV (no webserver plugins needed)
+Create alarm moments 
+Set due-date
+Assign tickets 
+Assign tickets automatically
+
+Create own ticket extra fields (26 types, unlimited number)
+Create own customer extra fields (26 types, unlimited number)
+Set per-user or per-group extra field access rights
+
+Multi-lingual (15 languages available)
+Language translation module
+Auto-install language packs from project website
+
+Define status values (and colors)
+Define priority values (and colors)
+
+Extensive logging
+
+Mass-delete tickets
+Cleanup database
+Mass create tickets
+
+Import tickets
+Import customers
+
+Synchronise customers with another CRM-CTT database
+
+Relate tickets to one another
+
+Dump everything (*everything*) to disk in a museful matter
+
+Import extra ticket- and customer field definitions
+Export extra ticket- and customer field definitions
+
+Import settings
+Export settings
+
+Several advanced debug features
+
+2 different navigation types
+
+All text is adjustable
+Language mask support
+
+Define ticket list layout
+Define customer list layout
+Define customer edit form
+
+Create customer report (RTF)
+Export customers in Excel (all)
+Export customers in Excel (based on search)
+
+Download reports by bookmark
+Download reports by query
+Download reports by list
+Download reports in Excel-format
+Download reports in PDF-format
+Download reports in RTF (MS-Word) format
+
+Create own invoice document
+Create invoices (RTF format) over period
+Create invoices (RTF format) per single entity
+Create invoices (RTF format) VAT inclusive
+Create invoices (RTF format) VAT exculsive
+Create invoices (RTF format) summarized invoices
+
+Create own report document
+Create report over period
+Create report by selection or bookmark
+Create report per single entity
+
+Create mail-merge (in RTF format)
+Create own mail-merge document
+
+Create e-mailmerge
+Create own rich-text e-mail message
+
+Create several ticket forms
+Define tickets forms accessable by users
+Define ticket access for users
+Define page access for users
+Define tickets forms accessable by user-groups
+Define ticket access for user-groups
+Define page access for user-groups
+
+Define required fields
+Define field size
+
+View management information in HTML
+View management information in PDF-format
+
+View user activity stats
+View entity activity stats
+
+Ticket journalling
+Ticket content journalling
+
+Add tickets by e-mail
+Open POP3-email-box and create new tickets from e-mail
+Open POP3-email-box and add e-mails to existing tickets
+
+Add navigation tabs containing external websites
+Add navigation tabs containing internal CRM-CTT pages
+Add navigation tabs containing containing lists based on a query
+Add navigation tabs containing containing the result of a parsed template
+
+Several auto-complete functions
+
+Rich-text editor for all HTML templates
+
+LDAP, CRM-CTT and/or HTTP REALM authentication
+
+Customer-interface (very limited add-only interface for customers)
+
+Define RSS Streams
+
+Force fullscreen browser window
+
+Display messages at all points in application
+
+Set date-format
+Set fonts
+Set font size
+Set font color
+Set legend color
+
+Define global (team) POP3-inbox
+Define personal POP3-inbox
+
+Phonebook
+Import phonebook records
+
+Advanced search (also searches attachments)
+
+Change own password
+Change own e-mail address
+
+Daily ticket overview e-mail
+
+Check database
+Multi-repository support (unlimited number of separated databases)
+Logically delete tickets
+Physically delete tickets
+Force HTTPS (secure) access
+
+Entity edit locking 
+
+Create a trigger which sends an e-mail based on a change of a value
+Create a trigger which assignes an ticket based on a change of a value
+Create a trigger which changes the owner of a ticket based on a change of a value
+Create a trigger which changes the form of a ticket based on a change of a value
+Create a trigger which changes the customer of a ticket based on a change of a value
+Create a trigger which does [anything] based on the change of a field which you added yourself
+Create a trigger which deletes a ticket based on a change of a value
+Create a trigger which closes a ticket based on a change of a value
+[...etc]
+
+User forum at sourceforge
+Commercial support (worldwide, based in The Netherlands, Germany and Poland)

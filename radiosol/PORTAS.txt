@@ -1,0 +1,5 @@
+Porta: 17646
+Senha: sol2013
+Servidor: stm30.srvstm.com
+User: 17646
+Senha: sol2013

@@ -1,0 +1,40 @@
+<div class="Block" id="WishLists" style="%%GLOBAL_HideWishLists%%">
+	<div class="Block Moveable Breadcrumb" id="WishListsBreadcrumb">
+		<ul>
+			<li><a href="%%GLOBAL_ShopPath%%/">%%LNG_Home%%</a></li>
+			<li><a href="%%GLOBAL_ShopPathSSL%%/account.php">%%LNG_YourAccount%%</a></li>
+			<li>%%LNG_WishLists%%</li>
+		</ul>
+	</div>
+	<div class="BlockContent">
+	<h2>%%LNG_WishLists%%</h2>
+		<div>
+			<p class="InfoMessage"  style="display: %%GLOBAL_HideNormalMessage%%">
+				%%GLOBAL_WishListMessage%%
+			</p>
+			<p class="ErrorMessage" style="display: %%GLOBAL_HideErrorMessage%%">
+				%%GLOBAL_WishListMessage%%
+			</p>
+			<p class="SuccessMessage" style="display: %%GLOBAL_HideSuccessMessage%%">
+				%%GLOBAL_WishListMessage%%
+			</p>
+				
+				<form name="wishlistsform" id="wishlistsform" style="%%GLOBAL_HideWishListsTable%%" action="%%GLOBAL_ShopPath%%/wishlist.php?action=deletewishlist" onsubmit="return ValidateDeleteWishlist(true);" method="POST">
+					<input type="button" onclick="document.location.href='wishlist.php?action=addwishlist'" value="%%LNG_CreateANewWishList%%" />
+					<input type="submit" value="%%LNG_WishListDelete%%" />
+					<table cellspacing="0" cellpadding="0" class="CartContents">
+						<thead>
+							<tr>
+								<th width="10"><input type="checkbox" id="selectAllWishLists" onclick="ToggleWishListDeleteBoxes(this.checked)" /></th>
+								<th>%%LNG_WishListName%%</th>
+								<th>%%LNG_Items%%</th>
+								<th>%%LNG_Shared%%</th>
+								<th style="text-align: right;" nowrap="nowrap">%%LNG_Action%%</th>
+							</tr>
+						</thead>
+						%%SNIPPET_WishList%%
+					</table>
+				</form>
+		</div>
+	</div>
+</div>

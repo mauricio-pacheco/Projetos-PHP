@@ -1,0 +1,16 @@
+<li>
+	<div class="ProductImage">
+		%%GLOBAL_ProductThumb%%
+	</div>
+	<div class="ProductDetails">
+		<strong><a href="%%GLOBAL_ProductLink%%" class="%%GLOBAL_SearchTrackClass%%">%%GLOBAL_ProductName%%</a></strong>
+		<em>%%GLOBAL_ProductPrice%%</em>
+		<span class="Rating Rating%%GLOBAL_ProductRating%%"><img src="%%GLOBAL_TPL_PATH%%/images/IcoRating%%GLOBAL_ProductRating%%.gif" alt="" style="%%GLOBAL_HideProductRating%%" /></span>
+	</div>
+	<form class="RemoveFromWishlistForm" action="%%GLOBAL_ShopPath%%/wishlist.php" method="get" style="%%GLOBAL_HideRemoveItemButton%%">
+		<input type="hidden" name="wishlistid" value="%%GLOBAL_WishListID%%" />
+		<input type="hidden" name="action" value="remove" />
+		<input type="hidden" name="item_id" value="%%GLOBAL_ItemId%%" />
+		<input type="submit" value="%%LNG_RemoveFromWishList%%" /> <br />
+	</form>
+</li>

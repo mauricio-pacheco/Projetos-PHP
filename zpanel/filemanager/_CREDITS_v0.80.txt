@@ -1,0 +1,74 @@
+
+   -------------------------------------------------------------------------------
+  |                                                                               |
+  |                                  net2ftp                                      |
+  |                                                                               |
+  |                                  Credits!                                     |
+  |                                                                               |
+   -------------------------------------------------------------------------------
+
+
+
+MAIN DEVELOPERS
+====================
+
+net2ftp is developed by David, Slynderdale and FlashBang.
+     David and Slynderdale are the main developers.
+     FlashBang is forum moderator, tests the new features and finds new add-ons.
+
+
+OTHER DEVELOPERS
+====================
+
+Developers who have written code that was included in net2ftp:
+     Eric Mueller, Denis125 and Peter Listiak (zip functions)
+     Tim Perdue (server-side browser detection)
+     sponger (posting of code snippet on php.net on 10-Jun-2002 05:28)
+     Vincent Blavet (www.phpconcept.net) (PCL zip and tar functions)
+
+
+HELPFUL USERS
+====================
+
+Users who have submitted bug reports or helpful comments: 
+     Guangzu (the first user to send feedback)
+     Ryan (hints in 0.2)
+     eagleyes (hints in 0.2)
+     qM (browse bug in 0.2)
+     David (bug in SQL file in 0.2)
+     Kalle (PHP bug in function ftp_rawlist on Windows in 0.3)
+     Dan (max_upload_size difficult to find in 0.3, testing of net2ftp on windows)
+     Malte (fopen with option b in 0.3)
+     Ray (ftp_rmdir instead of ftp_delete in 0.3)
+     Ondrej (browse bug in 0.2, hint on saving the directory in the cookie)
+     Lars (hidden files option -a in 0.5)
+     David (. and .. entries on certain FTP sites, 0.5)
+     James (large file uploads configuration tips, 0.6)
+     Larry (ftp_chmod does not accept leading slashes, 0.61)
+     Topot (ftp_scanline ereg improvement, 0.62)
+     Decsifo (ascii/binary mode, sessions, 0.7)
+     Ajay, Dan and others (suggestions, 0.7)
+     Decsifo (/icons directory rename to /images, sessions, 0.71)
+     Ken (/temp directory was getting full, 0.71)
+     Angelo (upload archives, 0.72)
+     V@no (ftp_rawlist and Windows, 0.72)
+     Brandon (. and .. entries, 0.73)
+     Daffy (ftp_zipdirectory bug, 0.73)
+     Jean-Pierre (download bug, 0.80)
+     Rodeonet (many bug reports, 0.80)
+     Eeyore (FTP mode bug, 0.80)
+     31337n006, Ben and others (IE6 and HTTPS download bug, 0.80)
+     Oldiesman (bug report, 0.80)
+     Pierre (bug report and feedback, 0.80)
+
+
+HELPFUL WEBSITES
+====================
+
+Sites which were particularly helpful:
+     www.php.net
+     www.phpbuilder.com
+     www.irt.org - excellent JavaScript FAQ
+     www.devguru.com - reference guides
+     www.w3schools.com - XHTML tutorial
+     www.w3.org - HTML validator service

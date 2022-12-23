@@ -1,0 +1,107 @@
+___DICIONÁRIO DE DADOS___
+
+DEPÓSITO FILMES:
+Nome: Filmes	
+Elementos de dados: Nome do filme + gênero + Diretor + Elenco + Preço da locação + (Imagem) + Sinopse.
+		
+
+DEPÓSITO CLIENTES:
+Nome: Clientes
+Elementos de dados: Nome do cliente + E-mail + (Cidade) + (Estado) + (Endereço) + (Número) + (Bairro) + Telefone.
+
+
+DEPÓSITO LOCAÇÃO:
+Nome: Locação
+Elementos de dados: Nome do filme + data locação.
+
+
+ELEMENTOS DE DADOS:
+Nome: Nome do filme
+Tipo: VARCHAR(100)
+Formato: [A - Z].
+
+_________________________
+
+Nome: Genêro
+Tipo: VARCHAR(100)
+Formato: [A - Z].
+
+_________________________
+
+Nome: Diretor
+Tipo: VARCHAR(100)
+Formato: [A - Z].
+
+_________________________
+
+Nome: Elenco
+Tipo: VARCHAR(100)
+Formato: [A - Z].
+
+_________________________
+
+Nome: Preço da locação
+Tipo: REAL
+Formato: [x,xx].
+
+_________________________
+
+Nome: Sinopse
+Tipo: VARCHAR(500)
+Formato: [A - Z].
+
+_________________________
+
+Nome: Nome do cliente
+Tipo: VARCHAR(100)
+Formato: [A - Z].
+
+_________________________
+
+Nome: Email		
+Tipo: VARCHAR(100)
+Formato: [A - Z - @ - .].
+
+_________________________
+
+Nome: Cidade
+Tipo: VARCHAR(100)
+Formato: [A - Z].
+
+_________________________
+
+Nome: Estado
+Tipo: VARCHAR(100)
+Formato: [A - Z].
+
+_________________________
+
+Nome: Endereço
+Tipo: VARCHAR(100)
+Formato: [A - Z].
+
+_________________________
+
+Nome: Número
+Tipo: INTEIRO
+Formato: [0 - 9].
+
+_________________________
+
+Nome: Bairro	
+Tipo: VARCHAR(100)
+Formato: [A - Z].
+
+_________________________
+
+Nome: Telefone	
+Tipo: VARCHAR(15)
+Formato: (xx) XXXX - XXXX.
+
+_________________________
+
+
+
+
+
+

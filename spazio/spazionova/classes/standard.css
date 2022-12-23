@@ -1,0 +1,21 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #000; BACKGROUND: url(bg.gif); MARGIN: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #666; SCROLLBAR-SHADOW-COLOR: #191919; COLOR: #fff; SCROLLBAR-3DLIGHT-COLOR: #111; SCROLLBAR-ARROW-COLOR: #ccc; SCROLLBAR-TRACK-COLOR: #111; FONT-FAMILY: Arial,Helvetica,sans-serif; SCROLLBAR-DARKSHADOW-COLOR: #191919
+}
+A {
+	FONT-WEIGHT: bold; COLOR: #fc3; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: none; COLOR: #ffffff;
+}
+.menu_titulos_selected {
+	BORDER-RIGHT: gainsboro 1px solid; BORDER-TOP: gainsboro 1px solid; FONT-SIZE: 11px; BORDER-LEFT: gainsboro 1px solid; COLOR: #0F61A4; BORDER-BOTTOM: gainsboro 1px solid; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.caixacontato {
+	BORDER-RIGHT: #EF2F72 1px solid; BORDER-TOP: #EF2F72 1px solid; FONT-SIZE: 10px; MARGIN: 1px; BORDER-LEFT: #EF2F72 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #EF2F72 1px solid; FONT-FAMILY: Verdana; HEIGHT: 16px; BACKGROUND-COLOR: #000000
+}
+.caixacadastroarea {
+	BORDER-RIGHT: #EF2F72 1px solid; BORDER-TOP: #EF2F72 1px solid; FONT-SIZE: 11px; MARGIN: 1px; OVERFLOW: auto; BORDER-LEFT: #EF2F72 1px solid; WIDTH: 240px; COLOR: #ffffff; BORDER-BOTTOM: #EF2F72 1px solid; FONT-FAMILY: Verdana; HEIGHT: 112px; BACKGROUND-COLOR: #000000
+}
+.texto {
+	FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Tahoma, Arial
+}

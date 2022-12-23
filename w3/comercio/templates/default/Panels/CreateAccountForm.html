@@ -1,0 +1,84 @@
+<div class="Block Moveable" id="CreateAccountForm">
+	<h2>%%GLOBAL_CreateAccountHeading%%</h2>
+	<div class="BlockContent">
+		<p style="display: %%GLOBAL_HideCreateAccountIntroMessage%%">
+			%%LNG_CreateAccountIntro1%% <em>%%GLOBAL_StoreName%%</em> %%LNG_CreateAccountIntro2%%
+		</p>
+
+		<p class="ErrorMessage" style="display:%%GLOBAL_HideCreateAccountErrorMessage%%">
+			%%GLOBAL_ErrorMessage%%
+		</p>
+
+		<form action="%%GLOBAL_ShopPath%%/login.php?action=save_new_account" method="post" onsubmit="return check_create_account_form()" class="PL20">
+			<div class="FormContainer HorizontalFormContainer">
+				<h3>%%LNG_PersonalDetails%%</h3><p />
+				<p>%%LNG_CreateAccountPersonalIntro%%</p>
+				<dl>
+					<dt><span class="Required">*</span> %%LNG_EmailAddress%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="account_email" id="account_email" value="%%GLOBAL_AccountEmail%%" /></dd>
+
+					<dt><span class="Required">*</span> %%LNG_Password%%:</dt>
+					<dd><input type="password" class="Textbox Field200" name="account_password" id="account_password" value="%%GLOBAL_AccountPassword%%" /></dd>
+
+					<dt><span class="Required">*</span> %%LNG_PasswordConfirm%%:</dt>
+					<dd><input type="password" class="Textbox Field200" name="account_password_confirm" id="account_password_confirm" value="%%GLOBAL_AccountPassword%%" /></dd>
+				</dl>
+				<dl>					
+					<br /><h3>%%LNG_ShippingDetails%%</h3><p />
+					<p>%%LNG_CreateAccountShippingIntro%%</p>
+
+					<dt><span class="Required">*</span> %%LNG_FirstName%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="account_firstname" id="account_firstname" value="%%GLOBAL_AccountFirstName%%" /></dd>
+
+					<dt><span class="Required">*</span> %%LNG_LastName%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="account_lastname" id="account_lastname" value="%%GLOBAL_AccountLastName%%" /></dd>
+
+					<dt>&nbsp;&nbsp; %%LNG_CompanyName%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="account_companyname" id="account_companyname" value="%%GLOBAL_AccountCompanyName%%" /></dd>
+
+					<dt><span class="Required">*</span> %%LNG_PhoneNumber%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="account_phone" id="account_phone" value="%%GLOBAL_AccountPhone%%" /></dd>
+
+					<dt><span class="Required">*</span> %%LNG_AddressLine1%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="ship_address1" id="ship_address1" value="%%GLOBAL_AddressLine1%%" /></dd>
+
+					<dt>&nbsp;&nbsp; %%LNG_AddressLine2%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="ship_address2" id="ship_address2" value="%%GLOBAL_AddressLine2%%" /></dd>
+
+					<dt><span class="Required">*</span> %%LNG_City%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="ship_city" id="ship_city" value="%%GLOBAL_AddressCity%%" /></dd>
+
+					<dt><span class="Required">*</span> %%LNG_Country%%:</dt>
+					<dd>
+						<select name="ship_country" id="ship_country" class="Field200" onchange="GetStates(this, 'ship_state', 'ship_state_1')">
+							%%GLOBAL_CountryList%%
+						</select>
+					</dd>
+					
+					<dt><span class="Required">*</span> %%LNG_StateProvince%%:</dt>
+					<dd>
+						<select style="display:%%GLOBAL_HideStateList%%" class="Field200" name="ship_state" id="ship_state">
+							%%GLOBAL_StateList%%
+						</select>
+						<input style="display:%%GLOBAL_HideStateBox%%" type="text" class="Textbox Field200" name="ship_state_1" id="ship_state_1" value="%%GLOBAL_AddressState%%" />
+					</dd>
+					
+					<dt><span class="Required">*</span> %%LNG_BuildingType%%:</dt>
+					<dd>
+						<select name="ship_destination" id="ship_destination">
+							<option value="residential" %%GLOBAL_IsResidential%%>%%LNG_House%%</option>
+							<option value="commercial" %%GLOBAL_IsCommercial%%>%%LNG_Office%%</option>
+						</select>
+					</dd>
+					
+					<dt><span class="Required">*</span> %%LNG_ZipPostcode%%:</dt>
+					<dd><input type="text" class="Textbox" name="ship_zip" id="ship_zip" value="%%GLOBAL_AddressZip%%" style="width:70px" /></dd>
+				</dl>
+				<p class="Submit">
+					<br /><input type="submit" value="%%GLOBAL_CreateAccountButtonText%%" style="padding:2px 10px 2px 10px;" />
+				</p>
+			</div>
+		</form>
+		%%Panel.CreateAccountJavaScript%%
+	</div>
+</div>

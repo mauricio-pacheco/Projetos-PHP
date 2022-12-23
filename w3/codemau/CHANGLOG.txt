@@ -1,0 +1,98 @@
+THIS LIST IS ALSO IS CVS please edit it there....
+
+Welcome everybody I have been integrating 1.2.0 into 1.1d this is my latest list of improvements
+[color=red][b]IMPORTANT![/b][/color]
+It's best to change every URL in CPG to $CPG_URL then there wouldn't be any problems in themes etc. when someone changes name Coppermine directory.
+
+[b]Done[/b] can be tested [list]
+[*] Added Email notification on Comment option
+[*] template for edit one pic
+[*]+Added Title option to sort in albums
+[*]+Added Absolute URL of a picture in the pic info this helps in giving out links to other people and the same picture will display regardless of the sort setting of the individual
+[*]option to show url as bookmark or addtobar item should work in IENetscape/mozilla and maybe even opera...
+[*]+Added Rating option to sort in albums
+Separated the breadcrumb block so that it can be placed independently of category
+[*]+Fixed the bug in search.inc.php
+[*]+Added Fav Pics Option (users can have a favorite pics album)
+[*]+Banning (made link to phpbb banning page)
+[*]+added config settings to mysql and update
+'nice_titles','user_table_prefix','advanced_debug_mode','doc_root', 'installed_folder','read_iptc_data', 'module_name'
+[*] +add config settings to config.php [b]gtroll[/b]
+'nice_titles','advanced_debug_mode','read_iptc_data', '
+[*][u]init.inc.php[/u] added:
+$CPG_DIR = $name;
+$CPG_URL = $_SERVER[PHP_SELF].'?name='.$name;
+[*][u]db_input.php[/u] fixed:
+redirection url after an album update has been made.
+[*][u]theme.php[/u]
+Added $CPG_DIR and $CPG_URL to the debug section.
+[*]-Added option to display a clickable filmstrip of thumbnails below the image display 
+[*] Add theme name, phpnuke version and more to debug output  done in default theme Advanced_debug [b]working[/b]
+[*] Multi CPG gallery support [b]the_djmaze[/b]
+[*] added code to show full size in new win to non js browsers....
+[*] edit pic info works! (editonepic.php)(see undefined var warning below...)
+[*] $CONFIG['seo_alts'] option to show image title or keyword as alt tag for images in the gallery instead of just the image info (filename size etc.).
+[*] Added Last Updated Album Block
+[*] Added Anycontent Block
+[*] $CONFIG['allow_anon_fullsize'] option to show intermediate/full-size images only to registered users...//thanks kegobeer// implemented by gtroll.
+[*] Created CPG_Installer.php script, put in nuke root directory (ie /html/), accessible from Administration menu via CPG Create Tables link.
+[*] added links to nuke admin
+[*]-Added Edit Name in comments // issue with $username variable
+[*]Added option to choose max height or width for thumbnails - will help in creating nicer looking thumbnail rows and cols
+[*]-Added IP logging 
+[*]-Added Comment IP viewing(admin only)
+[*] updated default anon permissions can only rate pictures
+[*] Added only phpNuke admins have access to config screen (maze)
+[*] Fixed Batch Update to force selection of an album & identify the category of an album gtroll bug in standaloneworking on it  check my server for update...[/list] 
+[/list] 
+
+Problem Issues[list=1]
+[*] All Themes djmaze
+[*] Javascript error in IE when popup is clicked opens in new window....gtroll
+[*] Notice: Undefined index: user1 in modules/coppermine/include/editDesc.inc.php on line 37
+[*] Notice: Undefined index: user2 in modules/coppermine/include/editDesc.inc.php on line 38
+[*] Notice: Undefined index: user3 in modules/coppermine/include/editDesc.inc.php on line 39
+[*] Notice: Undefined variable: delete in modules/coppermine/include/editDesc.inc.php on line 45[/list] 
+
+Problem Issues Fixed
+[*] Restore config doesn't work (There was an error while processing a database query)gtroll
+[*] Notice: Undefined index: HTTP_ACCEPT_CHARSET in modules/coppermine/themes/default/theme.php on line 126
+[color=red][b]IMPORTANT! we have at least five unclosed table tags in default theme/index.php [/b][/color]
+[*] line 749 in addfav.php if (count($FAVPICS)>0){ doesn't evaluate true if no pics have been saved to favorites
+[*]-Added Breadcrumb navigation to include album names Home not appearing on displayimage.php
+[*]-Added option of turning on OR off the showing of "Private" Icon to unlogged / unprivileged user[b]the_djmaze[/b]
+[*] Not enough space between comments...file=thumbnails album=lastcom
+[*] Notice: Undefined variable: cat_albums in index.php on line 128
+[*] [b]Slideshow not working... defined in template[/b]
+[*] bug fix catname not name for cpgcategories...thumbnails
+[*] "Last additions - ?????'s Gallery:" username not inputted
+[*] Notice: Undefined index: email_comment_notification in modules/coppermine/db_input.php on line 141
+[*] Notice: Undefined index: disable_comment_flood_protect in config.php on line 63 not in landenglish?
+[*]-Added Edit Name in comments // issue with $username variable
+[*]Added option to show first level albums of a category instead of just statistics of the category
+[*] Fatal error: Call to undefined function: eval_tmplfile() in modules/coppermine/include/functions.inc.php on line 331 after updating config
+[*] line 118 crop.inc.php background-image: url(modules/$CPG_DIR/images/spacer.gif); not found?
+[*] Notice: Undefined variable: CPG_M_DIR in /modules/coppermine/include/functions.inc.php on line 626 file=thumbnails&album=toprated
+[*] Changed config.inc.php: $CONFIG['TABLE_PREFIX']=$prefix."_cpg_"; adds cpg tables to the user's nuke db.
+[*] Notice: Undefined variable: raw_ip in db_input.php on line 138
+[*] Notice: Undefined variable: hdr_ip in db_input.php on line 138
+[*] Notice: Undefined index: msg_raw_ip in modules/coppermine/displayimage.php on line 325
+[*] Notice: Undefined index: msg_hdr_ip in modules/coppermine/displayimage.php on line 347
+[*] Notice: Undefined index: msg_raw_ip in modules/coppermine/displayimage.php on line 348
+[*] displayimagepopup has more info that needed.....load time? took out unnessary code change charset to iso-8859-1
+[*] In displayimagepopup.php $CONFIG['charset'] returns "language file"
+
+
+
+
+Untested/Still to be done[list=1]
+
+
+#################
+picmgmt(called by db_input.php, util.php and xp_publish.php) and picmgmtbatch (called by addpic) are almost identical
+
+Next time
+[*] $CONFIG['protect_image'] Transparent gif in front of intermediate image (instead of no right click script). hack posted
+[*] Name of admin as picture poster that is not superuser, option....
+[*] lastupby lastcomby lasthits
+[*] implement gd_info GIF Read Support to allow people to upload gif images...save as jpg.

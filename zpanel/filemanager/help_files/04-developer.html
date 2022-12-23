@@ -1,0 +1,207 @@
+<html>
+<head>
+<title>net2ftp help</title>
+<link rel="stylesheet" type="text/css" href="../skin1-blue.css">
+</head>
+
+<body style="margin-left: 70px; margin-right: 70px;">
+
+<div class="header21">Overview of the code</div>
+
+net2ftp uses one script file (index.php) for all screens: login, browse, copy, ... <br /><br />
+
+The functions are stored in different include files according to what they do:
+<ul>
+<li> <u>homepage.inc.php</u> contains functions to print the login page and net2ftp homepage </li>
+<li> <u>manage.inc.php</u> contains the high-level functions to print the screens (copy, upload,...) </li>
+<li> <u>filesystem.inc.php</u> contains the low-level functions that execute FTP commands or local filesystem commands </li>
+<li> <u>browse.inc.php</u> contains all functions related to the browse screen (requesting the ftp_rawlist, parsing it, showing the output) </li>
+<li> <u>authorizations.inc.php</u> contains functions to check the authorizations </li>
+<li> <u>html.inc.php</u> contains functions which print the HTML header and footer </li>
+<li> <u>httpheaders.inc.php</u> contains the code that is related to sending HTTP headers (needed for example to trigger the Save As popup of your browser, when you want to download a file) </li>
+<li> <u>registerglobals.inc.php</u> registers the variables and does some preliminary checking </li>
+</ul>
+
+Two state variables (state and state2) determine which screen is shown.<br />
+Below is some sample code taken from index.php.<br />
+
+<textarea cols="70" rows="15" wrap="off">
+
+----- sample code from index.php -----
+
+switch ($state) {
+// When $state is not defined, it is set to "login" to show the login screen
+
+	case "login":
+		// Show the login screen
+		printLoginForm();
+	break;
+	case "browse":
+		// Browse screen
+		browse($state2, $directory, $FormAndFieldName, $browse_details);
+	break;
+	case "manage":
+		// Actions: copy, upload, rename, ...
+		// Almost all actions have 2 screens: a form and a result screen.
+		// Both are handled by the same function.
+		manage($state2, $directory, $entry, $selectedEntries, $newNames, $dirorfile, $formresult, $chmodStrings, $targetDirectories, $copymovedelete, $text, $wysiwyg, $uploadedFilesArray, $uploadedArchivesArray, $use_folder_names, $command, $to, $message);
+	break;
+	case "bookmark":
+		// Bookmark screen
+		bookmark($directory, $url, $text);
+	break;
+	case "logout":
+		printLoginForm();
+	break;
+	default:
+		$resultArray['message'] = "Unexpected state string. Exiting."; 
+		printErrorMessage($resultArray, "exit", "");
+	break;
+}
+
+
+
+</textarea>
+
+<br /><br />
+
+The login information and state variables are passed from screen to screen via forms. <br />
+There is a function to print the login information in an HTML form: printLoginInfo(). <br />
+
+<br /><br />
+
+<div class="header21">Sessions and cookies</div>
+
+For the moment net2ftp doesn't use sessions. 
+This was to avoid session timeouts after 20 or 30 minutes; you can work without worrying about it for as long as you want. 
+In the meanwhile some users have pointed out on the forum how to avoid session timeouts, but I don't know what benefit sessions would bring. 
+There isn't really any information that has to be stored during a session.
+
+<br /><br />
+
+Cookies are used to store the last FTP server, username and directory used.
+
+<br /><br />
+
+<div class="header21">Settings</div>
+
+net2ftp can be configured using the settings.inc.php file. 
+When a function needs to access a variable, this variable is declared as global in the beginning of the function.
+These variables are never changed during the execution of the program.<br />
+
+<br /><br />
+
+<div class="header21">Icons</div>
+
+The icons were developed by Everaldo, and can be downloaded from <a href="http://www.linuxcult.com/forum/crystal.php" target="_blank">http://www.linuxcult.com/forum/crystal.php</a>. 
+In the archive that can be downloaded there are several sets of icons, each with a different size. Net2ftp uses the 32x32 set.<br /><br />
+
+The original icons are shown when the mouse moves over the image. 
+When the mouse is not over the image, a brighter image is shown. 
+This effect was obtained by using <a href="http://www.gimp.org" target="_blank">The Gimp</a> to change the Brightness.<br /><br />
+
+Here is how to do it:
+Open the image with The Gimp, right-click on it, and select Image > Colors > Brightness-Contrast.
+Move the slider until you get Brightness 70 (or just enter it).
+Save the file as image_light.png and a second time as image_light.gif.<br /><br />
+
+In (recent) Mozilla-based browsers, PNG images with a transparent background are shown fine. 
+In Internet Explorer however they are not.
+Therefor the images were converted to the GIF format; this was also done with Gimp. 
+Depending on the browser, a PNG or GIF image is shown.<br /><br />
+
+There are 3 kinds of icons:
+<ul>
+<li> action icons: when you press on them, an action is triggered. 
+There is an onMouseOver effect and onClick event. 
+<li> mime icons: they indicate which kind of file is shown in the browse view. No onMouseOver effect. 
+<li> settings icons (not yet in use): they indicate if a setting is on or off 
+-- for example if the FTP transfer mode is ASCII or BINARY. 
+When the mode is ASCII, the ASCII icon is shown with a border, and there is no onMouseOver effect. 
+The BINARY icon is shown without a border and there is an onMouseOver effect. 
+The code for this FTP transfer mode is already written but not yet in use.<br /><br />
+</ul>
+
+All the code behind icons is in the skins.inc.php file.
+
+<br /><br />
+
+<div class="header21">How to participate in the development</div>
+
+If you're interested in helping with the development of net2ftp, feel free!<br /><br />
+
+Post a message on the forum telling which feature you'ld like to develop, just to make sure someone else isn't working on the same thing.
+If you need help or would like some advice, don't hesitate.
+Once you're done, send the code to David, who will test it and include it in the main distribution.<br /><br />
+
+In the future we may start working together on a common development server at net2ftp.org.<br />
+
+<br /><br />
+
+<div class="header21">Requested features</div>
+<ul>
+<li> Multi-lingual support</li>
+<li> Currently only the last FTP server, username and directory are stored in a cookie. An improvement would be to store the last 5 servers/usernames/directories used and print a drop-down list. </li>
+<li> Let the user select the number of upload fields. Currently it has to be specified in the settings file (requested by Ajay)</li>
+<li> An install script would be great... Most users have a problem because they erased a character by mistake... </li>
+<li> The admin panel can also be improved a lot: graphic statistics, enhanced functions,... </li>
+<li> Allow the user to select the mode of transfer, i.e. binary, ascii or auto (requested by Ajay and Decsifo)</li>
+<li> The chmod functionality should recursively go through all subdirectories and files, if the user wants it. (requested by emonkey)</li>
+<li> List the files and directories together, so that manipulations like chmod, zip download etc can be done on them together. Currently these have to be done seperately (requested by Ajay)</li>
+<li> Add an upload field at the bottom of the directories listing as well as makenew dir etc for immediate creation, instead of going to a new page for this (requested by Ajay)</li>
+<li> Show thumbnails for graphic files</li>
+<li> Search files for given string</li>
+<li> Apache/MySQL specific tools: password-protect directories, custom error pages, run SQL queries</li>
+<li> Add more cases to the function (printURL in browse.inc.php) that maps the FTP location to a URL. <br />
+     Some examples: <br />
+       ftp.freeserver.com/username/dir/file.php       can be mapped to   <br />
+       http://username.freeserver.com/dir/file.php OR<br />
+       http://www.freeserver.com/username/dir/file.php OR<br />
+       http://freeusers.freeserver.com/~username/dir/file.php <br /></li>
+</ul>
+
+More exotic features:
+<ul>
+<li> Command Line Interface (requested by edph)</li>
+<li> URL to FTP (meaning, you enter the URL of a picture in net2ftp, and net2ftp gets that picture and saves it on your FTP server; could be extended to any content, like a page, sound, ...) (requested by arie)</li>
+<li> Email to FTP: send a mail to a specific address, and enter some commands in the mail. They are executed by net2ftp, and the result is sent back by email.</li>
+<li> Upload progress bar</li>
+<li> One-time passwords. For the paranoids who are going on holiday and don't want to compromise their password -- and still want to update their site from a cybercafe</li>
+<li> Client-side encryption with javascript</li>
+<li> Make FTP files available via HTML link. For example: &lt;img src="http://www.net2ftp.com/getfile.php?ftpserver=ftp.myserver.com&file=/home/david/mypicture.jpg"&gt;</li>
+<li> Sign a file (MD5)</li>
+</ul>
+
+<br /><br />
+
+<div class="header21">Known bugs</div>
+
+<ul>
+
+<li> Urban reported a problem with symlinks: relative symlinks work, but absolute ones not. 
+When investigating this, it appeared that there are symlinks to directories, and symlinks to files. 
+The problem is that an ftp_rawlist request does not show any difference... no solution yet.
+This can be tested on the public server ftp.belnet.be with username anonymous and password test@test.com -- any volunteers?
+</li>
+
+<li> Liz reported this on the forum in June 2003.
+I just started using this, so im not sure if you guys are aware or not, but i 
+thought id point it out anyway. I can connect fine, browse through my folders 
+fine, nothing wrong there. The problem i come into is when i want to download 
+a file. Ill download it, and then ill come back to either download another or 
+do pretty much anything else and i get errors that wont let me do anything 
+else except refresh the page then making me log-in again. Not that this is a 
+really bad problem, but it makes downloading a bunch of files rather lengthly. 
+Let me know if this is known or its something on my end that i need to change. 
+thanks.
+</li>
+
+<li> Solve the problem that slower FTP sites cannot be reached sometimes with net2ftp. 
+This function may help: ftp_set_option(FTP_TIMEOUT_SEC)</li>
+
+</ul>
+
+<br /><br />
+
+</body>
+</html>

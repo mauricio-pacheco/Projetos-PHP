@@ -1,0 +1,42 @@
+.Texto {
+	font-family: tahoma;
+	font-size: 11px;
+	color: #666666;
+	text-decoration: none;
+	font-weight: normal;
+}
+.Menu {
+	font-family: tahoma;
+	font-size: 11px;
+	color: #006699;
+	text-decoration: none;
+}
+.Formulario{
+	FONT-SIZE: 11px;
+	COLOR: #006699;
+	FONT-FAMILY: Tahoma;
+	HEIGHT: 16x;
+	border: 1px solid #999999;
+	text-decoration: none;
+	width: 200px;
+
+
+
+}
+.FormularioBotão {
+	FONT-SIZE: 11px;
+	COLOR: #666666;
+	FONT-FAMILY: Tahoma;
+	HEIGHT: 16x;
+	border: 1px solid #999999;
+	text-decoration: none;
+	width: 70px;
+	background-color: #FFFFFF;
+
+}
+.Radio {
+	font-family: tahoma;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+}

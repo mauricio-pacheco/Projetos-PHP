@@ -1,0 +1,23 @@
+
+.Moveable { z-index:999; }
+.MoveLayer { border:dashed 2px red; position:absolute; left:0px; top:0px; cursor:move; z-index:1000; display:none; width:100px; height:100px; background-image:url(../images/move_background.gif); }
+.DropTarget { cursor:move; display:inline; position:absolute; background-color:royalblue; filter:alpha(opacity=20); opacity: 0.2; -moz-opacity:0.2; }
+.DropTarget_inner { cursor:move; display:inline; position:absolute; background-image: url('images/highlightdrop.gif'); background-position: center center; background-repeat: no-repeat; }
+.DesignMode { display:none; background-color:#FFEDAD; padding:20px; border: solid 3px #F4BD00; position:absolute; top:20px; left:20px; text-align:left; font-size:11px; float: left;}
+.DesignMode h2 { font-size:18px; margin:0px; padding:0px; display:inline; }
+.DesignModeMenu { font-family: Verdana; position:absolute; left:20px; top:20px; background-image: url('images/DesignModeBarBg.gif'); border: solid 2px #3764A0; height:49px; }
+.DesignModeControls ul { list-style: none; padding; 0; margin: 0; }
+.DesignModeControls div { float: left; }
+.DesignModeMenuHeader { cursor: move; background-color: #3764A0; margin:1px; width:185px; font-weight:bold; padding:3px 0px 3px 3px; color:#FFFFFF; font-size:11px; letter-spacing:-1px; }
+.DesignModeCloseButton { padding:2px; float:right; margin-right:3px; border:solid 1px #3764A0; }
+.DesignModeCloseButtonOver { cursor:pointer; padding:2px; float:right; margin-right:3px; background-color:#FFE7A2; border:solid 1px #FFBD69; }
+.DesignModeButton { margin:3px; cursor:pointer; border:solid 1px transparent; }
+.DesignModeButtonEnabled { 	background: #FFE7A2; border: 1px solid #FFBD69; }
+.DesignModeButtonOver { margin:3px; cursor:pointer; background-color:#FFE7A2; border:solid 1px #FFBD69; }
+.DesignModeContextMenu { display:none; z-index:2000; position:absolute; left:10px; top:10px; border:solid 1px #6593CF; background-color:#fff; width:120px; }
+.DesignModeContextMenu ul { list-style-type:none; margin:0px; padding:0px; font-size:11px; font-family:"MS Sans Serif", Arial; color:black; }
+.DesignModeContextMenu li { padding:5px 0px 5px 10px; cursor:default; border:solid 1px transparent; }
+.DesignModeContextMenuHover { background-color:#FFE7A2; border:solid 1px #FFBD69; }
+.DesignModeLangOver { background: #FFFFCC; color: black; cursor: text;}
+
+#Footer { display:none; }

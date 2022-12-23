@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>Data e Hora na tela</title>
+	<script>
+<!--esconder o script dos navegadores anteriores
+	_datatoda = new Date    // recebe a data e hora
+	_diasemana = _datatoda.getDay() // recebe o dia da semana
+      nummes = _datatoda.getMonth()   // recebe o mes
+      hora = _datatoda.getHours()     // recebe a hora
+	minuto = _datatoda.getMinutes() // recebe o minutos
+//
+// monta vetor com os dias da semana e meses
+	_dia = new Array("Domingo","Segunda-Feira","Terça-Feira","Quarta-Feira","Quinta-Feira","Sexta-Feira","Sabado")
+	_mes = new Array("Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro")	
+//
+// verifica a hora e os minutos e monta a variavel saudacao	
+	saudacao = " "
+	if (hora <=11 && minuto <=59)
+	{
+		saudacao = "Bom Dia"
+	}
+	if (hora >=12 && hora < 18)
+	{
+		saudacao = "Boa Tarde"
+	}	 
+	if (hora >=18 && hora <=24)
+	{
+		saudacao = "Boa Noite"
+	}
+-->
+	</script>	
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+
+<body bgcolor="#151515">
+<div align="center"> <font color="#FFFFFF" size="1" face="Verdana, Arial, Helvetica, sans-serif">
+  <script>
+<!--esconder o script dos navegadores anteriores
+	document.write(saudacao + ", " + _dia[_datatoda.getDay()]+", " + 
+_datatoda.getDate() + " de " + _mes[_datatoda.getMonth()] + " de " + _datatoda.getYear())
+
+-->
+</script>
+  </font> </div>
+</body>
+</html>

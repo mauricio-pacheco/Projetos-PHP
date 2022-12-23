@@ -1,0 +1,7 @@
+Adicione os dados abaixo no arquivo language/lang-brazilian.php
+
+// Configuração de linguagem para o módulo Ultra Downloads
+define("_ERROREPASS","Senha Incorreta");
+define("_PASSNOVAL","Você digitou uma senha inválida.");
+define("_RIPROVA","Tente Novamente");
+// Fim

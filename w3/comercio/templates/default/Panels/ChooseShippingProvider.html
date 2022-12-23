@@ -1,0 +1,31 @@
+<div class="Block Moveable" id="ChooseShippingProvider">
+	<div style="display:%%GLOBAL_HideShippingProviderList%%">
+		<h2>%%LNG_ChooseShippingProvider%%</h2>
+		<div class="BlockContent">
+			<p class="InfoMessage">
+				%%LNG_CheckoutShippingProviderIntro%%
+			</p>
+
+			<form action="%%GLOBAL_ShopPath%%/checkout.php?action=save_shipper" method="post" onsubmit="return check_shipping_provider_form()">
+				<ul class="ShippingProviderList">
+					%%GLOBAL_ShippingProviders%%
+				</ul>
+
+				<div class="ML20">
+					<input type="submit" value="%%LNG_Continue%%" />
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div style="display:%%GLOBAL_HideNoShippingProviders%%">
+		<h2>%%LNG_Oops%%</h2>
+		<div class="BlockContent">
+			<p class="ErrorMessage">
+				%%GLOBAL_ShippingError%% <a href="javascript:history.go(-1)">%%LNG_TryAgain%%</a>
+			</p>
+		</div>
+	</div>
+
+	%%Panel.ChooseShippingProviderJavaScript%%
+</div>

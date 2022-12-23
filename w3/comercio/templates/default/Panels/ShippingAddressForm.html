@@ -1,0 +1,73 @@
+	<div class="Block Moveable" id="ShippingAddressForm">
+		<h2>%%GLOBAL_ShippingAddressFormTitle%%</h2>
+		<div class="BlockContent">
+			<p class="InfoMessage" style="display: %%GLOBAL_HideAddShippingAddressIntroMessage%%">
+				%%GLOBAL_ShippingAddressFormIntro%%
+			</p>
+
+			<p class="ErrorMessage" style="display: %%GLOBAL_HideAddShippingAddressErrorMessage%%">
+				%%GLOBAL_ErrorMessage%%
+			</p>
+
+			<form method="post" action="%%GLOBAL_ShopPathSSL%%/account.php?action=%%GLOBAL_ShippingAddressFormAction%%" onsubmit="return check_shipping_address_form()" class="PL20">
+				<input type="hidden" name="shipid" value="%%GLOBAL_ShipId%%" />
+
+				<div class="FormContainer HorizontalFormContainer">
+					<dl>
+						<dt><span class="Required">*</span> %%LNG_FullName%%:</dt>
+						<dd><input type="text" class="Textbox Field200" name="ship_fullname" id="ship_fullname" value="%%GLOBAL_AddressFullName%%" /></dd>
+
+						<dt><span class="Required">*</span> %%LNG_AddressLine1%%:</dt>
+						<dd><input type="text" class="Textbox Field200" name="ship_address1" id="ship_address1" value="%%GLOBAL_AddressLine1%%" /></dd>
+
+						<dt>&nbsp;&nbsp; %%LNG_AddressLine2%%:</dt>
+						<dd><input type="text" class="Textbox Field200" name="ship_address2" id="ship_address2" value="%%GLOBAL_AddressLine2%%" /></dd>
+
+						<dt>&nbsp;&nbsp; %%LNG_Phone%%:</dt>
+						<dd><input type="text" class="Textbox Field200" name="ship_phone" id="ship_phone" value="%%GLOBAL_AddressPhone%%" /></dd>
+
+						<dt><span class="Required">*</span> %%LNG_City%%:</dt>
+						<dd><input type="text" class="Textbox Field200" name="ship_city" id="ship_city" value="%%GLOBAL_AddressCity%%" /></dd>
+
+						<dt><span class="Required">*</span> %%LNG_Country%%:</dt>
+						<dd>
+							<select name="ship_country" id="ship_country" class="Field200" onchange="GetStates(this, 'ship_state', 'ship_state_1')">
+								%%GLOBAL_CountryList%%
+							</select>
+						</dd>
+
+						<dt><span class="Required">*</span> %%LNG_StateProvince%%:</dt>
+						<dd>
+							<select style="display:%%GLOBAL_HideStateList%%" class="Field200" name="ship_state" id="ship_state">
+								%%GLOBAL_StateList%%
+							</select>
+							<input style="display:%%GLOBAL_HideStateBox%%" type="text" class="Textbox Field200" name="ship_state_1" id="ship_state_1" value="%%GLOBAL_AddressState%%" />
+						</dd>
+
+						<dt><span class="Required">*</span> %%LNG_ZipPostcode%%:</dt>
+						<dd><input type="text" class="Textbox" name="ship_zip" id="ship_zip" value="%%GLOBAL_AddressZip%%" style="width:70px" /></dd>
+
+						<dt><span class="Required">*</span> %%LNG_BuildingType%%:</dt>
+						<dd>
+							<select name="ship_destination" id="ship_destination">
+								<option value="residential" %%GLOBAL_IsResidential%%>%%LNG_House%%</option>
+								<option value="commercial" %%GLOBAL_IsCommercial%%>%%LNG_Office%%</option>
+							</select>
+						</dd>
+					</dl>
+					<p class="Submit">
+						<input type="submit" value="%%LNG_SaveAddress%%" />
+					</p>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script type="text/javascript" language="javascript">
+	//<![CDATA[
+				var url = 'remote.php';
+	//]]>
+	</script>
+	<script type="text/javascript" src="%%GLOBAL_ShopPath%%/javascript/callback.js"></script>
+
+	%%Panel.AddShippingAddressJavaScript%%

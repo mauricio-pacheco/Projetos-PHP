@@ -1,0 +1,189 @@
+A {
+	COLOR: #4ca55e
+}
+A:hover {
+	COLOR: #4ca55e
+}
+A:active {
+	COLOR: #4ca55e
+}
+A:focus {
+	COLOR: #4ca55e
+}
+UL LI {
+	BACKGROUND-IMAGE: url(bullet-list.gif)
+}
+BLOCKQUOTE {
+	BACKGROUND-IMAGE: url(quote.gif)
+}
+PRE {
+	BORDER-LEFT-COLOR: #4ca55e
+}
+.code {
+	BORDER-LEFT-COLOR: #4ca55e
+}
+.dropcap {
+	COLOR: #4ca55e
+}
+.error {
+	COLOR: #4ca55e
+}
+.message {
+	COLOR: #4ca55e
+}
+.tips {
+	COLOR: #4ca55e
+}
+.bignumber {
+	COLOR: #4ca55e
+}
+A.readon:hover {
+	BACKGROUND-IMAGE: url(bullet-title2.gif); COLOR: #4ca55e
+}
+A.readon:active {
+	BACKGROUND-IMAGE: url(bullet-title2.gif); COLOR: #4ca55e
+}
+A.readon:focus {
+	BACKGROUND-IMAGE: url(bullet-title2.gif); COLOR: #4ca55e
+}
+TABLE.contenttoc TD {
+	BACKGROUND-IMAGE: url(bullet-list.gif)
+}
+.blog_more UL LI {
+	BACKGROUND-IMAGE: url(bullet-list.gif)
+}
+SPAN.ja-sitetool {
+	COLOR: #4ca55e
+}
+#ja-search .inputbox {
+	BORDER-LEFT-COLOR: #4ca55e; BORDER-BOTTOM-COLOR: #4ca55e; BORDER-TOP-COLOR: #4ca55e; BORDER-RIGHT-COLOR: #4ca55e
+}
+A.mainlevel:hover {
+	BACKGROUND-IMAGE: url(a-mainlevel-bg2.gif)
+}
+A.mainlevel:active {
+	BACKGROUND-IMAGE: url(a-mainlevel-bg2.gif)
+}
+A.mainlevel:focus {
+	BACKGROUND-IMAGE: url(a-mainlevel-bg2.gif)
+}
+A.mainlevel#active_menu {
+	BACKGROUND-IMAGE: url(a-mainlevel-bg3.gif); COLOR: #4ca55e
+}
+A.sublevel {
+	BACKGROUND-IMAGE: url(bullet-list.gif)
+}
+A.sublevel:hover {
+	COLOR: #4ca55e
+}
+A.sublevel:active {
+	COLOR: #4ca55e
+}
+A.sublevel:focus {
+	COLOR: #4ca55e
+}
+#active_menu {
+	COLOR: #4ca55e
+}
+#ja-headerwrap {
+	BACKGROUND: url(header-bg.gif) #4ca55e repeat-x 50% top
+}
+#ja-header {
+	BACKGROUND-IMAGE: url(headerright-bg.gif)
+}
+#ja-topnavwrap {
+	BACKGROUND-IMAGE: url(topnav-left-bg.gif)
+}
+#ja-topnavwrap UL {
+	BACKGROUND-IMAGE: url(topnav-right-bg.gif)
+}
+#ja-sh {
+	BORDER-BOTTOM-COLOR: #4ca55e
+}
+#ja-topsl LI A:hover {
+	COLOR: #4ca55e
+}
+#ja-topsl LI A:active {
+	COLOR: #4ca55e
+}
+#ja-topsl LI A:focus {
+	COLOR: #4ca55e
+}
+#ja-botsl LI A:hover {
+	COLOR: #4ca55e
+}
+#ja-botsl LI A:active {
+	COLOR: #4ca55e
+}
+#ja-botsl LI A:focus {
+	COLOR: #4ca55e
+}
+#ja-topsl LI {
+	BACKGROUND-IMAGE: url(bullet-list.gif)
+}
+#ja-botsl LI {
+	BACKGROUND-IMAGE: url(bullet-list.gif)
+}
+#ja-leftcol UL LI {
+	BACKGROUND-IMAGE: url(bullet-list.gif)
+}
+#ja-rightcol UL LI {
+	BACKGROUND-IMAGE: url(bullet-list.gif)
+}
+DIV.module-ja-newssb UL.ja-newslinks LI {
+	BACKGROUND-IMAGE: url(bullet-list.gif)! important
+}
+#ja-pathway IMG {
+	DISPLAY: none
+}
+#ja-pathway A {
+	PADDING-RIGHT: 18px; PADDING-LEFT: 0px; BACKGROUND: url(arrow.gif) no-repeat 85% 70%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#ja-subnav A:hover {
+	COLOR: #4ca55e! important
+}
+#ja-subnav A:active {
+	COLOR: #4ca55e! important
+}
+#ja-subnav A:focus {
+	COLOR: #4ca55e! important
+}
+#ja-subnav LI.active A {
+	COLOR: #4ca55e! important
+}
+#ja-subnav LI.active A:hover {
+	COLOR: #4ca55e! important
+}
+#ja-subnav LI.active A:active {
+	COLOR: #4ca55e! important
+}
+#ja-subnav LI.active A:focus {
+	COLOR: #4ca55e! important
+}
+#ja-cssmenu LI UL A:hover {
+	COLOR: #4ca55e! important
+}
+#ja-cssmenu LI UL A:active {
+	COLOR: #4ca55e! important
+}
+#ja-cssmenu LI UL A:focus {
+	COLOR: #4ca55e! important
+}
+#ja-cssmenu LI LI A.active {
+	COLOR: #4ca55e! important
+}
+.transMenu .hover.item {
+	BACKGROUND: #4ca55e
+}
+#jasdl-subnav A:hover {
+	COLOR: #4ca55e! important
+}
+#jasdl-subnav A:active {
+	COLOR: #4ca55e! important
+}
+#jasdl-subnav A:focus {
+	COLOR: #4ca55e! important
+}
+#jasdl-subnav UL LI.active A {
+	COLOR: #4ca55e! important
+}

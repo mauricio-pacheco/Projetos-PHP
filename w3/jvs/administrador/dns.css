@@ -1,0 +1,76 @@
+BODY {
+	BACKGROUND-IMAGE: none; BACKGROUND-COLOR: #fff
+}
+#topo {
+	DISPLAY: none
+}
+#esquerda {
+	DISPLAY: none
+}
+#direita {
+	DISPLAY: none
+}
+#rodape {
+	DISPLAY: none
+}
+#centro {
+	WIDTH: 100%
+}
+#topo {
+	DISPLAY: none
+}
+#bloco_criacao {
+	DISPLAY: none
+}
+#meme_rub {
+	DISPLAY: none
+}
+#menu_principal {
+	DISPLAY: none
+}
+#esquerda {
+	DISPLAY: none
+}
+#chapo {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 0px
+}
+#texto {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 0px
+}
+.raised {
+	BORDER-TOP-WIDTH: 0px! important; BORDER-LEFT-WIDTH: 0px! important; BORDER-BOTTOM-WIDTH: 0px! important; BACKGROUND-COLOR: #fff! important; BORDER-RIGHT-WIDTH: 0px! important
+}
+#art_centro {
+	FLOAT: none; WIDTH: 100%; BACKGROUND-COLOR: #fff
+}
+#rodape {
+	DISPLAY: none
+}
+#conteudo {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; LEFT: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 0px; WIDTH: 100%; POSITION: relative; BORDER-RIGHT-WIDTH: 0px
+}
+.spip-admin-float {
+	DISPLAY: none
+}
+H1 {
+	COLOR: #000! important
+}
+H2 {
+	COLOR: #000! important
+}
+H3 {
+	COLOR: #000! important
+}
+H1 {
+	DISPLAY: none! important
+}
+H2 {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 11px; MARGIN-BOTTOM: 20px; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+H3 {
+	FONT-SIZE: 11px
+}
+DIV {
+	CLEAR: both! important; FLOAT: none! important; WIDTH: 100%! important
+}
+

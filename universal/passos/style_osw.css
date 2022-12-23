@@ -1,0 +1,348 @@
+#jquery-overlay {
+	left: 0px; top: 0px; width: 100%; height: 500px; position: absolute; z-index: 90;
+}
+#lightbox-nav-btnNext a:link {
+	display: block;
+}
+#jquery-lightbox {
+	left: 0px; top: 0px; width: 100%; text-align: center; line-height: 0; position: absolute; z-index: 100;
+}
+#jquery-lightbox a img {
+	border: currentColor;
+}
+#lightbox-container-image-box {
+	margin: 0px auto; width: 250px; height: 250px; position: relative; background-color: rgb(255, 255, 255);
+}
+#lightbox-container-image {
+	padding: 10px;
+}
+#lightbox-loading {
+	left: 0%; top: 40%; width: 100%; height: 25%; text-align: center; line-height: 0; position: absolute;
+}
+#lightbox-nav {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 10;
+}
+#lightbox-container-image-box > #lightbox-nav {
+	left: 0px;
+}
+#lightbox-nav a {
+	
+}
+#lightbox-nav-btnPrev {
+	width: 49%; height: 100%; display: block; zoom: 1;
+}
+#lightbox-nav-btnNext {
+	width: 49%; height: 100%; display: block; zoom: 1;
+}
+#lightbox-nav-btnPrev {
+	left: 0px; float: left;
+}
+#lightbox-nav-btnNext {
+	right: 0px; float: right;
+}
+#lightbox-container-image-data-box {
+	font: 10px/1.4em Verdana, Helvetica, sans-serif; margin: 0px auto; padding: 0px 10px; width: 100%; overflow: auto; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255);
+}
+#lightbox-container-image-data {
+	padding: 0px 10px; color: rgb(102, 102, 102);
+}
+#lightbox-container-image-data #lightbox-image-details {
+	width: 70%; text-align: left; float: left;
+}
+#lightbox-image-details-caption {
+	font-weight: bold;
+}
+#lightbox-image-details-currentNumber {
+	padding-bottom: 1em; clear: left; display: block;
+}
+#lightbox-secNav-btnClose {
+	width: 66px; padding-bottom: 0.7em; float: right;
+}
+.jqDockLabel {
+	width: 150px; text-align: center; bottom: -20px !important; color: rgb(33, 64, 154); letter-spacing: -1px; padding-top: 5px; font-size: 11px; font-weight: bold;
+}
+.online {
+	background: url("../img/online-background.jpg") no-repeat center; width: 523px; height: 345px; text-align: center;
+}
+.online .veja {
+	overflow: hidden; float: left;
+}
+.online .ouca {
+	overflow: hidden; float: left;
+}
+.online .veja {
+	padding-top: 78px; padding-left: 5px;
+}
+.online .ouca {
+	padding-left: 58px;
+}
+.online .links {
+	padding-right: 10px; float: right;
+}
+.breadcrumb {
+	background: url("../img/breadcrumb-top-border.jpg") repeat-x left top; padding: 16px 10px 0px; overflow: hidden;
+}
+.breadcrumb p {
+	background: rgb(255, 255, 255); padding: 2px 5px; color: rgb(137, 137, 137); font-size: 11px; -moz-border-radius: 2px 2px 2px 2px;
+}
+.breadcrumb p a {
+	color: rgb(137, 137, 137); text-decoration: underline;
+}
+.popup-top-10 {
+	background: url("../img/popup-top10-bg.png") no-repeat left top rgb(0, 84, 166); width: 470px; height: 130px;
+}
+.popup-top-10 div#content {
+	width: 330px; text-align: left; padding-top: 30px; padding-left: 90px;
+}
+.popup-top-10 h1 {
+	font-size: 12px; font-weight: bold;
+}
+.popup-top-10 h2 {
+	font-size: 12px; font-weight: bold;
+}
+.popup-top-10 h1 {
+	color: rgb(237, 28, 36);
+}
+.popup-top-10 h2 {
+	color: rgb(255, 255, 255);
+}
+.left-container {
+	background: rgb(255, 255, 255); padding: 20px; overflow: hidden;
+}
+.left-container a {
+	color: rgb(149, 149, 149); text-decoration: underline; cursor: pointer;
+}
+.left-container .summary {
+	width: 100%; height: 100%; overflow: hidden; padding-bottom: 30px;
+}
+.left-container .summary img {
+	overflow: hidden; float: left;
+}
+.left-container .summary h1 {
+	color: rgb(33, 64, 154); letter-spacing: -1px; overflow: hidden; padding-top: 10px; padding-left: 15px; font-size: 24px; _margin-left: 50px;
+}
+.left-container .summary div {
+	color: rgb(85, 85, 85); overflow: hidden; padding-left: 15px; font-size: 12px; _padding-left: 65px;
+}
+.left-container .inside {
+	color: rgb(85, 85, 85); overflow: hidden; padding-left: 65px; font-size: 12px;
+}
+.left-container .inside h2 {
+	width: 100%; color: rgb(34, 58, 158); font-size: 16px; font-weight: bold; margin-bottom: 10px; border-bottom-color: rgb(181, 181, 181); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.left-container .inside a {
+	color: rgb(92, 92, 92);
+}
+.left-container .inside .search {
+	padding-bottom: 25px;
+}
+.left-container .inside .search form label {
+	color: rgb(0, 0, 0); padding-right: 5px; font-size: 11px;
+}
+.left-container .inside .search form input {
+	text-align: center; margin-right: 2px;
+}
+.left-container .inside .navbar {
+	overflow: hidden; padding-top: 10px; border-top-color: rgb(181, 181, 181); border-top-width: 1px; border-top-style: solid; _padding-bottom: 10px;
+}
+.left-container .inside .navbar .navigator {
+	background: 0px 0px rgb(214, 214, 214); width: 75px; height: 20px; text-align: center; font-size: 11px;
+}
+.left-container .inside .navbar .navigator a {
+	color: rgb(0, 0, 0) !important;
+}
+.left-container .inside .border-box {
+	overflow: hidden; padding-top: 2px; padding-bottom: 2px !important; border-top-color: rgb(181, 181, 181); border-top-width: 1px; border-top-style: solid; _height: 101px;
+}
+.left-container .inside .border-box div {
+	padding-top: 35px;
+}
+.left-container .inside .border-box a {
+	color: rgb(36, 56, 151);
+}
+.left-container .inside .border-box p {
+	color: rgb(139, 139, 139);
+}
+.left-container .inside .box-default {
+	width: auto; height: auto; overflow: hidden; padding-bottom: 30px;
+}
+.left-container .inside .box-default h3 {
+	color: rgb(33, 64, 154); letter-spacing: -1px; font-size: 18px; border-bottom-color: rgb(181, 181, 181); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.left-container .inside .box-default h3 a {
+	color: rgb(33, 64, 154); letter-spacing: -1px; font-size: 18px; border-bottom-color: rgb(181, 181, 181); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.left-container .inside .box-default ul.enderecos li {
+	padding-top: 10px; font-size: 11px;
+}
+.left-container .inside .box-default ul.today-birthdays {
+	overflow: hidden; padding-bottom: 40px;
+}
+.left-container .inside .box-default ul.today-birthdays li {
+	padding: 10px; width: 264px; margin-right: 25px; border-bottom-color: rgb(181, 181, 181); border-bottom-width: 1px; border-bottom-style: solid; float: left;
+}
+.left-container .inside .box-default img.locutorthumb {
+	border: 1px solid rgb(181, 181, 181); width: 119px; height: 119px; overflow: hidden; margin-right: 15px; float: left;
+}
+.left-container .inside .box-default p.photos {
+	width: 470px; padding-left: 70px;
+}
+.left-container .inside .box-default p.photos img {
+	padding-bottom: 15px; float: none;
+}
+.left-container .inside .box-default .related {
+	width: 100%; float: left;
+}
+.left-container .inside .box-default .thumb {
+	padding-right: 30px; float: left;
+}
+.left-container .inside .box-default .video-info {
+	padding-top: 15px;
+}
+.left-container .inside .box-default .video-info p {
+	font-size: 11px;
+}
+.left-container .inside .box-default .box-top10 {
+	width: 100%; overflow: hidden; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(181, 181, 181); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; cursor: default; background-color: rgb(225, 225, 225);
+}
+.left-container .inside .box-default .box-top10-alt {
+	background-color: rgb(215, 215, 215);
+}
+.left-container .inside .box-default .box-top10 img {
+	width: 163px; height: 80px; float: left;
+}
+.left-container .inside .box-default .box-top10 .box-top10-content {
+	overflow: hidden; padding-top: 15px;
+}
+.left-container .inside .box-default .box-top10 .box-top10-content .position {
+	color: rgb(33, 64, 154); text-indent: 20px; letter-spacing: -2px; padding-right: 15px; font-size: 40px; float: left;
+}
+.left-container .inside .box-default .box-top10 .box-top10-content #first {
+	color: rgb(237, 28, 36);
+}
+.left-container .inside .box-default .box-top10 .box-top10-content .description {
+	padding-top: 8px; float: left;
+}
+.left-container .inside .box-default .box-top10 .box-top10-content .description a {
+	text-decoration: none;
+}
+.left-container .inside .box-default .box-top10 .box-top10-content .position-last {
+	padding-top: 13px; padding-right: 30px; font-size: 17px; font-weight: bold; float: right;
+}
+.left-container .inside .box-default .box-top10 .box-top10-content .position-stats {
+	padding-top: 13px; padding-right: 30px; font-size: 17px; font-weight: bold; float: right;
+}
+.left-container .inside .box-default .box-top10 .box-top10-content .position-stats .up {
+	padding-left: 12px; font-size: 12px;
+}
+.left-container .inside .box-default .box-top10 .box-top10-content .position-stats .down {
+	padding-left: 12px; font-size: 12px;
+}
+.left-container .inside .box-default .box-top10 .box-top10-content .position-stats .up {
+	background: url("../img/position-up.jpg") no-repeat left; color: rgb(126, 177, 98);
+}
+.left-container .inside .box-default .box-top10 .box-top10-content .position-stats .down {
+	background: url("../img/position-down.jpg") no-repeat left; color: rgb(217, 59, 58);
+}
+.left-container .inside .box-default #select-periodo {
+	padding: 5px; border: 1px solid rgb(181, 181, 181); width: 155px; font-size: 11px;
+}
+.left-container .inside .box-default .box-youtube {
+	background: url("../img/box-youtube-background.jpg") repeat-x left bottom; margin: 8px; padding: 10px; border: 1px solid rgb(180, 180, 180); width: 270px; overflow: hidden; font-size: 11px; float: left; -moz-border-radius: 2px;
+}
+.left-container .inside .box-default .scrap {
+	padding: 15px 10px; border-bottom-color: rgb(180, 180, 180); border-bottom-width: 1px; border-bottom-style: solid; word-wrap: break-word; _word-wrap: normal;
+}
+.left-container .inside .box-default .submit {
+	padding: 15px;
+}
+.left-container .inside .box-default .submit form {
+	width: 584px; overflow: hidden; float: left;
+}
+.left-container .inside .box-default .submit form div textarea {
+	_width: 560px;
+}
+.left-container .inside .box-default .submit .button-input {
+	margin-right: 17px; float: right;
+}
+.left-container .inside .box-default .submit div {
+	color: rgb(132, 132, 132); padding-right: 10px; padding-bottom: 10px; font-size: 11px; float: left;
+}
+.left-container .inside .box-default .gallery {
+	padding-top: 25px;
+}
+.left-container .inside .box-default .gallery h4 {
+	color: rgb(136, 136, 136); padding-bottom: 15px; font-size: 11px; font-weight: bold;
+}
+.left-container .inside .box-default .gallery hr {
+	border-width: 1px medium medium; border-style: solid none none; border-color: rgb(181, 181, 181) currentColor currentColor; margin-bottom: 15px;
+}
+.left-container .inside .box-default .gallery a img {
+	padding: 0px 0px 20px 17px; width: 100px; height: 75px; cursor: default;
+}
+.left-container .inside .box-default .locutor-desc {
+	width: 483px; float: left; cursor: default;
+}
+.left-container .inside .box-default .info {
+	color: rgb(138, 138, 138); overflow: hidden; padding-top: 24px; margin-bottom: 15px; border-bottom-color: rgb(181, 181, 181); border-bottom-width: 1px; border-bottom-style: solid; _height: 50px;
+}
+.left-container .inside .box-default .info h3 {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.left-container .inside .box-default .info p {
+	padding: 5px 20px 5px 0px; font-size: 11px; float: left;
+}
+.left-container .inside .box-default .info select {
+	padding: 5px; border: 1px solid rgb(181, 181, 181); width: 155px; font-size: 11px; float: right;
+}
+.left-container .inside .box-default .info a.right-link {
+	padding-top: 7px; font-size: 11px; float: right;
+}
+.left-container .inside .box-wallpaper {
+	padding: 10px 10px 0px 0px; width: 196px; height: auto; text-align: center; color: rgb(92, 92, 92); font-size: 11px; float: left;
+}
+.left-container .inside .box-wallpaper img {
+	width: 200px; height: 130px; float: none;
+}
+.left-container .inside .box-wallpaper a {
+	color: rgb(92, 92, 92);
+}
+.left-container .inside .photothumb {
+	width: 285px; height: auto; float: left;
+}
+.left-container .inside .music-data {
+	width: 320px; height: auto; color: rgb(85, 85, 85); overflow: hidden; font-size: 12px; float: right;
+}
+.left-container .inside .music-data a {
+	color: rgb(85, 85, 85);
+}
+.left-container .inside .music-data ul {
+	padding-bottom: 25px;
+}
+.left-container .inside .music-data .clique-e-ouca {
+	
+}
+.left-container .inside .music-data .clique-e-ouca li {
+	background: url("../img/top-item-button.png") no-repeat right;
+}
+.left-container .inside .music-data ul li {
+	padding: 5px 0px; border-bottom-color: rgb(181, 181, 181); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.left-container .inside .music-data ul li h3 {
+	color: rgb(34, 58, 158); font-weight: bold;
+}
+.left-container .inside .groupbox-letter {
+	width: 100%; height: auto;
+}
+.left-container .inside .groupbox-letter .box-letter {
+	padding: 0px 25px 10px 0px; width: 180px; float: left; min-height: 55px;
+}
+.left-container .inside .groupbox-letter .box-letter p {
+	width: 100%; color: rgb(34, 58, 158); font-weight: bold; border-bottom-color: rgb(181, 181, 181); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.left-container .inside .groupbox-letter .box-letter ul li {
+	margin: 0px; padding: 0px; color: rgb(86, 86, 86); font-size: 9px;
+}
+.left-container .inside .groupbox-letter .box-letter ul li a {
+	color: rgb(86, 86, 86); font-size: 9px;
+}

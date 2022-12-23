@@ -1,0 +1,1 @@
+<template><id>Adventure</id><name>Adventure</name><version>1.6</version><colors><color><name>Magenta</name><hex>#FA0E60</hex><preview>%%ISCURL%%templates/previews/Adventure_magenta_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/Adventure_magenta.jpg</previewFull></color></colors></template>

@@ -1,0 +1,7 @@
+Aggiungi queste definizioni di lingua al file language/lang-italian.php
+
+// Nuove Definizioni di Lingua per Ultra Downloads
+define("_ERROREPASS","Errore Password");
+define("_PASSNOVAL","Hai inserito una Password non valida.");
+define("_RIPROVA","Riprova");
+// Fine

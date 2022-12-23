@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<galeria>
+<foto imagem="quadros/foto1.jpg" legenda="Legenda 1" site="balada1.php" />
+<foto imagem="quadros/foto2.jpg" legenda="Legenda 2" site="balada2.php" />
+<foto imagem="quadros/foto3.jpg" legenda="Legenda 3" site="balada3.php" />
+<foto imagem="quadros/foto4.jpg" legenda="Legenda 4" site="balada4.php" />
+<foto imagem="quadros/foto5.jpg" legenda="Legenda 5" site="balada5.php" />
+<foto imagem="quadros/foto6.jpg" legenda="Legenda 6" site="balada6.php" />
+<foto imagem="quadros/foto7.jpg" legenda="Legenda 7" site="balada7.php" />
+<foto imagem="quadros/foto8.jpg" legenda="Legenda 8" site="balada8.php" />
+<foto imagem="quadros/foto9.jpg" legenda="Legenda 9" site="balada9.php" />
+</galeria>

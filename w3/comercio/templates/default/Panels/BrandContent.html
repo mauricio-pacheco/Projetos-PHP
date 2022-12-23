@@ -1,0 +1,24 @@
+<div class="Block Moveable" id="BrandContent">
+	%%SNIPPET_CategorySortBox%%
+	<h2>%%GLOBAL_TrailBrandName%%</h2>
+
+	<div class="BlockContent">
+		%%SNIPPET_BrandPaging%%
+
+		<script type="text/javascript">
+		lang.CompareSelectMessage = '%%LNG_CompareSelectMessage%%';
+		</script>
+
+		<form name="frmCompare" id="frmCompare" action="%%GLOBAL_CompareLink%%" method="get" onsubmit="return compareProducts('%%GLOBAL_CompareLink%%')">
+			%%Panel.BrandProductListing%%
+
+			<br class="Clear" />
+			<div class="CompareButton" style="display:%%GLOBAL_HideCompareItems%%">
+				<input type="image" value="%%LNG_CompareSelected%%" src="%%GLOBAL_TPL_PATH%%/images/%%GLOBAL_SiteColor%%/CompareButton.gif" />
+			</div>
+		</form>
+		<div class="PagingBottom">
+			%%SNIPPET_BrandPaging%%
+		</div>
+	</div>
+</div>

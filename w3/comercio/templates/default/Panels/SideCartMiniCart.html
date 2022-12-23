@@ -1,0 +1,29 @@
+<div class="Block Moveable MiniCart" id="SideCartMiniCart">
+	<h2>%%LNG_YourShoppingCart%%</h2>
+	<div class="BlockContent">
+		<p class="ProceedToCheckout" style="text-align: center; display: %%GLOBAL_HideCheckoutButton%%">
+			<a href="%%GLOBAL_ShopPathSSL%%/checkout.php" title="%%LNG_CheckoutButtonTitle%%"><img src="%%GLOBAL_TPL_PATH%%/images/%%GLOBAL_SiteColor%%/MiniCheckoutButton.gif" alt="" /></a><br />
+		</p>
+
+		<h3 style="text-align: center;">%%LNG_YouJustAddedToCart%%:</h3>
+		%%SNIPPET_MiniCartProductAdded%%
+
+		<div style="display:%%GLOBAL_HideExtraMiniCartInfo%%">
+			<h3 style="text-align: center;">%%LNG_OtherItemsInCart%%:</h3>
+			<ul class="ProductList">
+				%%SNIPPET_MiniCartOtherProduct%%
+			</ul>
+			<br class="Clear" />
+		</div>
+
+		<div class="SubTotal" style="padding-top: 10px;">
+			<span style="display:%%GLOBAL_HideShoppingCartImmediateDownload%%">%%LNG_Delivery%%: %%LNG_ImmediateDownload%%<br /></span>
+			<span style="display:%%GLOBAL_HideShoppingCartShippingCost%%">%%LNG_Shipping%%: %%GLOBAL_ShippingCost%%<br /></span>
+			<span style="display:%%GLOBAL_HideShoppingCartHandlingCost%%">%%LNG_Handling%%: %%GLOBAL_HandlingCost%%<br /></span>
+			<strong>%%GLOBAL_CartTotalText%%: %%GLOBAL_CartSubTotal%%</strong><br />
+		</div>
+		<p style="margin-top: 10px;">
+			<a href="cart.php" class="ViewCartLink">%%LNG_ViewEntireCart%%</a>
+		</p>
+	</div>
+</div>

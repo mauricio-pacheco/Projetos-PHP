@@ -1,0 +1,49 @@
+           +----------------------------------------+
+           |             UserOnline 2.1             |
+           |                                        |
+           |   Documentation for the installation   |
+           |            of UserOnline 2.1           |
+           |                                        |
+           +----------------------------------------+
+
+
+In order to setup the UserOnline Script, you must do the following: 
+
+1. unpack ZIP
+2. Edit config.php3
+3. Upload all files
+4. Insert the UserOnline code into the pages, that the current 
+number of users should be shown
+
++----------------------------------------+
+After you've unpacked the zip, you have to edit the variables in the config.php3.
+
+<?php
+
+// Timeout - After this time the users will 
+// be deleted (in minutes)
+$timer = 100;
+
+// Name of the file where all the data, about
+// the user's activity will be saved
+$filename = "$DOCUMENT_ROOT/useronline/log.txt";
+
+?>
+
++----------------------------------------+
+There are two possibilities to setup the UserOnline script on your homepage: 
+
+A. HTML: <img src="your/path/to/useronline.php4" width="1" height="1">
+If you chose the HTML version, the current number of users won't be shown,
+but the user will be logged.
+
+B. PHP: <?php include("your/path/to/useronline.php4"); ?>
+Please consider that when you insert the PHP code, the current amount of 
+users online will be outputted. 
+The pages that you insert this code into have to be PHP 4 compatible
+
+
++----------------------------------------+
+If you encounter any bugs while using this 
+script, then please write those into our 
+forum: http://scripts.w3secrets.com/forum/

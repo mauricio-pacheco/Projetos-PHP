@@ -1,0 +1,44 @@
+<div class="Block Moveable LoginForm" id="LoginForm">
+	<div class="BlockContent">
+		<div class="CreateAccount">
+			<h2>%%GLOBAL_NewAccountHeading%%</h2>
+			<div style="display:%%GLOBAL_HideNewCustomerButton%%">
+				<p>%%LNG_NewCustomerIntro1%% %%GLOBAL_StoreName%% %%LNG_NewCustomerIntro2%%</p>
+				<form action="%%GLOBAL_ShopPath%%/login.php" method="get">
+					<input type="hidden" name="action" value="create_account" />
+					<input type="hidden" name="checking_out" value="yes" />
+					<input type="submit" value="%%LNG_ContinueRaquo%%" style="padding:2px 10px 2px 10px" />
+				</form>
+			</div>
+			<div style="display: %%GLOBAL_HideLoginNewAccountIntro%%">
+				%%LNG_CreateAccountLoginIntro%% <a href="%%GLOBAL_ShopPath%%/login.php?action=create_account">%%LNG_ClickToCreateAnAccount%%</a>
+			</div>
+		</div>
+		
+		<div class="AccountLogin">
+			<h2>%%GLOBAL_ExistingUserHeading%%</h2>
+			
+			<form action="%%GLOBAL_ShopPath%%/login.php?action=check_login" method="post" onsubmit="return check_login_form()">
+				<div class="FormContainer HorizontalFormContainer NarrowFormContainer">
+					<p style="display: %%GLOBAL_HideLoginMessage%%" class="%%GLOBAL_MessageClass%%">
+						%%GLOBAL_LoginMessage%%
+					</p>
+					
+					<dl>
+						<dt>%%LNG_EmailAddress%%:</dt>
+						<dd><input type="text" class="Textbox Field150 InitialFocus" name="login_email" id="login_email" /></dd>
+						
+						<dt>%%LNG_Password%%:</dt>
+						<dd><input type="password" class="Textbox Field150" name="login_pass" id="login_pass" /></dd>
+					</dl>
+					<p class="Submit">
+						<input id="LoginButton" type="submit" value="%%LNG_LoginWord%%" style="padding:2px 10px 2px 10px" />
+						<br />
+						<a href="%%GLOBAL_ShopPath%%/login.php?action=reset_password">%%LNG_ForgotYourPassword%%</a>
+					</p>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+%%Panel.LoginJavaScript%%

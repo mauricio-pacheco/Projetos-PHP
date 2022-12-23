@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" href="index.css" rel="stylesheet" />
+<title>dfGallery 1.0b</title>
+</head>
+<body>
+<a name="top" id="about_dfgallery3"></a>
+<div class="header">
+    <div class="logo"></div>
+    <div class="title">dfGallery 1.0b - the completely customizable flash gallery</div>
+</div>
+<div class="content">
+    <div class="curve"></div>
+    <div class="data">
+        <p>Version 1.0.0.1b</p>
+        <p>Reference Documentation.</p>
+        <hr/>
+        <strong>Table of Contents</strong>
+        <ul>
+            <li><strong>Introduction</strong>
+                <ul>
+                    <li><a href="#about">About dfGallery</a></li>
+                    <li><a href="#features">Features</a></li>
+                </ul>
+            </li>
+            <li><strong><a href="#requirements">Requirements</a></strong></li>
+            <li><strong><a href="#architecture">Structure Overview</a></strong></li>
+            <li><strong>Configuration</strong>
+                <ul>
+                    <li><a href="#configure_init">Initial Configuration</a></li>
+                    <li>Albums
+                        <ul>
+                            <li><a href="#albums_custom">Custom albums</a></li>
+                            <li><a href="#flickr">Flickr</a></li>
+                            <li><a href="#picasa">Picasa</a></li>
+                            <li><a href="#fotki">Fotki</a></li>
+                            <li><a href="#photobucket">Photobucket</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#language">Internationalization (Language Support)</a></li>
+                </ul>
+            </li>
+            <li><strong>Deployment</strong>
+                <ul>
+                    <li><a href="#code">Where to add the code</a></li>
+                    <li><a href="#wordpress">deploying the gallery on wordpress appications.</a></li>
+                </ul>
+            </li>
+            <li><strong>Bug reports </strong>
+                <ul>
+                    <li><a href="#report">Found a bug (report it and let us fix it ASAP).</a></li>
+                </ul>
+            </li>
+        </ul>
+        <hr/>
+        <h3><img src="images/action_go.gif" width="16" height="16" hspace="3" vspace="2" align="left" />Introduction</h3>
+        <h6>About dfGallery<a name="about" id="about"></a></h6>
+        <p>	As stated on many other articles on this site, dfGallery is one of  the coolest Galleries currently on the Web.<br />
+        We have tested this gallery  to the maximum but still having it in beta cos I am sure there will be  a lot more <strong>feature additions</strong>.<br />
+        </p>
+        <p>        You could also request for a new feature on this Gallery by adding your suggestions on the <a href="http://www.dezinerfolio.com/2007/06/07/dfgallery/"><strong>downloads page</strong></a>.</p>
+        <p>This gallery is a similar replica of the Gallery at <strong><a href="https://slideshowpro.net/" title="https://slideshowpro.net/" target="_blank">Slideshowpro.net</a></strong> for which they charge 25$ but here is our Gallery for <strong>FREE</strong>.</p>
+        <p>With great features of most popular photo sharing sites integrated like  <a href="http://flickr.com" title="Flickr" target="_blank"><strong>Flickr </strong></a>, <a href="http://picasa.com" title="Google Picasa" target="_blank"><strong>Picasa </strong></a>, <a href="http://photobucket.com" title="Google Picasa" target="_blank"><strong>Photo Bucket</strong></a> and <a href="http://fotki.com"><strong>Fotki</strong></a> along with background music, language support this gallery will fulfill all the needs of even a professional photographer or even a freelance artist.</p>
+        <p>&nbsp;</p>
+        <h6><img src="images/action_go.gif" width="16" height="16" hspace="3" vspace="2" align="left" /><a name="features" id="about_dfgallery2"></a>Features</h6>
+        <ul>
+            <li> Flash Gallery to support both<strong> <a href="http://flickr.com" title="Flickr" target="_blank"><strong>Flickr </strong></a>, <a href="http://picasa.com" title="Google Picasa" target="_blank"><strong>Picasa </strong></a>, <a href="http://photobucket.com" title="Google Picasa" target="_blank"><strong>Photo Bucket</strong></a> , <a href="http://fotki.com"><strong>Fotki</strong></a> and Custom Images.</strong></li>
+            <li>Enable / Disable<strong> “Print Screen” </strong>( requested by Photographers )</li>
+            <li>Easily <strong>Customizable</strong></li>
+            <li><strong>Full Screen </strong>mode. ( on the Right Click, or by clicking the fullscreen button - Flash Player 9) </li>
+            <li><strong>Liquid Layout</strong> - Fits to any size you specify.</li>
+            <li>Notifies if a new update is available.</li>
+        </ul>
+        <h6>Requests</h6>
+        <ul>
+            <li><strong>Radu Capan</strong> - Loading images from cache.</li>
+            <li><strong>Nudone</strong> - Viewing the gallery in fullscreen and the extra fullscreen button option.</li>
+            <li><strong>Ed, Mauricio, Akirasan</strong> - hyperlink for each image</li>
+            <li><strong>Jansen Lucas</strong> - pause the slideshow at start.</li>
+            <li><strong>Robos, Patrick ,Fedo</strong> - Background MP3 music that loops, along with volume control.</li>
+            <li><strong>David</strong> - loading sets from flickr as albums.</li>
+            <li><strong>Red , Antonio</strong> - Multiple language support.</li>
+        </ul>
+        <p><a  href="#top">Go to Top </a></p>
+        <hr/>
+         <h3><img src="images/action_go.gif" width="16" height="16" hspace="3" vspace="2" align="left" /><a name="requirements" id="about_dfgallery4"></a>Requirements</h3>
+         <p>PHP version 5+ (not tested with lesser than versio 5)</p>
+         <p>Flash player 7+ </p>
+         <p>(Fullscreen option will work only if the client is using Flash player 9+)</p>
+         <p><a  href="#top">Go to Top </a></p>
+         <hr/>
+        <h3><img src="images/action_go.gif" width="16" height="16" hspace="3" vspace="2" align="left" /><a name="architecture" id="about_dfgallery4"></a>Structure Overview</h3>
+         <p>Files within the zip file.</p>
+         <ul>
+             <li><strong>gallery.swf</strong> (the actual gallery that plays the slideshow)</li>
+             <li><strong>gallery.xml</strong> (complete gallery configurations)</li>
+             <li><strong>df folder </strong> (this folder contains php classes that are internally used by the gallery to make calls to the Flickr,Picasa API )</li>
+             <li><strong>index.html </strong>(contains the sample html code for insertnig the swf file)</li>
+         </ul>
+         <p><a  href="#top">Go to Top </a></p>
+        <hr/>
+         <h3><img src="images/action_go.gif" width="16" height="16" hspace="3" vspace="2" align="left" /><a name="configure_init" id="about_dfgallery"></a>Configuration</h3>
+         <p>All configurations for the gallery are stored in the gallery.xml file.</p>
+         <p><a href="http://www.w3schools.com/xml/default.asp">If you are new to editing XML  files then I suggest you take a short time on reading the XML tutorial on  w3schools.com</a></p>
+         <p>Open the gallery.xml file in a  text editor. (This is a default file that you can edit).<br />
+         The xml file has 3 main nodes,  the “config”, “albums” and “language”.<br />
+         <br />
+         The “config” node contains all  the core configurations of the gallery.</p>
+         <p><strong>Title of the gallery.</strong><br />
+    Find a node that says  “&lt;title&gt;your_album_title&lt;/title&gt;” within the “config” node and  replace the value inside the node with your album title.</p>
+         <p><strong>Thumbnail image directories.</strong><br />
+             Find a node that says<span class="xml"> “&lt;thumbnail_dir&gt;images/thumbs/&lt;/thumbnail_dir&gt;”</span> within the “config”  node and replace the value inside the node with the path of the directory  containing the thumbnails.<br />
+             The path must be relative to  the gallery.swf</p>
+         <p><strong>High-Res image directories.</strong><br />
+             Find a node that says  <span class="xml">“&lt;image_dir&gt;images/&lt;/image_dir&gt;”</span> within the “config” node and  replace the value inside the node with the path of the directory that contains  the actual high resolution images.<br />
+             The path must be relative to  the gallery.swf</p>
+         <p><strong>Time duration of the slideshow.</strong><br />
+             The slideshow has a default of  7 seconds.<br />
+             If you want to set your own  duration just replace the value inside the <span class="xml">“&lt;slideshow_interval&gt;5&lt;/slideshow_interval&gt;”</span>  node with your time.<br />
+             The time interval is in  seconds.</p>
+         <p><strong>Scale the images from RSS feeds.</strong><br />
+             The application calculates the  size of the images to load based on the size of the gallery you have specified.<br />
+             If the gallery is smaller than  the RSS images you can scale the RSS images to fit your gallery size.<br />
+             Find a node that says<span class="xml"> “&lt;rss_scale_images&gt;true&lt;/rss_scale_images&gt;”</span> within the “config”  node and replace the value inside with true if you want to scale the images or  else replace it with false.</p>
+         <p><strong>Disable Print screen for your photos.</strong><br />
+             One of the most requested  features for photographers is that people use print screen to steal their  images, and we just found a way across it.<br />
+             If you disable print screen  option the user will not be able to copy images or print screen shots, or even  images from the cache.<br />
+             This behavior also affects the  print screen in all the applications running in the system till the site is  open, so the user cannot even copy any text from any where not only on the  website but also in his own system till the site is closed.</p>
+         <p>Find a node that says  “<span class="xml">&lt;disable_printscreen&gt;false&lt;/disable_printscreen&gt;”</span> within the  “config” node and replace the value inside with true if you want to disable  print screen or else keep it false if you want to allow the use of print  screen.</p>
+         <p><strong>Pause slideshow.</strong><br /> 
+        this feature will pause the slideshow at the start of the gallery.<br />
+        The slideshow continues only when the user again resumes the playing of the gallery.<br />
+        If you want to enable it find the node that says &quot;<span class="xml">&lt;pause_slideshow&gt;false&lt;/pause_slideshow&gt;</span>&quot; and change the value to true.<br />
+        The default is false.</p>
+         <p><strong>Backgound music.</strong><br /> 
+        set the actual path of the music file within <span class="xml">&quot;&lt;background_music&gt;Johnny Quest.mp3&lt;/background_music&gt;&quot;</span> node.<br />
+        You can only set mp3 files as background music.</p>
+         <p><br />
+             <strong>Background Music volume.</strong><br />
+             If you want to set your own  duration just replace the value inside the <span class="xml">“&lt;background_music_volume&gt;50&lt;/background_music_volume&gt;”</span> node with your time.<br />
+        Defautl value is 50, and the scale is in percent.</p>
+         <p><br />
+             <strong>Link Images.<br />
+             </strong>If you wish to allow views to click on the images and go to the actual locations of the images set the value to true.<br />
+If you dont want any viewers to click and navigate around to the image keep the value to false.<br />
+The default value is false.<br />
+set the value within <span class="xml">“&lt;link_images&gt;false&lt;/link_images&gt;”</span> node with true or false.</p>
+         <p><br />
+             <strong>Hide Menu System.<br />
+             </strong>If you want to have a slideshow with no controls, just only playing the images set the value to true.<br />
+             If the menu is hidden users cannot change to different albums or change the options to fullscreen etc.<br />
+             set the value within <span class="xml">“&lt;disable_menu_system&gt;false&lt;/disable_menu_system&gt;”</span> node with true or false.</p>
+         <p><br />
+             <strong>Hide title and description.<br />
+             </strong>If you don't want the user to rollover the image and view title, description etc of the image set the value to true or else keep it false.<br />
+             .set the value within <span class="xml">“&lt;disable_titles&gt;false&lt;/disable_titles&gt;”</span> node with true or false.</p>
+         <p><a  href="#top">Go to Top </a><br />
+         </p>
+         <hr/>
+         <h3><img src="images/action_go.gif" width="16" height="16" hspace="3" vspace="2" align="left" />Albums</h3>
+         <p>There are 4 different albums  that you can add for the dfGallery.<br />
+The default style which you  need to specify the images, the flickr style rss, and the picasa style rss  albums.</p>
+         <h6><img src="images/action_go.gif" width="16" height="16" hspace="3" vspace="2" align="left" /><a name="albums_custom" id="about_dfgallery5"></a>Custom albums <strong>“Default Style”</strong></h6>
+         <p>In the “&lt;albums&gt;” node  you must add a new node like this</p>
+         <p class="xml">&lt;albums&gt;<br />
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;album title=&quot;<u>The Wild Cats.</u>&quot; description=&quot;<u>few images of the  wild cats.</u>&quot;&gt;&lt;/album&gt;<br />
+&lt;/albums&gt;</p>
+         <p>Set the title and description  value.</p>
+         <p>Then start adding images into  the &lt;album&gt; node.</p>
+         <p class="xml">&lt;album title=&quot;<u>The Wild Cats.</u>&quot; description=&quot;<u>few images of the  wild cats.</u>&quot;&gt;<br />
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;image title=&quot;<u>White Tiger</u>&quot; date=&quot;<u>21.04.07</u>&quot; thumbnail=&quot;<u>c1.jpg</u>&quot; image=&quot;<u>c1.jpg</u>&quot;&gt;<u>A perfect shot of a white tiger walking in  the woods</u>&lt;/image&gt;<br />
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;image title=&quot;<u>Unexpected!</u>&quot; date=&quot;<u>29.05.07</u>&quot; thumbnail=&quot;<u>c2.jpg</u>&quot; image=&quot;<u>c2.jpg</u>&quot;&gt;
+         <u>This beast scared us by giving us a really  sudden shot.</u>&lt;/image&gt;<br />
+         &lt;/album&gt;</p>
+         <p>The &lt;image&gt; node  contains attributes like the title, date , thumbnail and image.<br />
+             You can add multiple  &lt;image&gt; nodes within a single album.<br />
+             The thumbnail attribute takes  the image from the “thumbnail_dir” node which is in the “config” node that you  have specified earlier.<br />
+             Similarly to image node also  takes the actual high res image from the “image_dir” node which is in the  “config” node.</p>
+         <p>You can also add the <span class="xml">link=&quot;http://google.com&quot;</span> attribute for a image node, this is the link that is used when the user clicks on the image.<br />
+         The link attribute is optional.</p>
+         <p><a  href="#top">Go to Top </a></p>
+         <hr/>
+         <h3><img src="images/action_go.gif" width="16" height="16" hspace="3" vspace="2" align="left" /><a name="flickr" id="about_dfgallery4"></a>Flickr</h3>
+         <p>Add an &lt;album&gt; with  <span class="xml">type = “flickr”</span> and set the  url attribute to your flickr url.</p>
+         <p>Visit your Flickr url for  example <a href="http://flickr.com/photos/navdeepraj/">http://flickr.com/photos/navdeepraj/</a></p>
+         <p>Copy the link location and  paste it into the “url” attribute</p>
+         <p>You will finally end up with  an xml structure similar to this</p>
+         <p class="xml">&lt;albums&gt;<br />
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;album title=&quot;<u>My Yahoo Photo  Stream.</u>&quot; description=&quot;<u>few images from  flickr.</u>&quot; type=&quot;<strong><u>flickr</u></strong>&quot;url=&quot;<a href="http://flickr.com/photos/navdeepraj/">http://flickr.com/photos/navdeepraj/</a>&quot;&gt;&lt;/album&gt;<br />
+    &lt;/albums&gt;</p>
+         <p>That's it...Now you have successfully added your flickr  photo stream to the dfGallery.         </p>
+         <p><a  href="#top">Go to Top </a></p>
+       <hr/>
+         <h3><img src="images/action_go.gif" width="16" height="16" hspace="3" vspace="2" align="left" /><a name="picasa" id="about_dfgallery6"></a>Picasa</h3>
+         <p>Add an &lt;album&gt; with <span class="xml">type = “picasa”</span> and set the  url attribute to your picasa RSS url.</p>
+         <p>Visit your Picasa url for  example <a href="http://picasaweb.google.com/3drockz">http://picasaweb.google.com/3drockz</a></p>
+         <p>At the bottom of the site you will find a<strong> &quot;RSS&quot;</strong> link for the user.<br />
+         </p>
+         <p>Copy the link location and  paste it into the “url” attribute</p>
+         <p>You will finally end up with  an xml structure similar to this</p>
+        <p class="xml">&lt;albums&gt;<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;album title=&quot;<u>My Picasa Photo  Stream.</u>&quot; description=&quot;<u>few images from  picasa.</u>&quot; type=&quot;<strong><u>picasa</u></strong>&quot; url=&quot;<a href="http://picasaweb.google.com/data/feed/base/user/3drockz?kind=album&amp;alt=rss&amp;hl=en_US&amp;access=public">http://picasaweb.google.com/data/feed/base/user/3drockz?kind=album&amp;alt=rss&amp;hl=en_US&amp;access=public</a>&quot;&gt;&lt;/album&gt;<br />
+    &lt;/albums&gt;</p>
+         <p>That's it...Now you have successfully added your picasa  photo stream to the dfGallery. </p>
+         <p>By providing the full url all your public sets, will be available as albums in the gallery.</p>
+         <p>If you want to display only a single album then set the &quot;url&quot; attribute to <a href="http://picasaweb.google.com/data/feed/base/user/3drockz/albumid/5066633507112409985?alt=rss&amp;hl=en_US">http://picasaweb.google.com/data/feed/base/user/3drockz/albumid/5066633507112409985?alt=rss&amp;hl=en_US<br />
+         </a>which is actually the RSS url of the set.</p>
+         <p><a  href="#top">Go to Top </a></p>
+         <hr/>
+         <h3><img src="images/action_go.gif" width="16" height="16" hspace="3" vspace="2" align="left" /><a name="fotki" id="about_dfgallery7"></a>Fotki</h3>
+         <p>Add an &lt;album&gt; with <span class="xml">type = “fotki”</span> and set the  url attribute to your Fotki RSS url.</p>
+         <p>Visit your Fotki album.</p>
+         <p>At the top of the site you will find a<strong> &quot;RSS&quot;</strong> link for the album. (an RSS icon)<br />
+         </p>
+         <p>Copy the link location and  paste it into the “url” attribute</p>
+         <p>You will finally end up with  an xml structure similar to this</p>
+         <p class="xml">&lt;albums&gt;<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;album title=&quot;<u>Fotki Photo  Stream.</u>&quot; description=&quot;<u>few images from  fotki.</u>&quot; type=&quot;<strong><u>fotki</u></strong>&quot; url=&quot;<a href="http://feeds.fotki.com/shabby/album_sswdrrffwktts.rss">http://feeds.fotki.com/shabby/album_sswdrrffwktts.rss</a>&quot;&gt;&lt;/album&gt;<br />
+    &lt;/albums&gt;</p>
+         <p>That's it...Now you have successfully added your Fotki  photo album to the dfGallery. </p>
+         <p><a  href="#top">Go to Top </a></p>
+         <hr/>
+         <h3><img src="images/action_go.gif" width="16" height="16" hspace="3" vspace="2" align="left" /><a name="photobucket" id="about_dfgallery8"></a>Photobucket</h3>
+         <p>Add an &lt;album&gt; with <span class="xml">type = “photobucket”</span> and set the  url attribute to your Photobucket RSS url.</p>
+         <p>Visit your Fotki album.</p>
+         <p>At the top of the site you will find a<strong> &quot;RSS&quot;</strong> link for the album. (an RSS icon)<br />
+         </p>
+         <p>Copy the link location and  paste it into the “url” attribute</p>
+         <p>You will finally end up with  an xml structure similar to this</p>
+         <p class="xml">&lt;albums&gt;<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;album title=&quot;<u>Photobucket Photo  Stream.</u>&quot; description=&quot;<u>few images from  <u>photobucket</u>.</u>&quot; type=&quot;<strong><u>photobucket</u></strong>&quot; url=&quot;<a href="http://feed93.photobucket.com/albums/l61/evreul/feed.rss">http://feed93.photobucket.com/albums/l61/evreul/feed.rss</a>&quot;&gt;&lt;/album&gt;<br />
+    &lt;/albums&gt;</p>
+         <p>That's it...Now you have successfully added your Fotki  photo album to the dfGallery. </p>
+         <p><a  href="#top">Go to Top </a></p>
+         <hr/>
+         <h3><img src="images/action_go.gif" width="16" height="16" hspace="3" vspace="2" align="left" /><a name="language" id="about_dfgallery9"></a>Language Support</h3>
+         <p>You can now set the language for the dfGallery by setting values for a few xml nodes in the gallery.xml file.</p>
+         <p class="xml">&lt;language&gt;<br />
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;string id=&quot;please wait&quot; value=&quot;Please wait&quot; /&gt;<br />
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;string id=&quot;loading&quot; value=&quot;Loading&quot; /&gt;<br />
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;string id=&quot;previous page&quot; value=&quot;Previous Page&quot; /&gt;<br />
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;string id=&quot;page % of %&quot; value=&quot;Page % of %&quot; /&gt;<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;string id=&quot;next page&quot; value=&quot;Next Page&quot; /&gt;<br />
+        &lt;/language&gt;</p>
+         <p>You can change the corrosponding values for the ID's specified.</p>
+         <p>Change only the text inside the value=&quot;????&quot; to the desired language you want to use.</p>
+         <p><a  href="#top">Go to Top </a></p>
+         <hr/>
+         <h3><img src="images/action_go.gif" width="16" height="16" hspace="3" vspace="2" align="left" /><a name="code" id="about_dfgallery10"></a>Deployment<br />
+        </h3>
+         <h6>Where to add the Code</h6>
+         <p>The dfGallery is really simple to integrate into all of your existing web pages.</p>
+         <p>Open the desired HTML/PHP file  in any editor like notepad.</p>
+         <p>Paste the code below to insert  the SWF.<br />
+             You can insert this code  anywhere within the <strong>&lt;body&gt;</strong> tag.</p>
+         <p>&lt;object classid=&quot;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&quot;  codebase=&quot;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0&quot; <br />
+             <strong class="xml">width=&quot;500&quot; height=&quot;450&quot;</strong><strong>&gt;</strong><br />
+             &lt;param  name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;<br />
+             &lt;param  name=&quot;movie&quot; value=&quot;gallery.swf&quot; /&gt;<br />
+        &lt;param  name=&quot;quality&quot; value=&quot;best&quot; /&gt;<br />
+        &lt;param  name=&quot;FlashVars&quot; value=&quot;xmlFile=gallery.xml&quot; /&gt;<br />
+&lt;embed  src=&quot;gallery.swf&quot; quality=&quot;best&quot; scale=&quot;noscale&quot; <strong class="xml">width=&quot;500&quot; height=&quot;450&quot;</strong> FlashVars=&quot;xmlFile=gallery.xml&quot; allowFullScreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot;  pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; /&gt;<br />
+&lt;/object&gt;</p>
+         <p>Please don’t change  codes  in the above lines other than the red lines.<br />
+        Change the width and height to  desired width and height. (in pixels)</p>
+         <p><strong>Suggested Heights</strong><br />
+             If you are using flickr  streams then the suggested width is 500px and the height is 355px.<br />
+             And if you are using picasa  streams then the suggested width is 640px and height is 480px;</p>
+         <p>If you want to display only  the gallery completely in a single page set the width to 100% and height to  100%;<br />
+             This setting will give you a  complete page size gallery no matter to what client’s resolution is.<br />
+             This setting not produce  scrollbars even at very low sizes of 640px of screen width.</p>
+         <p>&nbsp;</p>
+         <hr/>
+         <p><img src="images/action_go.gif" width="16" height="16" hspace="3" vspace="2" align="left" /><a name="wordpress" id="about_dfgallery13"></a><strong>Wordpress Users</strong></p>
+         <p>The only thing that wordpress users need to change in the above codes is the absolute path of the &quot;gallery.swf&quot; file, and the gallery.xml path.<br />
+        If you uploaded the gallery on <strong>http://mysite.com/photos/gallery</strong>/ then your code will be similar to below</p>
+         <p><br />
+             &lt;object classid=&quot;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&quot;  codebase=&quot;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0&quot; <br />
+             <strong class="xml">width=&quot;500&quot; height=&quot;450&quot;</strong><strong>&gt;</strong><br />
+    &lt;param  name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;<br />
+    &lt;param  name=&quot;movie&quot; value=&quot; <strong>http://mysite.com/photos/gallery</strong>/<strong>gallery.swf</strong>&quot; /&gt;<br />
+    &lt;param  name=&quot;quality&quot; value=&quot;best&quot; /&gt;<br />
+    &lt;param  name=&quot;FlashVars&quot; value=&quot;xmlFile=<strong>http://mysite.com/photos/gallery/gallery.xml</strong>&quot; /&gt;<br />
+    &lt;embed  src=&quot; <strong>http://mysite.com/photos/gallery</strong>/<strong>gallery.swf</strong>&quot; quality=&quot;best&quot; scale=&quot;noscale&quot; <strong class="xml">width=&quot;500&quot; height=&quot;450&quot;</strong> FlashVars=&quot;xmlFile=<strong>http://mysite.com/photos/gallery/gallery.xml</strong>&quot; allowFullScreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot;  pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; /&gt;<br />
+    &lt;/object&gt;</p>
+         <p>This will also allow you to use multiple galleries within a single site by specifying different gallery.xml files.</p>
+         <p><a  href="#top">Go to Top </a></p>
+         <hr/>
+         <h3><img src="images/action_go.gif" width="16" height="16" hspace="3" vspace="2" align="left" /><a name="report" id="about_dfgallery11"></a>Reporting Bugs</h3>
+         <p>&nbsp;</p>
+         <p>	In case you find any bugs or need help, please post your comments on the <a href="http://www.dezinerfolio.com/2007/06/07/dfgallery/">gallery downloads page.</a></p>
+         <p>You can also make new feature requests on the same page.</p>
+         <p><a  href="#top">Go to Top </a></p>
+         <hr/>
+         <div align="center"><strong>The DezinerFolio Team         </strong></div>
+         <hr/>
+        
+    </div>
+</div>
+</body>
+</html>

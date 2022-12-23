@@ -1,0 +1,573 @@
+# CRM LANGUAGE PACK EXPORT FILE - Pack PORTUGUES.
+# Generated June 1, 2006, 18:40 on CRM version CRM-CTT 3.4.2 (c) 2001-2006.
+PACK|||PORTUGUES|||570
+PORTUGUES|||customer|||Cliente
+PORTUGUES|||owner|||Dono
+PORTUGUES|||entity|||tarefa
+PORTUGUES|||priority|||Prioridade
+PORTUGUES|||assignee|||Responsável
+PORTUGUES|||duedate|||Para dia
+PORTUGUES|||alarmdate|||Data do Alarme
+PORTUGUES|||alarmdatev|||Criar alarme para esta tarefa
+PORTUGUES|||category|||Categoria
+PORTUGUES|||status|||Status
+PORTUGUES|||helpcontents|||Tópicos de ajuda
+PORTUGUES|||tolimited|||Devido a falta de privilégios você foi direcionado para uma tela limitada
+PORTUGUES|||briefover|||Relatório sobre a tarefa
+PORTUGUES|||mightbebetter|||Seria melhor você usar a opção de relatório
+PORTUGUES|||editthis|||Edite esta tarefa
+PORTUGUES|||alarmsettings|||Opções do Alarme
+PORTUGUES|||closethisentity|||Fechar esta tarefa
+PORTUGUES|||deletethisentity|||Deletar esta tarefa
+PORTUGUES|||downloadpdf|||Baixar relatório em PDF sobre esta tarefa
+PORTUGUES|||downloadpdfs|||Baixar relatório em PDF
+PORTUGUES|||close|||Fechar
+PORTUGUES|||edit|||Editar
+PORTUGUES|||delete|||Deletar
+PORTUGUES|||pdfreport|||Relatório em PDF
+PORTUGUES|||welcome1|||Bem-vindo ao
+PORTUGUES|||intro1|||Esta ferramenta é usada para grava as dúvidas dos clientes. Agora eles são
+PORTUGUES|||intro2|||usuários registrados,<br>que no total são
+PORTUGUES|||intro3|||tarefas logadas, para
+PORTUGUES|||intro4|||clientes.
+PORTUGUES|||welcome|||Bem-vindo
+PORTUGUES|||lastlogon|||Última vez que logou
+PORTUGUES|||entitiestoday|||tarefas para hoje
+PORTUGUES|||noentities|||Não há nenhuma tarefa para hoje
+PORTUGUES|||gotomainpage|||Ir para a página principal
+PORTUGUES|||main|||Principal
+PORTUGUES|||addcusttodb|||Adicionar o pedido do cliente na base de dados
+PORTUGUES|||add|||Adicionar
+PORTUGUES|||viewbrief|||Ver um relatório das tarefas gravadas na base de dados
+PORTUGUES|||entities|||Tarefas
+PORTUGUES|||brieflistdel|||Ver um relatório das tarefas apagadas da base de dados
+PORTUGUES|||delentities|||Deletar tarefas
+PORTUGUES|||vacoa|||Ver, adicionar ou mudar possíveis donos ou Responsávels
+PORTUGUES|||oa|||Donos/Responsávels
+PORTUGUES|||vacc|||Ver, adicionar ou modificar clientes
+PORTUGUES|||customers|||Clientes
+PORTUGUES|||dumpi|||Eliminar as vírgulas para exportar os dados da base de dados
+PORTUGUES|||phonebook1|||Agenda de Telefones
+PORTUGUES|||phonebookshort|||AT
+PORTUGUES|||sumverb|||Ver e imprimir relatórios mais avançados
+PORTUGUES|||summary|||Relatório
+PORTUGUES|||logout|||Sair
+PORTUGUES|||maninfo|||Informações de Administração
+PORTUGUES|||maninfoverb|||Relatórios de estatísticas para Administração
+PORTUGUES|||sitestats|||Estatísticas do site
+PORTUGUES|||sitestatsverb|||As estatísticas deste site
+PORTUGUES|||administration|||Administração
+PORTUGUES|||administrationverb|||Funçoes de Administração
+PORTUGUES|||helpcontentsverb|||Mostrar lista de conteúdo da ajuda
+PORTUGUES|||dateinvalid|||A data que você escolhe é inválida.n A data não foi escolhida.
+PORTUGUES|||entrysaved|||Digitar número do pedido
+PORTUGUES|||wasadded|||foi adicionado.
+PORTUGUES|||deleting1|||Deletando
+PORTUGUES|||deleting2|||arquivo(s). Aperte o botão abaixo para confirmar.
+PORTUGUES|||confdel|||Confirme deletagem
+PORTUGUES|||deletingentity|||Deletando tarefa
+PORTUGUES|||ownedby|||pertence à
+PORTUGUES|||assignedto|||Responsável para
+PORTUGUES|||curstat|||Status atual
+PORTUGUES|||created|||criado
+PORTUGUES|||lastupdate|||última atualização
+PORTUGUES|||deleteerror|||Você não pode deletar esta tarefa pois ela não foi terminada
+PORTUGUES|||confirmdel|||Clique aqui para deletar esta tarefa
+PORTUGUES|||search|||Procura
+PORTUGUES|||thereare|||São
+PORTUGUES|||openentities|||Abrir tarefas
+PORTUGUES|||noopen|||Não há tarefas abertas.
+PORTUGUES|||nonexistent|||Você digitou um número de tarefa que não existe!
+PORTUGUES|||editing|||Editando
+PORTUGUES|||wasclosed|||Esta tarefa foi fechada
+PORTUGUES|||newentity|||Nova tarefa
+PORTUGUES|||isdeleted|||Esta é uma tarefa deletada
+PORTUGUES|||iswaiting|||Aguardando outra pessoa
+PORTUGUES|||doesntbelonghere|||Esta tarefa não pertence a este local
+PORTUGUES|||listofatt|||Listar arquivos anexados a esta tarefa
+PORTUGUES|||filename|||Nome do arquivo
+PORTUGUES|||filesize|||Tamanho
+PORTUGUES|||creationdate|||Data de criação
+PORTUGUES|||deletefile|||Deletar
+PORTUGUES|||attachfile|||Anexar arquivo
+PORTUGUES|||saveclose|||Salvar e Fechar
+PORTUGUES|||cancel|||Cancelar
+PORTUGUES|||save|||Salvar para base de dados
+PORTUGUES|||noaction|||Erro, nenhuma ação escolhida
+PORTUGUES|||zailo|||falta zero consignados
+PORTUGUES|||name|||Nome
+PORTUGUES|||usrwarning|||Se uma caixa está desabilitada (cinza), significa que seu dono ou responsável possui uma conta limitada, e portanto o nome não pode ser mudado<br>ou os dados podem ser perdidos.
+PORTUGUES|||ownassindb|||Donos os responsáveis na base de dados
+PORTUGUES|||addownass|||Adicionar dono/responsável
+PORTUGUES|||apply|||Aplicar alterações
+PORTUGUES|||custindb|||Clientes na base de dados
+PORTUGUES|||addcust|||Adicionar um cliente
+PORTUGUES|||selectfields|||Por favor selecionar os campos que deseja exportar
+PORTUGUES|||lastupdatedate|||Data da última atualização
+PORTUGUES|||lastupdatetime|||Hora da última atualização
+PORTUGUES|||closedate|||Data de fechamento
+PORTUGUES|||waitingcsv|||Aguardando
+PORTUGUES|||doesntcsv|||Não pertence a este local
+PORTUGUES|||contents|||Conteúdo
+PORTUGUES|||alreadyselected|||<b>Sua requisição foi gravada</b>
+PORTUGUES|||sep|||Separação com caracteres
+PORTUGUES|||scqp|||Separado por ponto-vírgula (;) (recomendado)
+PORTUGUES|||cqp|||Separado com dois pontos (:)
+PORTUGUES|||kqp|||Separado com vírgula (,)
+PORTUGUES|||csvwarning|||Quando a caixa de download aparecer, seleciona \'Abrir o arquivo no local atual\'.<br> Talvez a mesma janela reapareça, se aparecer clique em \"Abrir\" novamente. Isto deve abrir seu Excel <br>com os dados exportados.
+PORTUGUES|||downloadexport|||Baixar arquivo exportado
+PORTUGUES|||repdownloaded|||Relotório foi baixado
+PORTUGUES|||endofreport|||Fim do relatório. Tenha um ótimo dia :)
+PORTUGUES|||noresults|||Seu pedido não obteve nenhum resultado.
+PORTUGUES|||entitiesfound|||tarefas encontradas.
+PORTUGUES|||pbexport|||exportar agenda de telefones
+PORTUGUES|||endofpbexport|||<red> -- Fim do Relatório --
+PORTUGUES|||pbexpmade|||Arquivo de exportação da agenda de telefones criado
+PORTUGUES|||wasdeleted|||foi deletado
+PORTUGUES|||pbdelconf|||a que deseja apagar esta gravação?
+PORTUGUES|||fname|||Primeiro nome
+PORTUGUES|||lname|||Sobrenome
+PORTUGUES|||tel|||Telefone
+PORTUGUES|||company|||Empresa
+PORTUGUES|||dep|||Departamento
+PORTUGUES|||title|||Título
+PORTUGUES|||room|||Quarto
+PORTUGUES|||deletepb|||Deletar
+PORTUGUES|||pbrecadded|||Seu contato foi adicionado na agenda de telefones.
+PORTUGUES|||pbapp|||Suas alterações foram aplicadas.
+PORTUGUES|||pbwarning|||Por favor preencha pelo menos o sobrenome!
+PORTUGUES|||addtopb|||Adicionar a agenda de telefones
+PORTUGUES|||pbresults|||Resultados para sua pesquisa
+PORTUGUES|||options|||Opções
+PORTUGUES|||resfound|||resultados encontrados
+PORTUGUES|||pbcont1|||Esta agenda de telefones contém
+PORTUGUES|||pbcont2|||contatos
+PORTUGUES|||pbaddrec|||adicionar contato
+PORTUGUES|||entsum|||Relatório de tarefas
+PORTUGUES|||showonly|||Mostra apenas
+PORTUGUES|||all|||Tudo
+PORTUGUES|||inccont|||Adicionar comentários a tarefa
+PORTUGUES|||incldel|||Incluir tarefas excluidas
+PORTUGUES|||dlacsv|||Baixar resultado como CSV
+PORTUGUES|||briefo|||Dados resumidos
+PORTUGUES|||mustcontain|||Tarefa deve conter texto
+PORTUGUES|||please|||Por favor faça sua escolha...
+PORTUGUES|||remarks|||Remarcar
+PORTUGUES|||hasfilessum|||Esta tarefa possui arquivos anexados
+PORTUGUES|||expired|||A data de realização desta tarefa expirou!
+PORTUGUES|||thisiswaiting|||Esta tarefa está aguardando ação de outra pessoa.
+PORTUGUES|||thisdoesntbelong|||Este tarefa realmente não pertence a este local
+PORTUGUES|||clear|||limpar
+PORTUGUES|||wrongpwd|||Senha incorreta. Por favor tente novamente ou se mande
+PORTUGUES|||havetoenterpwd|||Visto que sua conta não possui privilégios de administrador, você terá que colocar a senha de administrador
+PORTUGUES|||adm|||Administração
+PORTUGUES|||nopwd|||Visto que sua conta tem privilégios de administrador, a senha para o mesmo não foi pedida.
+PORTUGUES|||imported|||print \"Foram $imported gravaçoes importadas.\";
+PORTUGUES|||ignored|||gravaçoes foram ignoradas por conter um campo vazio.
+PORTUGUES|||impwarning|||Para impedir que uma gravação seja importada, esvazie o campo \"Nome\". Corrija os que estiverem errados.
+PORTUGUES|||commawarning|||Visto que você escolheu importar um arquivo separado por vírgulas, fique atento com combinações do tipo sobrenome, nome (que são comuns no Outlook) que podem produzir efeitos indesejados.
+PORTUGUES|||importinpb|||Importar dados da agenda de telefones
+PORTUGUES|||pbimpwarning|||As informações CSV que você colou <i>devem</i> conter todos campos, contudo eles podem ser vazios:
+PORTUGUES|||paste|||Cole seu texto aqui ...
+PORTUGUES|||pleasechoose|||Por favor selecione uma das opções abaixo:
+PORTUGUES|||chgsys|||Trocar valores do sistema
+PORTUGUES|||impphone|||Importar dadso da agenda de telefones
+PORTUGUES|||viewfiles|||Ver arquivos na base de dados
+PORTUGUES|||delallclosed|||Deletar todas as tarefas concluídas
+PORTUGUES|||eahelp|||Adicionar/Editar tópicos de ajuda
+PORTUGUES|||physdel|||Deletar fisicamente uma tarefa deletada
+PORTUGUES|||viewlog|||Ver logs e estatísticas
+PORTUGUES|||manacc|||Administrar contas
+PORTUGUES|||isdel|||foi deletado
+PORTUGUES|||delfile|||Deletando arquivo fisicamente
+PORTUGUES|||physdelwarning|||Por favor digite o ID da tarefa<b>fechada e deletada</b> que você quer <b>fisicamente</b> deletar:
+PORTUGUES|||confphysdel|||Clique no botão abaixo para confirmar deletação física.
+PORTUGUES|||addhelp|||Adicionar opção de ajuda:
+PORTUGUES|||editaccount|||Editar uma conta
+PORTUGUES|||addaccount|||Adicionar uma conta
+PORTUGUES|||password|||Senha
+PORTUGUES|||addu|||Adicionar Usuário
+PORTUGUES|||btmap|||Voltar para a página principal do Administrador
+PORTUGUES|||passwarn|||deixe os dois campos em branco para manter a senha atual
+PORTUGUES|||limited|||Limitado
+PORTUGUES|||normal|||Normal
+PORTUGUES|||adminrights|||Administrador
+PORTUGUES|||yes|||Sim
+PORTUGUES|||no|||Não
+PORTUGUES|||ela|||Editando conta de login
+PORTUGUES|||dta|||Deletar esta conta
+PORTUGUES|||passmatcherror|||Senha não confere. Pressione \'voltar\' no seu navegador e tente novamente.
+PORTUGUES|||nimut|||Ocorreu um erro!<br><br>Esta conta existe, mas ela<br>não se refere a nenhum usuário na base de dados para o qual possam ser designadas tarefas.<br><br>Verifique o nome tente novamente.
+PORTUGUES|||uwchala|||Usuários que podem ter conta limitada
+PORTUGUES|||tawu|||A conta foi atualizada
+PORTUGUES|||setting|||Configurações
+PORTUGUES|||value|||Valores
+PORTUGUES|||discription|||Descrição
+PORTUGUES|||ocsvifb|||Ou troque os valores do sistema no formulário abaixo
+PORTUGUES|||csvnow|||Troque os valores do sistema
+PORTUGUES|||plzenterpwd|||Por favor digite a senha
+PORTUGUES|||eor|||Fim do relatório
+PORTUGUES|||smtsm|||Selecione mais para ver mais...
+PORTUGUES|||dlmspdf|||ou clique aqui para baixar (mais compacto) um relatório em PDF
+PORTUGUES|||sts|||Resumos a mostrar
+PORTUGUES|||oqs|||Relatório Geral Resumido
+PORTUGUES|||eobu|||Tarefas possuidas por usuários
+PORTUGUES|||eatu|||Tarefas com usuários responsáveis
+PORTUGUES|||sae|||Tarefas designadas para o mesmo usuário
+PORTUGUES|||etdbh|||Tarefas que não pertencem a este local
+PORTUGUES|||ewfsea|||Tarefas aguardando ação de outra pessoa
+PORTUGUES|||epc|||Tarefas por Cliente
+PORTUGUES|||oepa|||Tarefas expiradas, por usuário
+PORTUGUES|||deleted|||Deletado
+PORTUGUES|||total|||Total
+PORTUGUES|||ofwhich|||das quais
+PORTUGUES|||allround|||Todos valores sõa aproximados
+PORTUGUES|||atac|||ou muito aproximados
+PORTUGUES|||edd|||Datas de expiração
+PORTUGUES|||dontbelonghere|||Tarefas que não pertencem a este local
+PORTUGUES|||eatw|||Tarefas adicionadas esta semana
+PORTUGUES|||ectw|||Tarefas concluídas esta semana
+PORTUGUES|||eatm|||Tarefas adicionadas neste mês
+PORTUGUES|||ectm|||Tarefas concluídas neste mês
+PORTUGUES|||of|||De
+PORTUGUES|||tad|||tarefas contadas, uma média total \'de realização\' desde a adição de uma tarefa até seu fechamento
+PORTUGUES|||cuaeoay|||Contados usando <u>todas</u> tarefas concluídas da base de dados, ao longo de <u>todos</u> os anos
+PORTUGUES|||users|||Usuários
+PORTUGUES|||customers|||Clientes
+PORTUGUES|||zoilo|||zero donos estão faltando
+PORTUGUES|||ombla|||Ou : ou talvez tarefas que não tem responsáveis ou não foram designadas(...)
+PORTUGUES|||andassignee|||e designadas
+PORTUGUES|||selfassig|||Auto-Designadas
+PORTUGUES|||aohnsae|||Outros donos não possuem tarefas auto-designadas.
+PORTUGUES|||onavarage|||Em média
+PORTUGUES|||oaoedbh|||de todas tarefas <b>abertas</b> não pertencem a este local
+PORTUGUES|||teaair|||A tarefa e todas as sua anotações foram fisicamente deletadas
+PORTUGUES|||cookiewarning|||Não use esta função em computadores públicos!
+PORTUGUES|||username|||Usuário
+PORTUGUES|||saveusername|||Lembrar usuário
+PORTUGUES|||clearusername|||Esquecer usuário
+PORTUGUES|||savepassword|||Lembrar senha
+PORTUGUES|||clearpassword|||Esquecer senha
+PORTUGUES|||signedoff|||Você foi deslogado. Por favor digite seu usuário e senha para entrar novamente
+PORTUGUES|||signedoffdue1|||Você foi deslogado devido a
+PORTUGUES|||signedoffdue2|||minutos de inatividade
+PORTUGUES|||sysmsg|||O Administrador do sistema deixou uma mensagem para você
+PORTUGUES|||pleaseenter|||Por favor digite seu usuário e senha
+PORTUGUES|||language|||Língua
+PORTUGUES|||pushpdf|||Baixar resultados em arquivo PDF
+PORTUGUES|||managementheader|||Bem-vindo a interface de usuário limitado. você está no sistema como
+PORTUGUES|||oefm|||Tarefas abertas para
+PORTUGUES|||showresults|||Método do Relatório
+PORTUGUES|||verbose|||Verbose
+PORTUGUES|||verbosewithcontents|||Verbose com tópicos
+PORTUGUES|||briefsum|||Resumo rápido
+PORTUGUES|||downloadsumpdf|||Baixar resumo como arquivo PDF
+PORTUGUES|||downloadsumcsv|||Baixar resumo em arquivo Excel
+PORTUGUES|||packman|||Administrar pacotes de linguagem
+PORTUGUES|||openinnewwindow|||Abrir em uma nova janela
+PORTUGUES|||delcust|||Deletar este usuário (<b>nenhuma</b> confirmação será pedida)
+PORTUGUES|||nousers1|||Não há donos / responsáveis configurados. Antes de começar a usar o CRM, você precisa adicionar pelo menos um. Clique em \'Donos/Responsáveis\' para adicionar possíveis donos ou responsáveis!
+PORTUGUES|||custhomepage|||Homepage
+PORTUGUES|||custremarks|||Remarcação
+PORTUGUES|||customeraddress|||Endereço do cliente
+PORTUGUES|||contactemail|||E-mail para contato
+PORTUGUES|||contactphone|||Telefone para contato
+PORTUGUES|||contact|||Contato
+PORTUGUES|||contacttitle|||Título de contato (ex. Sr.)
+PORTUGUES|||custdelexplain|||Este cliente não pode ser deletado pois tem tarefas que pertencem a eles
+PORTUGUES|||editextras|||Editar valores extras
+PORTUGUES|||fieldname|||Nome
+PORTUGUES|||iftynmvhpcysa|||Se você acha que precisa de mais nomes aqui, por favor contate o administrador do seu CRM.
+PORTUGUES|||extrafields|||Campos extras
+PORTUGUES|||uinw|||Atualizar em nova janela
+PORTUGUES|||nocustomers1|||Não há clientes configurados. Antes de usar o CRM, você precisa fazer isto. Clique no menu \'Clientes\' para adicionar pelo menos um cliente!
+PORTUGUES|||nousersandnocustomers1|||Não há clientes nem possíveis Donos/Designados configurados. Antes que você possa usar o CRM, você precisa fazer isto. Clique no menu \'Clientes\' para adicionar pelo menos um cliente, e depois no menu \'Donos/Designados\' para adicionar pelo menos um pos
+PORTUGUES|||managerepositories|||Administrar repositores
+PORTUGUES|||viewdelentities|||Ver tarefas deletadas
+PORTUGUES|||viewinsertedentities|||Tarefas adicionadas
+PORTUGUES|||readonly|||Read-only
+PORTUGUES|||customer|||Cliente
+PORTUGUES|||owner|||Dono
+PORTUGUES|||entity|||tarefa
+PORTUGUES|||priority|||Prioridade
+PORTUGUES|||assignee|||Responsável
+PORTUGUES|||duedate|||Para dia
+PORTUGUES|||alarmdate|||Data do Alarme
+PORTUGUES|||alarmdatev|||Criar alarme para esta tarefa
+PORTUGUES|||category|||Categoria
+PORTUGUES|||status|||Status
+PORTUGUES|||helpcontents|||Tópicos de ajuda
+PORTUGUES|||tolimited|||Devido a falta de privilégios você foi direcionado para uma tela limitada
+PORTUGUES|||briefover|||Relatório sobre a tarefa
+PORTUGUES|||mightbebetter|||Seria melhor você usar a opção de relatório
+PORTUGUES|||editthis|||Edite esta tarefa
+PORTUGUES|||alarmsettings|||Opções do Alarme
+PORTUGUES|||closethisentity|||Fechar esta tarefa
+PORTUGUES|||deletethisentity|||Deletar esta tarefa
+PORTUGUES|||downloadpdf|||Baixar relatório em PDF sobre esta tarefa
+PORTUGUES|||downloadpdfs|||Baixar relatório em PDF
+PORTUGUES|||close|||Fechar
+PORTUGUES|||edit|||Editar
+PORTUGUES|||delete|||Deletar
+PORTUGUES|||pdfreport|||Relatório em PDF
+PORTUGUES|||welcome1|||Bem-vindo ao
+PORTUGUES|||intro1|||Esta ferramenta é usada para grava as dúvidas dos clientes. Agora eles são
+PORTUGUES|||intro2|||usuários registrados,<br>que no total são
+PORTUGUES|||intro3|||tarefas logadas, para
+PORTUGUES|||intro4|||clientes.
+PORTUGUES|||welcome|||Bem-vindo
+PORTUGUES|||lastlogon|||Última vez que logou
+PORTUGUES|||entitiestoday|||tarefas para hoje
+PORTUGUES|||noentities|||Não há nenhuma tarefa para hoje
+PORTUGUES|||gotomainpage|||Ir para a página principal
+PORTUGUES|||main|||Principal
+PORTUGUES|||addcusttodb|||Adicionar o pedido do cliente na base de dados
+PORTUGUES|||add|||Adicionar
+PORTUGUES|||viewbrief|||Ver um relatório das tarefas gravadas na base de dados
+PORTUGUES|||entities|||Tarefas
+PORTUGUES|||brieflistdel|||Ver um relatório das tarefas apagadas da base de dados
+PORTUGUES|||delentities|||Deletar tarefas
+PORTUGUES|||vacoa|||Ver, adicionar ou mudar possíveis donos ou Responsávels
+PORTUGUES|||oa|||Donos/Responsávels
+PORTUGUES|||vacc|||Ver, adicionar ou modificar clientes
+PORTUGUES|||customers|||Clientes
+PORTUGUES|||dumpi|||Eliminar as vírgulas para exportar os dados da base de dados
+PORTUGUES|||phonebook1|||Agenda de Telefones
+PORTUGUES|||phonebookshort|||AT
+PORTUGUES|||sumverb|||Ver e imprimir relatórios mais avançados
+PORTUGUES|||summary|||Relatório
+PORTUGUES|||logout|||Sair
+PORTUGUES|||maninfo|||Informações de Administração
+PORTUGUES|||maninfoverb|||Relatórios de estatísticas para Administração
+PORTUGUES|||sitestats|||Estatísticas do site
+PORTUGUES|||sitestatsverb|||As estatísticas deste site
+PORTUGUES|||administration|||Administração
+PORTUGUES|||administrationverb|||Funçoes de Administração
+PORTUGUES|||helpcontentsverb|||Mostrar lista de conteúdo da ajuda
+PORTUGUES|||dateinvalid|||A data que você escolhe é inválida.n A data não foi escolhida.
+PORTUGUES|||entrysaved|||Digitar número do pedido
+PORTUGUES|||wasadded|||foi adicionado.
+PORTUGUES|||deleting1|||Deletando
+PORTUGUES|||deleting2|||arquivo(s). Aperte o botão abaixo para confirmar.
+PORTUGUES|||confdel|||Confirme deletagem
+PORTUGUES|||deletingentity|||Deletando tarefa
+PORTUGUES|||ownedby|||pertence à
+PORTUGUES|||assignedto|||Responsável para
+PORTUGUES|||curstat|||Status atual
+PORTUGUES|||created|||criado
+PORTUGUES|||lastupdate|||última atualização
+PORTUGUES|||deleteerror|||Você não pode deletar esta tarefa pois ela não foi terminada
+PORTUGUES|||confirmdel|||Clique aqui para deletar esta tarefa
+PORTUGUES|||search|||Procura
+PORTUGUES|||thereare|||São
+PORTUGUES|||openentities|||Abrir tarefas
+PORTUGUES|||noopen|||Não há tarefas abertas.
+PORTUGUES|||nonexistent|||Você digitou um número de tarefa que não existe!
+PORTUGUES|||editing|||Editando
+PORTUGUES|||wasclosed|||Esta tarefa foi fechada
+PORTUGUES|||newentity|||Nova tarefa
+PORTUGUES|||isdeleted|||Esta é uma tarefa deletada
+PORTUGUES|||iswaiting|||Aguardando outra pessoa
+PORTUGUES|||doesntbelonghere|||Esta tarefa não pertence a este local
+PORTUGUES|||listofatt|||Listar arquivos anexados a esta tarefa
+PORTUGUES|||filename|||Nome do arquivo
+PORTUGUES|||filesize|||Tamanho
+PORTUGUES|||creationdate|||Data de criação
+PORTUGUES|||deletefile|||Deletar
+PORTUGUES|||attachfile|||Anexar arquivo
+PORTUGUES|||saveclose|||Salvar e Fechar
+PORTUGUES|||cancel|||Cancelar
+PORTUGUES|||save|||Salvar para base de dados
+PORTUGUES|||noaction|||Erro, nenhuma ação escolhida
+PORTUGUES|||zailo|||falta zero consignados
+PORTUGUES|||name|||Nome
+PORTUGUES|||usrwarning|||Se uma caixa está desabilitada (cinza), significa que seu dono ou responsável possui uma conta limitada, e portanto o nome não pode ser mudado<br>ou os dados podem ser perdidos.
+PORTUGUES|||ownassindb|||Donos os responsáveis na base de dados
+PORTUGUES|||addownass|||Adicionar dono/responsável
+PORTUGUES|||apply|||Aplicar alterações
+PORTUGUES|||custindb|||Clientes na base de dados
+PORTUGUES|||addcust|||Adicionar um cliente
+PORTUGUES|||selectfields|||Por favor selecionar os campos que deseja exportar
+PORTUGUES|||lastupdatedate|||Data da última atualização
+PORTUGUES|||lastupdatetime|||Hora da última atualização
+PORTUGUES|||closedate|||Data de fechamento
+PORTUGUES|||waitingcsv|||Aguardando
+PORTUGUES|||doesntcsv|||Não pertence a este local
+PORTUGUES|||contents|||Conteúdo
+PORTUGUES|||alreadyselected|||<b>Sua requisição foi gravada</b>
+PORTUGUES|||sep|||Separação com caracteres
+PORTUGUES|||scqp|||Separado por ponto-vírgula (;) (recomendado)
+PORTUGUES|||cqp|||Separado com dois pontos (:)
+PORTUGUES|||kqp|||Separado com vírgula (,)
+PORTUGUES|||csvwarning|||Quando a caixa de download aparecer, seleciona \'Abrir o arquivo no local atual\'.<br> Talvez a mesma janela reapareça, se aparecer clique em \"Abrir\" novamente. Isto deve abrir seu Excel <br>com os dados exportados.
+PORTUGUES|||downloadexport|||Baixar arquivo exportado
+PORTUGUES|||repdownloaded|||Relotório foi baixado
+PORTUGUES|||endofreport|||Fim do relatório. Tenha um ótimo dia :)
+PORTUGUES|||noresults|||Seu pedido não obteve nenhum resultado.
+PORTUGUES|||entitiesfound|||tarefas encontradas.
+PORTUGUES|||pbexport|||exportar agenda de telefones
+PORTUGUES|||endofpbexport|||<red> -- Fim do Relatório --
+PORTUGUES|||pbexpmade|||Arquivo de exportação da agenda de telefones criado
+PORTUGUES|||wasdeleted|||foi deletado
+PORTUGUES|||pbdelconf|||a que deseja apagar esta gravação?
+PORTUGUES|||fname|||Primeiro nome
+PORTUGUES|||lname|||Sobrenome
+PORTUGUES|||tel|||Telefone
+PORTUGUES|||company|||Empresa
+PORTUGUES|||dep|||Departamento
+PORTUGUES|||title|||Título
+PORTUGUES|||room|||Quarto
+PORTUGUES|||deletepb|||Deletar
+PORTUGUES|||pbrecadded|||Seu contato foi adicionado na agenda de telefones.
+PORTUGUES|||pbapp|||Suas alterações foram aplicadas.
+PORTUGUES|||pbwarning|||Por favor preencha pelo menos o sobrenome!
+PORTUGUES|||addtopb|||Adicionar a agenda de telefones
+PORTUGUES|||pbresults|||Resultados para sua pesquisa
+PORTUGUES|||options|||Opções
+PORTUGUES|||resfound|||resultados encontrados
+PORTUGUES|||pbcont1|||Esta agenda de telefones contém
+PORTUGUES|||pbcont2|||contatos
+PORTUGUES|||pbaddrec|||adicionar contato
+PORTUGUES|||entsum|||Relatório de tarefas
+PORTUGUES|||showonly|||Mostra apenas
+PORTUGUES|||all|||Tudo
+PORTUGUES|||inccont|||Adicionar comentários a tarefa
+PORTUGUES|||incldel|||Incluir tarefas excluidas
+PORTUGUES|||dlacsv|||Baixar resultado como CSV
+PORTUGUES|||briefo|||Dados resumidos
+PORTUGUES|||mustcontain|||Tarefa deve conter texto
+PORTUGUES|||please|||Por favor faça sua escolha...
+PORTUGUES|||remarks|||Remarcar
+PORTUGUES|||hasfilessum|||Esta tarefa possui arquivos anexados
+PORTUGUES|||expired|||A data de realização desta tarefa expirou!
+PORTUGUES|||thisiswaiting|||Esta tarefa está aguardando ação de outra pessoa.
+PORTUGUES|||thisdoesntbelong|||Este tarefa realmente não pertence a este local
+PORTUGUES|||clear|||limpar
+PORTUGUES|||wrongpwd|||Senha incorreta. Por favor tente novamente ou se mande
+PORTUGUES|||havetoenterpwd|||Visto que sua conta não possui privilégios de administrador, você terá que colocar a senha de administrador
+PORTUGUES|||adm|||Administração
+PORTUGUES|||nopwd|||Visto que sua conta tem privilégios de administrador, a senha para o mesmo não foi pedida.
+PORTUGUES|||imported|||print \"Foram $imported gravaçoes importadas.\";
+PORTUGUES|||ignored|||gravaçoes foram ignoradas por conter um campo vazio.
+PORTUGUES|||impwarning|||Para impedir que uma gravação seja importada, esvazie o campo \"Nome\". Corrija os que estiverem errados.
+PORTUGUES|||commawarning|||Visto que você escolheu importar um arquivo separado por vírgulas, fique atento com combinações do tipo sobrenome, nome (que são comuns no Outlook) que podem produzir efeitos indesejados.
+PORTUGUES|||importinpb|||Importar dados da agenda de telefones
+PORTUGUES|||pbimpwarning|||As informações CSV que você colou <i>devem</i> conter todos campos, contudo eles podem ser vazios:
+PORTUGUES|||paste|||Cole seu texto aqui ...
+PORTUGUES|||pleasechoose|||Por favor selecione uma das opções abaixo:
+PORTUGUES|||chgsys|||Trocar valores do sistema
+PORTUGUES|||impphone|||Importar dadso da agenda de telefones
+PORTUGUES|||viewfiles|||Ver arquivos na base de dados
+PORTUGUES|||delallclosed|||Deletar todas as tarefas concluídas
+PORTUGUES|||eahelp|||Adicionar/Editar tópicos de ajuda
+PORTUGUES|||physdel|||Deletar fisicamente uma tarefa deletada
+PORTUGUES|||viewlog|||Ver logs e estatísticas
+PORTUGUES|||manacc|||Administrar contas
+PORTUGUES|||isdel|||foi deletado
+PORTUGUES|||delfile|||Deletando arquivo fisicamente
+PORTUGUES|||physdelwarning|||Por favor digite o ID da tarefa<b>fechada e deletada</b> que você quer <b>fisicamente</b> deletar:
+PORTUGUES|||confphysdel|||Clique no botão abaixo para confirmar deletação física.
+PORTUGUES|||addhelp|||Adicionar opção de ajuda:
+PORTUGUES|||editaccount|||Editar uma conta
+PORTUGUES|||addaccount|||Adicionar uma conta
+PORTUGUES|||password|||Senha
+PORTUGUES|||addu|||Adicionar Usuário
+PORTUGUES|||btmap|||Voltar para a página principal do Administrador
+PORTUGUES|||passwarn|||deixe os dois campos em branco para manter a senha atual
+PORTUGUES|||limited|||Limitado
+PORTUGUES|||normal|||Normal
+PORTUGUES|||adminrights|||Administrador
+PORTUGUES|||yes|||Sim
+PORTUGUES|||no|||Não
+PORTUGUES|||ela|||Editando conta de login
+PORTUGUES|||dta|||Deletar esta conta
+PORTUGUES|||passmatcherror|||Senha não confere. Pressione \'voltar\' no seu navegador e tente novamente.
+PORTUGUES|||nimut|||Ocorreu um erro!<br><br>Esta conta existe, mas ela<br>não se refere a nenhum usuário na base de dados para o qual possam ser designadas tarefas.<br><br>Verifique o nome tente novamente.
+PORTUGUES|||uwchala|||Usuários que podem ter conta limitada
+PORTUGUES|||tawu|||A conta foi atualizada
+PORTUGUES|||setting|||Configurações
+PORTUGUES|||value|||Valores
+PORTUGUES|||discription|||Descrição
+PORTUGUES|||ocsvifb|||Ou troque os valores do sistema no formulário abaixo
+PORTUGUES|||csvnow|||Troque os valores do sistema
+PORTUGUES|||plzenterpwd|||Por favor digite a senha
+PORTUGUES|||eor|||Fim do relatório
+PORTUGUES|||smtsm|||Selecione mais para ver mais...
+PORTUGUES|||dlmspdf|||ou clique aqui para baixar (mais compacto) um relatório em PDF
+PORTUGUES|||sts|||Resumos a mostrar
+PORTUGUES|||oqs|||Relatório Geral Resumido
+PORTUGUES|||eobu|||Tarefas possuidas por usuários
+PORTUGUES|||eatu|||Tarefas com usuários responsáveis
+PORTUGUES|||sae|||Tarefas designadas para o mesmo usuário
+PORTUGUES|||etdbh|||Tarefas que não pertencem a este local
+PORTUGUES|||ewfsea|||Tarefas aguardando ação de outra pessoa
+PORTUGUES|||epc|||Tarefas por Cliente
+PORTUGUES|||oepa|||Tarefas expiradas, por usuário
+PORTUGUES|||deleted|||Deletado
+PORTUGUES|||total|||Total
+PORTUGUES|||ofwhich|||das quais
+PORTUGUES|||allround|||Todos valores sõa aproximados
+PORTUGUES|||atac|||ou muito aproximados
+PORTUGUES|||edd|||Datas de expiração
+PORTUGUES|||dontbelonghere|||Tarefas que não pertencem a este local
+PORTUGUES|||eatw|||Tarefas adicionadas esta semana
+PORTUGUES|||ectw|||Tarefas concluídas esta semana
+PORTUGUES|||eatm|||Tarefas adicionadas neste mês
+PORTUGUES|||ectm|||Tarefas concluídas neste mês
+PORTUGUES|||of|||De
+PORTUGUES|||tad|||tarefas contadas, uma média total \'de realização\' desde a adição de uma tarefa até seu fechamento
+PORTUGUES|||cuaeoay|||Contados usando <u>todas</u> tarefas concluídas da base de dados, ao longo de <u>todos</u> os anos
+PORTUGUES|||users|||Usuários
+PORTUGUES|||customers|||Clientes
+PORTUGUES|||zoilo|||zero donos estão faltando
+PORTUGUES|||ombla|||Ou : ou talvez tarefas que não tem responsáveis ou não foram designadas(...)
+PORTUGUES|||andassignee|||e designadas
+PORTUGUES|||selfassig|||Auto-Designadas
+PORTUGUES|||aohnsae|||Outros donos não possuem tarefas auto-designadas.
+PORTUGUES|||onavarage|||Em média
+PORTUGUES|||oaoedbh|||de todas tarefas <b>abertas</b> não pertencem a este local
+PORTUGUES|||teaair|||A tarefa e todas as sua anotações foram fisicamente deletadas
+PORTUGUES|||cookiewarning|||Não use esta função em computadores públicos!
+PORTUGUES|||username|||Usuário
+PORTUGUES|||saveusername|||Lembrar usuário
+PORTUGUES|||clearusername|||Esquecer usuário
+PORTUGUES|||savepassword|||Lembrar senha
+PORTUGUES|||clearpassword|||Esquecer senha
+PORTUGUES|||signedoff|||Você foi deslogado. Por favor digite seu usuário e senha para entrar novamente
+PORTUGUES|||signedoffdue1|||Você foi deslogado devido a
+PORTUGUES|||signedoffdue2|||minutos de inatividade
+PORTUGUES|||sysmsg|||O Administrador do sistema deixou uma mensagem para você
+PORTUGUES|||pleaseenter|||Por favor digite seu usuário e senha
+PORTUGUES|||language|||Língua
+PORTUGUES|||pushpdf|||Baixar resultados em arquivo PDF
+PORTUGUES|||managementheader|||Bem-vindo a interface de usuário limitado. você está no sistema como
+PORTUGUES|||oefm|||Tarefas abertas para
+PORTUGUES|||showresults|||Método do Relatório
+PORTUGUES|||verbose|||Verbose
+PORTUGUES|||verbosewithcontents|||Verbose com tópicos
+PORTUGUES|||briefsum|||Resumo rápido
+PORTUGUES|||downloadsumpdf|||Baixar resumo como arquivo PDF
+PORTUGUES|||downloadsumcsv|||Baixar resumo em arquivo Excel
+PORTUGUES|||packman|||Administrar pacotes de linguagem
+PORTUGUES|||openinnewwindow|||Abrir em uma nova janela
+PORTUGUES|||delcust|||Deletar este usuário (<b>nenhuma</b> confirmação será pedida)
+PORTUGUES|||nousers1|||Não há donos / responsáveis configurados. Antes de começar a usar o CRM, você precisa adicionar pelo menos um. Clique em \'Donos/Responsáveis\' para adicionar possíveis donos ou responsáveis!
+PORTUGUES|||custhomepage|||Homepage
+PORTUGUES|||custremarks|||Remarcação
+PORTUGUES|||customeraddress|||Endereço do cliente
+PORTUGUES|||contactemail|||E-mail para contato
+PORTUGUES|||contactphone|||Telefone para contato
+PORTUGUES|||contact|||Contato
+PORTUGUES|||contacttitle|||Título de contato (ex. Sr.)
+PORTUGUES|||custdelexplain|||Este cliente não pode ser deletado pois tem tarefas que pertencem a eles
+PORTUGUES|||editextras|||Editar valores extras
+PORTUGUES|||fieldname|||Nome
+PORTUGUES|||iftynmvhpcysa|||Se você acha que precisa de mais nomes aqui, por favor contate o administrador do seu CRM.
+PORTUGUES|||extrafields|||Campos extras
+PORTUGUES|||uinw|||Atualizar em nova janela
+PORTUGUES|||nocustomers1|||Não há clientes configurados. Antes de usar o CRM, você precisa fazer isto. Clique no menu \'Clientes\' para adicionar pelo menos um cliente!
+PORTUGUES|||nousersandnocustomers1|||Não há clientes nem possíveis Donos/Designados configurados. Antes que você possa usar o CRM, você precisa fazer isto. Clique no menu \'Clientes\' para adicionar pelo menos um cliente, e depois no menu \'Donos/Designados\' para adicionar pelo menos um pos
+PORTUGUES|||managerepositories|||Administrar repositores
+PORTUGUES|||viewdelentities|||Ver tarefas deletadas
+PORTUGUES|||viewinsertedentities|||Tarefas adicionadas
+PORTUGUES|||readonly|||Read-only

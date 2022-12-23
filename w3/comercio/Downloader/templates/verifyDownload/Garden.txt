@@ -1,0 +1,1 @@
+<template><id>Garden</id><name>Garden</name><version>1.6</version><colors><color><name>Green</name><hex>#4F4804</hex><preview>%%ISCURL%%templates/previews/Garden_green_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/Garden_green.jpg</previewFull></color></colors></template>

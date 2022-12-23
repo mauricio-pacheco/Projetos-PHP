@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+	<gallery>
+		<config>
+
+			<title>Fotos Ecco Eventos</title>
+
+			<thumbnail_dir>images/thumbs/</thumbnail_dir>
+			
+			<image_dir>images/big/</image_dir>
+			
+			<slideshow_interval>5</slideshow_interval>
+
+			<pause_slideshow>true</pause_slideshow>
+
+			<rss_scale_images>true</rss_scale_images>
+
+			<background_music>Johnny Quest.mp3</background_music>
+
+			<background_music_volume>50</background_music_volume>
+            
+			<link_images>true</link_images>
+
+	<disable_printscreen>false</disable_printscreen>
+		
+		</config>
+		
+
+		<albums>
+
+
+
+
+
+<album title="20/05/2011" description="20 de Maio de 2011 - Show do Jquest">
+<image title="Ecco Eventos" thumbnail="folder1.jpg" date="20/05/2011" image="folder1.jpg" link="images/big/folder1.jpg" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="0.JPG" date="20/05/2011" image="0.JPG" link="images/big/0.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="1.JPG" date="20/05/2011" image="1.JPG" link="images/big/1.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="2.JPG" date="20/05/2011" image="2.JPG" link="images/big/2.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="3.JPG" date="20/05/2011" image="3.JPG" link="images/big/3.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="4.JPG" date="20/05/2011" image="4.JPG" link="images/big/4.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="5.JPG" date="20/05/2011" image="5.JPG" link="images/big/5.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="6.JPG" date="20/05/2011" image="6.JPG" link="images/big/6.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="7.JPG" date="20/05/2011" image="7.JPG" link="images/big/7.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="8.JPG" date="20/05/2011" image="8.JPG" link="images/big/8.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="9.JPG" date="20/05/2011" image="9.JPG" link="images/big/9.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="10.JPG" date="20/05/2011" image="10.JPG" link="images/big/10.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="11.JPG" date="20/05/2011" image="11.JPG" link="images/big/11.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="12.JPG" date="20/05/2011" image="12.JPG" link="images/big/12.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="13.JPG" date="20/05/2011" image="13.JPG" link="images/big/13.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="14.JPG" date="20/05/2011" image="14.JPG" link="images/big/14.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="15.JPG" date="20/05/2011" image="15.JPG" link="images/big/15.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="16.JPG" date="20/05/2011" image="16.JPG" link="images/big/16.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="17.JPG" date="20/05/2011" image="17.JPG" link="images/big/17.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="18.JPG" date="20/05/2011" image="18.JPG" link="images/big/18.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="19.JPG" date="20/05/2011" image="19.JPG" link="images/big/19.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="20.JPG" date="20/05/2011" image="20.JPG" link="images/big/20.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="21.JPG" date="20/05/2011" image="21.JPG" link="images/big/21.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="22.JPG" date="20/05/2011" image="22.JPG" link="images/big/22.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="23.JPG" date="20/05/2011" image="23.JPG" link="images/big/23.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="24.JPG" date="20/05/2011" image="24.JPG" link="images/big/24.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="25.JPG" date="20/05/2011" image="25.JPG" link="images/big/25.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="26.JPG" date="20/05/2011" image="26.JPG" link="images/big/26.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="27.JPG" date="20/05/2011" image="27.JPG" link="images/big/27.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="28.JPG" date="20/05/2011" image="28.JPG" link="images/big/28.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="29.JPG" date="20/05/2011" image="29.JPG" link="images/big/29.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="30.JPG" date="20/05/2011" image="30.JPG" link="images/big/30.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="31.JPG" date="20/05/2011" image="31.JPG" link="images/big/31.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="32.JPG" date="20/05/2011" image="32.JPG" link="images/big/32.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="33.JPG" date="20/05/2011" image="33.JPG" link="images/big/33.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="34.JPG" date="20/05/2011" image="34.JPG" link="images/big/34.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="35.JPG" date="20/05/2011" image="35.JPG" link="images/big/35.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="36.JPG" date="20/05/2011" image="36.JPG" link="images/big/36.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="37.JPG" date="20/05/2011" image="37.JPG" link="images/big/37.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="38.JPG" date="20/05/2011" image="38.JPG" link="images/big/38.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="39.JPG" date="20/05/2011" image="39.JPG" link="images/big/39.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="40.JPG" date="20/05/2011" image="40.JPG" link="images/big/40.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="41.JPG" date="20/05/2011" image="41.JPG" link="images/big/41.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="42.JPG" date="20/05/2011" image="42.JPG" link="images/big/42.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="43.JPG" date="20/05/2011" image="43.JPG" link="images/big/43.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="44.JPG" date="20/05/2011" image="44.JPG" link="images/big/44.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="45.JPG" date="20/05/2011" image="45.JPG" link="images/big/45.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="46.JPG" date="20/05/2011" image="46.JPG" link="images/big/46.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="47.JPG" date="20/05/2011" image="47.JPG" link="images/big/47.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="48.JPG" date="20/05/2011" image="48.JPG" link="images/big/48.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="49.JPG" date="20/05/2011" image="49.JPG" link="images/big/49.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="50.JPG" date="20/05/2011" image="50.JPG" link="images/big/50.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="51.JPG" date="20/05/2011" image="51.JPG" link="images/big/51.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="52.JPG" date="20/05/2011" image="52.JPG" link="images/big/52.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="53.JPG" date="20/05/2011" image="53.JPG" link="images/big/53.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="54.JPG" date="20/05/2011" image="54.JPG" link="images/big/54.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="55.JPG" date="20/05/2011" image="55.JPG" link="images/big/55.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="56.JPG" date="20/05/2011" image="56.JPG" link="images/big/56.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="57.JPG" date="20/05/2011" image="57.JPG" link="images/big/57.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="58.JPG" date="20/05/2011" image="58.JPG" link="images/big/58.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="59.JPG" date="20/05/2011" image="59.JPG" link="images/big/59.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="60.JPG" date="20/05/2011" image="60.JPG" link="images/big/60.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="61.JPG" date="20/05/2011" image="61.JPG" link="images/big/61.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="62.JPG" date="20/05/2011" image="62.JPG" link="images/big/62.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="63.JPG" date="20/05/2011" image="63.JPG" link="images/big/63.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="64.JPG" date="20/05/2011" image="64.JPG" link="images/big/64.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="65.JPG" date="20/05/2011" image="65.JPG" link="images/big/65.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="66.JPG" date="20/05/2011" image="66.JPG" link="images/big/66.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="67.JPG" date="20/05/2011" image="67.JPG" link="images/big/67.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="68.JPG" date="20/05/2011" image="68.JPG" link="images/big/68.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="69.JPG" date="20/05/2011" image="69.JPG" link="images/big/69.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="70.JPG" date="20/05/2011" image="70.JPG" link="images/big/70.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="71.JPG" date="20/05/2011" image="71.JPG" link="images/big/71.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="72.JPG" date="20/05/2011" image="72.JPG" link="images/big/72.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="73.JPG" date="20/05/2011" image="73.JPG" link="images/big/73.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="74.JPG" date="20/05/2011" image="74.JPG" link="images/big/74.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="75.JPG" date="20/05/2011" image="75.JPG" link="images/big/75.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="76.JPG" date="20/05/2011" image="76.JPG" link="images/big/76.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="77.JPG" date="20/05/2011" image="77.JPG" link="images/big/77.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="78.JPG" date="20/05/2011" image="78.JPG" link="images/big/78.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="79.JPG" date="20/05/2011" image="79.JPG" link="images/big/79.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="80.JPG" date="20/05/2011" image="80.JPG" link="images/big/80.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="81.JPG" date="20/05/2011" image="81.JPG" link="images/big/81.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="82.JPG" date="20/05/2011" image="82.JPG" link="images/big/82.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="83.JPG" date="20/05/2011" image="83.JPG" link="images/big/83.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="84.JPG" date="20/05/2011" image="84.JPG" link="images/big/84.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="85.JPG" date="20/05/2011" image="85.JPG" link="images/big/85.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="86.JPG" date="20/05/2011" image="86.JPG" link="images/big/86.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="87.JPG" date="20/05/2011" image="87.JPG" link="images/big/87.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="88.JPG" date="20/05/2011" image="88.JPG" link="images/big/88.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="89.JPG" date="20/05/2011" image="89.JPG" link="images/big/89.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="90.JPG" date="20/05/2011" image="90.JPG" link="images/big/90.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="91.JPG" date="20/05/2011" image="91.JPG" link="images/big/91.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="92.JPG" date="20/05/2011" image="92.JPG" link="images/big/92.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="93.JPG" date="20/05/2011" image="93.JPG" link="images/big/93.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="94.JPG" date="20/05/2011" image="94.JPG" link="images/big/94.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="95.JPG" date="20/05/2011" image="95.JPG" link="images/big/95.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="96.JPG" date="20/05/2011" image="96.JPG" link="images/big/96.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="97.JPG" date="20/05/2011" image="97.JPG" link="images/big/97.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="98.JPG" date="20/05/2011" image="98.JPG" link="images/big/98.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="99.JPG" date="20/05/2011" image="99.JPG" link="images/big/99.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="100.JPG" date="20/05/2011" image="100.JPG" link="images/big/100.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="101.JPG" date="20/05/2011" image="101.JPG" link="images/big/101.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="102.JPG" date="20/05/2011" image="102.JPG" link="images/big/102.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="103.JPG" date="20/05/2011" image="103.JPG" link="images/big/103.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="104.JPG" date="20/05/2011" image="104.JPG" link="images/big/104.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="105.JPG" date="20/05/2011" image="105.JPG" link="images/big/105.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="106.JPG" date="20/05/2011" image="106.JPG" link="images/big/106.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="107.JPG" date="20/05/2011" image="107.JPG" link="images/big/107.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="108.JPG" date="20/05/2011" image="108.JPG" link="images/big/108.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="109.JPG" date="20/05/2011" image="109.JPG" link="images/big/109.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="110.JPG" date="20/05/2011" image="110.JPG" link="images/big/110.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="111.JPG" date="20/05/2011" image="111.JPG" link="images/big/111.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="112.JPG" date="20/05/2011" image="112.JPG" link="images/big/112.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="113.JPG" date="20/05/2011" image="113.JPG" link="images/big/113.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="114.JPG" date="20/05/2011" image="114.JPG" link="images/big/114.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="115.JPG" date="20/05/2011" image="115.JPG" link="images/big/115.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="116.JPG" date="20/05/2011" image="116.JPG" link="images/big/116.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="117.JPG" date="20/05/2011" image="117.JPG" link="images/big/117.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="118.JPG" date="20/05/2011" image="118.JPG" link="images/big/118.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="119.JPG" date="20/05/2011" image="119.JPG" link="images/big/119.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="120.JPG" date="20/05/2011" image="120.JPG" link="images/big/120.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="121.JPG" date="20/05/2011" image="121.JPG" link="images/big/121.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="122.JPG" date="20/05/2011" image="122.JPG" link="images/big/122.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="123.JPG" date="20/05/2011" image="123.JPG" link="images/big/123.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="124.JPG" date="20/05/2011" image="124.JPG" link="images/big/124.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="125.JPG" date="20/05/2011" image="125.JPG" link="images/big/125.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="126.JPG" date="20/05/2011" image="126.JPG" link="images/big/126.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="127.JPG" date="20/05/2011" image="127.JPG" link="images/big/127.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="128.JPG" date="20/05/2011" image="128.JPG" link="images/big/128.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="129.JPG" date="20/05/2011" image="129.JPG" link="images/big/129.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="130.JPG" date="20/05/2011" image="130.JPG" link="images/big/130.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="131.JPG" date="20/05/2011" image="131.JPG" link="images/big/131.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="132.JPG" date="20/05/2011" image="132.JPG" link="images/big/132.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="133.JPG" date="20/05/2011" image="133.JPG" link="images/big/133.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="134.JPG" date="20/05/2011" image="134.JPG" link="images/big/134.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="135.JPG" date="20/05/2011" image="135.JPG" link="images/big/135.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="136.JPG" date="20/05/2011" image="136.JPG" link="images/big/136.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="137.JPG" date="20/05/2011" image="137.JPG" link="images/big/137.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="138.JPG" date="20/05/2011" image="138.JPG" link="images/big/138.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="139.JPG" date="20/05/2011" image="139.JPG" link="images/big/139.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="140.JPG" date="20/05/2011" image="140.JPG" link="images/big/140.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="141.JPG" date="20/05/2011" image="141.JPG" link="images/big/141.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="142.JPG" date="20/05/2011" image="142.JPG" link="images/big/142.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="143.JPG" date="20/05/2011" image="143.JPG" link="images/big/143.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="144.JPG" date="20/05/2011" image="144.JPG" link="images/big/144.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="145.JPG" date="20/05/2011" image="145.JPG" link="images/big/145.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="146.JPG" date="20/05/2011" image="146.JPG" link="images/big/146.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="147.JPG" date="20/05/2011" image="147.JPG" link="images/big/147.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="148.JPG" date="20/05/2011" image="148.JPG" link="images/big/148.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="149.JPG" date="20/05/2011" image="149.JPG" link="images/big/149.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="150.JPG" date="20/05/2011" image="150.JPG" link="images/big/150.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="151.JPG" date="20/05/2011" image="151.JPG" link="images/big/151.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="152.JPG" date="20/05/2011" image="152.JPG" link="images/big/152.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="153.JPG" date="20/05/2011" image="153.JPG" link="images/big/153.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="154.JPG" date="20/05/2011" image="154.JPG" link="images/big/154.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="155.JPG" date="20/05/2011" image="155.JPG" link="images/big/155.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="156.JPG" date="20/05/2011" image="156.JPG" link="images/big/156.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="157.JPG" date="20/05/2011" image="157.JPG" link="images/big/157.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="158.JPG" date="20/05/2011" image="158.JPG" link="images/big/158.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="159.JPG" date="20/05/2011" image="159.JPG" link="images/big/159.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="160.JPG" date="20/05/2011" image="160.JPG" link="images/big/160.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="161.JPG" date="20/05/2011" image="161.JPG" link="images/big/161.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="162.JPG" date="20/05/2011" image="162.JPG" link="images/big/162.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="163.JPG" date="20/05/2011" image="163.JPG" link="images/big/163.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="164.JPG" date="20/05/2011" image="164.JPG" link="images/big/164.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="165.JPG" date="20/05/2011" image="165.JPG" link="images/big/165.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="166.JPG" date="20/05/2011" image="166.JPG" link="images/big/166.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="167.JPG" date="20/05/2011" image="167.JPG" link="images/big/167.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="168.JPG" date="20/05/2011" image="168.JPG" link="images/big/168.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="169.JPG" date="20/05/2011" image="169.JPG" link="images/big/169.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="170.JPG" date="20/05/2011" image="170.JPG" link="images/big/170.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="171.JPG" date="20/05/2011" image="171.JPG" link="images/big/171.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="172.JPG" date="20/05/2011" image="172.JPG" link="images/big/172.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="173.JPG" date="20/05/2011" image="173.JPG" link="images/big/173.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="174.JPG" date="20/05/2011" image="174.JPG" link="images/big/174.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="175.JPG" date="20/05/2011" image="175.JPG" link="images/big/175.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="176.JPG" date="20/05/2011" image="176.JPG" link="images/big/176.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="177.JPG" date="20/05/2011" image="177.JPG" link="images/big/177.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="178.JPG" date="20/05/2011" image="178.JPG" link="images/big/178.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="179.JPG" date="20/05/2011" image="179.JPG" link="images/big/179.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="180.JPG" date="20/05/2011" image="180.JPG" link="images/big/180.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="181.JPG" date="20/05/2011" image="181.JPG" link="images/big/181.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="182.JPG" date="20/05/2011" image="182.JPG" link="images/big/182.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="183.JPG" date="20/05/2011" image="183.JPG" link="images/big/183.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="184.JPG" date="20/05/2011" image="184.JPG" link="images/big/184.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+<image title="Ecco Eventos" thumbnail="185.JPG" date="20/05/2011" image="185.JPG" link="images/big/185.JPG" >CLIQUE NA IMAGEM PARA SALVAR</image>
+
+</album>
+
+
+		
+		<language>
+			<string id="please wait" value="Aguarde..." />
+			<string id="loading" value="Carregando" />
+			<string id="previous page" value="Página Anterior" />
+			<string id="page % of %" value="Página % de %" />
+			<string id="next page" value="Próxima Página" />
+		</language>
+
+	</gallery>

@@ -1,0 +1,20 @@
+BODY {
+margin:0; background-position:center; background-position:top; background-color:#2B3E42;
+}
+.boxSombra {
+	behavior: url(PIE.htc); box-shadow: 0px 0px 0.65em #000; -moz-box-shadow: 0 0 .65em #000; -webkit-box-shadow: 0 0 .65em #000;
+}
+.pontilhada {
+	border: 1px dashed #17753B; font-size: 10pt;
+}
+.fonte {
+	color: #333; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-decoration:none
+}
+.fontemenu {
+	color: #FFFFFF; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-decoration:none
+}
+.fontetitulo {
+	color: #ffffff; font-family: Tahoma, Geneva, sans-serif; font-size: 16px; text-decoration:none
+}
+
+

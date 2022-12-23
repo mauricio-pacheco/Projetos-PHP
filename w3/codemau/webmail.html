@@ -1,0 +1,38 @@
+<script language=javascript>
+function validar(form1) { 
+
+if (document.form1.f_email.value=="") {
+alert("O Campo E-mail não está preenchido!")
+form1.f_email.focus();
+return false
+}
+
+if (document.form1.f_pass.value=="") {
+alert("O Campo Senha não está preenchido!")
+form1.f_pass.focus();
+return false
+}
+
+}
+
+</SCRIPT>
+<table width="100%" border="0">
+  <FORM name="form1" action="http://webmail.codemau.org.br/horde/process.php" method="post" method=post onSubmit="return validar(this)" target=_blank><tr>
+    <td width="6%">E-mail:</td>
+    <td width="94%"><INPUT class=normal size="19" type=text name=f_email>
+    *</td>
+  </tr>
+  <tr>
+    <td>Senha:</td>
+    <td><INPUT class=normal size="19" type=password 
+                  name=f_pass>
+    *</td>
+  </tr>
+</table>
+<table width="100%" border="0">
+  <tr>
+    <td width="94%"><div align="center">
+        <input class="botao" type="submit" value="Acessar" />&nbsp;&nbsp;<input class="botao" type="reset" value="Limpar" />
+    </div></td>
+  </tr></FORM>
+</table>

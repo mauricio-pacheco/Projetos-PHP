@@ -1,0 +1,105 @@
+FONT {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana,Helvetica
+}
+TD {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana,Helvetica
+}
+BODY {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana,Helvetica
+}
+P {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana,Helvetica
+}
+DIV {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana,Helvetica
+}
+.bodyline {
+	BORDER-RIGHT: #f0f0f4 2px ridge; BORDER-TOP: #f0f0f4 2px ridge; BACKGROUND: url(images/bg_cat4.gif) #6eaa90; BORDER-LEFT: #f0f0f4 2px ridge; BORDER-BOTTOM: #f0f0f4 2px ridge
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #0c7245; BACKGROUND: url(images/kgb.jpg) #0c7245; FONT: 12px Verdana,Arial,Helvetica,sans-serif; SCROLLBAR-HIGHLIGHT-COLOR: #c8d3e1; SCROLLBAR-SHADOW-COLOR: #7492b6; COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #eaeff4; SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #e7f8f1; SCROLLBAR-DARKSHADOW-COLOR: #3a5370
+}
+A:link {
+	FONT-SIZE: 10px; COLOR: #364d67; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 10px; COLOR: #364d67; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 10px; COLOR: #364d67; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 10px; COLOR: #28638e; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+.content {
+	FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica
+}
+.block-title {
+	FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ffffff; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+.storytitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica
+}
+.storytitle2 {
+	FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #364d67; TEXT-DECORATION: none
+}
+.storytitle3 {
+	FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #364d67; TEXT-DECORATION: none
+}
+.storycat {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline
+}
+.boxtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+.boxcontent {
+	FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica
+}
+.option {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+.tiny {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+.small {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+INPUT {
+	FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Tahoma, Arial
+}
+TEXTAREA {
+	FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Tahoma, Arial
+}
+SELECT {
+	FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Tahoma, Arial
+}
+INPUT.post {
+	BACKGROUND: #ffffff
+}
+TEXTAREA.post {
+	BACKGROUND: #ffffff
+}
+SELECT {
+	BACKGROUND: #ffffff
+}
+INPUT {
+	TEXT-INDENT: 2px
+}
+INPUT.button {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BACKGROUND: #efefef; FONT: 11px Verdana,Arial,Helvetica,sans-serif; BORDER-LEFT: 1px solid; COLOR: #000000; BORDER-BOTTOM: 1px solid
+}
+INPUT.mainoption {
+	FONT-WEIGHT: bold; BACKGROUND: #fafafa
+}
+INPUT.liteoption {
+	FONT-WEIGHT: normal; BACKGROUND: #fafafa
+}
+.code {
+	BORDER-RIGHT: #d1d7dc 1px solid; BORDER-TOP: #d1d7dc 1px solid; BACKGROUND: #fafafa; FONT: 11px Courier,'Courier New',sans-serif; BORDER-LEFT: #d1d7dc 1px solid; COLOR: #006600; BORDER-BOTTOM: #d1d7dc 1px solid
+}
+.quote {
+	BORDER-RIGHT: #d1d7dc 1px solid; BORDER-TOP: #d1d7dc 1px solid; BACKGROUND: #fafafa; FONT: 11px/125% Verdana,Arial,Helvetica,sans-serif; BORDER-LEFT: #d1d7dc 1px solid; COLOR: #444444; BORDER-BOTTOM: #d1d7dc 1px solid
+}

@@ -1,0 +1,85 @@
+/*------------------------------------------------------------------------
+# JA Sanidine II for joomla 1.5 - Version 1.0 - Licence Owner JA115275
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2008 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# This file may not be redistributed in whole or significant part.
+-------------------------------------------------------------------------*/
+
+/* MAIN NAVIGATION
+----------------------------------------------------------- */
+#ja-splitmenu {
+	margin: 0;
+	padding: 0 0 0 15px;
+	position: relative;
+}
+
+#ja-splitmenu ul {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+#ja-splitmenu li {
+	float: left;
+	padding: 0 1px 0 0;
+	margin: 0;
+	background: url(../../images/mainnav-sep.gif) no-repeat bottom right;
+}
+
+#ja-splitmenu a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	font-weight: bold;
+	color: #999999;
+	margin-top: 10px;
+	padding: 0 0 0 20px;
+	height: 30px;
+	font-size: 105%; /*92%*/
+}
+
+#ja-splitmenu a span {
+	display: block;
+	float: left;
+	padding: 0 20px 0 0;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+#ja-splitmenu a:hover,
+#ja-splitmenu a:active,
+#ja-splitmenu a:focus {
+	background: url(../../images/mainnav-hover.gif) repeat-x bottom;
+	color: #FFFFFF;
+}
+
+#ja-splitmenu a:hover span,
+#ja-splitmenu a:active span,
+#ja-splitmenu a:focus span {
+}
+
+#ja-splitmenu li.active a,
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus {
+	margin-top: 0;
+	height: 40px;
+	line-height: 40px;
+	font-size: 115%;
+	background: url(../../images/mainnav-active.gif) no-repeat left top #D58400;
+	color: #FFFFFF;
+}
+
+#ja-splitmenu li.active a span,
+#ja-splitmenu li.active a:hover span,
+#ja-splitmenu li.active a:active span,
+#ja-splitmenu li.active a:focus span {
+	height: 40px;
+	line-height: 40px;
+	background: url(../../images/mainnav-active.gif) no-repeat right top #D58400;
+	cursor: pointer;
+}

@@ -1,0 +1,99 @@
+<div class="Block Moveable" id="ProductReviews">
+	<hr />
+	<a href="#" onclick="show_product_review_form(); return false;" class="FloatRight">
+		<img src="%%GLOBAL_TPL_PATH%%/images/%%GLOBAL_SiteColor%%/WriteReviewButton.gif" alt="%%LNG_WriteYourOwnProductReview%%" /></a>
+	<h3 id="reviews">%%LNG_ProductReviews%%</h3>
+	<div class="BlockContent">
+		<div class="SuccessMessage" style="display:%%GLOBAL_HideReviewMessage%%">
+			%%GLOBAL_ReviewMessage%%
+		</div>
+		<a id="write_review"></a>
+		<script type="text/javascript">
+			lang.ReviewNoRating = "%%LNG_ReviewNoRating%%";
+			lang.ReviewNoTitle = "%%LNG_ReviewNoTitle%%";
+			lang.ReviewNoText = "%%LNG_ReviewNoText%%";
+			lang.ReviewNoCaptcha = "%%LNG_NoCaptcha%%";
+		</script>
+		<form action="%%GLOBAL_ShopPath%%/postreview.php" style="display: none;" method="post" class="ProductReviewForm" id="rating_box" onsubmit="return check_product_review_form();">
+			<input type="hidden" name="action" value="post_review" />
+			<input type="hidden" name="product_id" value="%%GLOBAL_ProductId%%" />
+			<h4>%%LNG_WriteYourOwnReview%%</h4>
+
+			%%GLOBAL_ReviewErrorMessage%%
+
+			<div class="FormContainer VerticalFormContainer">
+				<dl class="ProductReviewFormContainer">
+					<dt>%%LNG_HowRateProduct%%</dt>
+					<dd>
+						<select name="revrating" class="Field400" id="revrating">
+							<option value="">&nbsp;</option>
+							<option value="5" %%GLOBAL_ReviewRating5%%>%%LNG_Rate5Stars%%</option>
+							<option value="4" %%GLOBAL_ReviewRating4%%>%%LNG_Rate4Stars%%</option>
+							<option value="3" %%GLOBAL_ReviewRating3%%>%%LNG_Rate3Stars%%</option>
+							<option value="2" %%GLOBAL_ReviewRating2%%>%%LNG_Rate2Stars%%</option>
+							<option value="1" %%GLOBAL_ReviewRating1%%>%%LNG_Rate1Star%%</option>
+						</select>
+					</dd>
+
+					<dt>%%LNG_WriteAHeadline%%</dt>
+					<dd><input name="revtitle" id="revtitle" type="text" class="Textbox Field400" value="%%GLOBAL_RevTitle%%" /></dd>
+
+					<dt>%%LNG_WriteYourReview%%</dt>
+					<dd><textarea name="revtext" id="revtext" class="Field400" rows="8" cols="50">%%GLOBAL_RevText%%</textarea></dd>
+
+					<dt>%%LNG_ReviewEnterYourName%%</dt>
+					<dd><input name="revfromname" id="revfromname" type="text" class="Textbox Field400" value="%%GLOBAL_RevFromName%%" /></dd>
+
+					<dt style="display: %%GLOBAL_HideReviewCaptcha%%">%%LNG_EnterTheCodeBelow%%</dt>
+					<dd style="display: %%GLOBAL_HideReviewCaptcha%%">
+						<input name="captcha" id="captcha" type="text" class="Field150" />
+						<div style="margin-top: 3px;">
+							%%GLOBAL_CaptchaImage%%
+						</div>
+					</dd>
+				</dl>
+				<p class="Submit">
+					<input type="submit" value="%%LNG_SaveMyReview%%" />
+				</p>
+			</div>
+		</form>
+
+		<p style="display: %%GLOBAL_HideNoReviewsMessage%%">
+			%%LNG_NoReviews%%
+		</p>
+		
+		<p class="ProductReviewPaging" style="display:%%GLOBAL_HideReviewPaging%%">
+			<span style="display:%%GLOBAL_HidePreviousCommentsLink%%"><a href="%%GLOBAL_PreviousCommentsLink%%">%%LNG_Previous%%</a> |</span> 
+			<span style="display:%%GLOBAL_HideCommentStatus%%">%%LNG_ShowingReviews%% %%GLOBAL_ReviewStart%%-%%GLOBAL_ReviewEnd%% %%LNG_Of%% %%GLOBAL_ProductNumReviews%%</span> 
+			<span style="display:%%GLOBAL_HideNextCommentsLink%%">| <a href="%%GLOBAL_NextCommentsLink%%">%%LNG_Next%%</a></span>
+		</p>
+
+		<ol class="ProductReviewList">
+			%%SNIPPET_ProductReviews%%
+		</ol>
+
+		<p class="ProductReviewPaging" style="display:%%GLOBAL_HideReviewPaging%%">
+			<span style="display:%%GLOBAL_HidePreviousCommentsLink%%"><a href="%%GLOBAL_PreviousCommentsLink%%">%%LNG_Previous%%</a> |</span> 
+			<span style="display:%%GLOBAL_HideCommentStatus%%">%%LNG_ShowingReviews%% %%GLOBAL_ReviewStart%%-%%GLOBAL_ReviewEnd%% %%LNG_Of%% %%GLOBAL_ProductNumReviews%%</span>
+			<span style="display:%%GLOBAL_HideNextCommentsLink%%">| <a href="%%GLOBAL_NextCommentsLink%%">%%LNG_Next%%</a></span>
+		</p>
+		<script type="text/javascript">
+		//<![CDATA[
+		var HideReviewCaptcha = "%%GLOBAL_HideReviewCaptcha%%";
+		//]]>
+		</script>
+		
+		<script type="text/javascript">
+		//<![CDATA[
+
+		// Should we automatically open the review form?
+		if("%%GLOBAL_AutoShowReviewForm%%" == "1")
+		show_product_review_form();
+
+		if("%%GLOBAL_JumpToReviews%%" == "1")
+		jump_to_product_reviews();
+
+		//]]>
+		</script>
+	</div>
+</div>

@@ -1,0 +1,6 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\0]
+"1200"=dword:00000000
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\0]
+""1200"=dword:00000000

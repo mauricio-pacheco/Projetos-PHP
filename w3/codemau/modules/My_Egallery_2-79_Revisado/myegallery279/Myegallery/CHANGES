@@ -1,0 +1,132 @@
+//################################################################/
+//#                          MyGallery                           #/
+//#                             By:                              #/
+//#                          MarsIsHere                          #/
+//#                       Addon for PhpNuke                      #/
+//#                                                              #/
+//#        Use the Readme1st for Instructions on how to Install  #/
+//#            This package is complete with DB Create.          #/
+//################################################################/
+                    ###   WHAT'S NEW ?   ###
+
+
+My_eGallery V2.7.9
+- 2 new path variables: 
+  1 for the temp directory and 1 for the image conversion software 
+- Better use of the CSS classes
+- Language file: some new entries
+- New Install/Update/Uninstall script by administration panel
+
+My_eGallery V2.7.8
+- Language Bug fixed
+- Single Quote Bug fixed
+
+My_eGallery V2.7.7
+- Security fix
+- Comments Fixed
+
+My_eGallery V2.7.6
+- Some bugs fixed
+- Table comments altered
+
+My_eGallery V2.7.5
+- Corrupted Archives when downloading a Media fixed
+- Fixed a display bug in the Category view
+
+My_eGallery V2.7.3
+- Security fix
+- Comments posting fixed
+- Parse error fixed in galladmin.php
+
+My_eGallery V2.7.2
+- The Sub-Category icon is now clickable
+- Bugs fixed:
+  - Missing translation added
+  - Top Level category creation fixed
+
+My_eGallery V2.7.0
+- Module for PhpNuke 5.2 and more 
+- Batch build function : Admins can now enter a default submitter and a default 
+  description for the new media found by the script. 
+  They can also enter a default description for the new categories found! 
+- Media name & comments: Fixed the problem with sipmle quotes 
+- Media Download option: propose to admins to choose between zip and gz archives 
+  for media downloading 
+- Support of Netscape 4.75. 
+
+My_eGallery V2.6.0
+- MeG validates HTML 4.01 transitional
+- Use of $prefix
+- Bug with private categories fixed
+- Use of the Theme CSS Style Sheet for the whole gallery
+- Ability to activate/desactivate the Search Form
+- Ability to edit a media information directly from the Gallery
+- Ability to send postcard via Postcard-direct
+- NetPBM Support (need to be tested)
+
+My_eGallery V2.5.6
+- Web based Install/Update script
+- Some bugs fixed
+
+My_eGallery V2.5.5
+- Use of CSS style for the Public Part
+- Some bugs fixed
+
+My_eGallery V2.5.4
+- Ability to delete comments<br>
+- Ability to let the browser create thumbnails<br>
+
+My_eGallery V2.5.0
+- Support of new media
+- Search function
+- Better Admin interface : Batch Build and General Settings
+- Fixed the bug in Picture Navigation
+
+
+My_eGallery V2.4.9
+- Ability to resctrict access to a category to members only
+
+My_eGallery V2.4.8
+- Choice between 3 levels (admin, members, public) for viewing categories 
+
+My_eGallery V2.4
+- Many bugs fixed 
+- New Install Script
+- New Template System with CSS support
+- Optimized HTML & PHP Code
+- Support of ImageMagick
+
+My_eGallery V2.3
+- Many Bugs Fixed (upcase in file extension, ...)
+- Ability to Hide the TOP 10 Page
+- Ability to display Sub-Categories in the Main Gallery Page
+
+My_eGallery V2.2
+- Creation of real Thumbnails if GD library exists
+- Ability to define a template/layout for the Gallery Main Page
+- Ability to define a template/layout by category
+- Problem of deletion of a category with subcategories fixed
+
+My_eGallery V2.1
+- Bugs Finally Fixed ...?
+- Ability to Upload Media
+
+My_eGallery V2.0
+- Ability to add a description to a category
+- Ability to add a Name and a Description to a picture with possibility to hide the Description
+- Ability to edit images information
+- Ability to propose Image rating with possibility to restrict it only to members
+- Ability to propose to comment pictures with possibility to restrict it only to members
+- Ability to create Sub categories
+- Ability to move categories and pictures between categories
+- Ability to quickly add new categories and pictures thanks to a batch script
+- No more need to create thumbs
+- ....
+
+My_eGallery V1.1
+- Ability to Add and Delete pictures and categories
+- Support of multi language
+- Authentification of members
+
+My_eGallery V1.0
+- Adaptation of eGallery from eComJunk to be a PHP-NUKE 5.0 module

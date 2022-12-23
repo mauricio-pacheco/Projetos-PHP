@@ -1,0 +1,300 @@
+.pontilhada{ 
+border-style: dashed;
+border-width: 1px; 
+border-color: #58C10C; 
+background-color: #f5f5f5; 
+font-family: verdana, arial; 
+font-size: 10pt; 
+} 
+
+.pontilhada2{ 
+border-style: dashed;
+border-width: 1px; 
+border-color: 660033; 
+background-color: #ffffff; 
+font-family: verdana, arial; 
+font-size: 10pt; 
+} 
+
+.manchete_textocasa {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #333333; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.manchete_textocasa:hover {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #5F965F; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+
+
+.manchete_textocasa2 {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #333333; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.manchete_textocasa2:hover {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #5F965F; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+
+
+
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+LI {
+	LIST-STYLE-TYPE: none; DISPLAY: inline; LIST-STYLE-IMAGE: none
+}
+OBJECT {
+	DISPLAY: block
+}
+.opacity IMG {
+	opacity: 0.8
+}
+.opacity:hover IMG {
+	opacity: 1
+}
+.opacity4 IMG {
+	opacity: 0.2
+}
+.opacity4:hover IMG {
+	opacity: 1
+}
+H1 {
+	BORDER-BOTTOM: #ddd 1px solid; PADDING-BOTTOM: 2px; MARGIN: 0px 40px 5px 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: arial, Helvetica, verdana; COLOR: #006699; FONT-SIZE: 24px; FONT-WEIGHT: normal; PADDING-TOP: 5px; text-shadow: 1px 1px #CFDEFA
+}
+H2 {
+	FONT-FAMILY: arial, Helvetica, verdana; COLOR: #666; FONT-SIZE: 14px
+}
+H3 {
+	FONT-FAMILY: arial, Helvetica, verdana; COLOR: #0066cc; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+H3 A {
+	FONT-FAMILY: arial, Helvetica, verdana; COLOR: #0066cc; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+H3 A.active {
+	COLOR: #a00
+}
+BODY {
+	MARGIN: 0px; FONT-FAMILY: Tahoma, Geneva, sans-serif; COLOR: #000; FONT-SIZE: 11px
+}
+P {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #666; FONT-SIZE: 12px
+}
+TH {
+	TEXT-ALIGN: left
+}
+INPUT.text {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-LEFT: 5px; COLOR: #666; FONT-SIZE: 11px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+
+#header {
+	BORDER-BOTTOM: #333333 5px solid; BACKGROUND: url(../imagens/header_top.jpg) repeat-x center top; HEIGHT: 115px
+}
+#header #headerInt {
+	MARGIN: auto; WIDTH: 950px
+}
+#header #headerIntCarnaval {
+	MARGIN: auto; WIDTH: 950px; BACKGROUND: url(../imagens/header_int_carnaval.jpg) no-repeat; HEIGHT: 115px
+}
+#header .tituloSeo {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 10px; MARGIN-BOTTOM: 19px; COLOR: #fff; PADDING-TOP: 8px; text-shadow: 1px 1px #264009
+}
+#header .tituloSeo IMG {
+	POSITION: relative; FLOAT: right; MARGIN-RIGHT: 5px
+}
+#header DIV.adm_user {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: right; PADDING-TOP: 2px
+}
+#header DIV.adm_user A {
+	TEXT-TRANSFORM: uppercase; COLOR: #fff; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+#header DIV.userPanel {
+	PADDING-LEFT: 25px; PADDING-RIGHT: 10px; DISPLAY: block; FONT-FAMILY: arial, verdana; BACKGROUND: url(../imagens/ico_log.gif) no-repeat left top; FLOAT: right; HEIGHT: 20px; COLOR: #fff; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 1px; text-shadow: 1px 1px #264009
+}
+#header #logo {
+	Z-INDEX: 2; POSITION: relative; WIDTH: 480px; FLOAT: left
+}
+#header #logo IMG {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 20px; PADDING-TOP: 0px
+}
+#header #logo SPAN {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; FONT: bold 15px arial, verdana; BACKGROUND: url(../imagens/bgCitytitle.gif) no-repeat left 50%; COLOR: #fff; TOP: -18px; PADDING-TOP: 0px; text-shadow: 1px 1px #264009
+}
+DIV.headerRight {
+	FLOAT: right
+}
+DIV.headerRight DIV.search {
+	PADDING-BOTTOM: 10px; MARGIN-TOP: -4px; PADDING-LEFT: 20px; WIDTH: 440px; PADDING-RIGHT: 0px; BACKGROUND: url(../imagens/bg_search.gif) no-repeat 50% top; FLOAT: right; PADDING-TOP: 10px
+}
+DIV.search FORM {
+	WIDTH: 400px
+}
+DIV.search FORM INPUT {
+	BORDER-BOTTOM: #e2d600 1px solid; BORDER-LEFT: #e2d600 1px solid; PADDING-BOTTOM: 3px; MARGIN: 0px 11px 0px 0px; PADDING-LEFT: 3px; WIDTH: 150px; PADDING-RIGHT: 3px; FONT: 12px arial, verdana; COLOR: #666; BORDER-TOP: #e2d600 1px solid; BORDER-RIGHT: #e2d600 1px solid; PADDING-TOP: 3px
+}
+DIV.search FORM TH {
+	COLOR: #a57900; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+DIV.search FORM TD {
+	COLOR: #006699; FONT-SIZE: 11px
+}
+DIV.search .btnSearch A {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 75px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../imagens/bg_boton_search.gif) no-repeat; HEIGHT: 21px; COLOR: #444; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+DIV.search #listaSugerencias DIV.normal {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: block; COLOR: #555; PADDING-TOP: 3px
+}
+DIV.search #listaSugerencias DIV.resaltado {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: block; BACKGROUND: #e2e8ec; COLOR: #006699; PADDING-TOP: 2px
+}
+DIV.search #listaSugerencias DIV.resaltado:hover {
+	BACKGROUND: #e2e8ec; COLOR: #006699
+}
+#header #listaSugerencias DIV.normal:hover {
+	BACKGROUND: #e2e8ec; COLOR: #006699
+}
+DIV.search .sugerenciasQue {
+	Z-INDEX: 3; BORDER-BOTTOM: #cdcabc 1px solid; POSITION: absolute; BORDER-LEFT: #cdcabc 1px solid; MARGIN-TOP: -19px; WIDTH: 369px; BACKGROUND: #fff; MARGIN-LEFT: 2px; FONT-SIZE: 12px; BORDER-TOP: #cdcabc 1px solid; BORDER-RIGHT: #cdcabc 1px solid
+}
+DIV.search .sugerenciasDonde {
+	Z-INDEX: 3; BORDER-BOTTOM: #cdcabc 1px solid; POSITION: absolute; BORDER-LEFT: #cdcabc 1px solid; MARGIN-TOP: -19px; WIDTH: 369px; BACKGROUND: #fff; MARGIN-LEFT: 170px; FONT-SIZE: 12px; BORDER-TOP: #cdcabc 1px solid; BORDER-RIGHT: #cdcabc 1px solid
+}
+#menuPrincipal {
+	DISPLAY: block; BACKGROUND: url(../imagens/bg_mainMenu.gif) #fff repeat-x; HEIGHT: 38px
+}
+UL.menuPrincipal {
+	MARGIN: auto; WIDTH: 940px
+}
+UL.menuPrincipal A {
+	BORDER-LEFT: #dedcd4 1px solid; PADDING-BOTTOM: 7px; TEXT-TRANSFORM: lowercase; PADDING-LEFT: 25px; PADDING-RIGHT: 65px; DISPLAY: block; FONT-FAMILY: arial, verdana; FLOAT: left; COLOR: #006699; MARGIN-LEFT: -1px; FONT-SIZE: 17px; FONT-WEIGHT: normal; BORDER-RIGHT: #dedcd4 1px solid; PADDING-TOP: 9px
+}
+UL.menuPrincipal A:hover {
+	
+}
+UL.menuPrincipal LI.active A {
+	
+}
+#menuSecundario {
+	BORDER-BOTTOM: #333333 5px solid; BACKGROUND: url(../imagens/bg_mainMenu.gif) #fff repeat-x; HEIGHT: 38px
+}
+UL.menuSecundario {
+	MARGIN: auto; WIDTH: 950px
+}
+UL.menuSecundario A {
+	BORDER-LEFT: #dedcd4 1px solid; PADDING-BOTTOM: 8px; MARGIN-TOP: 2px; PADDING-LEFT: 15px; PADDING-RIGHT: 65px; FLOAT: left; COLOR: #006699; MARGIN-LEFT: -1px; FONT-SIZE: 12px; BORDER-RIGHT: #dedcd4 1px solid; PADDING-TOP: 10px
+}
+UL.menuSecundario A:hover {
+	
+}
+#rota {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 42px; PADDING-RIGHT: 0px; BACKGROUND: #f7f7f6; HEIGHT: 25px; CLEAR: both; PADDING-TOP: 10px
+}
+UL.rota {
+	MARGIN: auto; WIDTH: 950px
+}
+UL.rota LI {
+	PADDING-RIGHT: 3px; FONT-SIZE: 12px
+}
+UL.rota A {
+	PADDING-LEFT: 20px; BACKGROUND: url(../imagens/bg_aRuta.gif) no-repeat left 50%; COLOR: #006699; FONT-SIZE: 12px
+}
+UL.rota A:hover {
+	COLOR: #ff6600
+}
+#wrapper {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(../imagens/bg_cabecera_seo.jpg) #f7f7f6 repeat-x center 20px; PADDING-TOP: 5px
+}
+#allContent {
+	PADDING-BOTTOM: 30px; MARGIN: auto; PADDING-LEFT: 0px; WIDTH: 950px; PADDING-RIGHT: 0px; CLEAR: both; PADDING-TOP: 0px
+}
+P.seo {
+	PADDING-BOTTOM: 25px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; MARGIN-BOTTOM: 20px; BACKGROUND: url(../imagens/bg_pSeo.jpg) #fff repeat-x 50% bottom; COLOR: #666; FONT-SIZE: 12px; PADDING-TOP: 5px
+}
+P.seo SPAN B {
+	FONT-SIZE: 17px
+}
+P.seo B {
+	COLOR: #777; FONT-SIZE: 18px; FONT-WEIGHT: normal
+}
+P.infoPagina {
+	PADDING-BOTTOM: 25px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; COLOR: #666; FONT-SIZE: 12px; PADDING-TOP: 5px
+}
+P.infoPagina SPAN B {
+	FONT-SIZE: 17px
+}
+P.infoPagina B {
+	COLOR: #777; FONT-SIZE: 18px; FONT-WEIGHT: normal
+}
+.moduloCorpo {
+	MARGIN-BOTTOM: 20px; CLEAR: both
+}
+.moduloCorpo .moduloCorpocabecalho {
+	WIDTH: 950px; BACKGROUND: url(../imagens/topCurve.gif) no-repeat; HEIGHT: 10px
+}
+.moduloCorpo .moduloCorpoconteudo {
+	BORDER-LEFT: #e1e1e1 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 948px; PADDING-RIGHT: 0px; BACKGROUND: #fff; CLEAR: both; BORDER-RIGHT: #e1e1e1 1px solid; PADDING-TOP: 0px
+}
+.moduloCorpo .moduloCorpofeche {
+	WIDTH: 950px; BACKGROUND: url(../imagens/bottomCurve.gif) no-repeat; HEIGHT: 10px
+}
+#footer {
+	BACKGROUND: url(../imagens/footer_top.jpg) #368300 repeat-x center top
+}
+#footerInt {
+	MARGIN: auto; WIDTH: 950px; PADDING-TOP: 20px
+}
+#footer #logo_footer {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; COLOR: #fff; PADDING-TOP: 15px
+}
+#footer #logo_footer SPAN {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 10px
+}
+#footer .info_footer {
+	BORDER-LEFT: #fff 2px solid; MARGIN-TOP: 7px; PADDING-LEFT: 15px; FLOAT: left; COLOR: #fff; MARGIN-LEFT: 20px
+}
+#footer H2 {
+	COLOR: #fff
+}
+#footer DIV.col {
+	WIDTH: 185px; FLOAT: left; MARGIN-RIGHT: 10px
+}
+#footer DIV.col H2 {
+	MARGIN-BOTTOM: 5px; text-shadow: 1px 1px #264009
+}
+#footer DIV.col LI {
+	PADDING-LEFT: 15px; DISPLAY: block; MARGIN-BOTTOM: 5px; BACKGROUND: url(../imagens/bg_lifooter.gif) no-repeat left 50%
+}
+#footer DIV.col LI A {
+	COLOR: #fff; FONT-SIZE: 12px
+}
+#footer DIV.col LI A:hover {
+	COLOR: #fef200
+}
+#footer DIV.textFooter {
+	WIDTH: 600px; DISPLAY: block; PADDING-TOP: 10px
+}
+#footer DIV.textFooter H2 {
+	TEXT-ALIGN: right; FONT: italic 14px "Times New Roman", Times, serif; LETTER-SPACING: 1px
+}
+#footer DIV.textFooter SPAN {
+	TEXT-ALIGN: right; DISPLAY: block; FONT: italic 12px "Times New Roman", Times, serif; LETTER-SPACING: 1px
+}
+#footer P.pFooter {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 15px; DISPLAY: block; COLOR: #c8c8c8; FONT-SIZE: 12px; PADDING-TOP: 10px
+}
+#footer P.pFooter A {
+	COLOR: #c8c8c8; FONT-SIZE: 12px
+}
+.clearfix:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; FONT-SIZE: 0px; CONTENT: " "
+}
+.clearfix {
+	DISPLAY: inline-block
+}
+* HTML .clearfix {
+	HEIGHT: 1%
+}
+.clearfix {
+	DISPLAY: block
+}
+DIV#weboscope {
+	DISPLAY: none
+}

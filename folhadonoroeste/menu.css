@@ -1,0 +1,12 @@
+.texto {
+	FONT-SIZE: 11px; COLOR: black; 
+}
+.menusup {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 9px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; MARGIN: 2px 0px 0px; TEXT-TRANSFORM: uppercase; CURSOR: pointer; COLOR: #0082EC; PADDING-TOP: 2px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.menusupliga {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 9px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; MARGIN: 2px 0px 0px; TEXT-TRANSFORM: uppercase; CURSOR: pointer; COLOR: #ffffff; PADDING-TOP: 2px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.mouse {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 9px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; MARGIN: 2px 0px 0px; TEXT-TRANSFORM: uppercase; CURSOR: pointer; COLOR: #ffffff; PADDING-TOP: 2px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}

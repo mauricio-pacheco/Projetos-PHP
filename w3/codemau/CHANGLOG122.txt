@@ -1,0 +1,24 @@
+This is a list of changes since 1.2.1 (RC5)
+
+[b]Fixed[/b][list]
+
+[*] Bug in search
+[*] All Bugs concerning visibility
+[*] Bug in displayimage comments,votes,exif and album name
+[*] All other bugs posted in our forums
+[/list]
+
+[b]New features[/b][list]
+
+[*] added multi-usergroup support
+[*] user gallery listing now uses a users forum avatar if availble as the icon for his user caetgory
+[*] errata and missing config vars were added to help file
+[*] menu was changed to allow for right blocks enabled
+[*] show right block option
+[*] update alert to admin added (enable in your config)
+[*] member only(groups) pics can only seen by logged in members of those groups including ecards
+[*] Full postnuke integration 
+[*] changed part of theme to use language defines instead of arrays (for future use)
+[*] added two themes, maze feature sortoption selection boxes, coppercop not fully completed, but as an example of what you can do with css and modifying templates
+
+[/list]

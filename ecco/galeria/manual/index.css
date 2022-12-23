@@ -1,0 +1,66 @@
+html, body {
+	margin: 0;
+	padding:0;
+	background:#000;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.header {
+	background:url(images/headerstripe_loop.jpg) repeat-x;
+	height:128px;
+}
+
+.header .logo{
+	background:url(images/df_logo.gif);
+	height:124px;
+	width:116px;
+	float:left;
+	margin-left:50px;
+}
+
+.header .title{
+	float:left;
+	color:#FFFFFF;
+	font-size:15px;
+	margin-left:100px;
+	margin-top:50px;
+	font-weight:bold;
+}
+
+.content{
+	font-size:12px;
+	margin:0 50px 20px 50px;
+	background:#FFF;
+}
+.content .data{
+	padding:10px;
+	margin:0 20px;
+	min-height:500px;
+}
+.content .curve{
+	background:url(images/main_tl.gif) no-repeat; 
+	height:6px;
+}
+h1,h2,h3,h4,h5,h6{margin:2px;padding:2px;}
+h1{font-size:18px;}
+h2{font-size:17px;}
+h3{font-size:16px;}
+h4{font-size:15px;}
+h5{font-size:14px;}
+h6{font-size:13px;}
+
+ul,li{
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.grey {
+	color: #666666;
+	font-weight: bold;
+}
+a{color:#67A400;font-weight:bold;}
+
+
+hr{margin-top:10px;margin-bottom:10px;}
+
+.xml {color:#0066FF}

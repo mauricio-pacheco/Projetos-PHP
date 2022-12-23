@@ -1,0 +1,93 @@
+<style type="text/css">
+<!--
+body {
+	background-image: url();
+	background-color: #065A7E;
+}
+-->
+</style><table class="bodyline" background="b1.gif" width="100%" cellspacing="0" cellpadding="0" border="0"> 
+	<tr> 
+		<td align="center" valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr> 
+        <td width="60%" height="110" align="center" background="b7.gif"> 
+          <div align="center"> 
+           <OBJECT 
+      codeBase=http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0 
+      height=200 width=976 classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000><PARAM NAME="movie" VALUE="cima.swf"><PARAM NAME="menu" VALUE="false"><PARAM NAME="wmode" VALUE="transparent">
+                                      <embed src="cima.swf" width="976" 
+      height="200" pluginspage="http://www.macromedia.com/go/getflashplayer" 
+      type="application/x-shockwave-flash" menu="false" 
+      wmode="transparent"></embed></OBJECT></div></td>
+      </tr>
+    </table>
+    <table width="100%" border="0" height="45">
+  <tr>
+    <td background="fundado.jpg" bgcolor="#000000"><table width="100%" border="0" align="center">
+      <tr>
+        <td width="1%"><img src="calenda.gif" /></td>
+        <td width="34%"><font color="#252525">
+          <SCRIPT language=JavaScript type=text/JavaScript>
+var datahora,xhora,xdia,dia,mes,ano,txtsaudacao;
+datahora = new Date();
+xhora = datahora.getHours();
+if (xhora >= 0 && xhora < 12) {txtsaudacao = "Bom Dia,"}
+if (xhora >= 12 && xhora < 18) {txtsaudacao = "Boa Tarde,"}
+if (xhora >= 18 && xhora <= 23) {txtsaudacao = "Boa Noite,"}
+xdia = datahora.getDay();
+diasemana = new Array(7);
+diasemana[0] = "Domingo";
+diasemana[1] = "Segunda Feira";
+diasemana[2] = "Terça Feira";
+diasemana[3] = "Quarta Feira";
+diasemana[4] = "Quinta Feira";
+diasemana[5] = "Sexta Feira";
+diasemana[6] = "Sábado";
+dia = datahora.getDate();
+mes = datahora.getMonth();
+mesdoano = new Array(12);
+mesdoano[0] = "janeiro";
+mesdoano[1] = "fevereiro";
+mesdoano[2] = "março";
+mesdoano[3] = "abril";
+mesdoano[4] = "maio";
+mesdoano[5] = "junho";
+mesdoano[6] = "julho";
+mesdoano[7] = "agosto";
+mesdoano[8] = "setembro";
+mesdoano[9] = "outubro";
+mesdoano[10] = "novembro";
+mesdoano[11] = "dezembro";
+ano = datahora.getFullYear();
+document.write(txtsaudacao + " hoje " + diasemana[xdia] + ", " + dia + " de " + mesdoano[mes] + " de " + ano);
+</SCRIPT></font><SCRIPT language=JavaScript type=text/javascript>
+function horas(){
+	var now = new Date();
+	var hours = now.getHours();
+	var minutes = now.getMinutes();
+	var seconds = now.getSeconds()
+	if (hours <=9)
+hours="0"+hours;
+	if (minutes<=9)
+minutes="0"+minutes;
+	if (seconds<=9)
+seconds="0"+seconds;
+	var cdate="<font color=#252525 size=1 face=verdana>Hora Certa: "+hours+":"+minutes+":"+seconds+" "+"</font>" 
+	clock.innerHTML= cdate;
+setTimeout("horas()",1000);
+}
+</SCRIPT></td>
+<td width="1%"><img src="lupaco.gif" /></td>
+        <FORM style="MARGIN: 0px" name=form_busca action=busca.php 
+                  method=post><td width="40%"><input type=text size=60 class="texto" name=query >
+          <input type=submit class="texto" value="Procurar" /></td></form>
+        <td width="4%" align="right"><img src="rel.gif" /></td>
+        <td width="14%" align="right"><SPAN id=clock>
+<SCRIPT>setTimeout("horas()",1000);</SCRIPT></SPAN>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+<tr valign="top"> 
+      <td valign="top" width="1" background="themes/Helius/images/7px.gif">

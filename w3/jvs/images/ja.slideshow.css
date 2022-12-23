@@ -1,0 +1,118 @@
+/*------------------------------------------------------------------------
+# JA SlideShow
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2006 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+
+-------------------------------------------------------------------------*/
+#ja-slideshowwrap,
+#ja-slideshow-wrap {
+	position: relative;
+}
+
+#ja-slideshow {
+	margin-left: 10px;
+}
+
+#ja-slideshow div.moduletable {
+	margin: 0;
+	padding: 0;
+}
+
+#ja-slideshow-case {
+	overflow: hidden;
+	border: 1px solid #000000;
+	margin-left: 10px;
+	margin-top: 20px;
+
+}
+
+#ja-slidebar {
+	margin-left: 4px;
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	display: block;
+	z-index: 100;
+}
+
+#ja-slidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#ja-slidebar ul li {
+	margin: 0 0 10px 0;
+	padding: 0;
+	display: block;
+	background: none;
+	width: 100px;
+}
+
+#ja-slidebar ul li.pause {
+	background: none;
+	display: none;
+}
+
+#ja-slidebar ul li a {
+	border: 2px solid #000000;
+	color: #FFFFFF;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 10px;
+	display: block;
+	margin-bottom: 10px;
+	background: none;
+	background-repeat: no-repeat;
+}
+
+#ja-slidebar ul li a:hover {
+	border: 2px solid #FFCC00;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#ja-slidebar a.next,
+#ja-slidebar a.prev {
+	display: none;
+}
+
+#ja-slidebar a.active {
+}
+
+.ja-slideshowdesc {
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	z-index: 10;
+	width: 83%;
+	background: url(../images/trans-bg.png);
+	padding: 10px 0;
+	color: #FFFFFF;
+}
+
+.ja-slideshowdesc h3 {
+	padding: 0 20px 5px;
+	margin: 0;
+	color: #FFCC00;
+}
+
+.ja-slideshowdesc p {
+	padding: 0 20px;
+	margin: 0;
+}
+
+.ja-slideshowimage {
+	z-index: 1;
+}
+
+.description-hidden {
+	display: none;
+}
+
+#ja-slidebar ul li.active a {
+	border: 2px solid #FFCC00;
+}

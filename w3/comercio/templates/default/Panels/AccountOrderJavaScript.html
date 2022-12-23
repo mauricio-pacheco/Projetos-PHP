@@ -1,0 +1,14 @@
+<script type="text/javascript">
+
+	// If the product for an order no longer exists, tell the customer
+	function product_removed() {
+		alert("%%LNG_OrderedItemRemovedFromStore%%");
+	}
+
+	function print_invoice(order_id) {
+		var l = screen.availWidth / 2 - 450;
+		var t = screen.availHeight / 2 - 320;
+		var win = window.open('%%GLOBAL_ShopPath%%/account.php?action=print_invoice&order_id='+order_id, 'orderInvoice', 'width=900,height=650,left='+l+',top='+t+',scrollbars=1');
+	}
+
+</script>

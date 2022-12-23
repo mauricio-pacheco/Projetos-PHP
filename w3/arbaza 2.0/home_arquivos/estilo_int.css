@@ -1,0 +1,153 @@
+#conteudo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: none; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-TOP: 0px
+}
+#alinhamento {
+	HEIGHT: 111px
+}
+#topo_especifico {
+	FONT-SIZE: 11px; Z-INDEX: 99; LEFT: 26px; TEXT-TRANSFORM: uppercase; WIDTH: 425px; COLOR: #a2aa92; FONT-FAMILY: Trebuchet MS, Arial, Helvetica, sans-serif; POSITION: absolute; TOP: 139px; HEIGHT: 92px
+}
+#topo_esp_eventos {
+	Z-INDEX: 99; LEFT: 26px; WIDTH: 425px; POSITION: absolute; TOP: 139px; HEIGHT: 33px
+}
+#meio {
+	
+}
+#interna H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; FONT-WEIGHT: bold; FONT-SIZE: 13px; BACKGROUND: url(../images/tit_destaque.gif) no-repeat left bottom; PADDING-BOTTOM: 5px; TEXT-TRANSFORM: none; COLOR: #7d8474; PADDING-TOP: 0px; FONT-FAMILY: trebuchet MS, verdana, sans-serif; HEIGHT: auto
+}
+#col_direita {
+	WIDTH: 175px; BACKGROUND-COLOR: #f8fbf6
+}
+#destaque {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; COLOR: #2d2d2d; PADDING-TOP: 10px
+}
+#destaque H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(../images/tit_destaque_sp.gif) no-repeat left top; PADDING-BOTTOM: 5px; MARGIN: 5px 0px 0px; TEXT-TRANSFORM: none; COLOR: #025126; PADDING-TOP: 0px; FONT-FAMILY: trebuchet MS, verdana, sans-serif; HEIGHT: 20px
+}
+#menu_especifico {
+	BACKGROUND: #f8fcf6; PADDING-TOP: 20px
+}
+#menu_especifico H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; MARGIN: 0px 0px 2px 10px; COLOR: #b87204; FONT-FAMILY: trebuchet MS, verdana, sans-serif
+}
+#menu_especifico UL {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 156px; PADDING-TOP: 12px
+}
+#menu_especifico LI {
+	PADDING-LEFT: 20px; BACKGROUND: url(../images/menu_especifico_pontilhado.gif) repeat-x left bottom; PADDING-BOTTOM: 2px; MARGIN: 0px; LINE-HEIGHT: 18px; PADDING-TOP: 2px; LIST-STYLE-TYPE: none
+}
+#menu_especifico LI A {
+	DISPLAY: inline-block; PADDING-LEFT: 20px; FONT-SIZE: 11px; BACKGROUND: url(../images/seta_menu_especifico.gif) no-repeat 0px 0px; MARGIN-LEFT: -20px; COLOR: #494949; FONT-FAMILY: trebuchet MS, verdana, sans-serif; TEXT-DECORATION: none
+}
+#menu_especifico LI A:hover {
+	COLOR: #b87204
+}
+#download {
+	BACKGROUND: #f8fcf6; PADDING-BOTTOM: 80px; widows: 175px
+}
+#download UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 47px
+}
+#download LI {
+	LIST-STYLE-POSITION: inside; BACKGROUND: url(../images/menu_especifico_pontilhado.gif) repeat-x left bottom; LIST-STYLE-IMAGE: url(../images/seta_menu_especifico.gif); PADDING-BOTTOM: 2px; MARGIN: 0px
+}
+#download A {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: trebuchet MS, verdana, sans-serif; TEXT-DECORATION: none
+}
+#download A:hover {
+	COLOR: #999999
+}
+#normas {
+	MARGIN-TOP: 20px; FONT-SIZE: 11px; MARGIN-BOTTOM: 30px; COLOR: #494949; LINE-HEIGHT: 18px; FONT-FAMILY: trebuchet MS, verdana, sans-serif
+}
+#normas A {
+	COLOR: #b87204; TEXT-DECORATION: none
+}
+#normas A:hover {
+	TEXT-DECORATION: none
+}
+#normas H1 {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; FONT-WEIGHT: bold; FONT-SIZE: 13px; BACKGROUND: url(../images/tit_destaque.gif) no-repeat left top; PADDING-BOTTOM: 0px; MARGIN: 0px; TEXT-TRANSFORM: none; COLOR: #494949; PADDING-TOP: 0px; FONT-FAMILY: trebuchet MS, verdana, sans-serif; HEIGHT: 31px
+}
+#normas INPUT {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #ffffff
+}
+#normas SELECT {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #ffffff
+}
+#normas TEXTAREA {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #ffffff
+}
+#normas LI {
+	LIST-STYLE-POSITION: outside; LIST-STYLE-IMAGE: url(../images/seta_preta.gif); LINE-HEIGHT: 18px
+}
+#normas #saiba {
+	FONT-SIZE: 10px; COLOR: #7a7f78
+}
+#normas HR {
+	
+}
+#livre {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 350px; COLOR: #494949; PADDING-TOP: 20px; FONT-FAMILY: trebuchet MS, verdana, sans-serif
+}
+#livre IMG {
+	CLEAR: both; MARGIN-RIGHT: 15px; TEXT-ALIGN: left
+}
+#livre A {
+	COLOR: #494949; TEXT-DECORATION: none
+}
+#livre A:hover {
+	TEXT-DECORATION: underline
+}
+#livre H2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; MARGIN: 0px; TEXT-TRANSFORM: none; COLOR: #01671a; FONT-FAMILY: trebuchet MS, verdana, sans-serif
+}
+#eventos {
+	PADDING-RIGHT: 70px; MARGIN-TOP: 20px; FONT-SIZE: 11px; COLOR: #494949; LINE-HEIGHT: 18px; FONT-FAMILY: trebuchet MS, verdana, sans-serif; BACKGROUND-COLOR: #f8fbf6
+}
+#eventos A {
+	COLOR: #797979; TEXT-DECORATION: underline
+}
+#eventos H1 {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; FONT-WEIGHT: bold; FONT-SIZE: 13px; BACKGROUND: url(../images/tit_destaque.gif) no-repeat left top; PADDING-BOTTOM: 0px; MARGIN: 0px; TEXT-TRANSFORM: none; COLOR: #494949; PADDING-TOP: 0px; FONT-FAMILY: trebuchet MS, verdana, sans-serif; HEIGHT: 31px
+}
+#eventos H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 15px; PADDING-BOTTOM: 0px; MARGIN: 0px; TEXT-TRANSFORM: none; COLOR: #7e8476; PADDING-TOP: 0px; FONT-FAMILY: trebuchet MS, verdana, sans-serif
+}
+#eventos INPUT {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #ffffff
+}
+#eventos SELECT {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #ffffff
+}
+#eventos TEXTAREA {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #ffffff
+}
+#eventos LI {
+	LIST-STYLE-POSITION: outside; LIST-STYLE-IMAGE: url(../images/seta_preta.gif); LINE-HEIGHT: 18px
+}
+#eventos #img {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 3px
+}
+#eventos #saiba {
+	FONT-SIZE: 10px; COLOR: #7a7f78
+}
+#eventos HR {
+	
+}
+#tabela TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #e6e9e3 1px solid
+}
+#parceria_fae {
+	FONT-SIZE: 11px; COLOR: #494949; FONT-FAMILY: Trebuchet MS, Arial, Helvetica, sans-serif
+}
+#parceria_fae H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 15px; COLOR: #a1a69f; PADDING-TOP: 0px; BORDER-BOTTOM: #ebf0e9 1px solid; FONT-FAMILY: Trebuchet MS, Arial, Helvetica, sans-serif; HEIGHT: auto
+}
+#parceria_fae IMG {
+	MARGIN-TOP: 17px; FLOAT: left; MARGIN-RIGHT: 15px
+}
+#parceria_fae P {
+	BORDER-TOP: #ebf0e9 10px solid; MARGIN-TOP: 25px; FONT-SIZE: 10px; PADDING-BOTTOM: 20px; COLOR: #a1a69f; LINE-HEIGHT: 14px; PADDING-TOP: 10px; FONT-FAMILY: Trebuchet MS, Arial, Helvetica, sans-serif
+}

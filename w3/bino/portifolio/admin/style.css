@@ -1,0 +1,115 @@
+.nav {
+	padding: 15px;
+	width: 130px;
+	background-color: #535353;
+	line-height: 30px;
+}
+.nav a{
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+	display:block;
+}
+.nav a:hover{
+	color: #E7E7E7;
+	text-decoration: none;
+}
+.content {
+	padding-top: 10px;
+	padding-left: 10px;
+	line-height: 18px;
+}
+h1 {
+	display: inline;
+	font-size: 14px;
+	font-weight: bold;
+}
+body, td, a, h1, li, div, input, textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+hr {
+	color: #000;
+	background-color: #000;
+	height: 1px;
+}
+a:hover{
+	text-decoration:none;
+}
+
+/* BugFix: Firefox: avoid bottom margin on draggable elements */
+#gallery_list, #pic_list {
+	margin-top: -2px;
+	width: 530px;	
+}
+#gallery_list li { 
+	margin-top: 4px;
+	height: 16px;
+	vertical-align: middle;
+	padding: 2px; }
+#pic_list li{
+	height: 120px;
+	padding: 2px;
+}
+.handle, .handle2{
+	float: left;
+	background-color: #ccc;
+	background-image:  url(common/handle.png);
+	background-repeat: repeat-y;
+	width: 7px;
+	cursor: move;
+}
+.handle{
+	height: 24px;
+}
+.handle2{
+	height: 120px;
+}
+.text {
+	cursor: default;
+	vertical-align:middle;
+}
+.delete{
+	width:75px;
+	text-align:center;
+}
+.pic_edit{
+	width:100px;
+	text-align:center;
+}
+.input_gal{
+	width:200px;
+}
+.browse{
+	width:345px;
+}
+input{
+	vertical-align:middle
+}
+.pic_box{
+	width:148;
+	height:118;
+	border:1px solid black;
+	text-align:center;
+}
+.pic_info{
+	width:425px;
+}
+.pic_desc{
+	width:345px;
+	overflow:hidden;
+	height:85px;
+	background-image: url('common/bg_textarea.gif');
+}
+.pic_desc_on{
+	width:345px;
+	overflow:visible;
+	height:85px;
+}
+.pic_content{
+	padding-left:5px;
+}
+.pic_name{
+	width:275;
+}

@@ -1,0 +1,1 @@
+<template><id>Baby</id><name>Baby</name><version>1.7</version><colors><color><name>Pastel</name><hex>pink</hex><preview>%%ISCURL%%templates/previews/Baby_pastel_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/Baby_pastel.jpg</previewFull></color></colors></template>

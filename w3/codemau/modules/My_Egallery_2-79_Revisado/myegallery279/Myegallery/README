@@ -1,0 +1,54 @@
+//################################################################/
+//#                          MyGallery                           #/
+//#                             By:                              #/
+//#                          MarsIsHere                          #/
+//#                       Addon for PhpNuke                      #/
+//#                                                              #/
+//#        Use the Readme1st for Instructions on how to Install  #/
+//#            This package is complete with DB Create.          #/
+//################################################################/
+
+Thank you for downloading My_eGallery. I hope this version will work
+to your satisfaction, being a stable and good gallery for your PHP-Nuke
+site.
+
+My_eGallery is free software, release released under GNU GPL Licence
+version 2.0 (see COPYING file for details)
+
+This version is better than ever with lots of features
+(in no specific order):
+
+My_eGallery features:
+	- Support of Nuke multi-language system
+	- Support of pictures, audio and video files
+	- Authentification of Nuke members
+	- Ability to create, edit and delete media
+	- Ability to create, edit and delete categories and sub-categories
+	- Auto-creation of thumbnails (with GD library, ImageMagick, NetPBM or your browser)
+	- Ability to define a template for the Gallery Main Page and for a Category
+	- Ability to Upload Media
+	- Ability to add a Name and a Description to a Category and a Picture
+	- Ability to Propose Image rating with ability to restrict it only to members
+	- Ability to Propose to comment pictures with ability to restrict it only to members
+	- Ability to move Categories and Pictures between Categories
+	- Ability to quickly add new Categories and Pictures
+	- Ability to quickly add new Media types
+	- Ability to search for media accross the gallery
+
+
+My_eGallery v2.7.0 have been tested with the following software:
+	- Linux with Apache 1.3.12, MySql v3.22.32, PHP v4.0.1pl2, PHP v4.0.5
+	- Windows NT4, Windows 98 with Apache 1.3.20 (and Sambar 4.4), MySQL 3.23.37, PHP v4.0.5 (EasyPHP 1.3)
+	- PHP-Nuke v5.0, v5.2
+	- Internet Explorer 5.x, Opera 5.10
+
+For installation instructions, read INSTALL file. The TODO file is a
+list of features that we are thinking about implementing in a later version
+if I get the time and resources. 
+
+Enjoy My_eGallery. Free software under the GPL lisence. If you have problems,
+report them on KodRed forum.
+
+Thank you for your support and I hope you like this module.
+
+- Patrick Montanari aka MarsIsHere - http://www.marsishere.net

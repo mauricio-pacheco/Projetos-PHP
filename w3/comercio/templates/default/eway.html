@@ -1,0 +1,49 @@
+	<p class="InfoMessage">
+		%%LNG_EWayPaymentIntro%%
+	</p>
+
+	<p class="ErrorMessage" style="display: %%GLOBAL_HideEWayError%%">
+		<strong>%%LNG_EWayProcessingError%%</strong><br />
+		%%GLOBAL_EWayErrorMessage%%
+	</p>
+
+	<form action="%%GLOBAL_ShopPathSSL%%/checkout.php?action=process_payment" method="post" onsubmit="return check_eway_payment_form()">
+		<div class="FormContainer HorizontalFormContainer">
+			<dl>
+				<dt><span class="Required">*</span> %%LNG_EWayCardHoldersName%%:</dt>
+				<dd><input type="text" class="Textbox" name="eway_name" id="eway_name" value="%%GLOBAL_EWayName%%" size="30" /></dd>
+
+				<dt><span class="Required">*</span> %%LNG_EWayCreditCardNo%%:</dt>
+				<dd>
+					<input type="text" class="Textbox" name="eway_ccno" id="eway_ccno" value="%%GLOBAL_EWayNum%%" size="30" />
+					<br />
+					<small>%%LNG_EWayCreditCardNoHelp%%</small>
+				</dd>
+
+				<dt><span class="Required">*</span> %%LNG_EWayBillingAddress%%:</dt>
+				<dd><textarea rows="3" cols="35" name="eway_ccaddress" id="eway_ccaddress">%%GLOBAL_EWayBillingAddress%%</textarea></dd>
+
+				<dt><span class="Required">*</span> %%LNG_EWayExpirationDate%%:</dt>
+				<dd>
+					<select name="eway_ccexpm" id="eway_ccexpm">
+						<option value=""></option>
+						%%GLOBAL_EWayMonths%%
+					</select>
+					<select name="eway_ccexpy" id="eway_ccexpy">
+						<option value=""></option>
+						%%GLOBAL_EWayYears%%
+					</select>
+				</dd>
+
+				<dt><span class="Required">*</span> %%LNG_EWayZip%%:</dt>
+				<dd><input type="text" class="Textbox" name="eway_zip" id="eway_zip" value="%%GLOBAL_EWayBillingZip%%" size="6" /></dd>
+
+				<dt>&nbsp;&nbsp; %%LNG_EWayTotalAmount%%:</dt>
+				<dd><em class="ProductPrice">%%GLOBAL_OrderAmount%%</em></dd>
+			</dl>
+			<p class="Submit">
+				<input type="submit" value="%%LNG_EWayPayForOrder%%" />
+			</p>
+		</div>
+	</form>
+%%Panel.EWayPaymentJavaScript%%

@@ -1,0 +1,1 @@
+<template><id>Perfume</id><name>Perfume</name><version>2.1</version><colors><color><name>Yellow</name><hex>yellow</hex><preview>%%ISCURL%%templates/previews/Perfume_yellow_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/Perfume_yellow.jpg</previewFull></color></colors></template>

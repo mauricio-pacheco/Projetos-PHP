@@ -1,0 +1,109 @@
+BODY {
+margin:0; background:url(../imagens/bg.jpg);
+}
+.boxSombra {
+	behavior: url(PIE.htc); box-shadow: 0px 0px 0.35em #000; -moz-box-shadow: 0 0 .35em #000; -webkit-box-shadow: 0 0 .35em #000;
+}
+.fontemenu {
+	color: rgb(85, 155, 191); font-family: Tahoma, Geneva, sans-serif; font-size: 12px;
+}
+.fontemenu2 {
+	color: #FFCE00; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-decoration: none;
+}
+
+
+.manchete_texto96 {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; color:#333333; font-size:11px; TEXT-DECORATION: none
+	}
+	.manchete_texto96 a:hover {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; color:#E71E25; font-size:11px; TEXT-DECORATION: none
+	}
+	
+	.fonteadm {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; color:#333333; font-size:11px; TEXT-DECORATION: none
+	}
+	.fonteadm a:hover {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; color:#E71E25; font-size:11px; TEXT-DECORATION: none
+	}
+	
+	
+	.manchete_texto96preco {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; color:#008000; font-size:11px; TEXT-DECORATION: none
+	}
+	.manchete_texto96preco a:hover {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; color:#804000; font-size:11px; TEXT-DECORATION: none
+	}
+
+.manchete_texto9 {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; color:#333333; font-size:12px; TEXT-DECORATION: none
+	}
+	.manchete_texto9 a:hover {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; color:#804000; font-size:12px; TEXT-DECORATION: none
+	}
+	
+	.manchete_texto999 {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; color:#333333; font-size:14px; TEXT-DECORATION: none
+	}
+	.manchete_texto999 a:hover {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; color:#804000; font-size:14px; TEXT-DECORATION: none
+	}
+	
+	.manchete_texto99 {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; color:#ffffff; font-size:12px; TEXT-DECORATION: none
+	}
+	.manchete_texto99 a:hover {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; color:#ffffff; font-size:12px; TEXT-DECORATION: none
+	}
+.fontemenu2 a:hover {
+	color: #f9f9f9; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-decoration: none;
+}
+.fontemenu3 {
+	color: #008D35; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-decoration: none;
+}
+.fontemenu3 a:hover {
+	color: #f9f9f9; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-decoration: none;
+}
+.fontetabela5 {
+	color: rgb(249, 249, 249); font-family: Tahoma, Geneva, sans-serif; font-size: 13px; text-decoration: none;
+}
+
+.fontetabela5 a:hover  {
+	color: #EC1C24; font-family: Tahoma, Geneva, sans-serif; font-size: 18px; text-decoration: none;
+}
+.fontetitulon {
+	color: rgb(51, 51, 51); font-family: Tahoma, Geneva, sans-serif; font-size: 16px; text-decoration: none;
+}
+.fontetabela {
+	color: #f9f9f9; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-decoration: none;
+}
+.fontetabela a:hover {
+	color: #008D35; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-decoration: none;
+}
+
+.fontetitulo {
+	color: rgb(249, 249, 249); font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-decoration: none;
+}
+.fontetitulo a:hover {
+	color: rgb(249, 249, 249); font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-decoration: underline;
+}
+
+.fontetitulo4 {
+	color: rgb(249, 249, 249); font-family: Tahoma, Geneva, sans-serif; font-size: 20px; text-decoration: none;
+}
+.fontetitulo5 {
+	color: #333333; font-family: Tahoma, Geneva, sans-serif; font-size: 18px; text-decoration: none;
+}
+.fontetitulo4 a:hover {
+	color: #FFCE00; font-family: Tahoma, Geneva, sans-serif; font-size: 20px; text-decoration: none;
+}
+
+
+.fonterodape {
+	color: rgb(249, 249, 249); font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-decoration: none;
+}
+.fonterodape a:hover {
+	color: rgb(253, 224, 82); font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-decoration: none;
+}
+.pontilhada {
+	border: 1px dashed #17753B; font-size: 10pt;
+}

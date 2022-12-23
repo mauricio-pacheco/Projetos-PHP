@@ -1,0 +1,47 @@
+//################################################################/
+//#                          MyGallery                           #/
+//#                             By:                              #/
+//#                          MarsIsHere                          #/
+//#                       Addon for PhpNuke                      #/
+//#                                                              #/
+//#        Use the Readme1st for Instructions on how to Install  #/
+//#            This package is complete with DB Create.          #/
+//################################################################/
+                  	 ### INSTALL ###
+
+
+BASE REQUIREMENTS
+-----------------
+
+What you need to setup My_eGallery is:
+ * PhpNuke 5.0 and more
+ * This version will *NOT* work with previous versions!!
+ * Make a BACKUP of your database!
+ * PHP 4.03+
+
+INSTALLING THIS MODULE
+----------------------
+
+1. Untar/unzip to temp folder
+2. Copy html/* into PostNuke root folder
+3. 'chmod 777' all directories (categories) and sub-directories (sub-categories ) 
+   located in modules/My_eGallery/gallery/ (Chmod only directories, not files!! Do it anytime you add a directory by FTP)
+4. 'chmod 777' modules/My_eGallery/temp in order to enable to visitors to post media.
+   For security reasons, you should put this file in another location. 
+   The new path can be written in MeG admin panel (General Settings)
+5. 'chmod 666' config.php located in 'admin/modules/gallery/'
+6. Open browser and go to your Nuke Admin Panel or to this http://www.yoursite.com/admin.php?op=GallAdmin&do=install
+     -> Follow the instructions
+7. All done :)
+
+
+FINAL NOTES
+-----------
+
+This software is free, and releasde under GPL, so it doesn't cost you
+anything to use it.
+
+I hope you enjoy this software, and please report back any bugs to
+marsishere@yahoo.fr
+
+- Patrick Montanari aka MarsIsHere - http://www.marsishere.net

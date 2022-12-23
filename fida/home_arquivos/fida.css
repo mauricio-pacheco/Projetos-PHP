@@ -1,0 +1,39 @@
+.highslide-html {
+	BACKGROUND-COLOR: white
+}
+.highslide-html-blur {
+	
+}
+DIV.highslide-html-content-header {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; HEIGHT: 20px
+}
+.highslide-html-content {
+	DISPLAY: none; POSITION: absolute
+}
+DIV.highslide-body {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px
+}
+.highslide-display-block {
+	DISPLAY: block
+}
+.highslide-display-none {
+	DISPLAY: none
+}
+A.control {
+	DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 9pt; FLOAT: right; MARGIN: 0px 5px; TEXT-TRANSFORM: uppercase; COLOR: #999! important; TEXT-DECORATION: none
+}
+A.control:hover {
+	COLOR: black! important
+}
+.highslide-move {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 2px; PADDING-LEFT: 2px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 2px; CURSOR: move; PADDING-TOP: 2px; HEIGHT: 18px; BORDER-RIGHT-WIDTH: 0px
+}
+DIV.cd_core_design_poweredby {
+	FONT-SIZE: 10px; COLOR: #a9a9a9; TEXT-ALIGN: center
+}
+DIV.cd_core_design_poweredby A {
+	COLOR: #a9a9a9! important; TEXT-DECORATION: none
+}
+DIV.cd_core_design_poweredby A:hover {
+	COLOR: #a9a9a9! important; TEXT-DECORATION: none
+}

@@ -1,0 +1,48 @@
+<script type="text/javascript">
+
+	/* Make sure all new account details are filled in */
+	function check_edit_account_form() {
+
+		var account_firstname = g("account_firstname");
+		var account_lastname = g("account_lastname");
+		var account_phone = g("account_phone");
+		var account_email = g("account_email");
+		var account_password = g("account_password");
+		var account_password_confirm = g("account_password_confirm");
+
+		if(account_firstname.value == "") {
+			alert("%%LNG_AccountEnterFirstName%%");
+			account_firstname.focus();
+			return false;
+		}
+
+		if(account_lastname.value == "") {
+			alert("%%LNG_AccountEnterLastName%%");
+			account_lastname.focus();
+			return false;
+		}
+
+		if(account_email.value.indexOf("@") == -1 || account_email.value.indexOf(".") == -1) {
+			alert("%%LNG_AccountEnterValidEmail%%");
+			account_email.focus();
+			account_email.select();
+			return false;
+		}
+
+		if(account_phone.value == "") {
+			alert("%%LNG_AccountEnterPhoneNumber%%");
+			account_phone.focus();
+			return false;
+		}
+
+		if( (account_password.value != "" || account_password_confirm.value != "") && (account_password.value != account_password_confirm.value) ) {
+			alert("%%LNG_AccountPasswordsDontMatch%%");
+			account_password_confirm.select();
+			account_password_confirm.focus();
+			return false;
+		}
+		
+		return true;
+	}
+
+</script>

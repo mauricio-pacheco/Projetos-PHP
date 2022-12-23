@@ -1,0 +1,399 @@
+.poll {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.poll FORM {
+	MARGIN: 0px
+}
+.poll OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0.2em 0.2em 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.poll .results OL {
+	MARGIN: 0px
+}
+.poll .results LI {
+	MARGIN: 0.5em 0px
+}
+.poll .results .bar {
+	MARGIN: 0.1em 0px
+}
+.poll OL LI {
+	FONT-WEIGHT: bold; TEXT-ALIGN: left
+}
+.poll OL OL LI {
+	FONT-WEIGHT: normal; MARGIN: 0.3em 0px 0px
+}
+.poll FORM OL OL LI {
+	CLEAR: both; HEIGHT: auto
+}
+.poll OL LI INPUT {
+	FLOAT: left; MARGIN: 0.3em 0.2em 0px 0px; HEIGHT: 1.3em
+}
+.poll OL OL LI LABEL {
+	PADDING-RIGHT: 0.2em; DISPLAY: block; PADDING-LEFT: 0.2em; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0.3em 0px 0.5em; WIDTH: 75%; PADDING-TOP: 0px
+}
+.poll INPUT {
+	MARGIN: 0.4em auto
+}
+.poll .result {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.4em; PADDING-TOP: 0.4em
+}
+.poll .off {
+	DISPLAY: none
+}
+.poll CITE {
+	FONT-SIZE: 90%
+}
+.poll P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+.poll H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px; PADDING-TOP: 0px
+}
+.poll H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px; PADDING-TOP: 0px
+}
+.poll H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px; PADDING-TOP: 0px
+}
+.poll .bar {
+	BORDER-RIGHT: #2141cc 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #2141cc 1px solid; MIN-WIDTH: 2.1em; DISPLAY: block; PADDING-LEFT: 0.1em; PADDING-BOTTOM: 0px; BORDER-LEFT: #2141cc 1px solid; COLOR: #fff; PADDING-TOP: 0px; BORDER-BOTTOM: #2141cc 1px solid; HEIGHT: 1.3em; BACKGROUND-COLOR: #36c
+}
+.pct0 {
+	WIDTH: 8%
+}
+.pct1 {
+	WIDTH: 9%
+}
+.pct2 {
+	WIDTH: 10%
+}
+.pct3 {
+	WIDTH: 11%
+}
+.pct4 {
+	WIDTH: 12%
+}
+.pct5 {
+	WIDTH: 13%
+}
+.pct6 {
+	WIDTH: 14%
+}
+.pct7 {
+	WIDTH: 15%
+}
+.pct8 {
+	WIDTH: 16%
+}
+.pct9 {
+	WIDTH: 17%
+}
+.pct10 {
+	WIDTH: 18%
+}
+.pct11 {
+	WIDTH: 19%
+}
+.pct12 {
+	WIDTH: 19%
+}
+.pct13 {
+	WIDTH: 20%
+}
+.pct14 {
+	WIDTH: 21%
+}
+.pct15 {
+	WIDTH: 22%
+}
+.pct16 {
+	WIDTH: 22%
+}
+.pct17 {
+	WIDTH: 23%
+}
+.pct18 {
+	WIDTH: 24%
+}
+.pct19 {
+	WIDTH: 25%
+}
+.pct20 {
+	WIDTH: 26%
+}
+.pct21 {
+	WIDTH: 26%
+}
+.pct22 {
+	WIDTH: 27%
+}
+.pct23 {
+	WIDTH: 28%
+}
+.pct24 {
+	WIDTH: 29%
+}
+.pct25 {
+	WIDTH: 30%
+}
+.pct26 {
+	WIDTH: 30%
+}
+.pct27 {
+	WIDTH: 31%
+}
+.pct28 {
+	WIDTH: 32%
+}
+.pct29 {
+	WIDTH: 33%
+}
+.pct30 {
+	WIDTH: 34%
+}
+.pct31 {
+	WIDTH: 34%
+}
+.pct32 {
+	WIDTH: 35%
+}
+.pct33 {
+	WIDTH: 36%
+}
+.pct34 {
+	WIDTH: 37%
+}
+.pct35 {
+	WIDTH: 38%
+}
+.pct36 {
+	WIDTH: 38%
+}
+.pct37 {
+	WIDTH: 39%
+}
+.pct38 {
+	WIDTH: 40%
+}
+.pct39 {
+	WIDTH: 41%
+}
+.pct40 {
+	WIDTH: 42%
+}
+.pct41 {
+	WIDTH: 42%
+}
+.pct42 {
+	WIDTH: 43%
+}
+.pct43 {
+	WIDTH: 44%
+}
+.pct44 {
+	WIDTH: 45%
+}
+.pct45 {
+	WIDTH: 46%
+}
+.pct46 {
+	WIDTH: 46%
+}
+.pct47 {
+	WIDTH: 47%
+}
+.pct48 {
+	WIDTH: 48%
+}
+.pct49 {
+	WIDTH: 49%
+}
+.pct50 {
+	WIDTH: 50%
+}
+.pct51 {
+	WIDTH: 50%
+}
+.pct52 {
+	WIDTH: 51%
+}
+.pct53 {
+	WIDTH: 52%
+}
+.pct54 {
+	WIDTH: 53%
+}
+.pct55 {
+	WIDTH: 54%
+}
+.pct56 {
+	WIDTH: 55%
+}
+.pct57 {
+	WIDTH: 56%
+}
+.pct58 {
+	WIDTH: 57%
+}
+.pct59 {
+	WIDTH: 58%
+}
+.pct60 {
+	WIDTH: 59%
+}
+.pct61 {
+	WIDTH: 60%
+}
+.pct62 {
+	WIDTH: 60%
+}
+.pct63 {
+	WIDTH: 61%
+}
+.pct64 {
+	WIDTH: 62%
+}
+.pct65 {
+	WIDTH: 63%
+}
+.pct66 {
+	WIDTH: 64%
+}
+.pct67 {
+	WIDTH: 65%
+}
+.pct68 {
+	WIDTH: 66%
+}
+.pct69 {
+	WIDTH: 67%
+}
+.pct70 {
+	WIDTH: 68%
+}
+.pct71 {
+	WIDTH: 69%
+}
+.pct72 {
+	WIDTH: 70%
+}
+.pct73 {
+	WIDTH: 71%
+}
+.pct74 {
+	WIDTH: 72%
+}
+.pct75 {
+	WIDTH: 73%
+}
+.pct76 {
+	WIDTH: 74%
+}
+.pct77 {
+	WIDTH: 75%
+}
+.pct78 {
+	WIDTH: 76%
+}
+.pct79 {
+	WIDTH: 77%
+}
+.pct80 {
+	WIDTH: 78%
+}
+.pct81 {
+	WIDTH: 79%
+}
+.pct82 {
+	WIDTH: 80%
+}
+.pct83 {
+	WIDTH: 81%
+}
+.pct84 {
+	WIDTH: 82%
+}
+.pct85 {
+	WIDTH: 83%
+}
+.pct86 {
+	WIDTH: 84%
+}
+.pct87 {
+	WIDTH: 85%
+}
+.pct88 {
+	WIDTH: 86%
+}
+.pct89 {
+	WIDTH: 87%
+}
+.pct90 {
+	WIDTH: 88%
+}
+.pct91 {
+	WIDTH: 89%
+}
+.pct92 {
+	WIDTH: 90%
+}
+.pct93 {
+	WIDTH: 91%
+}
+.pct94 {
+	WIDTH: 92%
+}
+.pct95 {
+	WIDTH: 93%
+}
+.pct96 {
+	WIDTH: 94%
+}
+.pct97 {
+	WIDTH: 95%
+}
+.pct98 {
+	WIDTH: 96%
+}
+.pct99 {
+	WIDTH: 97%
+}
+.pct100 {
+	WIDTH: 98%
+}
+.poll OL LI {
+	CLEAR: left
+}
+.poll OL OL LI LABEL {
+	WIDTH: 85%
+}
+.wide .region9#wrapper #page .poll {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.wide .region9#wrapper #page #area1 .poll OL OL LI LABEL {
+	WIDTH: 93%
+}
+.wide .region9#wrapper #page #area2 .poll OL OL LI LABEL {
+	WIDTH: 89%
+}
+.wide .region9#wrapper #page #area9 .poll OL OL LI LABEL {
+	WIDTH: 89%
+}
+.wide .region9#wrapper #page #area3 .poll OL OL LI LABEL {
+	WIDTH: 82%
+}
+.wide .region9#wrapper #page #area7 .poll OL OL LI LABEL {
+	WIDTH: 82%
+}
+.wide .region9#wrapper #page .poll OL OL LI {
+	MARGIN-TOP: 0px
+}
+.wide .region9#wrapper #page .poll OL OL LI LABEL {
+	MARGIN-TOP: 0px
+}
+.wide .region9#wrapper #page .poll OL OL LI INPUT {
+	MARGIN-TOP: 0px
+}
+.wide .region9#wrapper #page .poll OL {
+	MARGIN-TOP: 0.6em
+}

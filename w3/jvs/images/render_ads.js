@@ -1,0 +1,1 @@
+(function(){var a="window.google_render_ad();";if(typeof google_protectAndRun=="function"&&typeof google_handleError=="function")a='google_protectAndRun("render_ads.js::google_render_ad", google_handleError, google_render_ad);';var b="script";document.write("<"+b+">"+a+"</"+b+">");})()

@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>net2ftp help</title>
+<link rel="stylesheet" type="text/css" href="../skin1-blue.css">
+</head>
+
+<body style="margin-left: 70px; margin-right: 70px;">
+
+<div class="header21">Installation instructions</div>
+
+<div class="header31">Requirements</div>
+<ul>
+<li> Web server: any web server which can run PHP. The most popular one is <a href="http://httpd.apache.org" target="_blank">Apache</a>.</li>
+<li> <a href="http://www.php.net" target="_blank">PHP</a>: at least version 4.2.3. net2ftp works under <a href="http://www.php.net/manual/en/features.safe-mode.php" target="_blank">Safe Mode</a>.</li>
+<li> Disk space: 1.5 MB for net2ftp, and a few MB for the temporary files.</li>
+</ul>
+
+<div class="header31">Procedure</div>
+<br />
+1 - Unzip all the files on your computer, and upload them to your server.<br /><br />
+2 - The /temp directory should be chmodded to 777 (you can use <a href="http://www.net2ftp.com">net2ftp.com</a> to do this).<br /><br />
+3 - Set your settings in the settings.inc.php file.<br /><br />
+4 - A database is only required if you want to log the actions of the users. To create the tables, execute the SQL queries below (also in the "create_tables.sql" file). This can be done easily in <a href="http://www.phpmyadmin.net/" target="_blank">PhpMyAdmin</a>, the popular front-end to MySQL.<br />
+<br />
+<textarea cols="70" rows="8" wrap="off">
+#
+# Table structure for table `net2ftp_logAccess`
+#
+
+CREATE TABLE net2ftp_logAccess (
+  date date NOT NULL default '0000-00-00',
+  time time NOT NULL default '00:00:00',
+  remote_addr text NOT NULL,
+  remote_port text NOT NULL,
+  http_user_agent text NOT NULL,
+  page text NOT NULL,
+  ftpserver text NOT NULL,
+  username text NOT NULL,
+  state text NOT NULL,
+  manage text NOT NULL,
+  directory text NOT NULL,
+  file text NOT NULL,
+  http_referer text NOT NULL
+) TYPE=MyISAM;
+# --------------------------------------------------------
+
+#
+# Table structure for table `net2ftp_logError`
+#
+
+CREATE TABLE net2ftp_logError (
+  date date NOT NULL default '0000-00-00',
+  time time NOT NULL default '00:00:00',
+  ftpserver text NOT NULL,
+  username text NOT NULL,
+  message text NOT NULL,
+  cause text NOT NULL,
+  drilldown text NOT NULL,
+  state text NOT NULL,
+  manage text NOT NULL,
+  directory text NOT NULL,
+  debug1 text NOT NULL,
+  debug2 text NOT NULL,
+  debug3 text NOT NULL,
+  debug4 text NOT NULL,
+  debug5 text NOT NULL,
+  remote_addr text NOT NULL,
+  remote_port text NOT NULL,
+  http_user_agent text NOT NULL
+) TYPE=MyISAM;
+# --------------------------------------------------------
+
+#
+# Table structure for table `net2ftp_logLogin`
+#
+
+CREATE TABLE net2ftp_logLogin (
+  date date NOT NULL default '0000-00-00',
+  time time NOT NULL default '00:00:00',
+  ftpserver text NOT NULL,
+  username text NOT NULL,
+  remote_addr text NOT NULL,
+  remote_port text NOT NULL,
+  http_user_agent text NOT NULL
+) TYPE=MyISAM;
+</textarea><br />
+
+<br /><br />
+
+<div class="header31">Next steps</div>
+<ul>
+<li>To allow large file uploads and transfers, you may have to change these settings:
+	<ul>
+	<li>in the file php.ini (directory C:\windows or /etc): upload_max_filesize, post_max_size, max_execution_time, memory_limit</li>
+	<li>in the file php.conf (directory /etc/httpd/conf.d): LimitRequestBody</li>
+	</ul>
+</li>
+<li>Protect the /temp and the /admin directories. If you use the Apache web server, use .htaccess and .htpasswd files to do this -- sample files are provided (username admin, password net2ftp).
+	<ul>
+	<li>.htaccess file: set the path to the .htpasswd file</li>
+	<li>.htpasswd file: enter a list of usernames and encrypted passwords (the admin panel can be used to generate encrypted passwords)</li>
+	</ul>
+</li>
+<li>In your php.ini file, register_globals can be set to "off" (this is more secure), but the application will off course also work if it is set to "on".</li>
+<li>The files are transmitted using the BINARY mode by default. There is a list of file extensions (txt, php, ...) which are transmitted in ASCII mode. Edit this list if needed, it is located in /includes/filesystem.inc.php. Look for function ftpAsciiBinary.</li>
+</ul>
+
+<br /><br />
+
+<div class="header31">NOTE: IF YOU USE THE IIS FTP SERVER</div>
+In the FTP server's configuration, set it for UNIX style directory listings rather than MSDOS style listings.
+
+<br /><br />
+
+</body>
+</html>

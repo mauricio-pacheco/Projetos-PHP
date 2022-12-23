@@ -1,0 +1,90 @@
+.tickercontainerclass .heading {
+	DISPLAY: none
+}
+.tickercontainerclass .content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.tickercontainerclass .content .tickersubclass {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.tickercontainerclass {
+	HEIGHT: 2.32em
+}
+.tickercontainerclass .c1.child {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 100%; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; POSITION: relative; HEIGHT: 100%
+}
+.tickercontainerclass UL.tickerlistul {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; POSITION: absolute; TOP: 7px
+}
+.tickercontainerclass UL.tickerlistul LI {
+	PADDING-RIGHT: 5px; LEFT: 90em; WIDTH: 80em; POSITION: absolute
+}
+.tickercontainerclass H2.headingclass {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 10px; BACKGROUND-POSITION: 0px -7px; DISPLAY: inline; PADDING-LEFT: 10px; BORDER-LEFT-WIDTH: 0px; Z-INDEX: 2; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 10px; MARGIN: 0px; PADDING-TOP: 0px; POSITION: relative; TOP: 7px; HEIGHT: 100%; BORDER-RIGHT-WIDTH: 0px
+}
+.tickercontainerclass LI A {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; VERTICAL-ALIGN: bottom
+}
+.tickercontainerclass .noscriptstyle {
+	DISPLAY: inline; POSITION: relative; TOP: 7px
+}
+.tickercontainerclass UL.tickerlistul {
+	DISPLAY: inline
+}
+.tickercontainerclass UL.tickerlistul LI {
+	DISPLAY: inline
+}
+.black.customcontainer.tickercontainerclass .content H2 {
+	BACKGROUND-IMAGE: url(bg_grad_black.gif)
+}
+.black.tickercontainerclass .tickersubclass {
+	BACKGROUND-IMAGE: url(bg_grad_black.gif)
+}
+.blue.customcontainer.tickercontainerclass .content H2 {
+	BACKGROUND-IMAGE: url(bg_grad_blue.gif)
+}
+.blue.tickercontainerclass .tickersubclass {
+	BACKGROUND-IMAGE: url(bg_grad_blue.gif)
+}
+.green.customcontainer.tickercontainerclass .content H2 {
+	BACKGROUND-IMAGE: url(bg_grad_green.gif)
+}
+.green.tickercontainerclass .tickersubclass {
+	BACKGROUND-IMAGE: url(bg_grad_green.gif)
+}
+.red.customcontainer.tickercontainerclass .content H2 {
+	BACKGROUND-IMAGE: url(bg_grad_red.gif)
+}
+.red.tickercontainerclass .tickersubclass {
+	BACKGROUND-IMAGE: url(bg_grad_red.gif)
+}
+.orange.customcontainer.tickercontainerclass .content H2 {
+	BACKGROUND-IMAGE: url(bg_grad_orange.gif)
+}
+.orange.tickercontainerclass .tickersubclass {
+	BACKGROUND-IMAGE: url(bg_grad_orange.gif)
+}
+.purple.customcontainer.tickercontainerclass .content H2 {
+	BACKGROUND-IMAGE: url(bg_grad_purple.gif)
+}
+.purple.tickercontainerclass .tickersubclass {
+	BACKGROUND-IMAGE: url(bg_grad_purple.gif)
+}
+.brown.customcontainer.tickercontainerclass .content H2 {
+	BACKGROUND-IMAGE: url(bg_grad_brown.gif)
+}
+.brown.tickercontainerclass .tickersubclass {
+	BACKGROUND-IMAGE: url(bg_grad_brown.gif)
+}
+.tan.customcontainer.tickercontainerclass .content H2 {
+	BACKGROUND-IMAGE: url(bg_grad_tan.gif)
+}
+.tan.tickercontainerclass .tickersubclass {
+	BACKGROUND-IMAGE: url(bg_grad_tan.gif)
+}
+.steel.customcontainer.tickercontainerclass .content H2 {
+	BACKGROUND-IMAGE: url(bg_grad_steel.gif)
+}
+.steel.tickercontainerclass .tickersubclass {
+	BACKGROUND-IMAGE: url(bg_grad_steel.gif)
+}

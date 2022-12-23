@@ -1,0 +1,57 @@
+<head>
+	<title>%%Page.WindowTitle%%</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=%%GLOBAL_CharacterSet%%" />
+	<meta name="description" content="%%Page.MetaDescription%%" />
+	<meta name="keywords" content="%%Page.MetaKeywords%%" />
+	<meta name="generator" content="Interspire Shopping Cart" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />	
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+
+	<link href="%%GLOBAL_TPL_PATH%%/Styles/%%GLOBAL_SiteColor%%.css" type="text/css" rel="stylesheet" />
+	<link href="%%GLOBAL_TPL_PATH%%/Styles/styles.css" type="text/css" rel="stylesheet" />
+	<link href="%%GLOBAL_TPL_PATH%%/Styles/iselector.css" type="text/css" rel="stylesheet" />
+
+	<!--[if IE]>
+	  <link rel="stylesheet" type="text/css" href="%%GLOBAL_TPL_PATH%%/Styles/ie.css" />
+	<![endif]-->
+
+	<!-- Tell the browsers about our RSS feeds -->
+	%%GLOBAL_HeadRSSLinks%%
+
+	<!-- Include visitor tracking code (if any) -->
+
+	%%GLOBAL_TrackingCode%%
+	
+	%%GLOBAL_Stylesheets%%
+
+	%%GLOBAL_DesignModeStyleSheet%%
+
+	<script type="text/javascript" src="%%GLOBAL_ShopPath%%/javascript/jquery.js"></script>
+	<script type="text/javascript" src="%%GLOBAL_ShopPath%%/javascript/menudrop.js"></script>
+	<script type="text/javascript" src="%%GLOBAL_ShopPath%%/javascript/common.js"></script>
+	<script type="text/javascript" src="%%GLOBAL_ShopPath%%/javascript/iselector.js"></script>
+
+	<script type="text/javascript">
+	//<![CDATA[
+	// Ensure that all product lists are the same height
+	$(document).ready(function() {
+		if(typeof(DesignMode) != 'undefined') {
+			return;
+		}
+		var maxHeight = 0;
+			$('.Content .ProductList li').each(function() {
+				if($(this).height() > maxHeight) {
+					maxHeight = $(this).height();
+				}
+		});
+		$('.Content .ProductList li').css('height', maxHeight);
+	});
+	//]]>
+	</script>
+	
+	%%GLOBAL_QuickSearchJS%%
+
+	%%GLOBAL_RTLStyles%%
+
+</head>

@@ -1,0 +1,96 @@
+.tabbedcontent UL.tab LI {
+	BORDER-BOTTOM-COLOR: #fff
+}
+.tabbedcontent UL.tab LI.nohead {
+	MARGIN-LEFT: 9px
+}
+.tabbedcontent {
+	FLOAT: left; POSITION: relative
+}
+.mostpopular UL.tab LI {
+	BORDER-BOTTOM-COLOR: #fff
+}
+.mptab UL.moregaps LI {
+	BACKGROUND-POSITION: 0px 0.4em
+}
+.editorschoice LI.iefn {
+	FLOAT: none
+}
+.slideritem LI.iefn {
+	FLOAT: none
+}
+.imgtextoverlay .l_dark.leftfade {
+	BACKGROUND-COLOR: #000
+}
+.imgtextoverlay .l_light.leftfade {
+	BACKGROUND-COLOR: #fff
+}
+.imgtextoverlay .l_black.leftfade {
+	BACKGROUND-COLOR: #333
+}
+.imgtextoverlay .l_blue.leftfade {
+	BACKGROUND-COLOR: #3c7faf
+}
+.imgtextoverlay .l_green.leftfade {
+	BACKGROUND-COLOR: #668b1e
+}
+.imgtextoverlay .l_red.leftfade {
+	BACKGROUND-COLOR: #90322a
+}
+.imgtextoverlay .l_orange.leftfade {
+	BACKGROUND-COLOR: #da7429
+}
+.imgtextoverlay .l_purple.leftfade {
+	BACKGROUND-COLOR: #6c577b
+}
+.imgtextoverlay .l_brown.leftfade {
+	BACKGROUND-COLOR: #341e0a
+}
+.imgtextoverlay .l_tan.leftfade {
+	BACKGROUND-COLOR: #aba483
+}
+.imgtextoverlay .l_steel.leftfade {
+	BACKGROUND-COLOR: #869cb2
+}
+.imgtextoverlay .r_dark.rightfade {
+	BACKGROUND-COLOR: #000
+}
+.imgtextoverlay .r_light.rightfade {
+	BACKGROUND-COLOR: #fff
+}
+.imgtextoverlay .r_black.rightfade {
+	BACKGROUND-COLOR: #333
+}
+.imgtextoverlay .r_blue.rightfade {
+	BACKGROUND-COLOR: #3c7faf
+}
+.imgtextoverlay .r_green.rightfade {
+	BACKGROUND-COLOR: #668b1e
+}
+.imgtextoverlay .r_red.rightfade {
+	BACKGROUND-COLOR: #90322a
+}
+.imgtextoverlay .r_orange.rightfade {
+	BACKGROUND-COLOR: #da7429
+}
+.imgtextoverlay .r_purple.rightfade {
+	BACKGROUND-COLOR: #6c577b
+}
+.imgtextoverlay .r_brown.rightfade {
+	BACKGROUND-COLOR: #341e0a
+}
+.imgtextoverlay .r_tan.rightfade {
+	BACKGROUND-COLOR: #aba483
+}
+.imgtextoverlay .r_steel.rightfade {
+	BACKGROUND-COLOR: #869cb2
+}
+.customcontainer .omll .llfn {
+	FLOAT: none
+}
+.customcontainer OL.omol LI A {
+	RIGHT: 10px
+}
+.maineditorial UL LI.iefn {
+	FLOAT: none
+}

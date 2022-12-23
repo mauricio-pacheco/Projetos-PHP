@@ -1,0 +1,309 @@
+/* Textual Elements */
+
+.body,td {
+	color: #333;
+	font-size: 11px;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+
+.bodyspaced  {
+	color: #666;
+	font-size: 11px;
+	line-height: 17px;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+
+.bodyspacedblk {
+	color: #000;
+	font-size: 11px;
+	line-height: 17px;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+
+.bodymedium {
+	color: #666;
+	font-size: 11px;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+
+.bodymediumblk {
+	color: #000;
+	font-size: 11px;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+	
+.bodymediumorng {
+	color: #c60;
+	font-size: 11px;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+
+.bodymediumspaced {
+	color: #666;
+	font-size: 11px;
+	line-height: 17px;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+
+.bodysmall {
+	color: #333;
+	font-size: 10px;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+
+.bodysmallgray {
+	color: #999;
+	font-size: 10px;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+
+.bodymicro {
+	color: #333;
+	font-size: 9px;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+
+.headline {
+	color: #000;
+	font-size: 11px;
+
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+
+.title {
+	color: #999;
+	font-size: 21px;
+	font-weight: normal;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+	
+.titleorng {
+	color: #c60;
+	font-size: 21px;
+	font-weight: normal;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+	
+.titlered {
+	color: #c00;
+	font-size: 21px;
+	font-weight: normal;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+
+.stepon {
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #369;
+	padding: 2px;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+
+.stepoff {
+	color: #ccc;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #fff;
+	padding: 2px;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+
+.issorted {
+	color: #000;
+	text-decoration: underline;
+	background-color: transparent;
+	font-weight: bold }
+
+.subhead {
+	color: #333;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+
+.subheadblu {
+	color: #369;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+
+.subheadblk {
+	color: #000;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+
+.subheadorng {
+	color: #c60;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+	
+.subheadred {
+	color: #900;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+
+br { font-size: 11px }
+
+.marketing {
+	color: #666;
+	font-size: 10px;
+	line-height: 15px;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif }
+table.crm {
+  border-collapse: collapse;
+  border-spacing: 10px;
+  border: 1px solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #BEBEBE;
+  empty-cells: show;
+}
+
+/* Links */
+/* 369 */
+
+
+a { 
+    color: #c60; 
+  /*  text-decoration: underline */
+	border-bottom: 1px dashed #FFFFFF; 
+	text-decoration: none;
+	background-color: transparent
+    }
+/* text-decoration: underline; background-color: transparent }*/
+a:hover { 
+color: #c60; 
+/*text-decoration: underline;*/
+border-bottom: 1px dashed #113377; 
+background-color: transparent }
+/* ; cursor: help } */
+a.sort { color: #666; text-decoration: underline }
+a.sort:hover { color: #000; text-decoration: underline; background-color: transparent }
+
+a.topnav {
+     color: #369; 
+     border-bottom: 1px dashed #113377;
+     text-decoration: none
+      }
+a.topnav:hover { color: #fc0; text-decoration: underline; background-color: transparent }
+a.topnav.visited { color: #ccc; text-decoration: none }
+/* a.topnav:visited { color: #ccc; text-decoration: none } */
+
+a.tab { color: #666; text-decoration: none }
+a.tab:hover { color: #000; text-decoration: none; background-color: transparent }
+
+a.bigsort { 
+    color: #c60; 
+  /*  text-decoration: underline */
+	border-bottom: 1px dashed #FFFFFF; 
+	text-decoration: none;
+	background-color: transparent
+    }
+
+a.smallsort { 
+    font: 9px MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #c60;
+	text-decoration: none 
+	border-bottom: 1px solid transparent;
+   }
+
+td.smallsort { 
+    font: 9px MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-decoration: none 
+   }
+
+a.crm_smallcaps {
+	font-variant: small-caps;
+}
+
+
+a.smallsort:hover { 
+color: #c60; 
+/*text-decoration: underline;*/
+/*border-bottom: 1px dashed #113377; */
+background-color: transparent }
+
+a.bigsort:hover { 
+color: #c60; 
+/*text-decoration: underline;*/
+border-bottom: 1px dashed #113377; 
+background-color: transparent }
+/* ; cursor: help } */
+
+a.tip { color: #666; text-decoration: none }
+a.tip:hover { color: #369; text-decoration: underline; background-color: transparent }
+/*; cursor: help }*/
+
+/* Form Elements */
+
+input {
+	border: 1px #999 solid;
+	padding: 1px;
+	background: #fff;
+	font: 11px MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #c60 }
+
+input.radio {
+	border: 0px #999 solid;
+	padding: 1px;
+	background: #fff;
+	font: 11px MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #c60 }
+
+
+input.txt {
+	border: 1px #999 solid;
+	padding: 1px;
+	background: #fff;
+	font: 13px MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #c60 }
+	
+input.txtreadonly {
+	border: 1px #c00 solid;
+	padding: 1px;
+	background: #fff;
+	font: 11px MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #000000 }
+	
+input.txtok {
+	border: 1px #999 solid;
+	padding: 1px;
+	background: #fff;
+	font: 11px MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #666 }
+
+textarea {
+	border: 1px #666 solid;
+	background: #fff;
+	font:13px MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #c60 }
+
+textarea.readonly {
+	border: 1px #666 solid;
+	background: #fff;
+	font:13px MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #7F7F7F }
+/*	color: #666 } */
+
+select {
+	border: 1px #666 solid;
+	background: #fff;
+	font:11px MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #333 }
+
+form { display:inline }
+
+input.buttonyel {
+	background-color: #ffcc00;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #333;
+	padding: 2px }
+
+input.button {
+	background-color: #efefef;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #333;
+	padding: 2px }
+
+input.searchbutton {
+	background-color: #efefef;
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+ 	font-size: 10px;
+ 	font-weight: bold;
+ 	color: #333;
+ 	padding: 1px }
+
+legend {
+	font-family: MS Shell Dlg, Verdana , Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #3366FF;
+}

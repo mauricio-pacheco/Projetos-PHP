@@ -1,0 +1,33 @@
+.texto {
+	FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma, Arial
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #009242; SCROLLBAR-HIGHLIGHT-COLOR: #009242; SCROLLBAR-SHADOW-COLOR: #F5FFF4; SCROLLBAR-3DLIGHT-COLOR: #ffffff; SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #F5FFF4; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+}
+.tahoma_laranja_11 {
+	FONT-SIZE: 11px; COLOR: #125A18; FONT-FAMILY: Tahoma, Verdana, Arial; TEXT-DECORATION: none
+}
+.tahoma_cinza_11 {
+	FONT-SIZE: 11px; COLOR: #727272; FONT-FAMILY: Tahoma, Verdana, Arial; TEXT-DECORATION: none
+}
+BODY {
+	BACKGROUND-POSITION: center 50%; BACKGROUND-IMAGE: url(../imagens/home_backshadow.gif); BACKGROUND-REPEAT: repeat-y
+}
+.tahoma_cinza_12 {
+	FONT-SIZE: 12px; COLOR: #727272; FONT-FAMILY: Tahoma, Verdana, Arial
+}
+.tahoma_preta_11 A:link {
+	FONT-SIZE: 11px; COLOR: #333333; FONT-FAMILY: Tahoma, Verdana, Arial; TEXT-DECORATION: none
+}
+.tahoma_preta_11 A:active {
+	FONT-SIZE: 11px; COLOR: #333333; FONT-FAMILY: Tahoma, Verdana, Arial; TEXT-DECORATION: none
+}
+.tahoma_preta_11 A:hover {
+	FONT-SIZE: 11px; COLOR: #333333; FONT-FAMILY: Tahoma, Verdana, Arial; TEXT-DECORATION: underline
+}
+.tahoma_preta_11 A:visited {
+	FONT-SIZE: 11px; COLOR: #333333; FONT-FAMILY: Tahoma, Verdana, Arial; TEXT-DECORATION: none
+}
+.tahomafonte {
+	FONT-SIZE: 11px; COLOR: #333333; FONT-FAMILY: Tahoma, Verdana, Arial; TEXT-DECORATION: none
+}

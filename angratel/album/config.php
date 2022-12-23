@@ -1,0 +1,1 @@
+<? $db3 = mysql_connect ('localhost','root','123') or die ('Não conectou ao Banco de Dados por causa: ' . mysql_error()); mysql_select_db ('juda'); $tabela2 = 'xalbum'; $tabela3 = 'xalbumfotos'; $tabelacoments = 'xalbumcomentarios'; ?>

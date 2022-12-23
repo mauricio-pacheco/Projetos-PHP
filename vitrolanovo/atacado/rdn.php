@@ -1,0 +1,10 @@
+<?
+include 'funcoes.php';
+
+
+LogoRandon();
+
+
+
+?>
+

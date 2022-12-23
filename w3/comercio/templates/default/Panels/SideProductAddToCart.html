@@ -1,0 +1,29 @@
+<div class="Block Moveable AddtoCart %%GLOBAL_BuyBoxSoldOut%%" id="SideProductAddToCart" style="display:%%GLOBAL_HidePurchasingOptions%%%%GLOBAL_HideCartOptions%%">
+	<h2>%%LNG_BuyThisItem%%</h2>
+	<div class="BlockContent">
+		<p style="display: %%GLOBAL_DisplayAdd%%">
+			%%LNG_AddToCart1%% %%GLOBAL_ProductName%% %%LNG_AddToCart2%% <em class="ProductPrice VariationProductPrice">%%GLOBAL_ProductPrice%%</em>.
+		</p>
+
+		%%SNIPPET_SideAddItemSoldOut%%
+
+		<form method="post" action="%%GLOBAL_CartLink%%" onsubmit="return check_add_to_cart(this, %%GLOBAL_ProductOptionRequired%%)">
+			<input type="hidden" name="action" value="add" />
+			<input type="hidden" name="product_id" value="%%GLOBAL_ProductId%%" />
+			<input type="hidden" name="variation_id" class="CartVariationId" value="" />
+			<input type="hidden" name="currency_id" value="" />
+			%%SNIPPET_VariationList%%
+			<p class="QuantityInput" style="display: %%GLOBAL_DisplayAddQty%%">%%LNG_QuantityFull%%: %%GLOBAL_AddToCartQty%%</p>
+			<p class="AddCartButton" style="display: %%GLOBAL_DisplayAdd%%">
+				<input type="image" src="%%GLOBAL_TPL_PATH%%/images/%%GLOBAL_SiteColor%%/AddCartButton.gif" alt="" />
+			</p>
+		</form>
+	</div>
+</div>
+<script type="text/javascript">
+lang.OptionMessage = "%%GLOBAL_OptionMessage%%";
+lang.VariationSoldOutMessage = "%%LNG_VariationSoldOutMessage%%";
+lang.InvalidQuantity = "%%LNG_InvalidQuantity%%";
+var ShowAddToCartQtyBox = "%%GLOBAL_ShowAddToCartQtyBox%%";
+</script>
+%%GLOBAL_ProductVariationJavascript%%

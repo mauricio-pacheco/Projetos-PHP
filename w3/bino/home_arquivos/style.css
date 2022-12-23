@@ -1,0 +1,51 @@
+BODY {
+	BACKGROUND: #9e9e9e; MARGIN: 0px
+}
+.bg_centro {
+	BACKGROUND: url(../imgs/bgdentro.jpg) #9e9e9e repeat-x
+}
+.bg_01 {
+	BACKGROUND-POSITION: right 50%; BACKGROUND-IMAGE: url(../imgs/bg_01.jpg); BACKGROUND-REPEAT: no-repeat
+}
+.bg_02 {
+	BACKGROUND: url(../imgs/bg.jpg) #9e9e9e repeat-x
+}
+.bg_03 {
+	BACKGROUND: url(../imgs/bg_03.jpg) no-repeat right top
+}
+.bg_04 {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(../imgs/bg_04.jpg); BACKGROUND-REPEAT: no-repeat
+}
+.bg_05 {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(../imgs/bg_05.jpg); BACKGROUND-REPEAT: no-repeat
+}
+.bg_06 {
+	BACKGROUND: url(../imgs/bg_06.jpg) no-repeat left top
+}
+.img_eventos {
+	BORDER-RIGHT: #6d6c6c 5px solid; BORDER-TOP: #6d6c6c 5px solid; BORDER-LEFT: #6d6c6c 5px solid; BORDER-BOTTOM: #6d6c6c 5px solid
+}
+.txt_cinza {
+	FONT-SIZE: 11px; COLOR: #b4b3b3; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.txt_branco {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.txt_vermelho {
+	FONT-SIZE: 11px; COLOR: #cc0000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.submenu_cinza {
+	FONT-SIZE: 11px; COLOR: #b4b3b3; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.submenu_cinza A:hover {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A {
+	FONT-SIZE: 11px; COLOR: #b4b3b3; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+P {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}

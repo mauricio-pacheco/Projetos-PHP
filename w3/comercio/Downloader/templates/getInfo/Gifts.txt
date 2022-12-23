@@ -1,0 +1,1 @@
+<template><id>Gifts</id><name>Gifts</name><version>1.5</version><colors><color><name>Brown</name><hex>brown</hex><preview>%%ISCURL%%templates/previews/Gifts_brown_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/Gifts_brown.jpg</previewFull></color></colors></template>

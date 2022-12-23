@@ -1,0 +1,232 @@
+<!--
+// copyright OSI Codes, PHP Live! Support
+// http://www.osicodes.c0m
+function dounique() { var date = new Date() ; return date.getTime() ; }
+var tracker_refresh = 10000 ; // 1000 = 1 second
+var btn = 7161085 ;
+var do_tracker_flag_7161085 = 1 ;
+var start_tracker = dounique() ;
+var time_elapsed ;
+var refer = escape( document.referrer ) ;
+var phplive_base_url = '/atendimento' ;
+var initiate = chat_opened = 0 ;
+var pullimage_7161085_0 = new Image ;
+var date = new Date() ;
+var unique = dounique() ;
+var url = escape( location.toString() ) ;
+var phplive_image_7161085_0 = "/atendimento/image.php?l=globalmedia&x=1&deptid=0&page="+url+"&unique="+unique+"&refer="+refer+"&text=" ;
+
+
+var scriptpad = "" ;
+var ns=(document.layers);
+var ie=(document.all);
+var w3=(document.getElementById && !ie);
+
+/********************************************/
+/***** proactive image settings: begin ******/
+var ProactiveDiv ;
+var browser_width ;
+var backtrack = 0 ;
+var isclosed = 0 ;
+var repeat = 1 ;
+var timer = 20 ;
+var halt = 0 ;
+
+// browser detection
+var browser_ua = navigator.userAgent.toLowerCase() ;
+var browser_type, tempdata ;
+function phplive_detect_ua( text )
+{
+	stringposition = browser_ua.indexOf(text) + 1 ;
+	tempdata = text ;
+	return stringposition ;
+}
+
+// write external style here.. it won't work if we put it directly in the DIV
+style = "<style type=\"text/css\">" ;
+style += "<!--" ;
+style += "#ProactiveSupport_7161085 {visibility:hidden; position:absolute; height:1; width:1; top:0; left:0;}" ;
+style += "-->" ;
+style += "</style>" ;
+document.write( style ) ;
+if (ie||w3)
+	browser_width = document.body.offsetWidth ;
+else
+	browser_width = window.outerWidth ;
+
+function toggleMotion( flag )
+{
+	if ( flag )
+		halt = 1 ;
+	else
+		halt = 0 ;
+}
+
+function initializeProactive_7161085()
+{
+
+	if(!ns && !ie && !w3) return ;
+	if(ie)		ProactiveDiv = eval('document.all.ProactiveSupport_7161085.style') ;
+	else if(ns)	ProactiveDiv = eval('document.layers["ProactiveSupport_7161085"]') ;
+	else if(w3)	ProactiveDiv = eval('document.getElementById("ProactiveSupport_7161085").style') ;
+
+	if (ie||w3)
+		ProactiveDiv.visibility = "visible" ;
+	else
+		ProactiveDiv.visibility = "show" ;
+
+	backtrack = 0 ;
+	isclosed = 0 ;
+	repeat = 1 ;
+	moveIt(20) ;
+}
+
+function moveIt( h )
+{
+	if (ie)
+	{
+		documentHeight = document.body.offsetHeight/2+document.body.scrollTop-20 ;
+		documentWidth = document.body.offsetWidth ;
+	}
+	else if (ns)
+	{
+		documentHeight = window.innerHeight/2+window.pageYOffset-20 ;
+		documentWidth = window.innerWidth ;
+	}
+	else if (w3)
+	{
+		documentHeight = self.innerHeight/2+window.pageYOffset-20 ;
+		documentWidth = self.innerWidth ;
+	}
+	ProactiveDiv.top = documentHeight-100 ;
+	ProactiveDiv.left = documentWidth/2 ; // mod
+
+	ProactiveDiv.left = h ;
+	if ( h > ( browser_width - 350 ) )
+		backtrack = 1 ;
+	if ( backtrack && repeat && !halt )
+		h -= 2 ;
+	else if ( !backtrack && repeat && !halt )
+		h += 2 ;
+
+	if ( halt )
+	{
+		setTimeout("moveIt("+h+")",timer) ;
+	}
+	else if ( ( !backtrack || ( backtrack && ( h >= 20 ) ) ) && ( ( ProactiveDiv.visibility == "visible" ) || ( ProactiveDiv.visibility == "show" ) ) && repeat && !isclosed )
+		setTimeout("moveIt("+h+")",timer) ;
+	else if ( !isclosed )
+	{
+		backtrack = 0 ;
+		repeat = 0 ;
+		setTimeout("moveIt("+h+")",timer) ;
+	}
+	else
+	{
+		// incase it is closed during when it's off the page, set the position
+		// back to the page so the horizontal scrollbars disappear (IE only)
+		ProactiveDiv.left = h ;
+	}
+}
+
+function DoClose(){
+	if (ie||w3)
+		ProactiveDiv.visibility = "hidden" ;
+	else
+		ProactiveDiv.visibility = "hide" ;
+	isclosed = 1 ;
+	halt = 0 ;
+}
+
+/********************************************/
+/********************************************/
+
+
+function checkinitiate_7161085()
+{
+	initiate = pullimage_7161085_0.width ;
+	if ( ( initiate == 2 ) && !chat_opened )
+	{
+		chat_opened = 1 ;
+		launch_support_7161085_0() ;
+	}
+	else if ( ( initiate == 3 ) && !chat_opened )
+	{
+		chat_opened = 1 ;
+		initializeProactive_7161085() ;
+	}
+	else if ( initiate == 100 )
+	{
+		do_tracker_flag_7161085 = 0 ;
+	}
+
+	if ( ( initiate == 1 ) && chat_opened )
+		chat_opened = 0 ;
+}
+function do_tracker_7161085()
+{
+	// check to make sure they are not idle for more then 1 hour... if so, then
+	// they left window open and let's stop the tracker to save server load time.
+	// (1000 = 1 second)
+	var unique = dounique() ;
+	time_elapsed = unique - start_tracker ;
+	if ( time_elapsed > 3600000 )
+		do_tracker_flag_7161085 = 0 ;
+
+	pullimage_7161085_0 = new Image ;
+	pullimage_7161085_0.src = "/atendimento/image_tracker.php?l=globalmedia&x=1&deptid=0&page="+url+"&unique="+unique ;
+
+	pullimage_7161085_0.onload = checkinitiate_7161085 ;
+	if ( do_tracker_flag_7161085 == 1 )
+		setTimeout("do_tracker_7161085()",tracker_refresh) ;
+}
+function launch_support_7161085_0()
+{
+	var request_url_7161085_0 = "/atendimento/request.php?l=globalmedia&x=1&deptid=0&page="+url ;
+	newwin = window.open( request_url_7161085_0, unique, 'scrollbars=no,menubar=no,resizable=0,location=no,screenX=50,screenY=100,width=450,height=360' ) ;
+	newwin.focus() ;
+	DoClose() ;
+}
+
+function WriteChatDiv()
+{
+	var scroll_image = new Image ;
+	scroll_image.src = "/atendimento/scroll_image.php?x=1&l=globalmedia&"+unique ;
+
+	output = "<div id=\"ProactiveSupport_7161085\">" ;
+	output += "<table cellspacing=0 cellpadding=0 border=0>" ;
+	output += "<tr><td align=right><table cellspacing=0 cellpadding=0 border=0><tr><td bgColor=#E1E1E1><a href='JavaScript:RejectInitiate();' OnMouseOver=\"toggleMotion(1)\" OnMouseOut=\"toggleMotion(0)\"><font color=#828282 size=1 face=arial>&nbsp;close window</font>&nbsp;<img src=\"/atendimento/images/initiate_close.gif\" width=10 height=10 border=0></a></td></tr></table></td></tr>" ;
+	output += "<tr><td align=center>" ;
+	output += "<a href=\"JavaScript:launch_support_7161085_0()\" OnMouseOver=\"toggleMotion(1)\" OnMouseOut=\"toggleMotion(0)\"><img src=\""+scroll_image.src+"\" border=0></a>" ;
+	output += "</td></tr></table>" ;
+	output += "</div>" ;
+	document.writeln( output ) ;
+
+	if(ie)		ProactiveDiv = eval('document.all.ProactiveSupport_7161085.style') ;
+	else if(ns)	ProactiveDiv = eval('document.layers["ProactiveSupport_7161085"]') ;
+	else if(w3)	ProactiveDiv = eval('document.getElementById("ProactiveSupport_7161085").style') ;
+
+	if (ie||w3)
+		ProactiveDiv.visibility = "hidden" ;
+	else
+		ProactiveDiv.visibility = "hide" ;
+}
+
+function RejectInitiate()
+{
+	var rejectimage_7161085_0 = new Image ;
+	rejectimage_7161085_0.src = "/atendimento/image_tracker.php?l=globalmedia&x=1&deptid=0&unique="+unique+"&action=reject" ;
+	DoClose() ;
+	chat_opened = 0 ;
+}
+
+var status_image_7161085_0 = "<a href='JavaScript:void(0)' onMouseOver='window.status=\"Click for Live Support\"; return true;' onMouseOut='window.status=\"\"; return true;' OnClick='launch_support_7161085_0()'><img src="+phplive_image_7161085_0+" border=0 alt='Click for Live Support'></a>" ;
+document.write( status_image_7161085_0 ) ;
+
+if ( !phplive_loaded )
+{
+	WriteChatDiv() ;
+	do_tracker_7161085() ;
+}
+var phplive_loaded = 1 ;
+//-->

@@ -1,0 +1,1 @@
+<template><id>Furniture</id><name>Furniture</name><version>1.7</version><colors><color><name>Ecru</name><hex>lightbrown</hex><preview>%%ISCURL%%templates/previews/Furniture_ecru_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/Furniture_ecru.jpg</previewFull></color></colors></template>

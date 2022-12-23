@@ -1,0 +1,99 @@
+.transMenu {
+	LEFT: -1000px; OVERFLOW: hidden; POSITION: absolute; TOP: -1000px
+}
+.transMenu .content {
+	POSITION: absolute
+}
+.transMenu .items {
+	Z-INDEX: 2; LEFT: 0px; POSITION: relative; TOP: 0px
+}
+.top.transMenu .items {
+	
+}
+.transMenu .background {
+	Z-INDEX: 1; FILTER: alpha(opacity=90); LEFT: 0px; POSITION: absolute; TOP: 0px; -moz-opacity: .9
+}
+.transMenu .shadowRight {
+	Z-INDEX: 3; FILTER: alpha(opacity=40); WIDTH: 2px; POSITION: absolute; TOP: 3px; -moz-opacity: .4
+}
+.transMenu .shadowBottom {
+	Z-INDEX: 1; FILTER: alpha(opacity=40); LEFT: 3px; POSITION: absolute; HEIGHT: 2px; -moz-opacity: .4
+}
+.transMenu .item {
+	FONT-SIZE: 11px; TEXT-TRANSFORM: none; CURSOR: pointer; COLOR: #484848; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: none
+}
+.transMenu .hover.item {
+	BACKGROUND: #f85703; COLOR: #ffffff
+}
+.transMenu .item IMG {
+	MARGIN-LEFT: 10px
+}
+.transMenu .item#active {
+	BACKGROUND: #484848; COLOR: #ffffff
+}
+.transMenu .item#active:hover {
+	BACKGROUND: #484848; COLOR: #ffffff
+}
+#ja-mainnav DIV.transmenu-inner {
+	FLOAT: left
+}
+#ja-transmenu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#ja-transmenu LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#ja-transmenu LI A {
+	PADDING-RIGHT: 20px; DISPLAY: block; PADDING-LEFT: 20px; FONT-WEIGHT: bold; BACKGROUND: url(mainnav-sep.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 7px; MARGIN: 0px; PADDING-TOP: 8px; TEXT-DECORATION: none
+}
+#ja-transmenu LI A SPAN {
+	COLOR: #484848
+}
+#ja-transmenu LI A:hover {
+	BACKGROUND: url(mainnav-sep.gif) no-repeat right top
+}
+A.havechild-mainlevel-trans {
+	BACKGROUND: url(img/arrow-off.gif) no-repeat right center
+}
+A.havechild-mainlevel-active-trans {
+	BACKGROUND: url(mainnav-active-bg.gif) #ffffff no-repeat right bottom
+}
+A.havechild-mainlevel-active-trans:hover {
+	BACKGROUND: url(mainnav-active-bg.gif) #ffffff no-repeat right bottom
+}
+A.havechild-mainlevel-active-trans:active {
+	BACKGROUND: url(mainnav-active-bg.gif) #ffffff no-repeat right bottom
+}
+A.havechild-mainlevel-active-trans:focus {
+	BACKGROUND: url(mainnav-active-bg.gif) #ffffff no-repeat right bottom
+}
+A.jahover {
+	BACKGROUND: url(mainnav-sep.gif) #ffffff no-repeat right top
+}
+A.jahover-active {
+	BACKGROUND: url(mainnav-sep.gif) #ffffff no-repeat right top
+}
+A.mainlevel-trans {
+	
+}
+A.mainlevel-trans:hover {
+	BACKGROUND: url(mainnav-sep.gif) #ffffff no-repeat right top
+}
+A.mainlevel-trans:active {
+	BACKGROUND: url(mainnav-sep.gif) #ffffff no-repeat right top
+}
+A.mainlevel-trans:focus {
+	BACKGROUND: url(mainnav-sep.gif) #ffffff no-repeat right top
+}
+A.mainlevel-active-trans {
+	BACKGROUND: url(mainnav-active-bg.gif) #ffffff no-repeat right bottom
+}
+A.mainlevel-active-trans:hover {
+	BACKGROUND: url(mainnav-active-bg.gif) #ffffff no-repeat right bottom
+}
+A.mainlevel-active-trans:active {
+	BACKGROUND: url(mainnav-active-bg.gif) #ffffff no-repeat right bottom
+}
+A.mainlevel-active-trans:focus {
+	BACKGROUND: url(mainnav-active-bg.gif) #ffffff no-repeat right bottom
+}

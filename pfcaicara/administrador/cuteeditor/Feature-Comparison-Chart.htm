@@ -1,0 +1,373 @@
+<html>
+	<head>
+		<title>PHP WYSIWYG Editor</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<link rel="stylesheet" href="example.css" type="text/css">
+		<style type="text/css">
+		table.Grid
+        {
+        border-width: 5px;
+        border-style: none;
+        background-color: White;
+        border-color: gray;
+        }
+
+        table.Grid TD, table.Grid TH
+        {
+        padding: 4px 6px 4px 6px;
+        border: solid 1px #E1E1E1;
+        vertical-align: top;
+        }
+
+        table.Grid TH
+        {
+        background-color: #E1E1E1;
+        font-weight: normal;
+        color: #505050;
+        }
+		</style>
+	</head>
+	<body>	
+	    <table width="100%">
+		    <tr>
+			    <td>
+			        <a href="default.htm"><img alt="CuteEditor" src="sampleimages/logo.gif" /></a>
+			    </td>
+			    <td align="right">
+				    <a href="http://cutesoft.net/asp/">CuteEditor for ASP</a> |	<a href="http://cutesoft.net">CuteEditor for .NET</a>
+			    </td>
+		    </tr>
+		    <tr>
+		        <td colspan="2" class="topmenu">
+		            <a class="menu" href="default.htm">Home</a>|
+				    <a class="menu" href="demo.htm">Demo</a>|
+				    <a class="menu" href="Deployment.htm">Deployment</a>|	
+				    <a class="menu" href="CommonTasks.htm">Common Tasks</a>|	
+				    <a class="menu" href="http://cutesoft.net/Forums/">Forums</a>|	
+				    <a class="menu" href="Feature-Comparison-Chart.htm">Feature</a>|	
+				    <a class="menu" href="http://phphtmledit.com/Order.php">Order</a>	
+			    </td>
+		    </tr>
+	    </table>
+	    <table style="width:750px;" cellpadding="15">
+			<tr>
+				<td>
+					<h1>Feature Comparison Chart</h1>
+					<br />
+    <table style="border-collapse: collapse" class="Grid" border="0" cellspacing="0" cellpadding="3">
+		<tr bgcolor="#efefef">
+            <td><strong>Miscellaneous Features</strong> </td>
+            <td></td>
+            <td width="*"><strong>Feature Details</strong> </td>
+            <td width="45"><strong>Major Competitors</strong> </td>
+            <td width="30"><strong>CE 6.6</strong> </td>
+        </tr>
+        <tr>
+            <td>Clean, lightweight and extremely fast loading </td>
+            <td><img alt="extremely fast loading" src="sampleimages/fast-loading.gif" border="0" /> </td>
+            <td>Numerous optimization methods have been applied. It's clean, compact, extremely fast-loading, but still powerful and efficient. </td>
+            <td></td>
+            <td><img alt="" src="sampleimages/check.gif" /> </td>
+        </tr>
+        <tr>
+            <td>Cross Browser Support </td>
+            <td><img alt="cross browser support" src="sampleimages/cross-browser-cross-platform.gif" width="120" border="0" /> </td>
+            <td>Cute Editor for .NET supports all Internet Explorer versions from 5.5 up on Windows, and Netscape 7.1, Mozilla 1.4, Opera 9.x, Safari (1.3+) or any other browser with an equivalent gecko layout engine on any platform where these browsers are available. This includes Macintosh and Linux. </td>
+            <td>None or limited </td>
+            <td><img src="sampleimages/check.gif"  alt="" /> </td>
+        </tr>
+         <tr>
+			<td>Advanced file upload function</td>
+			<td>
+			  <img alt="PHP upload" src="sampleimages/php-upload.gif" width="120" />
+			</td>
+			<td>
+			 We integrate a hi-performance PHP upload component - <a href="http://phpfileuploader.com/" target="_blank">PHP uploader</a> into Cute Editor. PHP Uploader allows you to select and upload multiple files at once. It also supports client side validation of the file size/type before uploading.
+			</td>
+			<td></td>
+			<td>
+          <img src="sampleimages/check.gif"  alt="" />
+			</td>
+		  </tr>
+
+      <tr>
+        <td>Fully customizable interface</td>
+        <td>
+          <img alt="customizable interface" src="sampleimages/120-customizable-interface.gif" width="120" />
+        </td>
+        <td>
+          Show only buttons and functions your users use and hide the rest.
+          Fully customizable with CSS to fit your tastes.
+          You can create your own buttons and popup windows.
+        </td>
+        <td>Varies </td>
+        <td>
+          <img src="sampleimages/check.gif"  alt="" />
+        </td>
+      </tr>
+      <tr>
+        <td>Unlimited levels of the undo/redo </td>
+        <td>
+          <img alt="Unlimited levels of the undo/redo feature" src="sampleimages/undo-redo-feature.gif" width="120" />
+        </td>
+        <td>Many of the other editors on the market cannot undo or redo certain actions, and certain table operations - such as cell merge or column deletion. Cute Editor 4.0 has a new custom undo/redo implementation to make you can now safely undo those actions. </td>
+        <td>None or limited </td>
+        <td>
+          <img src="sampleimages/check.gif"  alt="" />
+        </td>
+      </tr>
+      <tr>
+        <td>CSS-based Skinning </td>
+        <td></td>
+        <td>Cute Editor provides several built in themes that are ready to use. Developers can completely change the appearance of the toolbar and the dialogs by simply modifying the supplied classes and images. </td>
+        <td>None or limited </td>
+        <td>
+          <img src="sampleimages/check.gif"  alt="" />
+        </td>
+      </tr>
+      <tr>
+        <td>Style Builder Dialog Box </td>
+        <td>
+          <img height="63" alt="Style Builder Dialog Box" src="sampleimages/Style-Builder-Dialog.gif" width="120" />
+        </td>
+        <td>With Style builder dialog box you can apply CSS style attributes directly to any HTML elements on your Web page. </td>
+        <td></td>
+        <td>
+          <img src="sampleimages/check.gif"  alt="" />
+        </td>
+      </tr>
+      <tr>
+        <td>Content management with templates </td>
+        <td>
+          <img alt="Content management with templates" src="sampleimages/120-Conten_management_with_templates.gif" />
+        </td>
+        <td>The basic idea behind a Content Management System (CMS) is to separate the management of content from design. Cute Editor allows the site designer to easily create and establish templates to give the site a uniform look. Templates may be modified when desired. </td>
+        <td></td>
+        <td>
+          <img src="sampleimages/check.gif"  alt="" />
+        </td>
+      </tr>
+      <tr>
+        <td>Use MaxHTMLLength or MaxTextLength to Protect Your Database </td>
+        <td>
+          <img height="60" alt="Use MaxHTMLLength or MaxTextLength" src="sampleimages/120-MaxHTMLLength.gif" width="120" />
+        </td>
+        <td>If you tried to insert a record whose text length is greater than allowed by your table, an error will be reported. To prevent this type of error from occurring, developers can use MaxHTMLLength or MaxTextLength in the Cute Editor to limit the length of the user's input. </td>
+        <td></td>
+        <td>
+          <img src="sampleimages/check.gif"  alt="" />
+        </td>
+      </tr>
+      <tr>
+        <td>Multi-culture support, Easy localization through XML </td>
+        <td>
+          <img height="60" alt="Multi-culture support" src="sampleimages/Multi-culture-support.gif" width="120" />
+        </td>
+        <td>All labels, buttons, tooltips and messages are located in external XML files, so that the language of the editor can be switched with a single property. You can also create a new language in a matter of minutes. </td>
+        <td>Varies </td>
+        <td>
+          <img src="sampleimages/check.gif"  alt="" />
+        </td>
+      </tr>
+      <tr>
+        <td>Support complete page editing (from &lt;HTML&gt; to &lt;/HTML&gt;) </td>
+        <td>
+          <img height="60" alt="complete web page editing" src="sampleimages/complete-web-page-editing.gif" width="120" />
+        </td>
+        <td>Cute Editor 4.0 allows you to edit a full HTML page, including &lt;title&gt;, &lt;!DOCTYPE...&gt; and some other options. You can also insert Form elements (checkbox, button, textarea, etc.) and modify certain properties of the element. </td>
+        <td>None or limited </td>
+        <td>
+          <img src="sampleimages/check.gif"  alt="" />
+        </td>
+      </tr>
+      <tr>
+        <td>Single line returns on enter Key press </td>
+        <td></td>
+        <td>Most other editors insert double line returns which can be annoying for clients who are used to editing in Microsoft Word. CuteEditor can be configured to use &lt;div&gt;, &lt;br&gt; or &lt;p&gt; tags when you press enter. In either mode &lt;br&gt; tags can be created by using shift+enter. </td>
+        <td>None or limited </td>
+        <td>
+          <img src="sampleimages/check.gif"  alt="" />
+        </td>
+      </tr>
+      <tr>
+        <td>Universal and Virtual keyboard </td>
+        <td>
+          <img height="83" alt="Universal and Virtual keyboard" src="sampleimages/120-Universal-keyboard.gif" width="120" />
+        </td>
+        <td>Virtual Keyboard does not require changes to language settings of your system and even speeds up the entire text input process for your customers. It lets your native speaking clients to access your web resources from any location in the world without changing national keyboard layouts and fonts on their machines. </td>
+        <td></td>
+        <td>
+          <img src="sampleimages/check.gif"  alt="" />
+        </td>
+      </tr>
+      <tr>
+        <td>Full-Screen editing support </td>
+        <td></td>
+        <td>It does not open a new window, instead it will resize to fit the browser screen. Edit in full screen mode, maximizing your available space. </td>
+        <td></td>
+        <td>
+          <img src="sampleimages/check.gif"  alt="" />
+        </td>
+      </tr>
+        <tr>
+            <td>Support HTML code indentation and Tags appear in lower case </td>
+            <td></td>
+            <td>Cute Editor displays nicely indented code in the HTML mode and the generating HTML tags and Attributes are in lower case. This is very convenient and important for the advanced users. </td>
+            <td></td>
+            <td><img src="sampleimages/check.gif"  alt="" /> </td>
+        </tr>
+        <tr>
+            <td>Advanced table manager </td>
+            <td></td>
+            <td>Create and modify tables and table cells. Set their border color, alignment, cellspacing and more! Once you've created a table, simply right click inside of it and use the handy popup menu to change its attributes.&nbsp; &lt;caption&gt;,&lt;summary&gt;,&lt;thead&gt;,&lt;tfoot&gt;,&lt;th&gt; tags are supported. </td>
+            <td>None or limited </td>
+            <td><img src="sampleimages/check.gif"  alt="" /> </td>
+        </tr>
+        <tr>
+            <td>&lt;div&gt; Box Formatting </td>
+            <td><img height="68" alt="
+            <div /> Box Formatting" src="sampleimages/120-box-formatting.gif" width=120> </td>
+            <td>&lt;div&gt; boxes offer a much greater ability to control the layout of a page. With CuteEditor, you can put any content between &lt;div&gt; tags and then use CSS to style all sorts of borders, backgrounds, etc. </td>
+            <td></td>
+            <td><img src="sampleimages/check.gif"  alt="" /> </td>
+        </tr>
+        <tr>
+            <td>Use External CSS Files </td>
+            <td></td>
+            <td>Editor.EditorWysiwygModeCss Property allows you specify the location of the style sheet that will be used by the editable area. Multiple Style Sheets are supported. <br />
+            Example:<br />
+            EditorWysiwygModeCss="example.css,~/portal.css,/default.css </td>
+            <td>Varies </td>
+            <td><img src="sampleimages/check.gif"  alt="" /> </td>
+        </tr>
+      <tr>
+        <td>Built-in Tag Selector</td>
+        <td>
+          <img alt="Tag Selector" src="sampleimages/120-tag-selector.gif" width="120" />
+        </td>
+        <td>
+          Easily select any HTML elements (text, paragraph, images, etc.) with a built-in Tag Selector.
+        </td>
+        <td>Varies </td>
+        <td>
+          <img src="sampleimages/check.gif"  alt="" />
+        </td>
+      </tr>
+        <tr>
+            <td>Paste clean HTML from Microsoft Word </td>
+            <td></td>
+            <td>When text is pasted from <strong>Microsoft Word</strong> allot of unnecessary word specific markup is carried across. This can result in web pages that take an unnecessarily long time to download. The Paste from Word button solves this by removing word markup before pasting the text into your page. </td>
+            <td>Varies </td>
+            <td><img src="sampleimages/check.gif"  alt="" /> </td>
+        </tr>
+        <tr bgcolor="#cccccc">
+            <td><strong>Image management</strong> </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Max File size upload</td>
+            <td></td>
+            <td>You can place limits on the file size, height, and width of images that you and your users can upload. You can choose to <strong>auto-resize the over-sized images</strong>. You may also specify a list of file extensions which are allowed to be uploaded. </td>
+            <td>None or limited </td>
+            <td><img src="sampleimages/check.gif"  alt="" /> </td>
+        </tr>
+        <tr>
+            <td>Powerful image gallery </td>
+            <td><img alt="Powerful image gallery" src="sampleimages/s-image-gallery.jpg" width="120" /> </td>
+            <td>Built-in thumbnail generator. Thumbnail images are dynamically created; View, Insert, Copy, Rename, or Delete images.Create, rename and delete image directories. </td>
+            <td>None or limited </td>
+            <td><img src="sampleimages/check.gif"  alt="" /> </td>
+        </tr>
+        <tr bgcolor="#cccccc">
+            <td><strong>Link management</strong> </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Relative or Absolute URLs </td>
+            <td></td>
+            <td>With Cute Editor, you have the choice of using either a relative or absolute URL. </td>
+            <td>None or limited </td>
+            <td><img src="sampleimages/check.gif"  alt="" /> </td>
+        </tr>
+        <tr>
+            <td>Anchor/bookmark support </td>
+            <td></td>
+            <td>Anchors can be added, edited and removed anywhere within the content of the editor. When creating hyperlinks all anchors present in the content will dynamically show up in the hyperlink window. </td>
+            <td></td>
+            <td><img src="sampleimages/check.gif"  alt="" /> </td>
+        </tr>
+        <tr>
+            <td>Clickable Image Maps </td>
+            <td><img alt="Clickable Image Maps" src="sampleimages/120-image-map.jpg" width="120" /> </td>
+            <td>Image maps are pictures with clickable regions also known as "hotspots." When users click on one of the hotspots, they're directed to the page you designate. CuteEditor 5.2 lets you easily create image maps to add fun and excitement to a page. </td>
+            <td></td>
+            <td><img src="sampleimages/check.gif"  alt="" /> </td>
+        </tr>
+        <tr>
+            <td>Downloadable files support </td>
+            <td></td>
+            <td>You can upload document files, create a link from your HTML content to the document files (zip files, ppt files...). </td>
+            <td>None or limited </td>
+            <td><img src="sampleimages/check.gif"  alt="" /> </td>
+        </tr>
+        <tr bgcolor="#cccccc">
+            <td><strong>Web Standards Support</strong> </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Compliant with the web standards, no deprecated tags such as &lt;FONT&gt; anymore </td>
+            <td><img height="60" alt="no deprecated tags such as FONT anymore" src="sampleimages/120-nofont.gif" width="120" /> </td>
+            <td>Does your online html editor still use deprecated tags such as &lt;FONT&gt;? Cute Editor will help you build sites that adhere to the latest HTML standards, generates clean HTML/XHTML code with no deprecated tags. </td>
+            <td>None or limited </td>
+            <td><img src="sampleimages/check.gif"  alt="" /> </td>
+        </tr>
+        <tr>
+            <td>Output HTML or well-formed XHTML to your choice </td>
+            <td><img height="60" alt="Output HTML or well-formed XHTML to your choice" src="sampleimages/well-formed-XHTML.gif" width="120" /> </td>
+            <td>Cute Editor supports output well-formed XHTML. Your choice of XHTML 1.0 or HTML 4.01 output. </td>
+            <td></td>
+            <td><img src="sampleimages/check.gif"  alt="" /> </td>
+        </tr>
+        <tr bgcolor="#cccccc">
+            <td><strong>Accessibility Support</strong> </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td noWrapwidth="158">Support accessibility according to W3C WAI and section 508 accessibility guidelines. </td>
+            <td><img height="60" alt="Section 508 accessibility support" src="sampleimages/120-section_508.gif" width="120" /> </td>
+            <td>Cute Editor optional accessibility settings ensure your site complies with Section 508, so people with disabilities can have full access to your content.
+            <p>&nbsp;</p>
+            <p>&lt;caption&gt;,&lt;summary&gt;,&lt;thead&gt;,&lt;tfoot&gt;,&lt;th&gt; tags are supported. </p>
+            </td>
+            <td>None or limited </td>
+            <td><img src="sampleimages/check.gif"  alt="" /> </td>
+        </tr>
+        <tr>
+            <td>Long Description Names </td>
+            <td><img alt="Long Description Names" src="sampleimages/Long-Description.gif" width="120" /> </td>
+            <td>Sometimes you may need to provide more explanation or content than is suitable for alt text. In these cases, you can use the long description (longdesc) attribute for the IMG element. </td>
+            <td>Varies </td>
+            <td><img src="sampleimages/check.gif"  alt="" /> </td>
+        </tr>
+</table>
+
+				</td>
+			</tr>
+		</table>
+	<div id="footer">
+		<p><a href="http://cutesoft.net">Copyright 2003-2011 CuteSoft.Net. All rights reserved.</a></p>
+	</div>
+</body>
+</html>

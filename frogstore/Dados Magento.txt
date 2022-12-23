@@ -1,0 +1,12 @@
+Magento
+
+Página Principal
+
+www.bridgestoneloja.com.br
+
+Administração
+
+http://bridgestoneloja.com.br/index.php/admin/
+
+Username: admin
+Password: d7IrqCfftjM3q5ud

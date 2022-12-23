@@ -1,0 +1,991 @@
+strong {
+	font-weight: bold;
+}
+b {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+i {
+	font-style: italic;
+}
+* {
+	margin: 0px; padding: 0px; font-family: arial !important;
+}
+a {
+	text-decoration: none; cursor: pointer;
+}
+body {
+	background: url("main-background.jpg") repeat-x left top rgb(0, 84, 166);
+}
+body.estilo2 {
+	background: url("main-background-2.jpg") repeat-x left top rgb(0, 84, 166);
+}
+body.estilo3 {
+	background: url("main-background-3.jpg") repeat-x left top rgb(0, 71, 123);
+}
+body.estilo4 {
+	background: url("main-background-4.jpg") repeat-x left top rgb(109, 93, 191);
+}
+.main-container {
+	background: url("main-top.jpg") no-repeat top; margin: 0px auto 15px; width: 960px; height: 100%; padding-top: 95px;
+}
+.estilo2 .main-container {
+	
+}
+.estilo3 .main-container {
+	
+}
+.estilo4 .main-container {
+	
+}
+.main-top-border {
+	background: url("main-top-border.png") no-repeat left top; width: 100%; height: 100%; padding-top: 10px;
+}
+.main-shadow-left {
+	background: url("main-shadow-left.png") repeat-y left top; width: 100%; height: 100%;
+}
+.main-shadow-left .main-shadow-right {
+	background: url("main-shadow-right.png") repeat-y right top; width: 100%; height: 100%;
+}
+.content {
+	margin: 0px auto; width: 950px; height: 100%; position: relative;
+}
+.content .height-clear {
+	background: url("content-white-background.gif") repeat-y left top; margin: 10px 0px 10px 10px; float: left; _margin-left: 5px;
+}
+.content .height-clear .boxes-container {
+	padding: 0px 10px 0px 0px;
+}
+.header {
+	background: url("header-background.jpg") repeat-x left top; width: 100%; height: 85px; position: relative;
+}
+.header .header-logo-container {
+	left: 10px; top: -73px; width: 176px; height: 132px; position: absolute;
+}
+.header #main-menu {
+	top: -20px; height: 50px; margin-left: 213px; display: none; position: absolute;
+}
+.header #main-menu img {
+	padding-right: 10px;
+}
+.header .sub-menu {
+	height: 40px; margin-left: 200px;
+}
+.header .sub-menu #estacao-container {
+	width: 110px; height: 37px; color: rgb(33, 64, 154); font-size: 11px; border-left-color: rgb(237, 28, 36); border-left-width: 1px; border-left-style: solid; float: left; display: none; cursor: default;
+}
+.header .sub-menu #estacao-container .estacao {
+	background: url("estacoes-bg.jpg") repeat-x; width: 100px; height: 37px; color: rgb(33, 64, 154); padding-left: 10px; font-size: 11px; float: left; cursor: default;
+}
+.header .sub-menu #estacao-container .estacao .numero {
+	letter-spacing: -1px; font-size: 18px;
+}
+.header .sub-menu .button-wrap {
+	margin-left: 60px; float: left;
+}
+.header .sub-menu .button-wrap .sub-menu-button {
+	background: url("sub-menu-button-background.jpg") no-repeat left top; width: 216px; height: 37px; float: left; display: block;
+}
+.header .sub-menu .social {
+	list-style: none; padding-top: 8px; float: left;
+}
+.header .sub-menu .social li {
+	padding-left: 20px; float: left;
+}
+.header .sub-menu .social li a {
+	height: 22px; text-indent: 20000px; display: block;
+}
+.header .sub-menu .social li a.orkut {
+	background: url("social-orkut.png") no-repeat left top; width: 50px;
+}
+.header .sub-menu .social li a.facebook {
+	background: url("social-facebook.png") no-repeat left top; width: 78px;
+}
+.header .sub-menu .social li a.youtube {
+	background: url("social-youtube.png") no-repeat left top; width: 50px;
+}
+.header .sub-menu .social li a.twitter {
+	background: url("social-twitter.png") no-repeat left top; width: 83px;
+}
+
+.inner-content .boxes-container {
+	padding: 10px; width: 725px; height: 100%; overflow: hidden; float: left;
+}
+.inner-content .boxes-container-index {
+	width: 755px !important;
+}
+.inner-content .boxes-container .column {
+	width: 235px; margin-right: 10px; float: left;
+}
+.box-preta {
+	background: #000C38; color: rgb(255, 255, 255);
+}
+.box-preta .title-container .title {
+	color: rgb(237, 28, 36);
+}
+.box-preta .title-container .title a {
+	color: rgb(237, 28, 36);
+}
+.box-preta .title-container .title .subtitle {
+	color: rgb(255, 255, 255);
+}
+.box-preta .title-container .title .subtitle a {
+	color: rgb(255, 255, 255);
+}
+.box-preta .box-image-container {
+	overflow: hidden; border-top-color: #675E88; border-bottom-color: #675E88; border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; float: left;
+}
+.box-preta .box-image-container img {
+	border-top-color: rgb(68, 68, 70); border-top-width: 1px; border-top-style: solid;
+}
+.box-preta .box-image-container .caption {
+	width: 185px; height: 40px; color: rgb(0, 0, 0); padding-left: 60px; font-size: 11px; margin-top: -40px; float: left;
+}
+.box-preta .top-item .caption {
+	width: 185px; height: 40px; color: rgb(0, 0, 0); padding-left: 60px; font-size: 11px; margin-top: -40px; float: left;
+}
+.box-preta .top-item .caption {
+	color: rgb(255, 255, 255); margin-top: 0px;
+}
+.box-preta .top-item .caption .artista {
+	color: rgb(137, 137, 137);
+}
+.box-preta .box-image-container .caption .artista {
+	font-weight: bold; margin-top: 7px;
+}
+.box-preta .top-item .caption .artista {
+	font-weight: bold; margin-top: 7px;
+}
+.box-preta #top-1 {
+	background: url("top-1.png") no-repeat left top;
+}
+.box-preta #top-2 {
+	background: url("top-2.png") no-repeat left top;
+}
+.box-preta #top-3 {
+	background: url("top-3.png") no-repeat left top;
+}
+.box-preta #top-4 {
+	background: url("top-4.png") no-repeat left top;
+}
+.box-preta #top-5 {
+	background: url("top-5.png") no-repeat left top;
+}
+.box-preta #top-6 {
+	background: url("top-6.png") no-repeat left top;
+}
+.box-preta #top-7 {
+	background: url("top-7.png") no-repeat left top;
+}
+.box-preta #top-8 {
+	background: url("top-8.png") no-repeat left top;
+}
+.box-preta #top-9 {
+	background: url("top-9.png") no-repeat left top;
+}
+.box-preta #top-10 {
+	background: url("top-10.png") no-repeat left top; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.box-preta #top-1-over .caption {
+	background: url("top-1-over.png") no-repeat left top;
+}
+.box-preta #top-2-over .caption {
+	background: url("top-2-over.png") no-repeat left top;
+}
+.box-preta #top-3-over .caption {
+	background: url("top-3-over.png") no-repeat left top;
+}
+.box-preta #top-4-over .caption {
+	background: url("top-4-over.png") no-repeat left top;
+}
+.box-preta #top-5-over .caption {
+	background: url("top-5-over.png") no-repeat left top;
+}
+.box-preta #top-6-over .caption {
+	background: url("top-6-over.png") no-repeat left top;
+}
+.box-preta #top-7-over .caption {
+	background: url("top-7-over.png") no-repeat left top;
+}
+.box-preta #top-8-over .caption {
+	background: url("top-8-over.png") no-repeat left top;
+}
+.box-preta #top-9-over .caption {
+	background: url("top-9-over.png") no-repeat left top;
+}
+.box-preta #top-10-over .caption {
+	background: url("top-10-over.png") no-repeat left top;
+}
+.box-preta .top-item {
+	width: 235px; height: 40px; border-top-color: rgb(70, 70, 70); border-bottom-color: #675E88; border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; float: left;
+}
+.box-preta .item-top {
+	overflow: hidden; float: left;
+}
+.box-preta .item-top .item-top-button {
+	background: url("top-item-button.png") no-repeat left top; width: 18px; height: 18px; margin-top: -23px; margin-right: 10px; float: right; display: block;
+}
+.box-preta .top-over {
+	display: none;
+}
+.box-preta .top-over .top-over-button {
+	background: url("top-item-button.png") no-repeat left top; width: 18px; height: 18px; margin-top: -23px; margin-right: 10px; float: right; display: block;
+}
+.box-preta .top-hidden {
+	display: none;
+}
+.box-preta .top-over-showing {
+	display: block; _height: 120px;
+}
+.box-verde {
+	background: rgb(141, 199, 63); color: rgb(27, 38, 24);
+}
+.box-verde a {
+	color: rgb(27, 38, 24);
+}
+.box-verde .title-container .title {
+	color: rgb(3, 84, 129);
+}
+.box-verde .title-container .title a {
+	color: rgb(3, 84, 129);
+}
+.box-verde .title-container .title .subtitle {
+	color: rgb(255, 255, 255);
+}
+.box-verde .title-container .title .subtitle a {
+	color: rgb(255, 255, 255);
+}
+.box-verde .item-container {
+	border-top-color: rgb(108, 163, 36); border-bottom-color: rgb(161, 217, 80); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.box-verde .item-container .item {
+	border-top-color: rgb(161, 217, 80); border-bottom-color: rgb(108, 163, 36); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.box-verde .item-container .alt-bg {
+	background: rgb(165, 235, 105);
+}
+.box-verde .item-container .item .data {
+	color: rgb(255, 255, 255);
+}
+.box-roxa {
+	background: rgb(102, 46, 147); color: rgb(255, 255, 255);
+}
+.box-roxa a {
+	color: rgb(255, 255, 255);
+}
+.box-roxa .item-container {
+	border-top-color: rgb(68, 17, 96); border-bottom-color: rgb(141, 85, 186); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.box-roxa .item-container .item {
+	border-top-color: rgb(141, 85, 186); border-bottom-color: rgb(68, 17, 96); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.box-roxa .item-container .alt-bg {
+	background: rgb(121, 65, 162);
+}
+.box-fotos {
+	background: rgb(0, 84, 165); width: 100% !important; color: rgb(255, 255, 255);
+}
+.box-fotos a {
+	color: rgb(255, 255, 255);
+}
+.box-fotos .title-container .title {
+	color: rgb(255, 255, 255);
+}
+.box-fotos .title-container .title a {
+	color: rgb(255, 255, 255);
+}
+.box-fotos .title-container .title .subtitle {
+	color: rgb(255, 255, 255);
+}
+.box-fotos .title-container .title .subtitle a {
+	color: rgb(255, 255, 255);
+}
+.box-vermelha {
+	background: rgb(238, 28, 37); color: rgb(255, 255, 255);
+}
+.box-vermelha a {
+	color: rgb(255, 255, 255);
+}
+.box-vermelha .title-container .title {
+	color: rgb(255, 255, 255);
+}
+.box-vermelha .title-container .title a {
+	color: rgb(255, 255, 255);
+}
+.box-vermelha .title-container .title .subtitle {
+	color: rgb(255, 255, 255);
+}
+.box-vermelha .title-container .title .subtitle a {
+	color: rgb(255, 255, 255);
+}
+.box-marinho {
+	background: rgb(0, 169, 156); color: rgb(255, 255, 255);
+}
+.box-marinho a {
+	color: rgb(255, 255, 255);
+}
+.box-marinho .title-container .title {
+	color: rgb(3, 68, 134);
+}
+.box-marinho .title-container .title a {
+	color: rgb(3, 68, 134);
+}
+.box-marinho .title-container .title .subtitle {
+	color: rgb(255, 255, 255);
+}
+.box-marinho .title-container .title .subtitle a {
+	color: rgb(255, 255, 255);
+}
+.box-amarela {
+	background: rgb(255, 204, 0); color: rgb(255, 255, 255);
+}
+.box-amarela a {
+	color: rgb(255, 255, 255);
+}
+.box-amarela .title-container .title {
+	color: rgb(9, 71, 132);
+}
+.box-amarela .title-container .title a {
+	color: rgb(9, 71, 132);
+}
+.box-amarela .title-container .title .subtitle {
+	color: rgb(255, 255, 255);
+}
+.box-amarela .title-container .title .subtitle a {
+	color: rgb(255, 255, 255);
+}
+.box-pastel {
+	background: rgb(240, 185, 120); color: #675E88;
+}
+.box-pastel a {
+	color: #675E88;
+}
+.box-pastel .title-container .title {
+	color: rgb(4, 77, 132);
+}
+.box-pastel .title-container .title a {
+	color: rgb(4, 77, 132);
+}
+.box-pastel .title-container .title .subtitle {
+	color: rgb(255, 255, 255);
+}
+.box-pastel .title-container .title .subtitle a {
+	color: rgb(255, 255, 255);
+}
+.box {
+	width: 235px; overflow: hidden; font-size: 12px; margin-bottom: 10px;
+}
+.box .title-container {
+	margin: 10px 20px; cursor: default;
+}
+.box .title-container .title {
+	letter-spacing: -1px; padding-left: 40px; font-size: 18px;
+}
+.box .title-container .title .subtitle {
+	letter-spacing: normal; font-size: 11px;
+}
+.box .box-image-container img {
+	width: 100%; height: 120px; float: left;
+}
+.box .box-image-container .object-holder {
+	height: 161px; border-top-color: rgb(68, 68, 70); border-bottom-color: #675E88; border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.box-vermelha .box-image-container {
+	height: 145px; overflow: hidden; border-top-color: rgb(153, 0, 3); border-bottom-color: rgb(219, 102, 108); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.box-vermelha .box-image-container img {
+	height: 100%; border-top-color: rgb(222, 102, 114); border-bottom-color: rgb(153, 0, 3); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.box-marinho .box-image-container {
+	border-top-color: rgb(1, 125, 117); border-top-width: 1px; border-top-style: solid;
+}
+.box-marinho .box-image-container img {
+	border-top-color: rgb(69, 216, 200); border-top-width: 1px; border-top-style: solid;
+}
+.box .top-10 {
+	background: url("top10.png") no-repeat left;
+}
+.box .youtube-da-alegria {
+	background: url("youtubedaalegria.png") no-repeat left;
+}
+.box .amo-meu-artista {
+	background: url("amomeuartista.png") no-repeat left;
+}
+.box .noticias {
+	background: url("noticias.png") no-repeat left;
+}
+.box .agenda {
+	background: url("agenda.png") no-repeat left;
+}
+.box .promocoes {
+	background: url("promocoes.png") no-repeat left;
+}
+.box .fotos-da-alegria {
+	background: url("fotosdaalegria.png") no-repeat left;
+}
+.box .estudio {
+	background: url("radioonline.png") no-repeat left;
+}
+.box .aniversario {
+	background: url("aniversarioaovivo.png") no-repeat left;
+}
+.box .mural {
+	background: url("muraldocoracao.png") no-repeat left;
+}
+.box .papel-de-parede {
+	background: url("papeldeparede.jpg") no-repeat left top;
+}
+.box .buscar-no-site {
+	background: url("buscanosite.jpg") no-repeat left top;
+}
+.box .departamento-comercial {
+	background: url("departamentocomercial.jpg") no-repeat left top; padding-left: 36px !important;
+}
+.twitter-box .title {
+	background: url("twitter.jpg") no-repeat left;
+}
+.banner-container {
+	background: url("banner-container-background.jpg") repeat-x left top rgb(121, 179, 248); width: 100%; height: 270px;
+}
+.banner-container .slider {
+	background: url("banner-container-shadow-top.jpg") repeat-x left top; margin: 0px auto; width: 930px; height: 255px; padding-top: 2px;
+}
+.banner-container .slider #images {
+	width: 100%; height: 225px; overflow: hidden;
+}
+.banner-container .slider .caption-left {
+	background: url("banner-caption-left.jpg") no-repeat left top; width: 100%; height: 35px;
+}
+.banner-container .slider .caption-right {
+	background: url("banner-caption-right.jpg") no-repeat right top; width: 100%; height: 35px;
+}
+.banner-container .slider .caption-right .caption {
+	background: url("banner-caption-background.jpg") repeat-x left top; margin: 0px auto; width: 920px; height: 35px;
+}
+.banner-container .slider .caption-right .caption #banner-caption-text {
+	padding: 10px 0px 0px 13px; color: rgb(17, 17, 17); font-size: 12px; float: left; cursor: default; text-shadow: #fff 0 1px 0;
+}
+.banner-container .slider .caption-right .caption #slider-nav {
+	padding: 7px 3px 0px 0px; font-size: 11px; float: right;
+}
+.banner-container .slider .caption-right .caption #slider-nav a {
+	background: rgb(255, 255, 255); width: 20px; height: 17px; text-align: center; color: #675E88; padding-top: 3px; margin-left: 3px; float: left; display: block; -moz-border-radius: 4px;
+}
+.banner-container .slider .caption-right .caption #slider-nav a.activeSlide {
+	background: rgb(123, 179, 238); font-weight: bold;
+}
+.banner-container .slider #images img {
+	width: 930px; height: 225px;
+}
+.footer-banner {
+	left: 20px; width: 100px; height: 250px; bottom: 3px; float: left; position: absolute;
+}
+.footer-bottom {
+	background: url("footer-bottom.png") no-repeat left bottom; padding-bottom: 7px;
+}
+.footer {
+	background: url("main-shadow-bottom.png") repeat-x left top rgb(122, 179, 248); padding: 20px 25px 10px; width: 900px; overflow: hidden;
+}
+.footer * {
+	color: rgb(42, 62, 86);
+}
+.footer .column {
+	padding-right: 45px; float: left;
+}
+.footer h1 {
+	background: url("footer-logo.jpg") no-repeat left top; width: 77px; height: 36px; text-indent: -2000000px;
+}
+.footer .estacoes {
+	width: 75px; padding-top: 7px; font-size: 9px; cursor: default;
+}
+.footer .estacoes .estacao {
+	letter-spacing: -1px; font-size: 15px; font-weight: bold;
+}
+.footer .estacoes li {
+	text-align: right; padding-bottom: 15px;
+}
+.footer .links {
+	font-size: 11px;
+}
+.footer .links li {
+	padding-bottom: 6px;
+}
+.footer .label-enderecos {
+	font-size: 11px; font-weight: bold; margin-top: 5px; margin-left: 174px; float: left; cursor: default;
+}
+.footer .label-enderecos li {
+	padding-bottom: 35px;
+}
+.footer .enderecos {
+	width: 235px; font-size: 11px; float: right; cursor: default;
+}
+.footer .enderecos li.first {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+.footer .enderecos li {
+	padding: 3px 0px; border-top-color: rgb(162, 204, 255); border-bottom-color: rgb(57, 112, 177); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.footer .enderecos li.last {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.footer .copyright {
+	color: rgb(161, 202, 250); overflow: hidden; padding-top: 10px; margin-left: 120px; float: left;
+}
+.footer .copyright .imdt-logo {
+	background: url("footer-imdt-logo.jpg") no-repeat left top; width: 21px; height: 10px; float: left; display: block;
+}
+.footer .copyright .cr-text {
+	color: rgb(161, 202, 250); padding-left: 12px; font-size: 9px; float: left; cursor: default;
+}
+.corner {
+	width: 100%; height: 100%; overflow: hidden; background-image: url("border.jpg"); background-repeat: no-repeat;
+}
+.corner-tl {
+	
+}
+.corner-tr {
+	background-position: right top;
+}
+.corner-bl {
+	background-position: left bottom;
+}
+.corner-br {
+	background-position: right bottom;
+}
+.box .more-button {
+	margin: 10px 10px 10px 0px; float: right;
+}
+.box .more-button a {
+	padding: 2px 12px 0px; height: 16px; font-size: 11px; display: block;
+}
+.box-preta .more-button {
+	background: rgb(0, 0, 0);
+}
+.box-preta .more-button a {
+	color: rgb(255, 255, 255);
+}
+.box-verde .more-button {
+	background: rgb(89, 133, 38);
+}
+.box-verde .more-button a {
+	color: rgb(255, 255, 255);
+}
+.box-roxa .more-button {
+	background: rgb(62, 18, 97);
+}
+.box-roxa .more-button a {
+	color: rgb(255, 255, 255);
+}
+.box-fotos .more-button {
+	background: rgb(4, 58, 120);
+}
+.box-fotos .more-button a {
+	color: rgb(255, 255, 255);
+}
+.box-vermelha .more-button {
+	background: rgb(156, 10, 13);
+}
+.box-vermelha .more-button a {
+	color: rgb(255, 255, 255);
+}
+.box-amarela .more-button {
+	background: rgb(194, 169, 15);
+}
+.box-amarela .more-button a {
+	color: rgb(255, 255, 255);
+}
+.box-pastel .more-button {
+	background: rgb(230, 147, 51);
+}
+.box-pastel .more-button a {
+	color: rgb(255, 255, 255);
+}
+.twitter-box .more-button {
+	background: rgb(67, 153, 188);
+}
+.twitter-box .more-button a {
+	color: rgb(255, 255, 255);
+}
+.box-roxa .more-button .corner {
+	background-image: url("border-box-roxa.jpg"); background-repeat: no-repeat;
+}
+.box-verde .more-button .corner {
+	background-image: url("border-box-verde.jpg"); background-repeat: no-repeat;
+}
+.box-preta .more-button .corner {
+	background-image: url("border-box-preta.jpg"); background-repeat: no-repeat;
+}
+.box-fotos .more-button .corner {
+	background-image: url("border-box-fotos.jpg"); background-repeat: no-repeat;
+}
+.box-vermelha .more-button .corner {
+	background-image: url("border-box-vermelha.jpg"); background-repeat: no-repeat;
+}
+.box-amarela .more-button .corner {
+	background-image: url("border-box-amarela.jpg"); background-repeat: no-repeat;
+}
+.twitter-box .more-button .corner {
+	background-image: url("border-box-twitter.jpg"); background-repeat: no-repeat;
+}
+.box-amarela .data-container .corner {
+	background-image: url("border-box-amarela.jpg"); background-repeat: no-repeat;
+}
+.box-pastel .more-button .corner {
+	background-image: url("border-box-pastel.jpg"); background-repeat: no-repeat;
+}
+.box-pastel .mural-coracao .corner {
+	background-image: url("border-box-pastel.jpg"); background-repeat: no-repeat;
+}
+.box-preta .more-button .corner-tl {
+	
+}
+.box-preta .more-button .corner-tr {
+	background-position: right top;
+}
+.box-preta .more-button .corner-bl {
+	background-position: left bottom;
+}
+.box-preta .more-button .corner-br {
+	background-position: right bottom;
+}
+.box-image-container .artista-label {
+	padding: 10px 0px; width: 100%; text-align: center; font-size: 11px; font-weight: bold; float: left;
+}
+.box-preta .alt-bottom-border {
+	border-bottom-color: rgb(70, 70, 70); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.box-preta .bottom-border {
+	border-bottom-color: #675E88; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.box .item-container {
+	_float: left;
+}
+.box .item-container .item {
+	padding: 10px 20px; overflow: hidden; font-size: 11px; _float: left;
+}
+.box .item-container .item .data {
+	font-weight: bold; float: left;
+}
+.box .item-container .item .texto {
+	width: 170px; float: right;
+}
+.fotos-wrap {
+	width: 500px; overflow: hidden; margin-right: 10px; float: left;
+}
+.last-column {
+	margin-right: 0px !important;
+}
+.box-fotos .box-image-container {
+	width: 235px; border-top-color: rgb(0, 59, 111); border-top-width: 1px; border-top-style: solid; float: left;
+}
+.box-fotos .box-image-container img {
+	background: rgb(0, 59, 111); border-top-color: rgb(51, 107, 166); border-bottom-color: rgb(2, 59, 112); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.box-fotos .box-image-container .artista-label {
+	border-top-color: rgb(50, 106, 167); border-bottom-color: rgb(2, 59, 112); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.box-fotos .button-wrap {
+	width: 100%; overflow: hidden; border-top-color: rgb(50, 106, 167); border-top-width: 1px; border-top-style: solid;
+}
+.box-fotos .button-wrap .more-button {
+	margin: 10px auto; float: none;
+}
+.box-image-container {
+	width: 100%;
+}
+.box-amarela .item-container-first {
+	width: 100%; overflow: hidden; border-top-color: rgb(212, 173, 7); border-bottom-color: rgb(255, 228, 121); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; float: left;
+}
+.box-amarela .item-container-second {
+	padding: 10px 0px 10px 10px; width: 235px; overflow: hidden; border-top-color: rgb(255, 228, 121); border-bottom-color: rgb(212, 173, 7); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; float: left;
+}
+.box-amarela .item-container-second ul {
+	width: 150px; color: rgb(0, 61, 116); margin-left: 15px; float: left;
+}
+.box-amarela .item-container-second ul li {
+	padding: 2px 5px; text-transform: capitalize; font-size: 11px; border-top-color: rgb(253, 230, 124); border-bottom-color: rgb(214, 171, 6); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.box-amarela .item-container-second ul .first {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+.box-amarela .item-container-second ul .last {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.box-amarela .data-container {
+	background: rgb(255, 229, 124); width: 65px; height: 65px; text-align: center; color: rgb(0, 61, 116); float: left; cursor: default;
+}
+.box-amarela .data-container p {
+	padding-top: 6px; font-size: 30px; font-weight: bold;
+}
+.box-pastel .item-container-first {
+	width: 100%; overflow: hidden; border-top-color: rgb(192, 137, 70); border-bottom-color: rgb(252, 209, 158); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; float: left;
+}
+.box-pastel .item-container-second {
+	padding: 10px; width: 225px; overflow: hidden; border-top-color: rgb(252, 209, 158); border-bottom-color: rgb(192, 137, 70); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; float: left;
+}
+.box-pastel .item-container-second .mural-coracao {
+	background: rgb(255, 208, 156); width: 225px;
+}
+.box-pastel .item-container-second .mural-coracao p {
+	padding: 10px; text-align: center; font-size: 11px;
+}
+.box-pastel .item-container-second .mural-coracao .autor {
+	text-align: center; font-size: 11px; font-weight: bold;
+}
+.box-pastel .item-container-second .mural-coracao .local {
+	text-align: center; padding-bottom: 10px; font-size: 11px;
+}
+.sidebar-interna {
+	width: 195px !important; padding-top: 0px !important;
+}
+.sidebar-column {
+	width: 165px; padding-top: 10px; padding-right: 10px; float: right;
+}
+.sidebar-column .box {
+	background: rgb(215, 215, 215); width: 100%;
+}
+.sidebar-column .box .title-container .title {
+	color: rgb(0, 74, 128); padding-left: 20px; font-size: 13px; font-weight: bold;
+}
+.sidebar-column .box .title-container .title .subtitle {
+	color: rgb(149, 149, 149); font-weight: normal;
+}
+.sidebar-column .box .title-container .title .subtitle a {
+	color: rgb(149, 149, 149); font-weight: normal; text-decoration: underline;
+}
+.sidebar-column .box .title-container .publicidade {
+	padding: 0px; font-size: 18px; font-weight: normal;
+}
+.sidebar-column .box .title-container .publicidade a {
+	padding: 0px; font-size: 18px; font-weight: normal;
+}
+.container-outter {
+	border-top-color: rgb(181, 181, 181); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.container-inner {
+	overflow: hidden; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(181, 181, 181); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.papeis-de-parede {
+	margin: 0px auto; padding: 20px 0px; width: 125px; overflow: hidden;
+}
+.papeis-de-parede a {
+	width: 24px; height: 24px; margin-right: 9px; float: left; display: block;
+}
+.link-publicidade {
+	margin: 10px; text-align: center; display: block;
+}
+.link-publicidade img {
+	width: 145px;
+}
+.fundo-cinza-claro {
+	background-color: rgb(227, 227, 227);
+}
+.fundo-cinza-escuro {
+	background-color: rgb(215, 215, 215);
+}
+.form-busca {
+	padding: 10px;
+}
+.form-busca .text-input {
+	width: 120px;
+}
+.form-login {
+	padding: 10px; overflow: hidden;
+}
+.form-login .text-input {
+	width: 165px;
+}
+.box-default input.text-input {
+	padding-bottom: 7px;
+}
+.text-input {
+	padding: 5px; border: 1px solid rgb(180, 180, 180); color: rgb(137, 137, 137); font-size: 11px;
+}
+.select-date {
+	width: 79px;
+}
+.button-input {
+	padding: 3px 7px; font-size: 11px;
+}
+.twitter-box {
+	background: rgb(109, 235, 246) !important;
+}
+.twitter-box .title {
+	padding-left: 40px !important; font-size: 18px !important; font-weight: normal !important;
+}
+.twitter-box .title .subtitle a {
+	color: rgb(255, 255, 255) !important; text-decoration: inherit !important;
+}
+.twitbbon-box {
+	background-color: rgb(0, 84, 165) !important;
+}
+.twitbbon-box .title {
+	background: url("twibbon.jpg") no-repeat left; padding-left: 40px !important; font-size: 18px !important; font-weight: normal !important;
+}
+.twitbbon-box .twibbon-title {
+	padding-left: 70px !important; background-image: url("twibbon-avatar.jpg");
+}
+.twitbbon-box .twibbon-title .subtitle {
+	color: rgb(255, 255, 255) !important;
+}
+.twitbbon-box .title > a {
+	color: rgb(255, 255, 255) !important;
+}
+.twitbbon-box .title .subtitle a {
+	color: rgb(255, 255, 255) !important; text-decoration: inherit !important;
+}
+#twitter_div {
+	border-top-color: rgb(94, 174, 235); border-bottom-color: rgb(157, 227, 253); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+#twitter_div #twitter_update_list {
+	border-top-color: rgb(157, 227, 253); border-bottom-color: rgb(94, 174, 235); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+#twitter_div #twitter_update_list li {
+	padding: 10px; color: rgb(30, 37, 45); font-size: 11px;
+}
+#twitter_div #twitter_update_list li.alt {
+	background-color: rgb(138, 217, 248);
+}
+#twitter_div #twitter_update_list li a {
+	color: rgb(26, 73, 145);
+}
+.box-default img.wide {
+	width: 100%;
+}
+.home-flash-holder {
+	width: 235px; margin-bottom: 10px;
+}
+.sidebar-form-index {
+	overflow: hidden;
+}
+.sidebar-form-index .text-input {
+	width: 135px;
+}
+.sidebar-form-index .input-busca {
+	width: 85px;
+}
+#password {
+	display: none;
+}
+#password-label {
+	
+}
+.error {
+	color: rgb(255, 0, 0);
+}
+#error-form {
+	color: rgb(255, 0, 0);
+}
+form select {
+	width: 195px;
+}
+.search-filter {
+	overflow: hidden;
+}
+.search-filter div {
+	padding-right: 15px; float: left;
+}
+#aniversario-roll {
+	height: 185px; display: none;
+}
+.box-departamento-comercial {
+	margin: 0px 10px 10px 0px; width: 175px; float: left;
+}
+.box-departamento-comercial img {
+	width: 175px; height: 125px;
+}
+.box-departamento-comercial a {
+	text-decoration: none;
+}
+.box-departamento-comercial .title a {
+	color: rgb(33, 64, 154); font-size: 15px; font-weight: bold;
+}
+.baloes-container {
+	left: 10px; width: 70px; height: 130px; bottom: 0px; position: absolute;
+}
+.button-share-container {
+	padding: 10px; border-radius: 5px; right: 0px; bottom: 0px; position: absolute; opacity: 0.8; background-color: rgb(0, 0, 0); -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+.button-share-container p {
+	color: rgb(255, 255, 255); line-height: 16px; padding-right: 5px; font-size: 12px; float: left;
+}
+.button-share-link {
+	margin: 0px 5px; width: 16px; height: 16px; float: left; display: block; background-repeat: no-repeat; background-color: transparent;
+}
+.button-share-facebook {
+	background-image: url("facebook_16.png");
+}
+.button-share-twitter {
+	background-image: url("twitter_16.png");
+}
+.button-share-orkut {
+	background-image: url("orkut_16.png");
+}
+.button-share-email {
+	background-image: url("email_16.png");
+}
+.button-share-permalink {
+	background-image: url("permalink_16.png");
+}
+.button-share-input {
+	border: 1px solid rgb(255, 255, 255); width: 110px; text-align: center; font-size: 12px; margin-top: 7px; margin-left: 4px; background-color: rgb(255, 255, 255);
+}
+.share-tooltip {
+	background: url("share-tooltip.png") no-repeat left top; top: -28px; width: 124px; height: 37px; right: 5px; position: absolute; opacity: 1;
+}
+.white-share-container {
+	padding: 10px; border-radius: 5px; border: 1px solid rgb(208, 208, 208); left: 50%; bottom: 0px; margin-left: -128px; position: absolute; background-color: rgb(255, 255, 255); -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+.white-share-container p {
+	padding: 0px 5px 0px 0px !important; color: #675E88; line-height: 16px; font-size: 12px; float: left;
+}
+.white-share-link {
+	margin: 0px 5px; width: 16px; height: 16px; float: left; display: block; background-repeat: no-repeat; background-color: transparent;
+}
+.white-share-facebook {
+	background-image: url("facebook_16.png");
+}
+.white-share-twitter {
+	background-image: url("twitter_16.png");
+}
+.white-share-orkut {
+	background-image: url("orkut_16.png");
+}
+.white-share-email {
+	background-image: url("email_16.png");
+}
+.white-share-permalink {
+	background-image: url("permalink_16.png");
+}
+.white-share-input {
+	border: 1px solid rgb(255, 255, 255); width: 110px; text-align: center; font-size: 12px; margin-top: 7px; margin-left: 4px; background-color: rgb(255, 255, 255);
+}
+.compartilhe-container {
+	height: 36px; float: right; position: relative;
+}
+.compartilhe-container > div {
+	margin: 0px !important;
+}
+.artista-compartilhe-container {
+	width: 27px; height: 39px; margin-bottom: 10px; float: left; position: relative;
+}
+.artista-compartilhe-container > div {
+	margin: 0px !important; width: 205px;
+}
+.video-artista-compartilhe-container {
+	width: 27px; height: 39px; position: relative;
+}
+.video-artista-compartilhe-container > div {
+	margin: 0px !important; padding: 0px !important; border: 0px currentColor; left: auto; width: 205px; background-color: transparent;
+}
+.video-artista-compartilhe-container p {
+	color: rgb(85, 85, 85); font-size: 11px; font-weight: bold;
+}
+.right-compartilhe-container {
+	width: 100%; height: 39px; margin-top: 15px; position: relative;
+}
+.right-compartilhe-container > div {
+	margin: 0px !important; left: auto; width: 205px; right: 0px;
+}

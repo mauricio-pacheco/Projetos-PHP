@@ -1,0 +1,203 @@
+/*------------------------------------------------------------------------
+# JA Opal for Joomla 1.5 - Version 1.0 - Licence Owner JA115275
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2008 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# This file may not be redistributed in whole or significant part.
+-------------------------------------------------------------------------*/
+
+#ja-news {
+	/*margin-top: 35px;*/
+	max-width: 610px;
+}
+
+#ja-news div.moduletable div.ja-box-ct {
+	background: #E9E8E5;
+	border: 1px solid #B9B7B5;
+}
+
+h2.jazin-title, h4.jazin-title {
+	margin: 10px 0 0;
+	padding: 0;
+	line-height: 1.1;
+	margin-bottom: 5px;
+	font-size: 110%;
+}
+
+h2.jazin-title a, h4.jazin-title a {
+	color: #00ADBC;
+}
+
+/* CONTENT
+--------------------------------------------- */
+#jazin-wrap {
+	padding: 0;
+}
+
+#jazin {
+	padding: 0;
+	max-width: 610px;
+	width: 610px;
+}
+
+.jazin-left {
+	float: left;
+	overflow: hidden;
+}
+
+.jazin-center {
+	overflow: hidden;
+	float: left;
+}
+
+.jazin-right {
+margin-top: 15px;
+	float: right;
+	overflow: hidden;
+}
+
+.jazin-box {
+	margin: 0 10px 10px;
+	padding: 5px 0 10px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.jazin-left .jazin-box {
+margin-top: 15px;
+	margin-left: 10px;
+}
+
+.jazin-right .jazin-box {
+	margin-right: 10px;
+}
+
+div.jazin-section {
+	display: block;
+	margin-bottom: 5px;
+	color: #8A4A22;
+	font-size: 92%;
+}
+
+div.jazin-section a {
+	display: block;
+	padding: 0 2px 2px 0;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 110%;
+	letter-spacing: 1px;
+}
+
+div.jazin-section a span {
+	padding: 2px 15px 2px 5px;
+	background: url(../images/arrow-r.gif) no-repeat right center #C55901;
+}
+
+div.jazin-section a:hover,
+div.jazin-section a:active,
+div.jazin-section a:focus {
+	text-decoration: none;
+}
+
+.jazin-box:hover div.jazin-section a span,
+.hover div.jazin-section a span {}
+
+.jazin-more {
+	color: #8A4A22;
+	text-transform: uppercase;
+	display: none;
+	clear: both;
+	margin: 0 0 2px;
+	font-size: 92%;
+	letter-spacing: 1px;
+}
+
+ul.jazin-links {
+	padding: 0;
+	margin: 0;
+	font-size: 92%;
+}
+
+ul.jazin-links li {
+	background: none;
+	padding: 0 0 0 5px !important;
+}
+
+ul.jazin-links li a {
+	background: url(../images/bullet.gif) no-repeat 1px 7px;
+	color: #555555;
+	padding-left: 10px;
+}
+
+ul.jazin-links li a:hover,
+ul.jazin-links li a:active,
+ul.jazin-links li a:focus {
+	background: url(../images/bullet-hover.gif) no-repeat 1px 7px;
+	color: #C55901;
+}
+
+.jazin-content img {
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	margin: 0px 8px 10px 0;
+	padding: 4px;
+}
+
+.jazin-pagedesc {
+	display: block;
+	padding: 10px;
+	margin: 10px 0;
+	font-family: Cambria, "Times New Roman", Times, serif;
+	font-size: 125%;
+	background: #F7F7F7;
+	font-style: italic;
+}
+
+.jazin-pagedesc p {
+	padding: 0;
+	margin: 0;
+}
+
+/*SUB PAGE HEADLINE*/
+#jazin-hlwrap-sub {
+	clear: both;
+	margin-bottom: 3px;
+}
+
+#jazin-hlwrap-sub .jazin-box,
+#jazin-hlwrap-sub .jazin-content {
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+#jazin-content{
+display:block;
+}
+
+#jazin-hlwrap-sub h4.jazin-title {
+	font-size: 200%;
+	font-weight: normal;
+}
+
+#jazin-hlwrap-sub .article_separator {
+	background: none;
+	border-bottom: 5px solid #ABABAB;
+	height: 15px;
+	font-size: 1px;
+}
+
+/*mis
+-------------------------------------------------*/
+#jazin-fp .article_separator {
+	clear: both;
+	display: block;
+	height: 3px;
+	background: none;
+	font-size: 1px;
+}
+
+.jazin-pagenav, .jazin-pagenav-counter {
+	text-align: center;
+}

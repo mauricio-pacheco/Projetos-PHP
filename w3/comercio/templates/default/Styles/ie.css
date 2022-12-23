@@ -1,0 +1,28 @@
+/** IE 67 Specific Fixes **/
+
+* html #Logo h1 {
+	background: url(../images/blue/Logo.gif) top left no-repeat;
+}
+
+* html .Left .TopSeller1, * html .Right .TopSeller1 { /* No1 seller box (cascades from 'topseller' class */
+	margin-top: 0;
+}
+
+* html .Left .TopSellers li.TopSeller1 .TopSellerNumber, * html .Right .TopSellers li.TopSeller1 .TopSellerNumber {
+	background: url(../images/blue/TopSellerNumber1Bg.gif) 0 0 no-repeat;
+	margin: 0;
+}
+
+* html #Container {
+	width: 782px;
+}
+
+/** General IE Fixes **/
+
+#SearchForm .Button {
+	vertical-align: bottom;
+}
+
+select, input {
+	font-size: 0.95em;
+}

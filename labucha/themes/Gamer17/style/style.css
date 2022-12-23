@@ -1,0 +1,574 @@
+
+
+A:link {
+FONT-SIZE: 10px; 
+COLOR: #6C6F6D; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+A:visited {
+FONT-SIZE: 10px; 
+COLOR: #6C6F6D; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+A:active {
+FONT-SIZE: 10px; 
+COLOR: #000000; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+A:hover {
+FONT-SIZE: 10px; 
+COLOR: #000000; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+BODY {
+FONT-SIZE: 10px; 
+CURSOR: default; 
+COLOR: #797C7A; 
+BACKGROUND-color: #E3E3E3; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+
+TEXTAREA {
+background-image: url('../../../themes/Gamer17/images/bg.gif');
+background-repeat: repeat;
+color:#4B4B4B;
+font-size: 10px;
+font-family: Arial,Helvetica,sans-serif;
+background-color : #7B7B7B;
+BORDER-TOP: 1px solid #7B7B7B; 
+BORDER-BOTTOM: 1px solid #AEAEAE; 
+BORDER-LEFT: 1px solid #7B7B7B; 
+BORDER-RIGHT: 1px solid #AEAEAE;
+}
+P {
+FONT-SIZE: 10px; 
+COLOR: #797C7A; 
+LINE-HEIGHT: 1.4; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+TABLE {
+FONT-SIZE: 10px; 
+COLOR: #797C7A; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+
+TD.content {
+FONT-SIZE: 10px;
+COLOR: #A0A0A1; 
+TEXT-DECORATION: none;
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif;
+ 
+}
+TD.extra {
+background:#838384; 
+BORDER-TOP: #ffffff 1px solid; 
+BORDER-BOTTOM: #919091 1px solid; 
+BORDER-LEFT: #ffffff 1px solid; 
+BORDER-RIGHT: #919091 1px solid;
+}
+TD.info1 {
+font: normal 11px Arial, Helvetica, sans-serif;
+background-image: url('../../../themes/Gamer17/images/row1.gif');
+background-repeat: repeat-x;
+background-color : #CDCDCD;
+BORDER-TOP: #ffffff 1px solid; 
+BORDER-BOTTOM: #5d5d5d 1px solid; 
+BORDER-LEFT: #ffffff 1px solid; 
+BORDER-RIGHT: #5d5d5d 1px solid;
+}
+TD.info2 {
+font: normal 11px Arial, Helvetica, sans-serif;
+background-image: url('../../../themes/Gamer17/images/row1.gif');
+background-repeat: repeat-x;
+background-color : #CDCDCD;
+BORDER-TOP: #5d5d5d 1px solid; 
+BORDER-BOTTOM: #ffffff 1px solid; 
+BORDER-LEFT: #5d5d5d 1px solid; 
+BORDER-RIGHT: #ffffff 1px solid;
+}
+TD.infolt {
+background-image: url('../../../themes/Gamer17/images/row1.gif');
+background-repeat: repeat-x;
+background-color : #D2D2D2;
+BORDER-TOP: #5d5d5d 1px solid; 
+BORDER-BOTTOM: #ffffff 1px solid; 
+BORDER-LEFT: #5d5d5d 1px solid; 
+BORDER-RIGHT: #ffffff 1px solid;
+}
+TD.infort {
+background-image: url('../../../themes/Gamer17/images/row1.gif');
+background-repeat: repeat-x;
+background-color : #D2D2D2;
+BORDER-TOP: #5d5d5d 1px solid; 
+BORDER-BOTTOM: #ffffff 1px solid; 
+BORDER-LEFT: #5d5d5d 1px solid; 
+BORDER-RIGHT: #ffffff 1px solid;
+}
+TD.extras {
+background-image: url('../../../themes/Gamer17/images/row1.gif');
+background-repeat: repeat-x;
+background-color : #D2D2D2;
+BORDER-TOP: #5d5d5d 1px solid; 
+BORDER-BOTTOM: #ffffff 1px solid; 
+BORDER-LEFT: #5d5d5d 1px solid; 
+BORDER-RIGHT: #ffffff 1px solid;
+}
+TD.extra1 {
+background-image: url('../../../themes/Gamer17/images/row1.gif');
+background-repeat: repeat-x;
+background-color : #D2D2D2;
+
+BORDER-TOP: #5d5d5d 1px solid; 
+BORDER-BOTTOM: #ffffff 1px solid; 
+BORDER-LEFT: #5d5d5d 1px solid; 
+BORDER-RIGHT: #ffffff 1px solid;
+}
+TD.extra2 {
+background:#8E8E8E;
+color:#BABABB;
+BORDER-TOP: #5d5d5d 1px solid; 
+BORDER-BOTTOM: #ffffff 1px solid; 
+BORDER-LEFT: #5d5d5d 1px solid; 
+BORDER-RIGHT: #ffffff 1px solid;
+}
+hr {
+border-top: 1px solid #888888;
+border-bottom: 1px solid #ffffff;
+height: 2px;
+width: 100%;
+}
+
+UL {
+	LIST-STYLE-TYPE: square
+}
+.center {
+	TEXT-ALIGN: center
+}
+.justify {
+	TEXT-ALIGN: justify
+}
+.right {
+	TEXT-ALIGN: right
+}
+
+.heading {
+FONT-WEIGHT: bold; 
+FONT-SIZE: 10px; 
+COLOR: #272E34; 
+FONT-FAMILY: Tahoma; 
+LETTER-SPACING: 0px; 
+TEXT-DECORATION: none
+}
+.heading1 {
+FONT-WEIGHT: bold; 
+FONT-SIZE: 10px; 
+COLOR: #FFFFFF; 
+FONT-FAMILY: arial; 
+LETTER-SPACING: 0px; 
+TEXT-DECORATION: none
+}
+.user {
+FONT-WEIGHT: bold; 
+FONT-SIZE: 10px; 
+COLOR: #272E34; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+LETTER-SPACING: 0px; 
+TEXT-DECORATION: none
+}
+IMG.work {
+BORDER-RIGHT: #FFFFFF 1px solid; 
+BORDER-TOP: #FFFFFF 1px solid; 
+BORDER-LEFT: #FFFFFF 1px solid; 
+BORDER-BOTTOM: #FFFFFF 1px solid
+}
+.error {
+COLOR: #272E34; 
+BACKGROUND-COLOR: #9C9A9C
+}
+
+#custtable {
+Z-INDEX: 6; 
+VISIBILITY: hidden; 
+FONT: 12px arial; 
+COLOR: #797C7A; 
+POSITION: absolute; 
+TEXT-ALIGN: center
+}
+#linktable {
+Z-INDEX: 6; 
+VISIBILITY: hidden; 
+FONT: 12px arial; 
+COLOR: #797C7A; 
+POSITION: absolute; 
+TEXT-ALIGN: center
+}
+
+SELECT {
+	color : #6A696B;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	 BACKGROUND: #D2D0D0;
+}
+
+BODY {
+SCROLLBAR-BASE-color:  #B8B8B8;
+SCROLLBAR-ARROW-color: #909090;
+}
+td.b1	{
+background:#f2f2f2;
+BORDER-TOP: #5d5d5d 1px solid; 
+BORDER-BOTTOM: #ffffff 1px solid; 
+BORDER-LEFT: #5d5d5d 1px solid; 
+BORDER-RIGHT: #ffffff 1px solid;}
+td.b2	{
+background:#969596;
+BORDER-TOP: #5d5d5d 1px solid; 
+BORDER-BOTTOM: #ffffff 1px solid; 
+BORDER-LEFT: #5d5d5d 1px solid; 
+BORDER-RIGHT: #ffffff 1px solid;
+}
+td.b3	{
+background:#A3A2A3;
+BORDER-TOP: #5d5d5d 1px solid; 
+BORDER-BOTTOM: #ffffff 1px solid; 
+BORDER-LEFT: #5d5d5d 1px solid; 
+BORDER-RIGHT: #ffffff 1px solid;
+}
+/* This is the border line & background colour round the entire page */
+.bodyline	{ 
+background-color: #969596; 
+border:1px solid; 
+border-color:#969596;
+}
+.tablein {
+color : #272E34;
+font: normal 11px  Arial, Helvetica, sans-serif;
+background:#9A989A;
+BORDER-TOP: #5d5d5d 1px solid; 
+BORDER-BOTTOM: #ffffff 1px solid; 
+BORDER-LEFT: #5d5d5d 1px solid; 
+BORDER-RIGHT: #ffffff 1px solid;
+}
+
+.tableout {
+background-image: url('../../../themes/Gamer17/images/row1.gif');
+background-repeat: repeat-x;
+background-color : #969596;
+BORDER-TOP: #5d5d5d 1px solid; 
+BORDER-BOTTOM: #ffffff 1px solid; 
+BORDER-LEFT: #5d5d5d 1px solid; 
+BORDER-RIGHT: #ffffff 1px solid;
+}	
+/* This is the outline round the main forum tables */
+.forumline	{ 
+background:#f2f2f2;
+BORDER-TOP: #ffffff 1px solid; 
+BORDER-BOTTOM: #5d5d5d 1px solid; 
+BORDER-LEFT: #ffffff 1px solid; 
+BORDER-RIGHT: #5d5d5d 1px solid;
+}
+.forumline2	{ 
+background-image: url('../../../themes/Gamer17/images/row1.gif');
+background-repeat: repeat-x;
+background-color : #969596;
+BORDER-TOP: #5d5d5d 1px solid; 
+BORDER-BOTTOM: #ffffff 1px solid; 
+BORDER-LEFT: #5d5d5d 1px solid; 
+BORDER-RIGHT: #ffffff 1px solid;
+}
+
+
+
+/* Main table cell colours and backgrounds */
+TD.row1 {
+	BORDER-RIGHT: 1px solid #A1A1A1; BORDER-TOP: 1px solid #3e3e3e; BACKGROUND-IMAGE: url('../../../themes/Gamer17/images/row1.gif'); BORDER-LEFT: 1px solid #3e3e3e; BORDER-BOTTOM: 1px solid #000000; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #DEDDDD
+}
+TD.row1rt {
+	BORDER-RIGHT: 1px solid #A1A1A1; BORDER-TOP: 1px solid #3e3e3e; BACKGROUND-IMAGE: url('../../../themes/Gamer17/images/row1.gif'); BORDER-LEFT: 0px solid #3e3e3e; BORDER-BOTTOM: 1px solid #546B88; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #DADADA
+}
+TD.row1lt {
+	BORDER-RIGHT: 0px solid #A1A1A1; BORDER-TOP: 1px solid #3e3e3e; BACKGROUND-IMAGE: url('../../../themes/Gamer17/images/row1.gif'); BORDER-LEFT: 1px solid #3e3e3e; BORDER-BOTTOM: 1px solid #546B88; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #DEDDDD
+}
+TD.row1d {
+	BORDER-RIGHT: 1px solid #A1A1A1; BORDER-TOP: 1px solid #3e3e3e; BACKGROUND-IMAGE: url('../../../themes/Gamer17/images/row1.gif'); BORDER-LEFT: 0px solid #3e3e3e; BORDER-BOTTOM: 0px solid #000000; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #DADADA
+}
+TD.row2 {
+	BORDER-RIGHT: 1px solid #000000; BORDER-TOP: 1px solid #3e3e3e; BACKGROUND-IMAGE: url('../../../themes/Gamer17/images/bg2.gif'); BORDER-LEFT: 1px solid #3e3e3e; BORDER-BOTTOM: 1px solid #000000; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #DEDDDD
+}
+TD.row3 {
+	BORDER-RIGHT: 1px solid #000000; BORDER-TOP: 1px solid #3e3e3e; BACKGROUND-IMAGE: url('../../../themes/Gamer17/images/bg2.gif'); BORDER-LEFT: 1px solid #3e3e3e; BORDER-BOTTOM: 1px solid #000000; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #DEDDDD
+}
+TD.row4 {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #3e3e3e 1px solid; BORDER-LEFT: #3e3e3e 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #1a1a1a
+}
+td.rowpic {
+background:#737273;
+BORDER-TOP: #ffffff 1px solid; 
+BORDER-BOTTOM: #5d5d5d 1px solid; 
+BORDER-LEFT: #ffffff 1px solid; 
+BORDER-RIGHT: #5d5d5d 1px solid;
+}
+td.pic
+{
+color: #272E34; 
+font-size: 10px; 
+font-weight : bold;
+height: 25px;
+background:#B1B0B0;
+BORDER-TOP: #ffffff 1px solid; 
+BORDER-BOTTOM: #5d5d5d 1px solid; 
+BORDER-LEFT: #ffffff 1px solid; 
+BORDER-RIGHT: #5d5d5d 1px solid;
+}
+th	{
+color: #272E34; 
+font-size: 10px; 
+font-weight : bold;
+
+BORDER-TOP: #ffffff 1px solid; 
+BORDER-BOTTOM: #5d5d5d 1px solid; 
+BORDER-LEFT: #ffffff 1px solid; 
+BORDER-RIGHT: #5d5d5d 1px solid; height: 20px;
+}
+th.1	{
+	color: #272E34; font-size: 11px; font-weight : bold;
+	 height: 25px;
+    background:#bbbbbb;
+BORDER-TOP: #ffffff 1px solid; 
+BORDER-BOTTOM: #5d5d5d 1px solid; 
+BORDER-LEFT: #ffffff 1px solid; 
+BORDER-RIGHT: #5d5d5d 1px solid;
+	
+}
+
+td.cat, td.catHead, td.catSides, td.catLeft, td.catRight, td.catBottom {
+			
+			background:#f2f2f2;
+BORDER-TOP: #ffffff 1px solid; 
+BORDER-BOTTOM: #5d5d5d 1px solid; 
+BORDER-LEFT: #ffffff 1px solid; 
+BORDER-RIGHT: #5d5d5d 1px solid; height: 28px;
+}
+
+
+/*
+  Setting additional nice inner borders for the main table cells.
+  The names indicate which sides the border will be on.
+  Don't worry if you don't understand this, just ignore it :-)
+*/
+td.cat, td.catHead, td.catBottom {
+	height: 29px;
+	BORDER-TOP: #ffffff 1px solid; 
+BORDER-BOTTOM: #5d5d5d 1px solid; 
+BORDER-LEFT: #ffffff 1px solid; 
+BORDER-RIGHT: #5d5d5d 1px solid;
+}
+th.thHead, th.thSides, th.thTop, th.thLeft, th.thRight, th.thBottom, th.thCornerL, th.thCornerR {
+	font-weight: bold; BORDER-TOP: #ffffff 1px solid; 
+BORDER-BOTTOM: #5d5d5d 1px solid; 
+BORDER-LEFT: #ffffff 1px solid; 
+BORDER-RIGHT: #5d5d5d 1px solid; height: 28px; }
+td.row3Right, td.spaceRow {
+background:#D0CECF;
+BORDER-TOP: #ffffff 1px solid; 
+BORDER-BOTTOM: #5d5d5d 1px solid; 
+BORDER-LEFT: #ffffff 1px solid; 
+BORDER-RIGHT: #5d5d5d 1px solid;}
+
+th.thHead, td.catHead { font-size: 10px; BORDER-TOP: #ffffff 1px solid; 
+BORDER-BOTTOM: #5d5d5d 1px solid; 
+BORDER-LEFT: #ffffff 1px solid; 
+BORDER-RIGHT: #5d5d5d 1px solid; }
+th.thSides, td.catSides, td.spaceRow	 { BORDER-TOP: #ffffff 1px solid; 
+BORDER-BOTTOM: #5d5d5d 1px solid; 
+BORDER-LEFT: #ffffff 1px solid; 
+BORDER-RIGHT: #5d5d5d 1px solid; }
+th.thRight, td.catRight, td.row3Right	 { BORDER-TOP: #ffffff 1px solid; 
+BORDER-BOTTOM: #5d5d5d 1px solid; 
+BORDER-LEFT: #ffffff 1px solid; 
+BORDER-RIGHT: #5d5d5d 1px solid; }
+th.thLeft, td.catLeft	  { BORDER-TOP: #ffffff 1px solid; 
+BORDER-BOTTOM: #5d5d5d 1px solid; 
+BORDER-LEFT: #ffffff 1px solid; 
+BORDER-RIGHT: #5d5d5d 1px solid; }
+th.thBottom, td.catBottom  { BORDER-TOP: #ffffff 1px solid; 
+BORDER-BOTTOM: #5d5d5d 1px solid; 
+BORDER-LEFT: #ffffff 1px solid; 
+BORDER-RIGHT: #5d5d5d 1px solid; }
+th.thTop	 { BORDER-TOP: #ffffff 1px solid; 
+BORDER-BOTTOM: #5d5d5d 1px solid; 
+BORDER-LEFT: #ffffff 1px solid; 
+BORDER-RIGHT: #5d5d5d 1px solid; }
+th.thCornerL { BORDER-TOP: #ffffff 1px solid; 
+BORDER-BOTTOM: #5d5d5d 1px solid; 
+BORDER-LEFT: #ffffff 1px solid; 
+BORDER-RIGHT: #5d5d5d 1px solid; }
+th.thCornerR { BORDER-TOP: #ffffff 1px solid; 
+BORDER-BOTTOM: #5d5d5d 1px solid; 
+BORDER-LEFT: #ffffff 1px solid; 
+BORDER-RIGHT: #5d5d5d 1px solid; }
+
+
+/* The largest text used in the index page title and toptic title etc. */
+.maintitle, h1, h2	{
+			font-weight: bold; font-size: 22px; font-family: Arial, Helvetica, sans-serif;
+			text-decoration: none; line-height : 120%; color : #272E34;
+}
+
+
+/* General text */
+.gen { font-size : 10px; }
+.genmed { font-size : 10px; }
+.gensmall { font-size : 10px; }
+.gen, .genmed, .gensmall { color : #272E34; }
+a.gen, a.genmed, a.gensmall { color: #272E34; text-decoration: none; }
+a.gen:hover, a.genmed:hover, a.gensmall:hover	{ color: #908E8F; text-decoration: none; }
+
+
+/* The register, login, search etc links at the top of the page */
+.mainmenu		{ font-size : 10px; color : #272E34;}
+a.mainmenu		{ text-decoration: none; color : #272E34;}
+a.mainmenu:hover{ text-decoration: none; color : #908E8F;}
+
+
+/* Forum category titles */
+.cattitle		{ font-weight: bold; font-size: 12px ; letter-spacing: 0px; color : #272E34}
+a.cattitle		{ text-decoration: none; color : #272E34; }
+a.cattitle:hover{ text-decoration: none; color : #908E8F;}
+
+
+/* Forum title: Text and link to the forums used in: index.php */
+.forumlink		{ font-weight: bold; font-size: 10px; color : #666565; }
+a.forumlink 	{ text-decoration: none; color : #272E34; }
+a.forumlink:hover{ text-decoration: NONE; color : #908E8F; }
+
+
+/* Used for the navigation text, (Page 1,2,3 etc) and the navigation bar when in a forum */
+.nav			{ font-weight: bold; font-size: 10px; color : #272E34;}
+a.nav			{ text-decoration: none; color : #272E34; }
+a.nav:hover		{ text-decoration: NONE; color : #908E8F;}
+
+
+/* titles for the topics: could specify viewed link colour too */
+.topictitle			{ font-weight: bold; font-size: 10px; color : #272E34; }
+a.topictitle:link   { text-decoration: none; color : #272E34; }
+a.topictitle:visited { text-decoration: none; color : #272E34; }
+a.topictitle:hover	{ text-decoration: NONE; color : #908E8F; }
+
+
+/* Name of poster in viewmsg.php and viewtopic.php and other places */
+.name			{ font-size : 10px; color : #272E34;}
+
+/* Location, number of posts, post date etc */
+.postdetails		{ font-size : 10px; color : #272E34; }
+
+
+/* The content of the posts (body of text) */
+.postbody { font-size : 10px;}
+a.postlink:link	{ text-decoration: none; color : #272E34; }
+a.postlink:visited { text-decoration: none; color : #272E34; }
+a.postlink:hover { text-decoration: NONE; color : #818081}
+
+
+/* Quote & Code blocks */
+.code {
+	font-family: Courier, 'Courier New', sans-serif; font-size: 10px; color: #656565;
+	background-color:#B5B4B4; border:1px solid; border-color:#272E34 #868686 #868686 #272E34;
+}
+
+.quote {
+	font-family: Courier, 'Courier New', sans-serif; font-size: 10px; color: #656565;
+	background-color: #B5B4B4; border:1px solid; border-color:#272E34 #EBECED #EBECED #272E34;
+}
+
+
+/* Copyright and bottom info */
+.copyright		{ font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; color: #272E34; letter-spacing: 0px;}
+a.copyright		{ color: #272E34; text-decoration: none;}
+a.copyright:hover { color: #FFFFFF; text-decoration: NONE;}
+
+
+/* Form elements */
+input {
+background:#D1D0D0;
+color:#272E34;
+font:11px Arial,Helvetica,sans-serif;
+BORDER-TOP: #807D7D 1px solid; 
+BORDER-BOTTOM: #ffffff 1px solid; 
+BORDER-LEFT: #807D7D 1px solid; 
+BORDER-RIGHT: #ffffff 1px solid;
+}
+
+/* The text input fields background colour */
+input.post, textarea.post {
+	background-color : #B5B4B4;
+}
+
+input { text-indent : 2px; }
+
+/* The buttons used for bbCode styling in message post */
+input.button {
+	background:#B5B4B4;
+color:#272E34;
+font:11px Arial,Helvetica,sans-serif;
+BORDER-TOP: #5d5d5d 1px solid; 
+BORDER-BOTTOM: #ffffff 1px solid; 
+BORDER-LEFT: #5d5d5d 1px solid; 
+BORDER-RIGHT: #ffffff 1px solid;
+}
+
+/* The main submit button option */
+input.mainoption {
+	background:#B5B4B4;
+color:#272E34;
+font:11px Arial,Helvetica,sans-serif;
+BORDER-TOP: #5d5d5d 1px solid; 
+BORDER-BOTTOM: #ffffff 1px solid; 
+BORDER-LEFT: #5d5d5d 1px solid; 
+BORDER-RIGHT: #ffffff 1px solid;
+}
+
+/* None-bold submit button */
+input.liteoption {
+	background:#B5B4B4;
+color:#272E34;
+font:11px Arial,Helvetica,sans-serif;
+BORDER-TOP: #5d5d5d 1px solid; 
+BORDER-BOTTOM: #ffffff 1px solid; 
+BORDER-LEFT: #5d5d5d 1px solid; 
+BORDER-RIGHT: #ffffff 1px solid;
+}
+input.liteoption1 {
+background:#;
+color:#272E34;
+font:11px Arial,Helvetica,sans-serif;
+BORDER-TOP: #5d5d5d 0px solid; 
+BORDER-BOTTOM: #ffffff 0px solid; 
+BORDER-LEFT: #5d5d5d 0px solid; 
+BORDER-RIGHT: #ffffff 0px solid;
+}
+input.liteoption2 {
+background-image: url('../../../themes/M/images/sbg.gif');
+color:#272E34;
+BORDER-TOP: 0px solid #5d5d5d; 
+BORDER-BOTTOM: 0px solid #ffffff; 
+BORDER-LEFT: 0px solid #5d5d5d; 
+BORDER-RIGHT: 0px solid #ffffff;; font-style:normal; font-variant:normal; font-weight:normal; font-size:10px; font-family:Arial, Helvetica, sans-serif
+}
+/* This is the line in the posting page which shows the rollover
+  help line. This is actually a text box, but if set to be the same
+  colour as the background no one will know ;)
+*/
+.helpline {background:#B5B4B4;
+color:#272E34;
+font:11px Arial,Helvetica,sans-serif;
+BORDER-TOP: #5d5d5d 1px solid; 
+BORDER-BOTTOM: #ffffff 1px solid; 
+BORDER-LEFT: #5d5d5d 1px solid; 
+BORDER-RIGHT: #ffffff 1px solid; }

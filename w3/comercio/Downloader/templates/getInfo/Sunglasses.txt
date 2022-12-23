@@ -1,0 +1,1 @@
+<template><id>Sunglasses</id><name>Sunglasses</name><version>1.5</version><colors><color><name>Ochre</name><hex>#190e0a</hex><preview>%%ISCURL%%templates/previews/Sunglasses_ochre_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/Sunglasses_ochre.jpg</previewFull></color></colors></template>

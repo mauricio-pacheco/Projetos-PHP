@@ -1,0 +1,7 @@
+Add this language definitions in language/lang-english.php
+
+// New Language definitions for Ultra Downloads
+define("_ERROREPASS","Password Error");
+define("_PASSNOVAL","You have entered an invalid password.");
+define("_RIPROVA","Try Again");
+// End

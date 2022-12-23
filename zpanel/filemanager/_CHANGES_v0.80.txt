@@ -1,0 +1,384 @@
+
+   -------------------------------------------------------------------------------
+  |                                                                               |
+  |                                  net2ftp                                      |
+  |                                                                               |
+  |                                  Changelog                                    |
+  |                                                                               |
+   -------------------------------------------------------------------------------
+
+
+
+January 2004: version 0.80
+==========================
+
+----------
+net2ftp version 0.80 contains:
+- htmlarea version 2.0.3
+- pclzip version 2.1
+- pcltar version 1.3
+- Everaldo's Crystal icons
+----------
+
+A new version with lots of additional features:
+
+* Directories, files and symlinks are shown together and can be manipulated
+  together
+
+* The size taken by directories and files can be calculated; the directories
+  are processed recursively.
+
+* Directories and files can be searched for a word; the directories
+  are processed recursively.
+
+* The upload-and-unzip function works now even if the Zip module of PHP is not 
+  installed, thanks to the pclzip library (see /includes/pclzip.lib.php). 
+
+* The upload-and-unzip function works now also for Tar archives, thanks to the
+  pcltar library (see /includes/pcltar.lib.php).
+
+* When uploading files, a popup message appears to tell: 1- to be patient and
+  2- that if the upload takes more than x seconds, it will be halted and he'll
+  have to try again with less/smaller files.
+
+* Functions which are not yet totally implemented can be turned on or off in
+  settings.inc.php.
+
+* If you don't know which function generates a particular output, you can turn a 
+  setting on in settings.inc.php, then extra hidden HTML tags will be added 
+  by each function.
+
+* There are 2 troubleshooting functions: one to troubleshoot net2ftp on a
+  webserver, and another one to troubleshoot an FTP server.
+
+* While the script is executed, the status is displayed on top of the page.
+
+* Selected rows have another background color
+
+* The number of settings in settings.inc.php have been reduced
+  to make net2ftp easier to configure. Some were not really used.
+
+* When logging in the passive mode can be set
+
+* The cookies set by net2ftp can be cleared from the login page
+
+* The list of directories and files can be sorted based on the filename, size,
+  modification time, etc
+
+* Version checking script can automatically check if a new version of net2ftp
+  exists
+
+* Added support for Lycos Tripod and Earthlink, so that the Open link would work
+  on the Browse page (printURL() function in browse.inc.php).
+
+* New 16x16 icons which take less space and look nicer
+
+* All icons are .png; workaround applied for IE which does not display 
+  transparent png images nicely by default
+
+* New onMouseOver effect for the action icons
+
+* Bugfix: when the login directory was "" the user was directed to the root
+  directory instead of his home directory
+
+* Bugfix: when a file was downloaded, the filename was appended by ".txt" 
+  and a line was added at the end of the file (reported by Jean-Pierre and
+  corrected by Slynderdale)
+
+* Bugfix: files with a filename which starts with a dot are transferred 
+  using the FTP_ASCII mode
+
+
+September 2003: version 0.73
+============================
+
+* Two of Slynderdale's add-ons are now integrated in the main release: 
+  - the directory can be set on the login page
+  - there is an anonymous login checkbox on the login page. (Last minute note:
+    this one is included but put in comment, because there is a small bug that
+    I couldn't solve.)
+
+* A default directory can be specified in the settings.inc.php file.
+
+* Bugfix: . and .. entries are removed now
+
+* Bugfix: ftp_zipdirectory bug is fixed
+
+
+September 2003: version 0.72
+============================
+
+* Added flush() in functions that can take some time (copy/move/delete and 
+  upload) so that the intermediate results would be shown on screen 
+  immediately.
+
+* Help guide in HTML
+
+* Added a shutdown function to display a warning and delete temporary files
+  when the script reaches the maximum execution time and is stopped
+
+* Small cosmetic changes to the layout
+
+* Bugfix: when doing an upload-and-unzip of 1 or more archives, it was 
+  necessary to also provide a normal file to upload.
+
+* Bugfix: the link to the icons of video and wav files were broken.
+
+* Bugfix: when the email could not be sent, the temporary file was not deleted.
+
+August 2003: version 0.71
+=========================
+
+* Bugfix: the /temp directory was getting full of temporary files that were
+  not deleted in case of error.
+
+* The /icons directory is renamed to /images.
+
+
+July 2003: version 0.7
+=======================
+
+* New layout and new icons
+
+* Email directories and files using a zip file attachment
+
+* If a subdirectory does not exist, the user is redirected to the root directory
+
+* Small bugfixes
+
+
+June 25, 2003: build 0030
+=========================
+
+Developers release.
+
+* Better scanning of the ftp_rawlist output generated by the FTP server 
+  See file browse.inc.php, function ftp_scanline().
+  Two major changes here: 
+    1- instead of listing the allowed characters in the regular expression, 
+       it works the other way around: the unwanted characters are listed.
+    2- if the scanning does not work, net2ftp tries again with a less
+       strict scanning method, and in the end, if a line is still not work,
+       the original raw list string is shown on the browse page.
+
+* When ftp_chdir returns false, no error message is printed.
+  See browse.inc.php, function ftp_getlist.
+  Some FTP servers seem to return FALSE even if the directory exists...(right?)
+
+* Some small changes in cleanDirectory(), glueDirectories() etc
+  See filesystem.inc.php.
+  All directories should be in the format /dir/subdir (leading / and no trailing /).
+  The root directory is /. Only in ftp_getlist, a directory "" can be used.
+
+* A small text is added on the Upload screen, to explain to webmasters where the
+  upload-unzip feature should be, once the zip module of PHP is installed.
+  (Note: Slynderdale is working on a version which would not need this module.)
+
+* A .htaccess file is added, to handle HTTP errors.
+  The drawback of this file is that the path should be edited. I am still
+  looking for a better solution.
+
+
+June 7, 2003: version 0.61
+==========================
+
+Minor bugfix release:
+
+* Some FTP servers (Windows) do not accept ftp_chmod commands when there is a 
+  leading slash in the directory name.
+
+
+May 2003: version 0.6
+=====================
+
+This release is the first to contain code contributed by Slynderdale: the zip 
+download of files, the WYSIWYG edit form (only for Internet Explorer 5.5 or 
+higher), the listing of directories.
+
+New features:
+
+* Zip download of directories and files. 
+
+* Zip upload; the files are decompressed on the web server, and transferred to 
+  the FTP server.
+
+* WYSIWYG form can be used to edit text files, when the browser is IE 5.5 or 6.0.
+
+* Most pages can be bookmarked. When a bookmark is used to access a net2ftp page,
+  a popup window asks for the username/password to be used on that FTP server. The
+  password is not saved in the bookmark.
+
+* On most pages where a directory can be entered, a "List" link opens a popup
+  window which allows to browse through the directory structure and choose a
+  directory.
+
+* Authorization check on FTP server port. The admin can set authorized ports to ALL
+  or to a certain port nr. In this last case, the port nr textbox is suppressed from
+  the login page.
+
+* Upload page: it is possible to enter another directory on the first page, and 
+  to to upload another 5 files from the upload result page.
+
+* The nr of files that can be uploaded at once can be set in settings.inc.php.
+
+* The location of net2ftp on the server is determined automatically; there
+  is no need to enter it in settings.inc.php any more.
+
+* A check is made to see if the FTP module of PHP is installed.
+  The modules needed for zip upload (Zip and Zlib) are optional. If they are
+  not installed, the extra buttons and textboxes are suppressed.
+
+* New functionality on the administrator page
+
+Bugfixes:
+
+* Some FTP servers do not show hidden files by default.
+  By using the -a option those files are now shown. 
+
+* Some FTP servers return fake directory entries "." and ".." which caused
+  infinite loops in the copy/move/delete functions. These entries are now
+  filtered out.
+
+* There was a problem with javascript on the Browse page, if a directory or 
+  filename contained a single quote. This is solved now.
+
+* The directories and files are shown when connecting to the AS400 FTP server.
+
+
+March 2003: version 0.5
+=======================
+
+New features:
+
+* The directory that was last used, is saved in the cookie; when logging in
+  later on, that directory is used. If the directory has been deleted in the 
+  meanwhile, an error message is shown, and the cookie information is reset.
+
+* Some of the layout settings which were coded on server side in 
+  settings.inc.php and in the browse/edit/... functions have been replaced by 
+  styles in the css files
+
+* The HTML that is generated is now valid HTML 4.01 Transitional, or almost.
+  (There are some features that most browsers can handle, but which are not
+  foreseen in the standard, such as the wrap attribute of a textarea, used
+  when editing text files.)
+
+
+Bugfixes:
+
+* When logging in for the first time, the directory is "/" instead of "".
+  On certain FTP servers, entering "" would bring a user to its home directory 
+  (for example /home/user) instead of the document root. Then, when clicking 
+  on a subdirectory link (for example /subdir), net2ftp would assume this 
+  subdirectory to be /subdir, whereas in fact it would be /home/user/subdir
+
+* In browse(), ftp_chdir is now always executed; before, it was not executed if 
+  the directory was ""
+
+* When sending feedback via the form, single quotes were escaped (' became /'). 
+  This is corrected.
+
+* The layout has been adapted a little in most action (rename, chmod,...) screens: 
+  the text is now aligned 50 px from the left border, instead of in the middle.
+
+
+February 2003: version 0.4
+==========================
+
+Following the feedback of some users, here are the bugfixes:
+
+* Function fopen is now used with the "b" option, which is (only) useful on Windows 
+  servers
+
+* The deletion of directories is now done with ftp_rmdir instead of ftp_delete
+
+* The file layout_server.inc.php is merged in settings.inc.php
+
+* All the arrays are now used with ['string'] instead of [string], as 
+  recommended in the manual
+
+* In the INSTALL file is now pointed out how to change the appearance of the
+  login screen
+
+* The database use is now by default set to no, to make the install easier.
+
+February 2003: version 0.3
+==========================
+
+This version contains new features, and bug fixes.
+
+New features:
+
+* Copy and move files to a SECOND FTP server! This is handy for developers, 
+who develop and test on a different environment than the production environment.
+
+* If you change $myname and $mydomain in the settings.inc.php file, the layout 
+of the login page is different from what is on net2ftp.com.
+
+* If the security settings (in settings.inc.php) are set to restrict the access 
+to some FTP servers only, this is reflected on the login page.
+
+
+Bug fixes:
+
+* Check the authorization only if $check_authorization is set to yes in 
+settings.inc.php.
+
+* The nr of lines in the edit form is reduced from 37 to 35 in 
+layout_server.inc.php, because in Mozilla based browsers each line is a little 
+taller than in IE.
+
+* After doing some tests on different public FTP servers, it appears that they
+reply differently to the ftp_rawlist request -- thanks to Ondrej for reporting 
+this.
+     - some FTP servers, like ftp.belnet.be, start with a line summarizing how 
+       many subdirectories and files there are in the current directory. The 
+       real list of subdirectories and files starts on the second line. This 
+       worked well in net2ftp.
+
+              [0] => total 15
+              [1] => drwxr-xr-x 11 BELNET Archive 512 Feb 6 2000 BELNET
+              [2] => drwxr-xr-x 2 BELNET Archive 512 Oct 29 2001 FVD-SFI
+
+     - some other FTP servers, like ftp.redhat.com/pub, start directly with the 
+       list of subdirectories and files. The first entry is omitted in net2ftp, 
+       because it was assumed the first line would be used for the summary.
+
+              [0] => drwxr-xr-x 9 ftp ftp 4096 Jan 11 06:34 contrib
+              [1] => drwxr-xr-x 13 ftp ftp 4096 Jan 29 21:59 redhat
+              [2] => drwxrwsr-x 6 ftp ftp 4096 Jun 05 2002 up2date
+
+
+February 2003: version 0.2
+==========================
+
+This version is mainly released to make the application work with PHP > 4.0.6 
+and with register_globals set to off.
+
+* There is a new file: registerglobals.inc.php; this is to make the application 
+work, even if register_globals is set to off.
+
+* The ftp_close function has been renamed to ftp_closeconnection, so that the 
+application would work with PHP > 4.0.6. Note that now, ftp_quit does not 
+return TRUE or FALSE any more
+
+* The ftp_get and ftp_put functions must now take FTP_ASCII and FTP_BINARY 
+without the double quotes. In PHP 4.0.6 it was assumed that with the double 
+quotes, FTP_ASCII was meant.
+
+* The HTML layout has been modified a little, there are 2 different CSS 
+templates.
+
+* The file upload function has been modified (better error handling, if the 
+temp directory has not been chmodded during the installation, or if no files 
+are supplied).
+
+* It is possible to use net2ftp without a database. The use_database setting 
+is now taken into account. 
+
+
+
+January 2003: version 0.1 - first release for developers
+========================================================
+
+* Since this is the first version, everything is new !

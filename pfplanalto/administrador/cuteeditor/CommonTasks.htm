@@ -1,0 +1,249 @@
+<html>
+<head>
+	<title>Common Tasks QuickStart - PHP WYSIWYG Editor</title>
+	<link rel="stylesheet" href="example.css" type="text/css" />
+	<script language="JavaScript" id="code">
+		function swapDisplay(element,child) {  
+			if(element)
+			{
+				var el = document.getElementById(child);
+				if (null!=el)
+					el.style.display = ""==el.style.display ? "block" : ""
+			}	
+		}
+	</script>
+	<style type="text/css">
+		.child { DISPLAY: none }
+		.childBox { background-color:#E5ECF9; padding:10px; border:solid 1px #3366cc; margin:10px 0 10px 0;}
+		.parent { cursor: pointer; color: #224488; TEXT-DECORATION: underline }
+	</style>
+</head>
+<body>	
+	<table width="100%">
+		<tr>
+			<td>
+			    <a href="default.htm"><img alt="CuteEditor" src="sampleimages/logo.gif" /></a>
+			</td>
+			<td align="right">
+				<a href="http://cutesoft.net/asp/">CuteEditor for ASP</a> |	<a href="http://cutesoft.net">CuteEditor for .NET</a>
+			</td>
+		</tr>
+		<tr>
+		    <td colspan="2" class="topmenu">
+		        <a class="menu" href="default.htm">Home</a>|
+				<a class="menu" href="demo.htm">Demo</a>|
+				<a class="menu" href="Deployment.htm">Deployment</a>|	
+				<a class="menu" href="CommonTasks.htm">Common Tasks</a>|	
+				<a class="menu" href="http://cutesoft.net/Forums/">Forums</a>|	
+				<a class="menu" href="Feature-Comparison-Chart.htm">Feature</a>|	
+				<a class="menu" href="http://phphtmledit.com/Order.php">Order</a>	
+			</td>
+		</tr>
+	</table>
+	<table style="width:750px;margin-left:10px" cellpadding="15">
+		<tr>
+			<td valign="top">
+			    <h1>Welcome to the Common Tasks QuickStart</h1>
+			    <p>
+				    The Common Task QuickStart is designed to help you quickly find the answers to your most frequent programming questions. This section may be used as a topical reference. If there are topics not addressed here that you'd like to see in future releases, please drop us an email at <A href="mailto:Support@CuteSoft.net">Support@CuteSoft.net</A> . 
+			    </p>
+			    <br />
+<h4>Customization:</h4>
+<ul>
+    <li><a class="parent" onclick="swapDisplay(this,'default-font-style')">Changing the default font style in editor</a>
+    <div id="default-font-style" class="child childBox">
+    <p>Please check the Editor.<span style="background-color: yellow">EditorBodyStyle </span>and <span style="background-color: yellow">EditorWysiwygModeCss </span>property.&nbsp;<br />
+    </p>
+    <p><b>Editor.EditorWysiwygModeCss Property</b><br />
+    Specifies the location of the style sheet that will be used by the editable area. Multiple Style Sheets are supported. Example EditorWysiwygModeCss="example.css,~/portal.css,/default.css"&nbsp;&nbsp;</p>
+    <p>&nbsp;</p>
+    <p><b>Editor.EditorBodyStyle Property</b></p>
+    <p>The style to be applied to the Editor body.&nbsp; &nbsp;</p>
+    <p>Cute Editor uses default font of the current page.&nbsp; The default font of web page is Times new roman. If you want to change the default font from Times new roman to Verdana, you can add the following code into the style sheet file:</p>
+    <div>body, td { font-family: Verdana; }<br />
+    <br />
+    Or you can use <b>Editor.EditorBodyStyle</b> Property:<br />
+    <br />
+    Editor1.EditorBodyStyle="font-family: Verdana";</div>
+    </div>
+    </li>
+    <li><a class="parent" onclick="swapDisplay(this,'Customizing_tab')">Changing Behavior of TAB Key</a>
+    <div id="Customizing_tab" class="child childBox">
+    
+ <p>By default Cute Editor automatically inserts a certain number of "&amp;nbsp;" characters when user clicks the tab key. </p>
+<p>If you want to modify the behavior of the TAB key within the CuteEditor box so that it tabs out of the box to the next control in the page, please set Editor.TabSpaces property to -1.</p>
+    </div>
+    </li>
+    <li><a class="parent" onclick="swapDisplay(this,'HTML-option-onload')">HTML option onload by default</a>
+    <div id="HTML-option-onload" class="child childBox">ActiveTab="Code"</div>
+    </li>
+    <li><a class="parent" onclick="swapDisplay(this,'Preview-option-onload')">Preview option onload by default</a>
+    <div id="Preview-option-onload" class="child childBox">ActiveTab="Preview"</div>
+    </li>
+    <li><a class="parent" onclick="swapDisplay(this,'Full-screen-mode-by-default')">Full screen mode on by default</a>
+    <div id="Full-screen-mode-by-default" class="child childBox">FullPage="True"</div>
+    </li>
+    <li><a class="parent" onclick="swapDisplay(this,'Printing-a-full-web-page')">Printing a full web page </a>
+    <div id="Printing-a-full-web-page" class="child childBox">
+    <p>Please set the <b>Editor.PrintFullWebPage</b> Property to true.<br />
+    <br />
+    </p>
+    By default Cute Editor will print the content in the editing area only. When this property is set to true, Cute Editor will print the whole web page. <br />
+    </div>
+    </li>
+    <li><a class="parent" onclick="swapDisplay(this,'Editor-Focus-OnLoad')">Setting focus to editor onload</a>
+    <div id="Editor-Focus-OnLoad" class="child childBox">
+    <p>Please set the <b>Editor.Focus</b> Property to true.<br />
+    <br />
+    </p>
+    By default Cute Editor will not grabs focus when the page loads. If the <b>Editor.Focus</b> Property is set to true then the editor will take focus, if it is set to false it will not. <br />
+    </div>
+    </li>
+    <li><a class="parent" onclick="swapDisplay(this,'read-only-content')">Displaying read-only content</a>
+    <div id="read-only-content" class="child childBox">You can set <b>Editor.ReadOnly</b> property to true if you would like to display read-only content in the Cute Editor in some situations. <br />
+   </div>
+    </li>
+    <li><a class="parent" onclick="swapDisplay(this,'Relative-or-Absolute-URLs')">Relative or Absolute URLs</a>
+<div class="child childBox" id="Relative-or-Absolute-URLs">
+																<p><br />
+When you're creating links to documents and images on the Web, you need to think about how you're going to link to them. <br />
+</p>
+<p>CuteEditor supports&nbsp;three standard ways to create links: <br />
+</p>
+<ol>
+    <li><b>Site root relative path</b> ( &lt;a href="/default.aspx"&gt;Home&lt;/a&gt; )</li>
+    <li><b>Absolute path</b> ( &lt;a href="http://cutesoft/default.aspx"&gt;Home&lt;/a&gt; )</li>
+    <li><b>Relative paths</b> ( &lt;a href="default.aspx"&gt;Home&lt;/a&gt; or &lt;a href="#top"&gt;Top&lt;/a&gt;)&nbsp;&nbsp; </li>
+</ol>
+<p>&nbsp;</p>
+To create links correctly in CuteEditor, you need to use Editor.URLType Property and URLType Enumeration. <br />
+<br />
+<h3>Editor.URLType Property</h3>
+Specify whether the URL should be converted to a site root relative path (/html/images/image1.gif) or an absolute path (http://www.mysite.com/images/image1.gif). <br />
+<h3>URLType Enumeration</h3>
+<br />
+<table cellspacing="0" class="nstexttable" ID="Table2">
+    <tbody>
+        <tr valign="top">
+            <td><b>Default</b></td>
+            <td>The URL is not converted. </td>
+        </tr>
+        <tr valign="top">
+            <td><b>SiteRelative</b></td>
+            <td>The URL is converted into a site root relative path. A site root relative path describes the location of the destination file by describing the route the browser must take from the Web site's root folder (top level in the folder structure). For example, a site root-relative path to an image may appear as: /html/images/image1.gif </td>
+        </tr>
+        <tr valign="top">
+            <td><b>Absolute</b></td>
+            <td>The URL is converted into an absolute path. An absolute path describes the physical location of a file on a machine or the exact location of a file on the Internet. An absolute path on your hard drive might appear as: An absolute path might appear as: http://www.mysite.com/images/image1.gif </td>
+        </tr>
+    </tbody>
+</table>                   
+
+</div>
+    </li>
+    <li><a class="parent" onclick="swapDisplay(this,'InsertLayer')">How to Change the InsertLayer behavior?</a>
+<div id="InsertLayer" class="child childBox">
+
+<div>Please open cuteeditor_files\Scripts\Constant.js\Constant.js file and modify the following code:<br></div>
+<div>var layerdefaultstyle = "position:absolute;width:104px; height: 104px";</div>
+<br />
+</div>
+</li>
+<li><a class="parent" onclick="swapDisplay(this,'DisableDoubleClickEvent')">How to disable the tag property window when users double click a control?</a>
+<div id="DisableDoubleClickEvent" class="child childBox">
+<p>Please open cuteeditor_files\Scripts\Constant.js\Constant.js file and modify the following code:<br />
+<br />
+</p>
+<p><span style="color: #008000">//By default, when users double click a control, a tag property dialog will open. Set it to true if you want to disable this feature. <br />
+</span>editorconstant.DisableDoubleClickEvent = false;<br />
+</p>
+</div>
+</li>
+<li><a class="parent" onclick="swapDisplay(this,'DisableCtrlZ')">How to Ctrl+Z behavior?</a>
+<div id="DisableCtrlZ" class="child childBox">
+<p>Please open cuteeditor_files\Scripts\Constant.js\Constant.js file and modify the following code:<br />
+<br />
+</p>
+<p>
+editorconstant.DisableCtrlZ = false;<br />
+</p>
+</div>
+</li>
+</ul>
+<br />
+<h4>HTML Filtering options:</h4>
+<ul>
+    <li><a class="parent" onclick="swapDisplay(this,'Preventing-JavaScript-Injection')">Preventing JavaScript Injection</a>
+    <div id="Preventing-JavaScript-Injection" class="child childBox">By default Cute Editor automatically strips all script elements and script contents from the html to prevent javaScript injection. <br />
+    <br />
+    You can turn this feature off by setting <b>Editor.EnableStripScriptTags</b> property to false. </div>
+    </li>
+    <li><a class="parent" onclick="swapDisplay(this,'Anti-Spam-Email-Encoder')">Anti Spam Email Encoder</a>
+    <div id="Anti-Spam-Email-Encoder" class="child childBox">If you want to list your email address on your Web site and protect it from spammers too, you have to encode it in some way. CuteEditor can help you to come up with a spam-safe mailto link. <br />
+    <br />
+    <img border="0" alt="Anti Spam Email Encoder" src="sampleimages/Anti-Spam-Email-Encoder.gif" /><br />
+    <br />
+    Email contact links are an invaluable part of any web page. However, they are also vulnerable to a particular type of web robot known as the spam harvester or spambot.<br />
+    <br />
+    A spam harvester can read through the pages in your site and extract email addresses which are then added to bulk marketing databases. <br />
+    <br />
+    CuteEditor allows you reduce possible spam by 'disguising' a raw email address in an encoded ASCII form. <br />
+    <br />
+    You can turn this feature off by setting <b>Editor.EnableAntiSpamEmailEncoder</b> property to "false<br />
+    <br />
+    </div>
+</ul>
+<br />
+<h4>Accessibility :</h4>
+<ul>
+    <li><a class="parent" onclick="swapDisplay(this,'physical-formatting')">Using &lt;b&gt; instead of &lt;strong&gt;</a>
+    <div id="physical-formatting" class="child childBox"><img border="0" alt="logical formatting tags" src="sampleimages/physical-tags.gif" /><br />
+    <br />
+    These are two types of text formatting tags -- <b>logical formatting tags</b> ( &lt;strong&gt; and &lt;em&gt; ), which describe the information in the element, and <b>physical formatting tags</b> (&lt;b&gt; and &lt;i&gt;), which specify its appearance. <br />
+    <br />
+    By default CuteEditor use the logical formatting tags ( &lt;strong&gt; and &lt;em&gt; ). If you want to use the physical tags (&lt;b&gt; and &lt;i&gt;), you can set Editor.UsePhysicalFormattingTags Property to true. </div>
+    </li>
+    <li><a class="parent" onclick="swapDisplay(this,'Removing-tbody-tag')">Removing &lt;TBODY&gt; tag </a>
+    <div id="Removing-tbody-tag" class="child childBox">
+    <p>Please set the <b>Editor.RemoveTBODYTag</b> Property to true.<br />
+    <br />
+    </p>
+    By default Internet Explorer HTML parser automatically insert TBODY tag after any TABLE tag. When this property is set to true, CuteEditor strips out the TBODY tags. <br />
+    </div>
+    </li>
+    <li><a class="parent" onclick="swapDisplay(this,'Using-Simple-Ampersand')">Using Simple Ampersand</a>
+    <div id="Using-Simple-Ampersand" class="child childBox">
+    <p>Please set the <b>Editor.UseSimpleAmpersand</b> Property to true.<br />
+    <br />
+    </p>
+    <p>W3C recommend that all '&amp;' in query strings be converted to &amp;amp;This is the only way to get a piece of HTML validated. The reason is that &amp; is the start of an HTML entity, such as &amp;pound; <br />
+    <br />
+    So this: <br />
+    <br />
+    &lt;a href="page.aspx?var1=one&amp;amp;var2=two"&gt;link&lt;/a&gt; <br />
+    is valid, whereas: <br />
+    &lt;a href="page.aspx?var1=one&amp;var2=two"&gt;link&lt;/a&gt; <br />
+    isn't. <br />
+    <br />
+    </p>
+    If you still want to use simple Ampersand in query strings, you can set this property to true. if you want to retrieve the CuteEditor HTML content in XHTML format, the 'UseSimpleAmpersand' property will be ignored. <br />
+    </div>
+    </li>
+    <li><a class="parent" onclick="swapDisplay(this,'Font-tags-are-now-deprecated')">Replacing outdated &lt;FONT&gt; tags with CSS</a>
+    <div id="Font-tags-are-now-deprecated" class="child childBox"><img border="0" alt="Compliant with the web standards" align="left" src="sampleimages/nofont.gif" />Font tags are now deprecated, meaning that they aren't used any more and will cause validation errors. Many legacy pages still contain style information in font tags. It is possible to resolve this by replacing with style tags instead.<br />
+    <br />
+    CSS styles can be overriden by browser settings whereas font tags can't, therefore styles are much better for accessibility. In addition, because the browser can't override font tags, it's not possible for users to make changes if they have a high resolution screen and the font size is too small to be legible, or if the text cannot be displayed at all because the user doesn't have the right font.<br />
+    <br />
+    By default Cute Editor converts font tags to span tags. &lt;font face=times color=#ffffff size=4&gt;your text&lt;/font&gt; would be replaced with &lt;span style="FONT-SIZE: 110%; COLOR: #ffffff; FONT-FAMILY: times, serif"&gt;&lt;font size=4&gt;your text&lt;/font&gt;&lt;/span&gt;. <br />
+    <br />
+    If you still want to use font tags, you can set <b>Editor.UseFontTags</b> property to true. </div>
+    </li>
+</ul>
+			</td>
+		</tr>
+	</table>
+	    <div id="footer">
+		    <p><a href="http://cutesoft.net">Copyright 2003-2011 CuteSoft.Net. All rights reserved.</a></p>
+	    </div>
+</body>
+</html>

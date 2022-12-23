@@ -1,0 +1,2011 @@
+A:link {
+
+FONT-SIZE: 11px; 
+
+COLOR: #189c9f; 
+
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+
+TEXT-DECORATION: none
+
+}
+
+
+
+A:visited {
+
+FONT-SIZE: 11px; 
+
+COLOR: #189c9f; 
+
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+
+TEXT-DECORATION: none
+
+}
+
+
+
+A:active {
+
+FONT-SIZE: 11px; 
+
+COLOR: #29b9bc; 
+
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+
+TEXT-DECORATION: none
+
+}
+
+
+
+A:hover {
+
+FONT-SIZE: 11px; 
+
+COLOR: #29b9bc; 
+
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+
+TEXT-DECORATION: underline;
+
+}
+
+
+
+BODY {
+
+FONT-SIZE: 11px; 
+
+CURSOR: default; 
+
+COLOR: #ffffff;  
+
+BACKGROUND-color: #111115; 
+
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+
+TEXT-DECORATION: none;
+scrollbar-arrow-color: #189c9f;
+scrollbar-3dlight-color: #111115;
+scrollbar-highlight-color: #111115;
+scrollbar-face-color: #424243;
+scrollbar-shadow-color: #111115;
+scrollbar-darkshadow-color: #111115;
+scrollbar-track-color: #111115;
+
+}
+
+
+.footmsg {
+
+FONT-SIZE: 9px; 
+
+COLOR: #FFFFFF; 
+
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+
+TEXT-DECORATION: none;
+
+}
+
+
+
+TEXTAREA {
+
+background-image: url(../../../themes/S-GRaw/images/gradient.pmg);
+
+background-repeat: repeat-x;
+
+background-color : #111115;
+
+BORDER-TOP: #424243 1px solid; 
+
+BORDER-BOTTOM: #424243 1px solid; 
+
+BORDER-LEFT: #3424243 1px solid; 
+
+BORDER-RIGHT: #424243 1px solid;
+
+font-size: 11px;
+
+color: #FFFFFF;
+scrollbar-arrow-color: #189c9f;
+scrollbar-3dlight-color: #111115;
+scrollbar-highlight-color: #111115;
+scrollbar-face-color: #424243;
+scrollbar-shadow-color: #111115;
+scrollbar-darkshadow-color: #111115;
+scrollbar-track-color: #111115;
+
+
+}
+
+
+/*SET COLORS FOR THE STORY BOX*/
+P {
+
+FONT-SIZE: 11px; 
+
+COLOR: #FFFFFF; 
+
+LINE-HEIGHT: 1.4; 
+
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+
+TEXT-DECORATION: none
+
+}
+
+
+
+/*TABLES TEXT COLOR*/
+TABLE {
+
+FONT-SIZE: 11px; 
+
+COLOR: #ffffff; 
+
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+
+TEXT-DECORATION: none
+
+}
+
+
+
+TD.content {
+
+FONT-SIZE: 11px;
+
+COLOR: #484748; 
+
+TEXT-DECORATION: none;
+
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif;
+
+}
+
+
+
+
+
+/* The Statistics tables */
+
+TD.extra {
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+}
+
+
+
+hr {
+
+border-top: 1px solid #242424;
+
+border-bottom: 1px solid #141414;
+
+height: 2px;
+
+width: 100%;
+
+}
+
+
+
+UL {
+
+LIST-STYLE-TYPE: square
+
+}
+
+
+
+.center {
+
+TEXT-ALIGN: center
+
+}
+
+
+
+.justify {
+
+TEXT-ALIGN: justify
+
+}
+
+
+
+.right {
+
+TEXT-ALIGN: right
+
+}
+
+
+
+H1 {
+
+FONT-WEIGHT: bold; 
+
+FONT-SIZE: 11px; 
+
+COLOR: #494849; 
+
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+
+LETTER-SPACING: 0px; 
+
+TEXT-DECORATION: none
+
+}
+
+
+
+.heading {
+
+FONT-WEIGHT: bold; 
+
+FONT-SIZE: 11px; 
+
+COLOR: #494849; 
+
+FONT-FAMILY: Tahoma; 
+
+LETTER-SPACING: 0px; 
+
+TEXT-DECORATION: none
+
+}
+
+
+
+.heading1 {
+
+FONT-WEIGHT: bold; 
+
+FONT-SIZE: 11px; 
+
+COLOR: #494849; 
+
+FONT-FAMILY: Tahoma; 
+
+LETTER-SPACING: 0px; 
+
+TEXT-DECORATION: none
+
+}
+
+
+
+.blocktitle {
+
+FONT-WEIGHT: bold; 
+
+FONT-SIZE: 11px; 
+
+COLOR: #189c9f; 
+
+FONT-FAMILY: arial; 
+
+LETTER-SPACING: 0px; 
+
+TEXT-DECORATION: none
+
+}
+
+
+
+SELECT {
+
+color:#189c9f;
+
+font-size: 11px;
+
+font-family: Arial,Helvetica,sans-serif;
+
+background-color : #141414;
+
+BORDER-TOP: #3A3A3A 1px solid; 
+
+BORDER-BOTTOM: #3A3A3A 1px solid; 
+
+BORDER-LEFT: #3A3A3A 1px solid; 
+
+BORDER-RIGHT: #3A3A3A 1px solid;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Copyright and bottom info */
+
+
+
+
+
+
+
+.copyright { font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; color: #c0c0c0;}
+
+
+
+a.copyright { font-size: 11px; color: #c0c0c0; text-decoration: none; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+
+
+a.copyright:link { font-size: 11px; color: #c0c0c0; text-decoration: NONE; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+
+
+a.copyright:active { font-size: 11px; color: #c0c0c0; text-decoration: NONE; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+
+
+a.copyright:visited { font-size: 11px; color: #c0c0c0; text-decoration: NONE; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+
+
+a.copyright:hover { font-size: 11px; color: #c0c0c0; text-decoration: underline; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input {
+
+
+
+
+color:#189c9f;
+
+
+
+font-size:11px;
+
+
+
+font-family: Arial,Helvetica,sans-serif;
+
+
+
+background-image: url(../../../themes/S-GRaw/images/gradient.png);
+
+
+
+background-repeat: repeat-x;
+
+
+
+background-color : #282828;
+
+
+
+BORDER-TOP: #6B6B6B 1px solid; 
+
+
+
+BORDER-BOTTOM: #6B6B6B 1px solid; 
+
+
+
+BORDER-LEFT: #6B6B6B 1px solid; 
+
+
+
+BORDER-RIGHT: #6B6B6B 1px solid;
+
+
+
+
+}
+
+
+
+input.1 {
+
+
+
+
+color:#189c9f;
+
+
+
+font-size:11px;
+
+
+
+font-family: Arial,Helvetica,sans-serif;
+
+
+
+background-image: url(../../../themes/S-GRaw/images/gradient.png);
+
+
+
+background-repeat: repeat-x;
+
+
+
+background-color : #282828;
+
+
+
+BORDER-TOP: #6B6B6B 1px solid; 
+
+
+
+BORDER-BOTTOM: #6B6B6B 1px solid; 
+
+
+
+BORDER-LEFT: #6B6B6B 1px solid; 
+
+
+
+BORDER-RIGHT: #6B6B6B 1px solid;
+
+
+
+
+}
+
+
+
+input.noborder {
+
+
+
+
+color:#189c9f;
+
+
+
+font-size:11px;
+
+
+
+font-family: Arial,Helvetica,sans-serif;
+
+
+
+background-image: url(../../../themes/S-GRaw/images/gradient.png);
+
+
+
+background-repeat: repeat-x;
+
+
+
+background-color : #282828;
+
+
+
+BORDER-TOP: #6B6B6B 0px solid; 
+
+
+
+BORDER-BOTTOM: #6B6B6B 0px solid; 
+
+
+
+BORDER-LEFT: #6B6B6B 0px solid; 
+
+
+
+BORDER-RIGHT: #6B6B6B 0px solid;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* This is the border line & background colour round the entire page */
+
+
+
+
+
+
+
+.bodyline	{ 
+
+
+
+background-color: #282828; 
+
+
+
+border:0px solid; 
+
+
+
+border-color:#10101C;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.tablein {
+
+
+
+BORDER-TOP: #10101C 1px solid; 
+
+
+
+BORDER-BOTTOM: #979696 1px solid; 
+
+
+
+BORDER-LEFT: #10101C 0px solid; 
+
+
+
+BORDER-RIGHT: #979696 1px solid;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* This is the outline round the main forum tables */
+
+
+
+
+
+
+
+.forumline	{ 
+
+background: #161616;
+
+BORDER-TOP: #10101C 0px solid; 
+
+BORDER-BOTTOM: #979696 0px solid; 
+
+BORDER-LEFT: #10101C 0px solid; 
+
+BORDER-RIGHT: #979696 0px solid;
+
+}
+
+
+
+
+
+
+
+.forumline2	{ 
+
+background-image: url(../../../themes/S-GRaw/images/bar4.gif);
+
+background-repeat: repeat-x;
+
+background-color : #161616;
+
+BORDER-TOP: #10101C 0px solid; 
+
+BORDER-BOTTOM: #979696 0px solid;
+BORDER-LEFT: #10101C 0px solid; 
+
+BORDER-RIGHT: #979696 0px solid;
+
+}
+
+
+
+/* Main table cell colours and backgrounds */
+
+
+
+
+
+
+
+td.row1	{
+
+background-image: url(../../../themes/S-GRaw/images/bar4.gif);
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+}
+
+
+
+
+
+
+
+td.row1cell	{
+
+background-image: url(../../../themes/S-GRaw/images/bar4.gif);
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+}
+
+
+
+
+
+
+
+td.row1rt	{
+
+background-image: url(../../../themes/S-GRaw/images/bar4.gif);
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+}
+
+
+
+td.row1lt	{
+
+background-image: url(../../../themes/S-GRaw/images/bar4.gif);
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+}
+
+
+
+td.row1d	{
+
+background-image: url(../../../themes/S-GRaw/images/bar4.gif);
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+}
+
+
+
+td.row1u	{
+
+background-image: url(../../../themes/S-GRaw/images/bar4.gif);
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+}
+
+
+
+td.row2u	{
+
+background-image: url(../../../themes/S-GRaw/images/bar4.gif);
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+}
+
+
+
+td.row2	{
+
+background-image: url(../../../themes/S-GRaw/images/bar4.gif);
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+}
+
+
+
+td.row3	{
+
+background-image: url(../../../themes/S-GRaw/images/bar4.gif);
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+}
+
+
+
+td.rowpic {
+
+background-image: url(../../../themes/S-GRaw/images/bar4.gif);
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+}
+
+
+td.pic {
+
+color: #c0c0c0; 
+
+font-size: 11px; 
+
+font-weight : bold;
+
+height: 25px;
+
+background-image: url(../../../themes/S-GRaw/images/bar4.gif);
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+}
+
+
+
+
+/*CHANGE FONT COLORS*/
+
+td.piclt {
+
+color: #3e3e3f; 
+
+font-size: 11px; 
+
+font-weight : bold;
+
+height: 25px;
+
+background-image: url(../../../themes/S-GRaw/images/bar4.gif);
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+}
+
+
+
+td.picrt {
+
+color: #3e3e3f; 
+
+font-size: 11px; 
+
+font-weight : bold;
+
+height: 25px;
+
+background-image: url(../../../themes/S-GRaw/images/bar4.gif);
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+}
+
+
+
+th	{
+
+color: #3e3e3f; 
+
+font-size: 11px; 
+
+font-weight : bold;
+
+background-image: url(../../../themes/S-GRaw/images/bar4.gif);
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+height: 25px;
+
+}
+
+
+
+
+
+
+
+th.bar	{
+
+color: #3e3e3f; 
+
+font-size: 11px; 
+
+font-weight : bold
+
+height: 25px;
+
+background-image: url(../../../themes/S-GRaw/images/bar4.gif);
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+}
+
+
+
+
+
+
+
+th.1	{
+
+color: #3e3e3f; 
+
+font-size: 11px; 
+
+font-weight : bold;
+
+height: 25px;
+
+background-image: url(../../../themes/S-GRaw/images/bar4.gif);
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+}
+
+
+
+
+
+
+
+td.cat,td.catHead,td.catSides,td.catLeft,td.catRight,td.catBottom {
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+height: 28px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+
+
+
+  Setting additional nice inner borders for the main table cells.
+
+
+
+  The names indicate which sides the border will be on.
+
+
+
+  Don't worry if you don't understand this, just ignore it :-)
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+th.thHead,th.thSides,th.thTop,th.thLeft,th.thRight,th.thBottom,th.thCornerL,th.thCornerR {
+
+font-weight: bold; 
+
+background-color : #24adaf;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+background-image: url(../../../themes/S-GRaw/images/bar3.gif);
+
+background-repeat: repeat-x;
+
+}
+
+
+
+
+
+
+
+
+
+
+td.row3Right,td.spaceRow {
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The largest text used in the index page title and toptic title etc. */
+
+
+
+.maintitle,h1,h2	{
+
+
+
+
+
+
+
+			font-weight: bold; font-size: 18px; font-family: Arial, Helvetica, sans-serif;
+
+
+
+			text-decoration: none; line-height : 120%; color : #24adaf;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/*FORUM INDEX COLORS*/
+
+a.maintitle:link   { text-decoration: none; color : #24bfc0; font-size: 18px; }
+
+
+
+a.maintitle:visited { text-decoration: none; color : #24bfc0; font-size: 18px; }
+
+
+
+a.maintitle:hover	{ text-decoration: NONE; color : #24bfc0; font-size: 18px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General text */
+
+
+
+.gen { font-size : 11px; color : #c0c0c0; }
+
+
+
+.genmed { font-size : 11px; }
+
+
+
+.gensmall { font-size : 10px; color: #24bfc0; }
+
+
+
+.gen,.genmed,.gensmall { color : #c0c0c0; }
+
+
+
+a.gen,a.genmed,a.gensmall { color: #c0c0c0; text-decoration: none; }
+
+
+
+a.gen:hover,a.genmed:hover,a.gensmall:hover	{ color: #24bfc0; text-decoration: none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The register, login, search etc links at the top of the page */
+
+
+
+
+
+
+
+.mainmenu		{ font-size : 11px; color : #c0c0c0;}
+
+
+
+a.mainmenu		{ text-decoration: none; color : #c0c0c0;}
+
+
+
+a.mainmenu:hover{ text-decoration: none; color : #24bfc0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Forum category titles */
+
+
+
+
+
+
+
+.cattitle		{ font-weight: bold; font-size: 11px ; letter-spacing: 0px; color : #24bfc0}
+
+
+
+a.cattitle		{ text-decoration: none; color : #24bfc0; }
+
+
+
+a.cattitle:hover{ text-decoration: underline; color : #26e3e4;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Forum title: Text and link to the forums used in: index.php */
+
+
+
+
+
+
+
+.forumlink		{ font-weight: bold; font-size: 11px; color : #24bfc0; }
+
+
+
+a.forumlink 	{ text-decoration: none; color : #24bfc0; }
+
+
+
+a.forumlink:hover{ text-decoration: underline; color : #26e3e4; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Used for the navigation text, (Page 1,2,3 etc) and the navigation bar when in a forum */
+
+
+
+
+
+
+
+.nav			{ font-weight: bold; font-size: 11px; color : #c0c0c0;}
+
+
+
+a.nav			{ text-decoration: none; color : #c0c0c0; }
+
+
+
+a.nav:hover		{ text-decoration: underline; color : #26e3e4;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* titles for the topics: could specify viewed link colour too */
+
+
+
+.topictitle			{ font-weight: bold; font-size: 11px; color : #24bfc0; }
+
+
+
+a.topictitle:link   { text-decoration: none; color : #24bfc0; }
+
+
+
+a.topictitle:visited { text-decoration: none; color : #24bfc0; }
+
+
+
+a.topictitle:hover	{ text-decoration: underline; color : #24bfc0; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Name of poster in viewmsg.php and viewtopic.php and other places */
+
+
+
+
+
+
+
+.name			{ font-size : 11px; color : #24bfc0;}
+
+
+
+
+
+
+
+/* Location, number of posts, post date etc */
+
+
+
+
+
+
+
+.postdetails		{ font-size : 10px; color : #24bfc0; }
+
+
+
+
+
+
+
+
+
+
+
+/* The content of the posts (body of text) */
+
+
+
+.postbody { font-size : 11px; color : #c0c0c0; }
+
+
+
+a.postlink:link	{ text-decoration: none; color : #24bfc0; }
+
+
+
+a.postlink:visited { text-decoration: none; color : #24bfc0; }
+
+
+
+a.potslink:hover { text-decoration: underline; color : #24bfc0; }
+
+
+
+td.catBottom { background-color: #282828; }
+
+
+
+td.catHead { background-color: #282828;
+
+font-size: 11px; 
+
+font-weight : bold;
+
+
+background-image: url(../../../themes/S-GRaw/images/bar3.gif);
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #292929 1px solid; 
+
+BORDER-BOTTOM: #292929 1px solid; 
+
+BORDER-LEFT: #292929 1px solid; 
+
+BORDER-RIGHT: #292929 1px solid;
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.quote {
+
+background-image: url(../../../themes/S-GRaw/images/bar3.gif);
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #24bfc0 1px dashed; 
+
+BORDER-BOTTOM: #24bfc0 1px dashed; 
+
+BORDER-LEFT: #24bfc0 1px dashed; 
+
+BORDER-RIGHT: #24bfc0 1px dashed;
+
+font-size: 11px;
+
+color: #24bfc0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.code {
+
+background-image: url(../../../themes/S-GRaw/images/bar3.gif);
+
+background-repeat: repeat-x;
+
+background-color : #282828;
+
+BORDER-TOP: #24bfc0 1px dashed; 
+
+BORDER-BOTTOM: #24bfc0 1px dashed; 
+
+BORDER-LEFT: #24bfc0 1px dashed; 
+
+BORDER-RIGHT: #24bfc0 1px dashed;
+
+font-size: 11px;
+
+color: #24bfc0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input.sub {
+
+
+
+
+color:#24bfc0;
+
+
+
+font-size:11px;
+
+
+
+font-family: Arial,Helvetica,sans-serif;
+
+
+
+background-image: url(../../../themes/S-GRaw/images/gradient.png);
+
+
+
+background-repeat: repeat-x;
+
+
+
+background-color : #282828;
+
+
+
+BORDER-TOP: #6B6B6B 1px solid; 
+
+
+
+BORDER-BOTTOM: #6B6B6B 1px solid; 
+
+
+
+BORDER-LEFT: #6B6B6B 1px solid; 
+
+
+
+BORDER-RIGHT: #6B6B6B 1px solid;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The buttons used for bbCode styling in message post */
+
+
+
+input.button {
+
+
+
+
+
+color:#24bfc0;
+
+
+
+font-size:11px;
+
+
+
+font-family: Arial,Helvetica,sans-serif;
+
+
+
+background-image: url(../../../themes/S-GRaw/images/gradient.png);
+
+
+
+background-repeat: repeat-x;
+
+
+
+background-color : #282828;
+
+
+
+BORDER-TOP: #6B6B6B 1px solid; 
+
+
+
+BORDER-BOTTOM: #6B6B6B 1px solid; 
+
+
+
+BORDER-LEFT: #6B6B6B 1px solid; 
+
+
+
+BORDER-RIGHT: #6B6B6B 1px solid;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The main submit button option */
+
+
+
+
+
+
+
+input.mainoption {
+
+
+
+color:#24bfc0;
+
+
+
+font-size:11px;
+
+
+
+font-family: Arial,Helvetica,sans-serif;
+
+
+
+background-image: url(../../../themes/S-GRaw/images/gradient.png);
+
+
+
+background-repeat: repeat-x;
+
+
+
+background-color : #282828;
+
+
+
+BORDER-TOP: #6B6B6B 1px solid; 
+
+
+
+BORDER-BOTTOM: #6B6B6B 1px solid; 
+
+
+
+BORDER-LEFT: #6B6B6B 1px solid; 
+
+
+
+BORDER-RIGHT: #6B6B6B 1px solid;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* None-bold submit button */
+
+
+
+
+
+
+
+input.liteoption {
+
+
+
+
+color:#24bfc0;
+
+
+
+font-size:11px;
+
+
+
+font-family: Arial,Helvetica,sans-serif;
+
+
+
+background-image: url(../../../themes/S-GRaw/images/gradient.png);
+
+
+
+background-repeat: repeat-x;
+
+
+
+background-color : #282828;
+
+
+
+BORDER-TOP: #6B6B6B 1px solid; 
+
+
+
+BORDER-BOTTOM: #6B6B6B 1px solid; 
+
+
+
+BORDER-LEFT: #6B6B6B 1px solid; 
+
+
+
+BORDER-RIGHT: #6B6B6B 1px solid;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* This is the line in the posting page which shows the rollover
+
+
+
+help line. This is actually a text box, but if set to be the same
+
+
+
+colour as the background no one will know ;)
+
+
+
+*/
+
+
+
+
+
+
+
+.helpline {
+
+background-color : #282828;
+
+font-size: 11px;
+
+color: #24bfc0;
+
+BORDER-TOP: #24bfc0 0px solid; 
+
+BORDER-BOTTOM: #24bfc0 0px solid; 
+
+BORDER-LEFT: #24bfc0 0px solid; 
+
+BORDER-RIGHT: #24bfc0 0px solid;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

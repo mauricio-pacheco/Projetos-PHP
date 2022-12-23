@@ -1,0 +1,18 @@
+
+NET2FTP INSTALLATION INSTRUCTIONS
+
+To view the detailed installation instructions, open the help.html file in a 
+browser, and click on Administrator.
+
+In a few words:
+1 - Unzip all the files on your computer, and upload them to your server.
+2 - The /temp directory should be chmodded to 777. 
+3 - Set your settings in the settings.inc.php file. 
+4 - A database is only required if you want to log the actions of the users.
+To create the tables, execute the SQL queries in the "create_tables.sql" file. 
+This can be done easily in PhpMyAdmin, the popular front-end to MySQL.
+
+If you need help, post a message on the net2ftp forum:
+    http://www.net2ftp.org/forums
+
+Enjoy!

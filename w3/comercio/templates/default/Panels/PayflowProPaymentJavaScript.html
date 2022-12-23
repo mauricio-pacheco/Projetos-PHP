@@ -1,0 +1,81 @@
+<script type="text/javascript">
+
+	/* Make sure all credit card details have been provided and are valid */
+	function check_payflowpro_payment_form() {
+		var payflowpro_name = g("PayflowPro_name");
+		var payflowpro_ccno = g("PayflowPro_ccno");
+		var payflowpro_ccexpm = g("PayflowPro_ccexpm");
+		var payflowpro_ccexpy = g("PayflowPro_ccexpy");
+		var payflowpro_ccaddress = g("PayflowPro_ccaddress");
+		var payflowpro_cccity = g("PayflowPro_cccity");
+		var payflowpro_ccstate = g("PayflowPro_ccstate");
+		var payflowpro_zip = g("PayflowPro_zip");
+
+		if(payflowpro_name.value == "") {
+			alert("%%LNG_PayflowProEnterName%%");
+			payflowpro_name.focus();
+			return false;
+		}
+
+		if(isNaN(payflowpro_ccno.value) || payflowpro_ccno.value == "") {
+			alert("%%LNG_PayflowProEnterCardNumber%%");
+			payflowpro_ccno.focus();
+			payflowpro_ccno.select();
+			return false;
+		}
+
+		if(requiresCVV2() && ($('#PayflowPro_cccode').val() == '' || isNaN($('#PayflowPro_cccode').val()) || $('#PayflowPro_cccode').val().length > 4)) {
+			alert('%%LNG_PayflowProEnterCVV2Number%%');
+			$('#PayflowPro_cccode').focus();
+			$('#PayflowPro_cccode').select();
+			return false;
+		}
+
+		if(payflowpro_ccexpm.selectedIndex == 0) {
+			alert("%%LNG_PayflowProEnterCreditCardMonth%%");
+			payflowpro_ccexpm.focus();
+			return false;
+		}
+
+		if(payflowpro_ccexpy.selectedIndex == 0) {
+			alert("%%LNG_PayflowProEnterCreditCardYear%%");
+			payflowpro_ccexpy.focus();
+			return false;
+		}
+
+		if(payflowpro_ccaddress.value == "") {
+			alert("%%LNG_PayflowProEnterBillingAddress%%");
+			payflowpro_ccaddress.focus();
+			return false;
+		}
+
+		if(payflowpro_cccity.value == "") {
+			alert("%%LNG_PayflowProEnterCity%%");
+			payflowpro_cccity.focus();
+			return false;
+		}
+
+		if(payflowpro_ccstate.value == "") {
+			alert("%%LNG_PayflowProEnterState%%");
+			payflowpro_ccstate.focus();
+			return false;
+		}
+
+		if(payflowpro_zip.value == "") {
+			alert("%%LNG_PayflowProEnterPostcode%%");
+			payflowpro_zip.focus();
+			return false;
+		}
+
+		return true;
+	}
+
+	function requiresCVV2() {
+		if($('#CVV2Input').css('display') != 'none') {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+</script>

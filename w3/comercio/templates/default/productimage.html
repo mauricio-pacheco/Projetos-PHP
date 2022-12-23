@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link href="%%GLOBAL_TPL_PATH%%/Styles/popup.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="%%GLOBAL_ShopPath%%/javascript/jquery.js"></script>
+		<script type="text/javascript">
+			$(window).bind('load', function() {
+				var width = $('#ProductImage').width() + 80;
+				var modifier = 150;
+				if(navigator.userAgent.indexOf('MSIE') != -1) {
+					var modifier = 205;
+				}
+				var height = $('#ProductImage').height() + $('.Nav').height() + $('.Title').height() + modifier;
+				if(height < 350) {
+					height = 350;
+				}
+				if(width < 350) {
+					width = 350;
+				}
+				window.resizeTo(width, height);
+			});
+		</script>
+	</head>
+	<body>
+		%%Panel.ProductImagePopup%%
+	</body>
+</html>

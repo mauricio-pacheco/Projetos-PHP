@@ -1,0 +1,1 @@
+<template><id>Infinity</id><name>Infinity</name><version>2.5</version><colors><color><name>Red</name><hex>red</hex><preview>%%ISCURL%%templates/previews/Infinity_red_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/Infinity_red.jpg</previewFull></color></colors></template>

@@ -1,0 +1,1 @@
+<template><id>Serenity</id><name>Serenity</name><version>2.6</version><colors><color><name>Blue</name><hex>blue</hex><preview>%%ISCURL%%templates/previews/Serenity_blue_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/Serenity_blue.jpg</previewFull></color></colors></template>

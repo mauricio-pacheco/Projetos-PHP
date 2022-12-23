@@ -1,0 +1,15 @@
+				<div class="Block NewsletterSubscription Moveable" id="SideNewsletterBox">
+					<h2>%%LNG_OurNewsletter%%</h2>
+					<div class="BlockContent">
+						<form action="%%GLOBAL_ShopPath%%/subscribe.php" method="post" id="subscribe_form" name="subscribe_form">
+							<input type="hidden" name="action" value="subscribe" />
+							<label for="nl_first_name">%%LNG_YourFirstName%%:</label>
+							<input type="text" class="Textbox" id="nl_first_name" name="nl_first_name" />
+							<label for="nl_email">%%LNG_YourEmailAddress%%:</label>
+							<input type="text" class="Textbox" id="nl_email" name="nl_email" /><br />
+							<input type="image" src="%%GLOBAL_TPL_PATH%%/images/%%GLOBAL_SiteColor%%/NewsletterSubscribe.gif" value="%%LNG_Subscribe%%" class="Button" />
+						</form>
+					</div>
+				</div>
+				%%Panel.NewsletterJavaScript%%
+				

@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<title>PHP HTML Editor - Deployment the Cute Editor for PHP</title>
+		<link rel="stylesheet" href="example.css" type="text/css">
+        <link rel="stylesheet" href="SyntaxHighlighter.css" type="text/css" />
+	</head>
+	<body>	
+	    <table width="100%">
+		    <tr>
+			    <td>
+			        <a href="default.htm"><img alt="CuteEditor" src="sampleimages/logo.gif" /></a>
+			    </td>
+			    <td align="right">
+				    <a href="http://cutesoft.net/asp/">CuteEditor for ASP</a> |	<a href="http://cutesoft.net">CuteEditor for .NET</a>
+			    </td>
+		    </tr>
+		    <tr>
+		        <td colspan="2" class="topmenu">
+		            <a class="menu" href="default.htm">Home</a>|
+				    <a class="menu" href="demo.htm">Demo</a>|
+				    <a class="menu" href="Deployment.htm">Deployment</a>|	
+				    <a class="menu" href="CommonTasks.htm">Common Tasks</a>|	
+				    <a class="menu" href="http://cutesoft.net/Forums/">Forums</a>|	
+				    <a class="menu" href="Feature-Comparison-Chart.htm">Feature</a>|	
+				    <a class="menu" href="http://phphtmledit.com/Order.php">Order</a>	
+			    </td>
+		    </tr>
+	    </table>
+	    <table style="width:750px;" cellpadding="15">
+			<tr>
+				<td>
+                    <h1>Deployment the Cute Editor for PHP</h1>
+                    CuteEditor for PHP is a custom PHP class that was developed as a replacement for the standard TextArea tag in content management systems.
+                    It is 100% HTML and JavaScript code on the client, and PHP code on the server, and can be setup on your web server in just 5 minutes,
+                    simply by following this setup guide.
+                    <br />
+                    <br />
+            <table cellPadding="5" width="100%" border="0">
+              <tr>
+                <td>
+                  <div>
+                    <b>1. Deploying the CuteEditor Client files. </b>
+                  </div>
+                  <br />
+                  <div>
+                    The "cuteeditor_files" folder and all file it contains (located in the archive) should be deployed to http://{your site}/{your application}/cuteeditor_files/ on your web site.
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div>
+                    <B>2. Adding Editor into PHP page.</B>
+                  </div>
+                  <br />
+<div class="dp-highlighter">
+<div class="bar"></div>
+<ol class="dp-c">
+    <li class="alt"><span class="comment">//Step&nbsp;1:&nbsp;Register&nbsp;Editor&nbsp;component&nbsp;to&nbsp;your&nbsp;page </span><span>&nbsp;&nbsp;</span></li>
+    <li><span>&lt;?php&nbsp;</span><span class="keyword">require_once</span><span>&nbsp;</span><span class="string">"cuteeditor_files/include_CuteEditor.php"</span><span>&nbsp;?&gt; &nbsp;&nbsp;</span></span></li>
+    <li class="alt"><span>&lt;html&gt; &nbsp;&nbsp;</span></li>
+    <li><span>&lt;body&gt; &nbsp;&nbsp;</span></li>
+    <li class="alt"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;form&nbsp;id=</span><span class="string">"form1"</span><span>&nbsp;method=</span><span class="string">"POST"</span><span>&gt; &nbsp;&nbsp;</span></span></li>
+    <li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;?php &nbsp;&nbsp;</span></li>
+    <li class="alt"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="comment">//Step&nbsp;2:&nbsp;Create&nbsp;Editor&nbsp;object. </span><span>&nbsp;&nbsp;</span></span></li>
+    <li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="vars">$editor</span><span>=</span><span class="keyword">new</span><span>&nbsp;CuteEditor(); &nbsp;&nbsp;</span></span></li>
+    <li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="vars">$editor</span><span>-&gt;Text=</span><span class="string">"Type here"</span><span>;&nbsp; &nbsp;&nbsp;</span></span></li>
+    <li class="alt"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="comment">//Step&nbsp;3:&nbsp;Set&nbsp;a&nbsp;unique&nbsp;ID&nbsp;to&nbsp;Editor </span><span>&nbsp;&nbsp;</span></span></li>
+    <li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="vars">$editor</span><span>-&gt;ID=</span><span class="string">"Editor1"</span><span>;&nbsp; &nbsp;&nbsp;</span></span></li>
+    <li class="alt"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="comment">//Step&nbsp;4:&nbsp;Render&nbsp;Editor </span><span>&nbsp;&nbsp;</span></span></li>
+    <li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$editor-&gt;Draw(); &nbsp;&nbsp;</span></li>
+    <li class="alt"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?&gt; &nbsp;&nbsp;</span></li>
+    <li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/form&gt; &nbsp;&nbsp;</span></li>
+    <li class="alt"><span>&lt;/body&gt; &nbsp;&nbsp;</span></li>
+    <li><span>&lt;/html&gt;&nbsp;&nbsp;</span></li>
+</ol>
+</div>
+                  <br />
+                  <div>Once you've created a CuteEditor class object, you call functions against that object.</div>
+                  <br />
+                  <div>
+                    Note 1: You can retrieve the CuteEditor contents using the $_POST array. The name of the variable in the $_POST array will be CuteEditor ID.
+                    For example if your Cute Editor class ID is "Editor1", the variable would be $_POST["Editor1"].
+                  </div>
+                  <br />
+                  <div>Note 2: If you want to deploy the CuteEditor Client file to a different location, you will have to make sure that you set your editor FilesPath property correctly. The control expects to find the all the files and images in the files directory specified by the control FilesPath property.</div>
+                </td>
+              </tr>
+           </table>
+				</td>
+			</tr>
+		</table>
+	<div id="footer">
+		<p><a href="http://cutesoft.net">Copyright 2003-2011 CuteSoft.Net. All rights reserved.</a></p>
+	</div>
+</body>
+</html>

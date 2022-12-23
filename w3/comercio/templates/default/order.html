@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+%%Panel.HTMLHead%%
+<body>
+	<div id="Container">
+		%%Panel.Header%%
+
+		<div id="Wrapper">
+			<div class="Content Widest" id="LayoutColumn1">
+				<div class="Block">
+					<h2>%%LNG_ThanksForYourOrder%%</h2>
+					<div class="BlockContent">
+						<p class="ErrorMessage" style="display:%%GLOBAL_HideError%%">
+							%%GLOBAL_ErrorMessage%%
+						</p>
+
+						<div style="display:%%GLOBAL_HidePaidOrderConfirmation%%">
+							<p class="SuccessMessage" style="display:%%GLOBAL_HideSuccess%%">
+								%%LNG_JustSentAnEmailConfirmation%%
+							</p>
+
+							<p style="display:%%GLOBAL_HidePhysicalOrderConfirmation%%">
+								%%LNG_PhysicalOrderConfirmation%%
+								<br /><br />
+								<a href="%%GLOBAL_ShopPath%%/orderstatus.php">%%LNG_ViewYourOrder%%</a>
+							</p>
+							<p style="display:%%GLOBAL_HideDigitalOrderConfirmation%%">
+								%%LNG_DigitalOrderConfirmation%%
+								<br /><br />
+								<a href="%%GLOBAL_ShopPath%%/orderstatus.php">%%LNG_DownloadTheItemsYouOrdered%%</a>
+							</p>
+						</div>
+
+						<div style="display: %%GLOBAL_HideAwaitingPayment%%">
+							<p class="SuccessMessage" style="display:%%GLOBAL_HideSuccess%%">
+								%%LNG_JustSentAnEmailConfirmation%%
+							</p>
+							%%LNG_OrderAwaitingPayment%%
+						</div>
+						%%GLOBAL_OrderConfirmationDetails%%
+						%%SNIPPET_OfflinePaymentMessage%%
+					</div>
+					<div style="display:%%GLOBAL_HideProductUpdates%%; clear: both;">
+						<br />
+						<h2>%%LNG_ReceiveProductUpdatesViaEmail%%</h2>
+						<div class="BlockContent">
+							<form action="%%GLOBAL_ShopPathSSL%%/productupdates.php" method="post" id="productUpdatesForm">
+								<input type="hidden" name="Email" id="Email" value="%%GLOBAL_CustomerEmail%%" />
+								%%LNG_ReceiveProductUpdatesViaEmailIntro%%
+								<br /><br />
+								%%GLOBAL_ProductUpdatesList%%
+								<br />
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="image" src="%%GLOBAL_TPL_PATH%%/images/%%GLOBAL_SiteColor%%/NotifyMeButton.gif" />
+								%%Panel.ProductUpdatesJavaScript%%
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br class="Clear" />
+		</div>
+		%%Panel.Footer%%
+		<!-- Include the conversion tracking code for all analytics packages -->
+		%%GLOBAL_ConversionCode%%
+	</div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<script type="text/javascript">
+
+	$(document).ready(function() {
+		if("%%GLOBAL_AutoHideSearchForm%%" == "true") {
+			ToggleSearchForm();
+		}
+	});
+
+	// Toggle the advanced search form
+	function ToggleSearchForm() {
+		if($('.AdvancedSearch').css('display') == 'none') {
+			$('.AdvancedSearch').show();
+			$('#toggle_form_image').attr({src:"%%GLOBAL_TPL_PATH%%/images/ArrowUp.gif"});
+			$('#toggle_form_link').text('%%LNG_HideSearchForm%%');
+			$('#search_query_adv').focus();
+		}
+		else {
+			$('.AdvancedSearch').hide();
+			$('#toggle_form_image').attr({src:"%%GLOBAL_TPL_PATH%%/images/ArrowDown.gif"});
+			$('#toggle_form_link').text('%%LNG_ShowSearchForm%%');
+		}
+	}
+
+	// Make sure any advanced search fields are valid
+	function CheckAdvancedSearchForm() {
+		if($('#search_query_adv').val() == '') {
+			alert('%%LNG_EmptySmallSearch%%');
+			$('#search_query_adv').focus();
+			return false;
+		}
+
+		if(isNaN($('#price_from').val())) {
+			alert('%%LNG_EnterValidFromPrice%%');
+			$('#price_from').focus();
+			$('#price_from').select();
+			return false;
+		}
+
+		if(isNaN($('#price_to').val())) {
+			alert('%%LNG_EnterValidToPrice%%');
+			$('#price_to').focus();
+			$('#price_to').select();
+			return false;
+		}
+
+		return true;
+	}
+
+	// Track a search click
+	$(document).ready(function()
+	{
+		$('.TrackLink').click(function(event)
+		{
+			// Only care for left clicks
+			if(event.button && event.button != 1)
+			{
+				return;
+			}
+
+			var trackurl = '%%GLOBAL_AppPath%%/search.php?action=trackSearchClick&searchid=%%GLOBAL_SearchId%%';
+
+			if(typeof encodeURIComponent == 'undefined') {
+				$('#SearchTracker').remove();
+				$('body').append('<script src="'+trackurl+' id="SearchTracker"><\/script>');
+			}
+			else
+			{
+				jQuery.ajax({
+					url: trackurl,
+					type: 'GET'
+				});
+			}
+		});
+	});
+</script>

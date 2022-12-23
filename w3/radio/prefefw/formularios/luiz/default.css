@@ -1,0 +1,66 @@
+FONT	{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+TD		{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+BODY	{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+P		{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+DIV		{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+
+.bodyline {background:#E5E8EE url(images/bg_cat4.gif);border:4px ridge #6699CC}
+body {background: #FFFFFF url(images/bg_cat2.gif);color:#000000;font:12px Verdana,Arial,Helvetica,sans-serif;	
+        scrollbar-arrow-color:  #1D2938;
+	scrollbar-face-color: #727272;
+	scrollbar-track-color: #EEEEEE;
+	scrollbar-highlight-color: #C8D3E1;
+	scrollbar-3dlight-color: #EAEFF4;
+	scrollbar-shadow-color: #7492B6;
+	scrollbar-darkshadow-color: #3A5370;}
+
+A:link {color:#364D67;FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica;text-decoration:none}
+A:active {color:#364D67;FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica;text-decoration:none}
+A:visited {color:#364D67;FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica;text-decoration:none}
+A:hover {color:#0781AA;FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica;text-decoration:none}
+.title 		 {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 14px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.content 	 {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica}
+.block-title {BACKGROUND: none; COLOR: #364D67; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica;text-decoration:none}
+.storytitle  {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 10px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: bold}
+.storytitle2  {BACKGROUND: none; COLOR: #364D67; FONT-SIZE: 12px; FONT-WEIGHT: FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.storytitle3  {BACKGROUND: none; COLOR: #364D67; FONT-SIZE: 10px; FONT-WEIGHT: FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.storycat	 {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 12px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline}
+.boxtitle 	 {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 10px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.boxcontent  {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica}
+.option 	 {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 10px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.tiny		 {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 10px; FONT-WEIGHT: normal; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.small		 {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 9px; FONT-WEIGHT: normal; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+
+/* Form elements */
+input,textarea,select{
+border-color:#000000;
+color:#000000;
+border:1px solid;
+font:normal 11px Verdana,Arial,Helvetica,sans-serif}
+
+/* The text input fields background colour */
+input.post,textarea.post,select{background:#ffffff}
+input{text-indent:2px}
+
+/* The buttons used for bbCode styling in message post */
+input.button{
+background:#efefef;border:1px solid; color:#000000; font:11px Verdana,Arial,Helvetica,sans-serif}
+
+/* The main submit button option */
+input.mainoption{background:#fafafa;font-weight:bold}
+
+/* None-bold submit button */
+input.liteoption{background:#fafafa;font-weight:normal}
+
+/* Quote & Code blocks */
+.code{
+background:#fafafa;
+border:1px solid #d1d7dc;
+color:#006600;
+font:11px Courier,'Courier New',sans-serif
+}
+.quote{
+background:#fafafa;
+border:1px solid #d1d7dc;
+color:#444444;
+font:11px/125% Verdana,Arial,Helvetica,sans-serif}

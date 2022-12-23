@@ -1,0 +1,1 @@
+<template><id>Computers</id><name>Computers</name><version>2.1</version><colors><color><name>Purple</name><hex>purple</hex><preview>%%ISCURL%%templates/previews/Computers_purple_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/Computers_purple.jpg</previewFull></color></colors></template>

@@ -1,0 +1,49 @@
+.texto {
+	FONT-SIZE: 11px; COLOR: #333; font-family:Tahoma, Geneva, sans-serif;
+}
+BODY { background-image: url(../imagens/bg.png); background-color:#026DA2; background-repeat:repeat-x
+}
+.boxSombra{
+box-shadow: 0 0 .55em #000; /* Implementação W3C */
+-moz-box-shadow: 0 0 .55em #000;  /* Implementação Mozilla */
+-webkit-box-shadow: 0 0 .55em #000; /* Implementação para browsers que renderizam via webkit */
+behavior: url(PIE.htc); /* Comportamento adicionado para renderização das propriedades acima no IE 7 e IE 8 */
+}
+.manchete_texto {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #ffffff; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.manchete_textocasab {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #ffffff; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.manchete_textocasa {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #333333; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.manchete_textocasa9 {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #333333; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.manchete_texto99 {
+	font-family:Tahoma, Geneva, sans-serif; color:#333333; font-size:11px; TEXT-DECORATION: none
+	}
+	.manchete_texto99 a:hover {
+	font-family:Tahoma, Geneva, sans-serif; color:#01487A; font-size:11px; TEXT-DECORATION: none
+	}
+.manchete_texto9 {
+	font-family:Tahoma, Geneva, sans-serif; color:#333333; font-size:11px; TEXT-DECORATION: none
+	}
+	.manchete_texto9 a:hover {
+	font-family:Tahoma, Geneva, sans-serif; color:#333333; font-size:11px; TEXT-DECORATION: underline
+	}
+	
+.manchete_texto989 {
+	font-family:Tahoma, Geneva, sans-serif; color:#FFFFFF; font-size:11px; TEXT-DECORATION: none
+	}
+	.manchete_texto989 a:hover {
+	font-family:Tahoma, Geneva, sans-serif; color:#FFFFFF; font-size:11px; TEXT-DECORATION: underline
+	}
+
+		.manchete_texto {
+	font-family:Tahoma, Geneva, sans-serif; color:#333; font-size:13px;
+	}
+	.manchete_texto a:hover {
+	font-family:Tahoma, Geneva, sans-serif; color:#333; font-size:13px;
+	}

@@ -1,0 +1,1 @@
+﻿<embed src="http://96.9.138.101/player-aacplus.swf" width="428" height="250" allowscriptaccess="always" allowfullscreen="true" flashvars="file=rtmp://64.56.64.54/17646&id=17646.stream&autostart=true" type="application/x-shockwave-flash" /></embed>

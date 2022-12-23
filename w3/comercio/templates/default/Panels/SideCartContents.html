@@ -1,0 +1,20 @@
+<div class="Block Moveable SideCart" id="SideCartContents" style="display:%%GLOBAL_HidePurchasingOptions%%%%GLOBAL_HideCartOptions%%; %%GLOBAL_HideSideCart%%">
+	<h2>%%LNG_YourShoppingCart%%</h2>
+	<div class="BlockContent">
+		<p>
+			%%GLOBAL_SideCartItemCount%%
+			%%LNG_SideCartTotalCost%%
+		</p>
+		
+		<ul class="ProductList">
+			%%SNIPPET_SideCartItems%%
+		</ul>
+
+		<p class="Clear" style="padding-top: 10px;"> 
+			<a href="%%GLOBAL_ShopPathNormal%%/cart.php" class="ViewCartLink">%%LNG_ViewCart%%</a> %%SNIPPET_SideCartContentsCheckoutLink%%
+		</p>
+		<p class="Clear" style="padding-top: 10px;"> 
+			%%GLOBAL_AdditionalCheckoutButtons%%
+		</p>
+	</div>
+</div>

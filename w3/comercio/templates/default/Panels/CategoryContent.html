@@ -1,0 +1,14 @@
+				<div class="Block CategoryContent Moveable" id="CategoryContent">
+					<script type="text/javascript">
+						lang.CompareSelectMessage = '%%LNG_CompareSelectMessage%%';
+					</script>
+					<form name="frmCompare" id="frmCompare" action="%%GLOBAL_CompareLink%%" method="get" onsubmit="return compareProducts('%%GLOBAL_CompareLink%%')">
+						<ul class="ProductList">
+							%%GLOBAL_CategoryProductListing%%
+						</ul>
+						<br class="Clear" />
+						<div class="CompareButton" style="display:%%GLOBAL_HideCompareItems%%">
+							<input type="image" value="%%LNG_CompareSelected%%" src="%%GLOBAL_TPL_PATH%%/images/%%GLOBAL_SiteColor%%/CompareButton.gif" />
+						</div>
+					</form>
+				</div>

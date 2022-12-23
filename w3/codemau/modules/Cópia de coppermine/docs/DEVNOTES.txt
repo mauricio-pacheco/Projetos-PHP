@@ -1,0 +1,3 @@
+Please ask each other b4 editing this file and always get a clean copy as CVS doesn't do as with with html docs.
+NOTES
+-----

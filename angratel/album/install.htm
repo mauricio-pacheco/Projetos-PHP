@@ -1,0 +1,134 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="pt-br">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>X-Album By Brunoalencar.com - Instalação</title>
+</head>
+
+<body bgcolor="#f5f5f5">
+
+<p align="center"><img border="0" src="logo.jpg" width="768" height="120"></p>
+<p align="center"><font face="Verdana" size="6">Instalação</font></p>
+<center><font face="Verdana" size="2">Observação: Antes da Instalação você deve aplicar "CHMOD" com o modo 0777 na pasta raiz do Script e na pasta FOTOS e nos arquivos:</font></center>
+<center><font face="Verdana" size="2">"testandochmod.php" que se encontra na pasta raiz e no "testandochmod.php" que se encontra na pasta "fotos".</font></center>
+<center><font face="Verdana" size="2"><B>Atenção: Não é recomendavel usar esse script em apache domestico mal configurado.</b></font></center>
+
+    <form method="POST" action="instalar.php"><center><table border="2" cellpadding="0" width="500" height="1" bordercolor="#FFFFFF">
+  <tr>
+    <td width="484" colspan="3" height="13"><font size="2" face="Verdana">&nbsp;<font color="A6E900">&#9643;
+      Dados Pessoais</font></font></td>
+  </tr>
+  <tr>
+    <td width="51" height="19" align="center">
+<font face="Verdana" size="1">&nbsp;&nbsp;<img border="0" src="logo.gif"></font>
+    </td>
+    <td width="124" height="19"><font face="Verdana" size="1">Nome:</font></td>
+    <td width="309" height="19"><font face="Verdana" size="1">&nbsp;<input type="text" name="nome" size="20"></font>
+    </td>
+  </tr>
+  <tr>
+    <td width="51" height="19" align="center"><font face="Verdana" size="1">&nbsp;&nbsp;<img border="0" src="logo.gif"></font></td>
+    <td width="124" height="19"><font face="Verdana" size="1">E-mail:</font></td>
+    <td width="309" height="19"><font face="Verdana" size="1">&nbsp;<input type="text" name="email" size="20"></font></td>
+  </tr>
+  <tr>
+    <td width="51" height="19" align="center"><font face="Verdana" size="1">&nbsp;&nbsp;<img border="0" src="logo.gif"></font></td>
+    <td width="124" height="19"><font face="Verdana" size="1">Cidade:</font></td>
+    <td width="309" height="19"><font face="Verdana" size="1">&nbsp;<input type="text" name="cidade" size="20"></font></td>
+  </tr>
+  <tr>
+    <td width="484" height="19" colspan="3"><font face="Verdana" size="1" color="A6E900">&nbsp;</font><font face="Verdana" color="A6E900" size="2">&#9643;
+      Dados do Album</font></td>
+  </tr>
+  <tr>
+    <td width="51" height="19" align="center"><font face="Verdana" size="1">&nbsp;&nbsp;<img border="0" src="logo.gif"></font></td>
+    <td width="124" height="19"><font face="Verdana" size="1">&nbsp;Login:</font></td>
+    <td width="309" height="19"><font face="Verdana" size="1">&nbsp;<input type="text" name="login" size="20"></font></td>
+  </tr>
+  <tr>
+    <td width="51" height="19" align="center"><font face="Verdana" size="1">&nbsp;&nbsp;<img border="0" src="logo.gif"></font></td>
+    <td width="124" height="19"><font face="Verdana" size="1">&nbsp;Senha:</font></td>
+    <td width="309" height="19"><font face="Verdana" size="1">&nbsp;<input type="text" name="senha" size="20"></font></td>
+  </tr>
+      <tr>
+    <td width="51" height="19" align="center"><font face="Verdana" size="1">&nbsp;&nbsp;<img border="0" src="logo.gif"></font></td>
+    <td width="124" height="19"><font face="Verdana" size="1">Como conheçeu o
+      X-Album?</font></td>
+    <td width="309" height="19"><font face="Verdana" size="1">&nbsp;</font><select size="1" name="conheceu">
+        <option>Sites de WebMasters</option>
+        <option selected>Amigos</option>
+        <option>Banner</option>
+        <option>Sites de Busca</option>
+        <option>Por Acaso</option>
+        <option>E-mail</option>
+      </select></td>
+  </tr>
+  <tr>
+    <td width="484" height="19" colspan="3"><font face="Verdana" size="1">*Atenção,
+      as configuraçãoes serão setadas no Painel de Controle</font></td>
+  </tr>
+  <tr>
+    <td width="484" height="1" colspan="3"><font size="2" face="Verdana" color="A6E900">&nbsp;&#9643;
+      Banco de Dados/MySQL</font>
+</td>
+  </tr>
+  <tr>
+    <td width="51" height="15" align="center"><font face="Verdana" size="1">&nbsp;&nbsp;<img border="0" src="logo.gif"></font></td>
+    <td width="124" height="15"><font face="Verdana" size="1">&nbsp;Usuário:</font></td>
+    <td width="309" height="15"><font face="Verdana" size="1">&nbsp;<input type="text" name="userdb" size="20"></font></td>
+  </tr>
+    <tr>
+    <td width="51" height="28" align="center"><font face="Verdana" size="1">&nbsp;&nbsp;<img border="0" src="logo.gif"></font></td>
+    <td width="124" height="28"><font face="Verdana" size="1">&nbsp;Senha:&nbsp;</font></td>
+    <td width="309" height="28"><font face="Verdana" size="1">&nbsp;<input type="text" name="senhadb" size="20">&nbsp;</font></td>
+  </tr>
+    <tr>
+    <td width="51" height="20" align="center"><font face="Verdana" size="1">&nbsp;&nbsp;<img border="0" src="logo.gif"></font></td>
+    <td width="124" height="20"><font face="Verdana" size="1">&nbsp;Banco de
+      Dados:</font></td>
+    <td width="309" height="20"><font face="Verdana" size="1">&nbsp;<input type="text" name="bancodados" size="20"></font></td>
+  </tr>
+    <tr>
+    <td width="51" height="27" align="center">
+      <p align="center"><font face="Verdana" size="1">&nbsp;&nbsp;<img border="0" src="logo.gif"></font></p>
+    </td>
+    <td width="124" height="27"><font face="Verdana" size="1">&nbsp;Tabela(Configuração):</font></td>
+    <td width="309" height="27"><font face="Verdana" size="1">&nbsp;<input type="text" name="tabela" size="20" value="xalbum"></font></td>
+  </tr>
+      <tr>
+    <td width="51" height="27" align="center">
+      <p align="center"><font face="Verdana" size="1">&nbsp;&nbsp;<img border="0" src="logo.gif"></font></p>
+    </td>
+    <td width="124" height="27"><font face="Verdana" size="1">&nbsp;Tabela 2(Fotos):</font></td>
+    <td width="309" height="27"><font face="Verdana" size="1">&nbsp;<input type="text" name="tabela2" size="20" value="xalbumfotos"></font></td>
+  </tr>
+      <td width="51" height="27" align="center">
+      <p align="center"><font face="Verdana" size="1">&nbsp;&nbsp;<img border="0" src="logo.gif"></font></p>
+    </td>
+    <td width="124" height="27"><font face="Verdana" size="1">&nbsp;Tabela 3(Comentarios):</font></td>
+    <td width="309" height="27"><font face="Verdana" size="1">&nbsp;<input type="text" name="tabela3" size="20" value="xalbumcomentarios"></font></td>
+  </tr>
+    <tr>
+    <td width="484" height="2" colspan="3">
+<p align="center">
+<font face="Verdana" size="1"><b>&nbsp;*OBSERVAÇÃO IMPORTANTE:</b> Após a
+instalação, delete do servidor o arquivo &quot;instalar.php&quot;!!</font>
+</p>
+<p align="center">
+<font face="Verdana" size="1"><input type="submit" value="Instalar!" name="botao" style="background-color: #F5F5F5; border: 1 solid #A6E900"></font>
+</p>
+</td>
+  </tr>
+</table></center>      </form>
+
+<p align="center" style="word-spacing: 0; margin-top: 0; margin-bottom: 0"><font face="Verdana" size="1">X-Album
+desenvolvido por Brunoalencar.com</font></p>
+<p align="center" style="word-spacing: 0; margin-top: 0; margin-bottom: 0"><font face="Verdana" size="1">Todos
+os direitos reservados ao autor</font></p>
+
+</body>
+
+</html>

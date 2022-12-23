@@ -1,0 +1,418 @@
+
+@media Screen    
+{
+BODY {
+	BACKGROUND-IMAGE: url(bg.gif)
+}
+#wrapper {
+	BACKGROUND-IMAGE: url(shadow.gif)
+}
+#head {
+	COLOR: #fff; BACKGROUND-COLOR: #3c7faf
+}
+#brand {
+	BACKGROUND-IMAGE: url(glow.gif)
+}
+    }
+#xnav LI {
+	BACKGROUND-IMAGE: url(crossnetnav.gif)
+}
+#xnav LI.selected {
+	BACKGROUND-IMAGE: url(chansel.gif)
+}
+#head .linklist9 LI {
+	BACKGROUND-IMAGE: url(pipe.gif)
+}
+.nav2 LI {
+	BACKGROUND-IMAGE: url(pipe.gif)
+}
+.nav3 LI A {
+	BACKGROUND-IMAGE: url(pipe.gif)
+}
+.nav2 UL {
+	BACKGROUND-IMAGE: url(hn.gif)
+}
+.nav3 UL {
+	BACKGROUND-IMAGE: url(hn.gif)
+}
+.player1 .controls {
+	BACKGROUND-IMAGE: url(hn.gif)
+}
+.player2 .controls {
+	BACKGROUND-IMAGE: url(hn.gif)
+}
+#head {
+	BORDER-LEFT-COLOR: #77a6c7; BORDER-BOTTOM-COLOR: #77a6c7; BORDER-TOP-COLOR: #77a6c7; BORDER-RIGHT-COLOR: #77a6c7
+}
+#xnav LI {
+	BORDER-LEFT-COLOR: #77a6c7; BORDER-BOTTOM-COLOR: #77a6c7; BORDER-TOP-COLOR: #77a6c7; BORDER-RIGHT-COLOR: #77a6c7
+}
+.imglinkabs3 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.imglinkabs4 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.imglinkabs6 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.imglinkabslist3 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.imglinkabslist4 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.imglinkabslist6 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.imglinkabslist9 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.imglinkabslist10 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.imglinkabslist12 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.imglinkabslist15 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.imglinkabslist16 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.imglinkabslist18 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.imglinkabslist21 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.imglinkabslist22 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.imglinkabslist24 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linkabs2 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linkabslist2 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linkabslist6 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linkabslist9 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linkabslist12 DIV.richtext {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linkedimglinklist4 {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linkedimglinklist4 LI {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linkedimglinklist5 {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linkedimglinklist5 LI {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linkedimglinklist7 LI {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linkedimglinklist9 LI {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linkedimglinklist10 LI {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linkedimglinklist10 LI.last {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linkedimglinklist11 LI {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linkedimglinklist11 LI.last {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linkedimglinklist12 {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linkedimglinklist12 LI {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linkedimglinklist19 LI {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linkedimglinklist20 LI {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linklist3 {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linklist3 LI {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linklist4 {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linklist4 LI {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linklist5 {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linklist5 LI {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linklist10 LI {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linklist11 {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linklist11 LI {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.nested1 {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.nested1 UL LI {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.linklist10 LI.last {
+	BORDER-RIGHT-COLOR: #ace
+}
+.linklist5 A {
+	BORDER-LEFT-COLOR: #ebf3fb; BORDER-BOTTOM-COLOR: #ebf3fb; BORDER-TOP-COLOR: #ebf3fb; BORDER-RIGHT-COLOR: #ebf3fb
+}
+#more {
+	BORDER-LEFT-COLOR: #2a5997; BORDER-BOTTOM-COLOR: #2a5997; BORDER-TOP-COLOR: #2a5997; BORDER-RIGHT-COLOR: #2a5997
+}
+#xnav LI.last {
+	BORDER-LEFT-COLOR: #2a5997; BORDER-BOTTOM-COLOR: #2a5997; BORDER-TOP-COLOR: #2a5997; BORDER-RIGHT-COLOR: #2a5997
+}
+.chrome2.parent H2 {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.chrome3.parent {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.chrome4.parent H2 {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.chrome5.parent {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.chrome5.parent H2 {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.chrome7.parent {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.chrome7.parent H2 {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.nav1 LI {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.nav1 LI.last {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.nav1 LI.notselected {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.nav2 LI.selected {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.nav3 LI.selected A {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.nav3 LI.notselected A {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.slides .parent {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.slides .controls {
+	BORDER-LEFT-COLOR: #ace; BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #ace; BORDER-RIGHT-COLOR: #ace
+}
+.nav3 UL UL {
+	BORDER-TOP-COLOR: #ace
+}
+.nav2 UL {
+	BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #fff
+}
+.nav3 UL {
+	BORDER-BOTTOM-COLOR: #ace; BORDER-TOP-COLOR: #fff
+}
+.nav3 LI.selected A {
+	BORDER-BOTTOM-COLOR: #fff
+}
+.nav3 LI.notselected A {
+	BORDER-BOTTOM-COLOR: #fff
+}
+.linklist11 LI.selected {
+	BORDER-BOTTOM-COLOR: #fff
+}
+.linkedimglinklist12 LI.selected {
+	BORDER-BOTTOM-COLOR: #fff
+}
+.promo.chrome4.parent H2 {
+	BORDER-LEFT-COLOR: #d7c895; BORDER-BOTTOM-COLOR: #d7c895; BORDER-TOP-COLOR: #d7c895; BORDER-RIGHT-COLOR: #d7c895
+}
+.promo.chrome5.parent {
+	BORDER-LEFT-COLOR: #d7c895; BORDER-BOTTOM-COLOR: #d7c895; BORDER-TOP-COLOR: #d7c895; BORDER-RIGHT-COLOR: #d7c895
+}
+.promo.chrome5.parent H2 {
+	BORDER-LEFT-COLOR: #d7c895; BORDER-BOTTOM-COLOR: #d7c895; BORDER-TOP-COLOR: #d7c895; BORDER-RIGHT-COLOR: #d7c895
+}
+.promo.chrome7.parent {
+	BORDER-LEFT-COLOR: #d7c895; BORDER-BOTTOM-COLOR: #d7c895; BORDER-TOP-COLOR: #d7c895; BORDER-RIGHT-COLOR: #d7c895
+}
+.promo.chrome7.parent H2 {
+	BORDER-LEFT-COLOR: #d7c895; BORDER-BOTTOM-COLOR: #d7c895; BORDER-TOP-COLOR: #d7c895; BORDER-RIGHT-COLOR: #d7c895
+}
+.promo2.chrome4.parent H2 {
+	BORDER-LEFT-COLOR: #afc896; BORDER-BOTTOM-COLOR: #afc896; BORDER-TOP-COLOR: #afc896; BORDER-RIGHT-COLOR: #afc896
+}
+.promo2.chrome5.parent {
+	BORDER-LEFT-COLOR: #afc896; BORDER-BOTTOM-COLOR: #afc896; BORDER-TOP-COLOR: #afc896; BORDER-RIGHT-COLOR: #afc896
+}
+.promo2.chrome5.parent H2 {
+	BORDER-LEFT-COLOR: #afc896; BORDER-BOTTOM-COLOR: #afc896; BORDER-TOP-COLOR: #afc896; BORDER-RIGHT-COLOR: #afc896
+}
+.promo2.chrome7.parent {
+	BORDER-LEFT-COLOR: #afc896; BORDER-BOTTOM-COLOR: #afc896; BORDER-TOP-COLOR: #afc896; BORDER-RIGHT-COLOR: #afc896
+}
+.promo2.chrome7.parent H2 {
+	BORDER-LEFT-COLOR: #afc896; BORDER-BOTTOM-COLOR: #afc896; BORDER-TOP-COLOR: #afc896; BORDER-RIGHT-COLOR: #afc896
+}
+.simple6 INPUT.button {
+	BORDER-LEFT-COLOR: #000; BORDER-BOTTOM-COLOR: #000; COLOR: #07519a; BORDER-TOP-COLOR: #000; BACKGROUND-COLOR: #ebf3fb; BORDER-RIGHT-COLOR: #000
+}
+.nav1 UL {
+	BACKGROUND-COLOR: #ebf3fb
+}
+.nav1 UL LI.selected LI A {
+	BACKGROUND-COLOR: #ebf3fb
+}
+.nav1 LI.first {
+	BORDER-LEFT-COLOR: #ebf3fb; BORDER-BOTTOM-COLOR: #ebf3fb; BORDER-TOP-COLOR: #ebf3fb; BORDER-RIGHT-COLOR: #ebf3fb
+}
+.linkedimglinklist4 LI:hover {
+	BACKGROUND-COLOR: #ebf3fb
+}
+.linkedimglinklist4 A:hover {
+	BACKGROUND-COLOR: #ebf3fb
+}
+.linkedimglinklist5 A:hover {
+	BACKGROUND-COLOR: #ebf3fb
+}
+.linkedimglinklist10 A:hover {
+	BACKGROUND-COLOR: #ebf3fb
+}
+.linkedimglinklist10 A:hover SPAN {
+	BACKGROUND-COLOR: #ebf3fb
+}
+.linkedimglinklist11 A:hover {
+	BACKGROUND-COLOR: #ebf3fb
+}
+.linkedimglinklist12 LI {
+	BACKGROUND-COLOR: #ebf3fb
+}
+.linklist3 LI.selected {
+	BACKGROUND-COLOR: #ebf3fb
+}
+.linklist4 LI:hover {
+	BACKGROUND-COLOR: #ebf3fb
+}
+.linklist4 A:hover {
+	BACKGROUND-COLOR: #ebf3fb
+}
+.linklist5 A:hover {
+	BACKGROUND-COLOR: #ebf3fb
+}
+.linklist10 A:hover {
+	BACKGROUND-COLOR: #ebf3fb
+}
+.linklist11 LI {
+	BACKGROUND-COLOR: #ebf3fb
+}
+.chrome4.parent H2 {
+	BACKGROUND-COLOR: #ebf3fb
+}
+.chrome5.parent H2 {
+	BACKGROUND-COLOR: #ebf3fb
+}
+.chrome7.parent H2 {
+	BACKGROUND-COLOR: #ebf3fb
+}
+#wrapper .alt1 {
+	BACKGROUND-COLOR: #ebf3fb
+}
+.promo.chrome4.parent H2 {
+	COLOR: #fff; BACKGROUND-COLOR: #c5a948
+}
+.promo.chrome4.parent H2 A {
+	COLOR: #fff; BACKGROUND-COLOR: #c5a948
+}
+.promo.chrome5.parent H2 {
+	COLOR: #fff; BACKGROUND-COLOR: #c5a948
+}
+.promo.chrome5.parent H2 A {
+	COLOR: #fff; BACKGROUND-COLOR: #c5a948
+}
+.promo.chrome7.parent H2 {
+	COLOR: #fff; BACKGROUND-COLOR: #c5a948
+}
+.promo.chrome7.parent H2 A {
+	COLOR: #fff; BACKGROUND-COLOR: #c5a948
+}
+.promo2.chrome4.parent H2 {
+	COLOR: #fff; BACKGROUND-COLOR: #693
+}
+.promo2.chrome4.parent H2 A {
+	COLOR: #fff; BACKGROUND-COLOR: #693
+}
+.promo2.chrome5.parent H2 A {
+	COLOR: #fff; BACKGROUND-COLOR: #693
+}
+.promo2.chrome5.parent H2 {
+	COLOR: #fff; BACKGROUND-COLOR: #693
+}
+.promo2.chrome7.parent H2 {
+	COLOR: #fff; BACKGROUND-COLOR: #693
+}
+.promo2.chrome7.parent H2 A {
+	COLOR: #fff; BACKGROUND-COLOR: #693
+}
+#wrapper .alt2 {
+	BACKGROUND-COLOR: #f8fbdc
+}
+#wrapper .alt3 {
+	BACKGROUND-COLOR: #e5f0da
+}
+.article1 BLOCKQUOTE {
+	COLOR: #693
+}
+.article1 H1 {
+	COLOR: #693
+}
+.article1 .chrome8.insert H2 {
+	COLOR: #693
+}
+.article1 .chrome8.insert .h2 {
+	COLOR: #693
+}
+.article1 P.first:first-letter {
+	COLOR: #693
+}
+.article1 .chrome8.insert {
+	BORDER-LEFT-COLOR: #693; BORDER-BOTTOM-COLOR: #693; BORDER-TOP-COLOR: #693; BORDER-RIGHT-COLOR: #693
+}
+#search .searchinputarea {
+	BORDER-RIGHT: #3373a1 1px solid; BORDER-TOP: #3373a1 1px solid; BORDER-LEFT: #3373a1 1px solid; BORDER-BOTTOM: #3373a1 1px solid
+}

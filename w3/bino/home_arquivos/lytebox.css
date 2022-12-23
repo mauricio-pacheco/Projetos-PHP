@@ -1,0 +1,123 @@
+#lbOverlay {
+	Z-INDEX: 99998; LEFT: 0px; WIDTH: 100%; POSITION: absolute; TOP: 0px; HEIGHT: 500px
+}
+.grey#lbOverlay {
+	BACKGROUND-COLOR: #000000
+}
+#lbMain {
+	Z-INDEX: 99999; LEFT: 0px; WIDTH: 100%; LINE-HEIGHT: 0; POSITION: absolute; TEXT-ALIGN: center
+}
+#lbMain A IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#lbOuterContainer {
+	MARGIN: 0px auto; WIDTH: 200px; POSITION: relative; HEIGHT: 200px; BACKGROUND-COLOR: #fff
+}
+.grey#lbOuterContainer {
+	BORDER-RIGHT: #888888 3px solid; BORDER-TOP: #888888 3px solid; BORDER-LEFT: #888888 3px solid; BORDER-BOTTOM: #888888 3px solid
+}
+#lbDetailsContainer {
+	MARGIN: 0px auto; FONT: 10px/1.4em Verdana, Helvetica, sans-serif; OVERFLOW: auto; WIDTH: 100%; BACKGROUND-COLOR: #fff
+}
+.grey#lbDetailsContainer {
+	BORDER-RIGHT: #888888 3px solid; BORDER-TOP: #888888 3px; BORDER-LEFT: #888888 3px solid; BORDER-BOTTOM: #888888 3px solid
+}
+#lbImageContainer {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+#lbIframeContainer {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+#lbLoading {
+	BACKGROUND: url(images/loading.gif) no-repeat center 50%; LEFT: 0%; WIDTH: 100%; LINE-HEIGHT: 0; POSITION: absolute; TOP: 45%; HEIGHT: 32px; TEXT-ALIGN: center
+}
+#lbHoverNav {
+	Z-INDEX: 10; LEFT: 0px; WIDTH: 100%; POSITION: absolute; TOP: 0px; HEIGHT: 100%
+}
+#lbImageContainer > #lbHoverNav {
+	LEFT: 0px
+}
+#lbHoverNav A {
+	outline: none
+}
+#lbPrev {
+	DISPLAY: block; BACKGROUND: url(images/blank.gif) no-repeat; LEFT: 0px; FLOAT: left; WIDTH: 49%; HEIGHT: 100%
+}
+.grey#lbPrev:hover {
+	BACKGROUND: url(images/prev_grey.gif) no-repeat left 15%
+}
+.grey#lbPrev:hover:visited {
+	BACKGROUND: url(images/prev_grey.gif) no-repeat left 15%
+}
+#lbNext {
+	DISPLAY: block; RIGHT: 0px; BACKGROUND: url(images/blank.gif) no-repeat; FLOAT: right; WIDTH: 49%; HEIGHT: 100%
+}
+.grey#lbNext:hover {
+	BACKGROUND: url(images/next_grey.gif) no-repeat right 15%
+}
+.grey#lbNext:hover:visited {
+	BACKGROUND: url(images/next_grey.gif) no-repeat right 15%
+}
+#lbPrev2 {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+#lbNext2 {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.grey#lbPrev2 {
+	COLOR: #333333
+}
+.grey#lbNext2 {
+	COLOR: #333333
+}
+.grey#lbSpacer {
+	COLOR: #333333
+}
+#lbPrev2_Off {
+	FONT-WEIGHT: bold
+}
+#lbNext2_Off {
+	FONT-WEIGHT: bold
+}
+.grey#lbPrev2_Off {
+	COLOR: #cccccc
+}
+.grey#lbNext2_Off {
+	COLOR: #cccccc
+}
+#lbDetailsData {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.grey#lbDetailsData {
+	COLOR: #333333
+}
+#lbDetails {
+	FLOAT: left; WIDTH: 60%; TEXT-ALIGN: left
+}
+#lbCaption {
+	DISPLAY: block; FONT-WEIGHT: bold
+}
+#lbNumberDisplay {
+	DISPLAY: block; FLOAT: left; PADDING-BOTTOM: 1em
+}
+#lbNavDisplay {
+	DISPLAY: block; FLOAT: left; PADDING-BOTTOM: 1em
+}
+#lbClose {
+	FLOAT: right; MARGIN-BOTTOM: 1px; WIDTH: 64px; HEIGHT: 28px
+}
+.grey#lbClose {
+	BACKGROUND: url(images/closelabel.gif) no-repeat
+}
+#lbPlay {
+	FLOAT: right; MARGIN-BOTTOM: 1px; WIDTH: 64px; HEIGHT: 28px
+}
+.grey#lbPlay {
+	BACKGROUND: url(images/play_grey.png) no-repeat
+}
+#lbPause {
+	FLOAT: right; MARGIN-BOTTOM: 1px; WIDTH: 64px; HEIGHT: 28px
+}
+.grey#lbPause {
+	BACKGROUND: url(images/pause_grey.png) no-repeat
+}

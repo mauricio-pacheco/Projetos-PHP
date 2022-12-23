@@ -1,0 +1,39 @@
+<?
+// Inclui lib padrão
+include "$path_local";
+echo ('Conectando ');
+echo ("<img src=\"$base[url]/imagens/progresso.gif\" alt=\"Carregando\"><br>");
+echo str_repeat(" ", 256);
+flush();
+// Conecta e efetua login no ftp
+$conecta_ftp = @ftp_connect($ftp[host]);
+$login_no_ftp = @ftp_login($conecta_ftp,$ftp[usuario],$ftp[senha]);
+if(!$conecta_ftp OR !$login_no_ftp)
+{
+	$erro = "Um erro ocorreu ao tentar conectar-se com servidor FTP.\n\n<br>Por favor consulte o administrador.";
+}
+// Verifica tipo de upload a ser feito (icone/tumbnail/deletar)
+switch($upload)
+{
+	case "icone":
+		if ($remove_ftp)
+		{
+			ftp_delete($conecta_ftp,"$remove_ftp");
+		}
+        ftp_put($conecta_ftp,"$ftp[icones]/$n_arquivo","$icone_form",FTP_BINARY);
+	break;
+	case "tumbnail":
+	   ftp_put($conecta_ftp,"$ftp[imagens]/$n_arquivo","$arquivo_form",FTP_BINARY);
+	   if ($remove_ftp)
+		{
+			ftp_delete($conecta_ftp,"$remove_ftp");
+		}
+	break;
+	case "deletar":
+		if ($remove_ftp)
+		{
+			ftp_delete($conecta_ftp,"$remove_ftp");
+		}
+	break;
+}
+?>

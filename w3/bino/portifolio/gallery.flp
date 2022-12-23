@@ -1,0 +1,25 @@
+<flash_project name="~gallery" version="1">
+    <project_file path="./~gallery.fla" filetype="fla" profile="" />
+    <project_file path="./.\mx\transitions\easing\Strong.as" filetype="as" />
+    <project_file path="./.\mx\transitions\easing\Bounce.as" filetype="as" />
+    <project_file path="./.\mx\transitions\easing\Elastic.as" filetype="as" />
+    <project_file path="./.\mx\transitions\easing\Regular.as" filetype="as" />
+    <project_file path="./.\mx\transitions\easing\Back.as" filetype="as" />
+    <project_file path="./.\mx\transitions\easing\None.as" filetype="as" />
+    <project_file path="./.\myFunctions.as" filetype="as" />
+    <project_file path="./.\mx\transitions\OnEnterFrameBeacon.as" filetype="as" />
+    <project_file path="./.\mx\transitions\BroadcasterMX.as" filetype="as" />
+    <project_file path="./.\mx\transitions\Tween.as" filetype="as" />
+    <project_file path="./.\com\robertpenner\easing\Quad.as" filetype="as" />
+    <project_file path="./.\com\robertpenner\easing\Circ.as" filetype="as" />
+    <project_file path="./.\com\robertpenner\easing\Quart.as" filetype="as" />
+    <project_file path="./.\com\robertpenner\easing\Sine.as" filetype="as" />
+    <project_file path="./.\com\robertpenner\easing\Back.as" filetype="as" />
+    <project_file path="./.\com\robertpenner\easing\Quint.as" filetype="as" />
+    <project_file path="./.\com\robertpenner\easing\Linear.as" filetype="as" />
+    <project_file path="./.\com\robertpenner\easing\Expo.as" filetype="as" />
+    <project_file path="./.\com\robertpenner\easing\Elastic.as" filetype="as" />
+    <project_file path="./.\com\robertpenner\easing\Bounce.as" filetype="as" />
+    <project_file path="./.\zigo\tweenManager.as" filetype="as" />
+    <project_file path="./.\com\robertpenner\easing\Cubic.as" filetype="as" />
+</flash_project>

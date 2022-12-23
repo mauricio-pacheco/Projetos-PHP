@@ -1,0 +1,1 @@
+<template><id>Health</id><name>Health</name><version>2.3</version><colors><color><name>Green</name><hex>green</hex><preview>%%ISCURL%%templates/previews/Health_green_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/Health_green.jpg</previewFull></color></colors></template>

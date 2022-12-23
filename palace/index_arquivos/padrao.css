@@ -1,0 +1,117 @@
+A:link {
+	FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 10px; COLOR: #DA251D; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+
+BODY {
+scrollbar-face-color:#666666;
+scrollbar-highlight-color:#666666;
+scrollbar-3dlight-color:#FFFFFF;
+scrollbar-darkshadow-color:#FFFFFF;
+scrollbar-shadow-color:#FFFFFF;
+scrollbar-arrow-color:#FFFFFF;
+scrollbar-track-color:#FFFFFF;
+}
+SELECT {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT: 11px Verdana,Arial,Helvetica,sans-serif; BORDER-LEFT: 1px solid; COLOR: #ffffff; BORDER-BOTTOM: 1px solid
+}
+SELECT {
+	BACKGROUND: #666666
+}
+
+INPUT {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #cccccc 1px solid; COLOR: #e6e6e6; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #666666}
+
+
+.slc-laran {
+	FONT-WEIGHT: bolder; FONT-SIZE: xx-small; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffa74f; TEXT-DECORATION: blink
+}
+.pek-branco {
+	FONT-WEIGHT: bold; FONT-SIZE: 9px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.preto {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.menu-dire-tbl {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-LEFT: #d8d8d8 1px solid
+}
+.menu-dire-tblindex {
+	BORDER-RIGHT: #d8d8d8 1px solid
+}
+.pek-cinza {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.pek-cinza:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.pek-cinza:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.pek-cinza:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.pek-cinza:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.field-cinza {
+	BORDER-RIGHT: #bebebe 1px solid; BORDER-TOP: #bebebe 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #bebebe 1px solid; BORDER-BOTTOM: #bebebe 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ebebeb
+}
+.field-cinza-clic {
+	BORDER-RIGHT: #bebebe 1px solid; BORDER-TOP: #bebebe 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #bebebe 1px solid; COLOR: #000000; BORDER-BOTTOM: #bebebe 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #E2EFE8
+}
+.field-padrao {
+	BORDER-RIGHT: #bebebe 1px solid; BORDER-TOP: #bebebe 1px solid; FONT-SIZE: 10px; LIST-STYLE-IMAGE: url(../img/meio/admin/programese.gif); BORDER-LEFT: #bebebe 1px solid; BORDER-BOTTOM: #bebebe 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #E2EFE8
+}
+.field-padrao-clic {
+	BORDER-RIGHT: #bebebe 1px solid; BORDER-TOP: #bebebe 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #bebebe 1px solid; COLOR: #333333; BORDER-BOTTOM: #bebebe 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #E2EFE8
+}
+.font-menu-esqu {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #636563; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.font-menu-esqu-neg {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #636563 FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.menu-meio-tbl {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px; BACKGROUND-COLOR: #fbfbfb
+}
+.vermelho {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ff3300; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.fontpadrao {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.fontpadrao-sem-neg {
+	FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.box-laranja {
+	BORDER-RIGHT: #A6CDB7 1px solid; BORDER-TOP: #A6CDB7 1px solid; BORDER-LEFT: #A6CDB7 1px solid; BORDER-BOTTOM: #A6CDB7 1px solid
+}
+.calendario-tbl {
+	BORDER-RIGHT: #A6CDB7 0px solid; BORDER-TOP: #A6CDB7 0px solid; BORDER-LEFT: #A6CDB7 0px solid; BORDER-BOTTOM: #A6CDB7 0px solid
+}
+.box-agenda {
+	BORDER-RIGHT: #A6CDB7 1px solid; BORDER-TOP: #A6CDB7 1px; BORDER-LEFT: #A6CDB7 1px solid; BORDER-BOTTOM: #A6CDB7 1px
+}
+.preto {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.box-cinza-d-e-b {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+.programese-titulo {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.fontpadrao-g {
+	FONT-SIZE: 13px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.fontpadrao-g:link {
+	FONT-SIZE: 13px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}

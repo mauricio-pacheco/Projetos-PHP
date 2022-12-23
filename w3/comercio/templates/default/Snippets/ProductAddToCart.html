@@ -1,0 +1,26 @@
+<hr />
+
+%%SNIPPET_SideAddItemSoldOut%%
+
+<form method="post" action="%%GLOBAL_CartLink%%" onsubmit="return check_add_to_cart(this, %%GLOBAL_ProductOptionRequired%%)">
+	<input type="hidden" name="action" value="add" />
+	<input type="hidden" name="product_id" value="%%GLOBAL_ProductId%%" />
+	<input type="hidden" name="variation_id" class="CartVariationId" value="" />
+	<input type="hidden" name="currency_id" value="" />
+	<dl class="ProductAddToCart">
+		%%SNIPPET_VariationList%%
+
+		<dt class="QuantityInput" style="display: %%GLOBAL_DisplayAddQty%%;">%%LNG_QuantityFull%%:</dt>
+		<dd class="AddCartButton" style="display: %%GLOBAL_DisplayAdd%%">
+			<span class="FloatLeft" style="display: %%GLOBAL_DisplayAddQty%%;">%%GLOBAL_AddToCartQty%%</span>
+			<input type="image" src="%%GLOBAL_TPL_PATH%%/images/%%GLOBAL_SiteColor%%/AddCartButton.gif" alt="" />
+		</dd>
+	</dl>
+</form>
+<script type="text/javascript">
+lang.OptionMessage = "%%GLOBAL_OptionMessage%%";
+lang.VariationSoldOutMessage = "%%LNG_VariationSoldOutMessage%%";
+lang.InvalidQuantity = "%%LNG_InvalidQuantity%%";
+var ShowAddToCartQtyBox = "%%GLOBAL_ShowAddToCartQtyBox%%";
+</script>
+%%GLOBAL_ProductVariationJavascript%%

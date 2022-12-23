@@ -1,0 +1,7 @@
+
+The images within the /images directory were developed by Everaldo Coelho
+for KDE and are free for non-commercial use. 
+
+Refer to these sites for more details:
+http://www.everaldo.com
+http://themes.freshmeat.net/projects/crystalicons/

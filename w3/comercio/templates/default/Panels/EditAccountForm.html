@@ -1,0 +1,53 @@
+<div class="Block Moveable" id="EditAccountForm">
+	<h2>%%LNG_YourAccountDetails%%</h2>
+	<div class="BlockContent">
+		<p class="InfoMessage" style="display: %%GLOBAL_HideEditAccountIntroMessage%%">
+			%%LNG_EditAccountIntro%%
+		</p>
+
+		<p class="ErrorMessage" style="display: %%GLOBAL_HideEditAccountErrorMessage%%">
+			%%GLOBAL_StatusMessage%%
+		</p>
+
+		<p class="SuccessMessage" style="display: %%GLOBAL_HideEditAccountSuccessMessage%%">
+			%%GLOBAL_StatusMessage%%
+		</p>
+
+		<form action="%%GLOBAL_ShopPath%%/account.php?action=update_account" method="post" onsubmit="return check_edit_account_form()" class="PL20">
+			<input type="hidden" name="current_email" value="%%GLOBAL_AccountEmail%%" />
+			<div class="FormContainer HorizontalFormContainer">
+				<dl>
+					<dt><span class="Required">*</span> %%LNG_FirstName%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="account_firstname" id="account_firstname" value="%%GLOBAL_AccountFirstName%%" /></dd>
+
+					<dt><span class="Required">*</span> %%LNG_LastName%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="account_lastname" id="account_lastname" value="%%GLOBAL_AccountLastName%%" /></dd>
+
+					<dt>&nbsp;&nbsp; %%LNG_CompanyName%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="account_companyname" id="account_companyname" value="%%GLOBAL_AccountCompanyName%%" /></dd>
+
+					<dt><span class="Required">*</span> %%LNG_EmailAddress%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="account_email" id="account_email" value="%%GLOBAL_AccountEmail%%" /></dd>
+
+					<dt><span class="Required">*</span> %%LNG_PhoneNumber%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="account_phone" id="account_phone" value="%%GLOBAL_AccountPhone%%" /></dd>
+
+					<dt>&nbsp;&nbsp; %%LNG_NewPassword%%:</dt>
+					<dd><input type="password" class="Textbox Field200" name="account_password" id="account_password" value="" /></dd>
+
+					<dt>&nbsp;&nbsp; %%LNG_PasswordConfirm%%:</dt>
+					<dd>
+						<input type="password" class="Textbox Field200" name="account_password_confirm" id="account_password_confirm" value="" />
+						<p class="LittleNote">
+							%%LNG_AccountLeavePasswords%%
+						</p>
+					</dd>
+				</dl>
+				<p class="Submit">
+					<input type="submit" value="%%LNG_UpdateMyDetails%%" />
+				</p>
+			</div>
+		</form>
+		%%Panel.EditAccountJavaScript%%
+	</div>
+</div>

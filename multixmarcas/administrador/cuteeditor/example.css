@@ -1,0 +1,77 @@
+body { padding-bottom: 10px; padding-top: 5px; margin: 0px;}
+body,p,div,span,table{ font: 12px Arial, Helvetica, sans-serif; }
+form { padding: 0px; margin: 0px; border: 0px; }
+table { border: 0;}
+td{vertical-align:top}
+p { margin:0px;}
+h1 { font:bold 17px verdana; margin-bottom:10px; color: #224488;}
+a:link {color: #336699; text-decoration: underline}
+a:visited {	color: #336699; text-decoration: underline}
+a:active { color: #336699; text-decoration: underline}
+a:hover { text-decoration: none}
+img{border:0;}
+.topmenu
+{	
+	background-color: #336699;
+	border-color: #cccccc;
+	color: #444444;
+	height:24px;
+	vertical-align:middle;
+	color:White;
+	padding-left:40px;
+}
+a.menu:link,a.menu:visited,a.menu:active {
+	font:bold 10px verdana;
+	color:White;
+	padding:0 3px 0 2px;
+	text-decoration:none;
+}
+#footer { clear: both;	padding: 1em; margin:30px;text-align: center;	border-top:solid 1px #ECECF6; width:750; }	
+
+#leftcolumn
+{
+	width: 150px;
+	padding-left:0px;
+}
+#leftcolumn ul {padding:0 0 3px 10px; list-style-position: outside; margin: 0; margin-bottom: 5px; list-style: none;}
+#leftcolumn li {padding-top: 1px;padding-bottom: 1px;padding-left: 2px; }
+#leftcolumn li a{color:#333333;text-decoration: none; }
+#leftcolumn li a:hover{color:navy;text-decoration: underline; }
+.leftcolumntitle {padding:0 0 3px 10px;color:#224488;}
+.box{
+	border:1px solid #cccccc;
+	margin-bottom:10px;
+	padding:5px;
+}
+.f4
+{
+	background-color: #f4f4f4;
+}
+
+/*----Example CSS Class --*/ 
+img.greyborder {
+	border: 1px solid #c0c0c0;
+}
+td.module {
+	background-color: #efefef;
+}
+td.content {
+	color: black; 
+	font-family: tahoma, arial, helvetica; 
+	font-weight: bold; 
+}
+.subtabbg {
+	background-color: #efefef;
+}
+.redcolor{
+	color:red;
+}
+.boldgreen
+{
+	color: green; font-weight: bold;
+}
+.highlight
+{
+	background-color: yellow;
+}
+/*----End of Example CSS Class --*/ 

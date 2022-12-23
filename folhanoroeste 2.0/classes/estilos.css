@@ -1,0 +1,90 @@
+BODY { background-image: url(../imagens/bg.png); background-color:#EEEEEE; margin:0;
+}
+.pontilhado{ 
+border-style: dotted; 
+border-width: 1px; 
+border-color: 660033; 
+background-color: cc3366; 
+font-family: verdana, arial; 
+font-size: 10pt; 
+} 
+
+.fonte {
+	color: #333333; font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: none;
+}
+.fontemm {
+	color: #333333; font-family: Tahoma, Geneva, sans-serif; font-size: 10px; text-decoration: none;
+}
+.fonte a:hover {
+	color: #E71E26; font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: none;
+}
+.fontet1 {
+	color: #EFA01D; font-family: Tahoma, Geneva, sans-serif; font-size: 17px; text-decoration: none;
+}
+.fontet1 a:hover {
+	color: #E71E26; font-family: Tahoma, Geneva, sans-serif; font-size: 17px; text-decoration: none;
+}
+.edicao {
+	color: #333333; font-family: Tahoma, Geneva, sans-serif; font-size: 17px; text-decoration: none;
+}
+.edicao a:hover {
+	color: #E71E26; font-family: Tahoma, Geneva, sans-serif; font-size: 17px; text-decoration: none;
+}
+.fontet2 {
+	color: #EFA01D; font-family: Tahoma, Geneva, sans-serif; font-size: 13px; text-decoration: none;
+}
+.fontet2 a:hover {
+	color: #E71E26; font-family: Tahoma, Geneva, sans-serif; font-size: 13px; text-decoration: none;
+}
+.texto {
+	color: #333333; font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: none;
+}
+.texto a:hover {
+	color: #E71E26; font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: underline;
+}
+.manchete_texto {
+	color: #333333; font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: none;
+}
+.manchete_texto a:hover {
+	color: #E71E26; font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: underline;
+}
+
+.fontetabela {
+	color: #333333; font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: none;
+}
+.fontetabela a:hover {
+	color: #E71E26; font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: underline;
+}
+
+.link_galeria_todas {
+	color: #333333; font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: none;
+}
+.link_galeria_todas a:hover {
+	color: #E71E26; font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: none;
+}
+
+.legenda {
+	color: #333333; font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: none;
+}
+.legenda a:hover {
+	color: #333333; font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: underline;
+}
+.fontemaior {
+	color: #f9f9f9; font-family: Tahoma, Geneva, sans-serif; font-size: 13px; text-decoration: none;
+}
+.fontemaior a:hover {
+	color: #f9f9f9; font-family: Tahoma, Geneva, sans-serif; font-size: 13px; text-decoration: underline;
+}
+.fontegaleria {
+	color: #9F1118; font-family: Tahoma, Geneva, sans-serif; font-size: 13px; text-decoration: none;
+}
+.fontegaleria a:hover {
+	color: #E71C24; font-family: Tahoma, Geneva, sans-serif; font-size: 13px; text-decoration: underline;
+}
+.fontedatagaleria {
+	color: #E71C24; font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: none;
+}
+.fontedatagaleria a:hover {
+	color: #E71C24; font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: underline;
+}
+

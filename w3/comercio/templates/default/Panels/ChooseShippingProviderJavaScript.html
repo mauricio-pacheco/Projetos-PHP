@@ -1,0 +1,16 @@
+<script type="text/javascript">
+
+	var provider_chosen = false;
+
+	/* Make sure they selected a shipping provider */
+	function check_shipping_provider_form() {
+
+		if(!provider_chosen) {
+			alert("%%LNG_PleaseChooseShippingProvider%%");
+			return false;
+		}
+	
+		return true;
+	}
+
+</script>

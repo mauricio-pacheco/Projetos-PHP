@@ -1,0 +1,255 @@
+.video1 {
+	FONT-FAMILY: tahoma,sans-serif
+}
+.video1 A {
+	COLOR: #07519a; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.video1 A:link {
+	COLOR: #07519a; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.video1 A:visited {
+	COLOR: #07519a; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.video1 A:hover {
+	TEXT-DECORATION: underline
+}
+.video1 A:active {
+	COLOR: #090; BACKGROUND-COLOR: transparent
+}
+.video1 A.ad IMG {
+	DISPLAY: block; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-ALIGN: center; BORDER-BOTTOM-STYLE: none
+}
+.video1 A.linkback {
+	PADDING-RIGHT: 0.7em; BACKGROUND-POSITION: 100% 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(pipe.gif); PADDING-BOTTOM: 0px; MARGIN: 0px 0.7em 0px 0px; LINE-HEIGHT: 2em; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-y
+}
+.video1 A.last.linkback {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.video1 H3 {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 2px; MARGIN: 0px
+}
+.video1 .playerAdDiv {
+	TEXT-ALIGN: center
+}
+.msnVideoArticlePlayer {
+	COLOR: white; BACKGROUND-COLOR: #444444
+}
+.msnVideoArticlePlayer .clear {
+	CLEAR: both
+}
+.msnVideoArticlePlayer A {
+	TEXT-DECORATION: none
+}
+.msnVideoArticlePlayer A:visited {
+	TEXT-DECORATION: none
+}
+.msnVideoArticlePlayer A:hover {
+	TEXT-DECORATION: underline
+}
+.msnVideoArticlePlayer .playerDiv {
+	MARGIN-LEFT: auto; MARGIN-RIGHT: auto; TEXT-ALIGN: center
+}
+.msnVideoArticlePlayer .upperDiv {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.msnVideoArticlePlayer .metadataDiv {
+	TEXT-ALIGN: left
+}
+.msnVideoArticlePlayer .compact .metadataDiv {
+	FLOAT: left; MAX-WIDTH: 40%
+}
+.msnVideoArticlePlayer .titleDiv {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: white
+}
+.msnVideoArticlePlayer .dateDetail {
+	
+}
+.msnVideoArticlePlayer .durationDetail {
+	
+}
+.msnVideoArticlePlayer .sourceDetail {
+	
+}
+.msnVideoArticlePlayer .detailLabel {
+	FONT-WEIGHT: bold; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+.msnVideoArticlePlayer .dateDetail .detailLabel {
+	MARGIN-LEFT: 0px
+}
+.msnVideoArticlePlayer .descriptionDiv {
+	
+}
+.msnVideoArticlePlayer .detailDiv {
+	
+}
+.msnVideoArticlePlayer .detailDiv A {
+	
+}
+.msnVideoArticlePlayer .bottomDiv {
+	HEIGHT: 60px; BACKGROUND-COLOR: #333333
+}
+.msnVideoArticlePlayer .browseMoreDiv {
+	FLOAT: left; MAX-WIDTH: 40%; MARGIN: 22px 15px
+}
+.msnVideoArticlePlayer .arrow {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 5px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; POSITION: relative; TOP: -2px; BORDER-RIGHT-WIDTH: 0px
+}
+.msnVideoArticlePlayer .browseMoreDiv A {
+	FONT-SIZE: 110%; COLOR: #cccccc
+}
+.msnVideoArticlePlayer .browseMoreDiv A:visited {
+	FONT-SIZE: 110%; COLOR: #cccccc
+}
+.msnVideoArticlePlayer .adDiv {
+	FLOAT: right
+}
+.msnVideoOverlayPlayer {
+	FONT-SIZE: 16px; LINE-HEIGHT: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: left
+}
+.msnVideoOverlayPlayer .clear {
+	CLEAR: both
+}
+DIV.msnVideoOverlayPlayer {
+	LEFT: 0px; WIDTH: 100%; POSITION: absolute; TOP: 0px; HEIGHT: 100%
+}
+.msnVideoOverlayPlayer .overlayDiv {
+	DISPLAY: block; Z-INDEX: 1000; FILTER: alpha(opacity=60); LEFT: 0px; OVERFLOW: hidden; WIDTH: 100%; CURSOR: pointer; POSITION: fixed; TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: #333333; opacity: .6; -moz-opacity: .6; -khtml-opacity: 0.6
+}
+* HTML .msnVideoOverlayPlayer .centerDiv {
+	POSITION: absolute
+}
+.msnVideoOverlayPlayer .centerDiv {
+	Z-INDEX: 1000; LEFT: 50%; WIDTH: 960px; CURSOR: pointer; POSITION: fixed
+}
+.msnVideoOverlayPlayer .positionAdj {
+	LEFT: -50%; POSITION: relative
+}
+.msnVideoOverlayPlayer .adSkinDiv {
+	DISPLAY: none; OVERFLOW: hidden; WIDTH: 960px; POSITION: absolute; HEIGHT: 600px
+}
+.msnVideoOverlayPlayer .contentWrapper {
+	MARGIN-TOP: 60px; FLOAT: left; MARGIN-LEFT: 66px; CURSOR: default; POSITION: absolute; BACKGROUND-COLOR: #121212
+}
+.msnVideoOverlayPlayer .closeImg {
+	RIGHT: -10px; FLOAT: right; WIDTH: 30px; CURSOR: pointer; POSITION: absolute; TOP: -11px; HEIGHT: 30px
+}
+.msnVideoOverlayPlayer .leftContainer {
+	FLOAT: left; WIDTH: 679px
+}
+.msnVideoOverlayPlayer .rightContainer {
+	FLOAT: right; WIDTH: 125px; MARGIN-RIGHT: 15px
+}
+.msnVideoOverlayPlayer .playerDiv {
+	MARGIN-TOP: 15px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+.msnVideoOverlayPlayer .galleryDiv {
+	MARGIN-TOP: 15px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+.msnVideoOverlayPlayer .metadataWrapper {
+	CLEAR: both; MARGIN: 5px 20px 20px; OVERFLOW: hidden; COLOR: white; HEIGHT: 90px
+}
+.msnVideoOverlayPlayer .upNextWrapper {
+	CLEAR: both; MARGIN: 5px 20px 20px; OVERFLOW: hidden; COLOR: white; HEIGHT: 90px
+}
+.msnVideoOverlayPlayer .metadataTable {
+	TABLE-LAYOUT: fixed; WIDTH: 100%; HEIGHT: 90px; BACKGROUND-COLOR: #222222
+}
+.msnVideoOverlayPlayer .metadataTable TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 10px; VERTICAL-ALIGN: top; PADDING-TOP: 10px
+}
+.msnVideoOverlayPlayer .titleDiv {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; MARGIN-BOTTOM: 2px; COLOR: #ffffff
+}
+.msnVideoOverlayPlayer .descriptionDiv {
+	FONT-SIZE: 70%; COLOR: #999999
+}
+.msnVideoOverlayPlayer .overlayAdCell {
+	VERTICAL-ALIGN: top
+}
+.msnVideoOverlayPlayer .overlayAdDiv {
+	FLOAT: right; MAX-WIDTH: 300px; OVERFLOW: hidden; MAX-HEIGHT: 60px
+}
+.msnVideoOverlayPlayer .upNextWrapper {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; HEIGHT: 75px; BACKGROUND-COLOR: #222222
+}
+.msnVideoOverlayPlayer .countdown {
+	MARGIN-TOP: 5px; FLOAT: left; WIDTH: 100px; COLOR: #999999; TEXT-ALIGN: center
+}
+.msnVideoOverlayPlayer .count {
+	FONT-SIZE: 250%; COLOR: #ffffff
+}
+.msnVideoOverlayPlayer .thumbImg {
+	FLOAT: left; WIDTH: 128px
+}
+.msnVideoOverlayPlayer .upNextMeta {
+	FLOAT: left; MARGIN: 8px 0px 0px 15px; WIDTH: 355px
+}
+.msnLeadWithImage {
+	FONT-FAMILY: Arial, Tahoma, sans-serif; POSITION: relative
+}
+.msnLeadWithImage .clear {
+	CLEAR: both
+}
+.msnLeadWithImage .headerDiv {
+	OVERFLOW: auto; WIDTH: 100%
+}
+.msnLeadWithImage .headerDiv .closeBtnDiv {
+	FLOAT: right; CURSOR: pointer
+}
+.msnLeadWithImage .headerDiv .closeBtnDiv .closeBtn {
+	
+}
+.msnLeadWithImage .headerDiv .closeBtnDiv .closeBtnHover {
+	
+}
+.msnLeadWithImage .imageDiv {
+	FONT-WEIGHT: bold; OVERFLOW: hidden; CURSOR: pointer; COLOR: white; WHITE-SPACE: nowrap; POSITION: relative; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left
+}
+.msnLeadWithImage .imageDiv .thumbnailDiv {
+	POSITION: absolute
+}
+.msnLeadWithImage .imageDiv .thumbnailDiv .thumbnail {
+	
+}
+.msnLeadWithImage .imageDiv .playBtnDiv {
+	POSITION: absolute; TOP: 30%
+}
+.msnLeadWithImage .imageDiv .playBtnDiv .playBtn {
+	
+}
+.msnLeadWithImage .imageDiv .playBtnDiv .playBtnHover {
+	
+}
+.msnLeadWithImage .imageDiv .titleBackground {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FILTER: alpha(opacity=70); LEFT: 0px; PADDING-BOTTOM: 4px; WIDTH: 100%; BOTTOM: 0px; PADDING-TOP: 4px; POSITION: absolute; BACKGROUND-COLOR: black; opacity: .7; -moz-opacity: .7; -khtml-opacity: 0.7
+}
+.msnLeadWithImage .imageDiv .titleBackgroundNarrow {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FILTER: alpha(opacity=70); LEFT: 0px; PADDING-BOTTOM: 4px; WIDTH: 100%; BOTTOM: 0px; PADDING-TOP: 4px; POSITION: absolute; BACKGROUND-COLOR: black; opacity: .7; -moz-opacity: .7; -khtml-opacity: 0.7
+}
+.msnLeadWithImage .imageDiv .titleBackgroundWide {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FILTER: alpha(opacity=70); LEFT: 0px; PADDING-BOTTOM: 4px; WIDTH: 100%; BOTTOM: 0px; PADDING-TOP: 4px; POSITION: absolute; BACKGROUND-COLOR: black; opacity: .7; -moz-opacity: .7; -khtml-opacity: 0.7
+}
+.msnLeadWithImage .imageDiv .titleBackgroundNarrow {
+	FONT-SIZE: 90%
+}
+.msnLeadWithImage .imageDiv .titleBackgroundWide {
+	FONT-SIZE: 110%
+}
+.msnLeadWithImage .imageDiv .title {
+	PADDING-RIGHT: 4px; DISPLAY: none; PADDING-LEFT: 4px; LEFT: 0px; PADDING-BOTTOM: 4px; BOTTOM: 0px; PADDING-TOP: 4px; POSITION: absolute
+}
+.msnLeadWithImage .imageDiv .titleNarrow {
+	PADDING-RIGHT: 4px; DISPLAY: none; PADDING-LEFT: 4px; LEFT: 0px; PADDING-BOTTOM: 4px; BOTTOM: 0px; PADDING-TOP: 4px; POSITION: absolute
+}
+.msnLeadWithImage .imageDiv .titleWide {
+	PADDING-RIGHT: 4px; DISPLAY: none; PADDING-LEFT: 4px; LEFT: 0px; PADDING-BOTTOM: 4px; BOTTOM: 0px; PADDING-TOP: 4px; POSITION: absolute
+}
+.msnLeadWithImage .imageDiv .titleNarrow {
+	FONT-SIZE: 90%
+}
+.msnLeadWithImage .imageDiv .titleWide {
+	FONT-SIZE: 110%
+}
+.msnLeadWithImage .playerDiv {
+	TEXT-ALIGN: left
+}

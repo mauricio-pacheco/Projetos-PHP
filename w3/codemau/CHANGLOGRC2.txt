@@ -1,0 +1,3 @@
+This is a list of changes since RC1-2
+[*] Changed bookmark script wasn't working correctly with other than IE -added alert with instructions to bookmark for Moz/Nav/Opera
+[*] fixed bug in coppermine sql that gave Anon admin access

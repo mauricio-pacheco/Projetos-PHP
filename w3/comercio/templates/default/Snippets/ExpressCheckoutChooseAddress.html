@@ -1,0 +1,83 @@
+<form method="post" action="#" id="New%%GLOBAL_UpperAddressType%%Address" onsubmit="return ExpressCheckout.Choose%%GLOBAL_UpperAddressType%%Address()">
+	<div id="Choose%%GLOBAL_UpperAddressType%%Address" style="%%GLOBAL_HideChooseAddress%%">
+		<label><input type="radio" onclick="ExpressCheckout.ToggleAddressType('%%GLOBAL_UpperAddressType%%', 'Select');" name="%%GLOBAL_UpperAddressType%%AddressType" id="%%GLOBAL_UpperAddressType%%AddressTypeExisting" value="existing" checked="checked" /> %%GLOBAL_UseExistingAddress%%</label><br />
+		<div class="PL20 Select%%GLOBAL_UpperAddressType%%Address">
+			<img src="admin/images/nodejoin.gif" alt="" class="FloatLeft" />
+			<div style="margin-left: 30px;">
+				<select name="sel_%%GLOBAL_AddressType%%_address" style="width: 95%" size="5">
+					%%GLOBAL_AddressList%%
+				</select>
+				<div style="%%GLOBAL_HideShippingOptions%%">
+					<label><input type="checkbox" name="ship_to_billing_existing" id="ship_to_billing_existing" value="1" checked="checked" /> %%LNG_AlsoWantToShipToThisAddress%%</label>
+				</div>
+				<br />
+				<input type="submit" value="%%GLOBAL_UseAddressTitle%%" class="%%GLOBAL_AddressType%%Button" /> <span class="LoadingIndicator" style="display: none"><img src="%%GLOBAL_TPL_PATH%%/images/Loading.gif" alt="" /></span>
+			</div>
+		</div>
+		<label class="Clear" style="margin-top: 10px; display: block;"><input type="radio" onclick="ExpressCheckout.ToggleAddressType('%%GLOBAL_UpperAddressType%%', 'Add');" value="new" name="%%GLOBAL_UpperAddressType%%AddressType" id="%%GLOBAL_UpperAddressType%%AddressTypeNew" /> %%GLOBAL_AddNewAddress%%</label><br />
+	</div>
+	<div class="Clear PL20 Add%%GLOBAL_UpperAddressType%%Address" style="%%GLOBAL_HideCreateAddress%%">
+		<img src="admin/images/nodejoin.gif" class="FloatLeft" style="%%GLOBAL_HideChooseAddress%%" alt="" />
+		<div class="FloatLeft">
+			%%GLOBAL_CreateAccountForm%%
+			<div class="FormContainer HorizontalFormContainer Clear">
+				<dl>
+					<dt class="CheckoutAccountHiddenFields"><span class="Required">*</span> %%LNG_FullName%%:</dt>
+					<dd class="CheckoutAccountHiddenFields"><input type="text" class="Textbox Field200" name="%%GLOBAL_AddressType%%_fullname" id="%%GLOBAL_AddressType%%_fullname" value="%%GLOBAL_AddressFullName%%" /></dd>
+
+					<dt><span class="Required">*</span> %%LNG_AddressLine1%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="%%GLOBAL_AddressType%%_address1" id="%%GLOBAL_AddressType%%_address1" value="%%GLOBAL_AddressLine1%%" /></dd>
+
+					<dt>&nbsp;&nbsp; %%LNG_AddressLine2%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="%%GLOBAL_AddressType%%_address2" id="%%GLOBAL_AddressType%%_address2" value="%%GLOBAL_AddressLine2%%" /></dd>
+
+					<dt><span class="Required">*</span> %%LNG_Phone%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="%%GLOBAL_AddressType%%_phone" id="%%GLOBAL_AddressType%%_phone" value="%%GLOBAL_AddressPhone%%" /></dd>
+
+					<dt><span class="Required">*</span> %%LNG_City%%:</dt>
+					<dd><input type="text" class="Textbox Field200" name="%%GLOBAL_AddressType%%_city" id="%%GLOBAL_AddressType%%_city" value="%%GLOBAL_AddressCity%%" /></dd>
+
+					<dt><span class="Required">*</span> %%LNG_Country%%:</dt>
+					<dd>
+						<select name="%%GLOBAL_AddressType%%_country" id="%%GLOBAL_AddressType%%_country" class="Field200" onchange="ExpressCheckout.ToggleCountry('%%GLOBAL_AddressType%%');">
+							%%GLOBAL_CountryList%%
+						</select>
+					</dd>
+
+					<dt><span class="Required">*</span> %%LNG_StateProvince%%:</dt>
+					<dd>
+						<select style="display:%%GLOBAL_HideStateList%%" class="Field200" name="%%GLOBAL_AddressType%%_state" id="%%GLOBAL_AddressType%%_state">
+							%%GLOBAL_StateList%%
+						</select>
+						<input style="display:%%GLOBAL_HideStateBox%%" type="text" class="Textbox Field200" name="%%GLOBAL_AddressType%%_state_1" id="%%GLOBAL_AddressType%%_state_1" value="%%GLOBAL_AddressState%%" />
+					</dd>
+
+					<dt><span class="Required">*</span> %%LNG_ZipPostcode%%:</dt>
+					<dd><input type="text" class="Textbox" name="%%GLOBAL_AddressType%%_zip" id="%%GLOBAL_AddressType%%_zip" value="%%GLOBAL_AddressZip%%" style="width:70px" /></dd>
+
+					<dd class="CheckoutAccountRequiredFields"><label><input name="save_%%GLOBAL_AddressType%%_address" type="checkbox" checked="checked" value="1" /> %%LNG_SaveAddressInAddressBook%%</label></dd>
+
+					<dd style="%%GLOBAL_HideShippingOptions%%"><label><input type="checkbox" name="ship_to_billing" checked="checked" id="ship_to_billing" value="1" /> %%LNG_AlsoWantToShipToThisAddress%%</label></dd>
+
+				</dl>
+				<p class="Submit">
+					<input type="submit" class="%%GLOBAL_AddressType%%Button" value="%%GLOBAL_UseAddressTitle%%" checked="checked" /> <span class="LoadingIndicator" style="display: none"><img src="%%GLOBAL_TPL_PATH%%/images/Loading.gif" alt="" /></span>
+				</p>
+			</div>
+		</div>
+	</div>
+</form>
+<script type="text/javascript">
+if('%%GLOBAL_UpperAddressType%%' == 'Billing') {
+	$('#ship_to_billing, #ship_to_billing_existing').click(function() {
+		if(this.checked) {
+			$('.billingButton').val('%%LNG_BillAndShipToAddress%%');
+			$('.shippingButton').val('%%LNG_ShipToThisAddress%%');
+		}
+		else {
+			$('.billingButton').val('%%LNG_BillToThisAddress%%');
+			$('.shippingButton').val('%%LNG_ShipToThisAddress%%');
+		}
+	});
+}
+</script>

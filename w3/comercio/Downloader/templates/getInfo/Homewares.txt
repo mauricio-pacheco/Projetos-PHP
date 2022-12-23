@@ -1,0 +1,1 @@
+<template><id>Homewares</id><name>Homewares</name><version>2.0</version><colors><color><name>Brown</name><hex>brown</hex><preview>%%ISCURL%%templates/previews/Homewares_brown_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/Homewares_brown.jpg</previewFull></color></colors></template>

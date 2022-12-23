@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>net2ftp help</title>
+<link rel="stylesheet" type="text/css" href="../skin1-blue.css">
+</head>
+
+<body style="margin-left: 70px; margin-right: 70px;">
+
+<div style="border: 1px solid black; background-color: #CCCCCC; padding: 10px; margin-top: 20px;">
+Welcome! The purpose of these pages is to provide help for the 3 kinds of people using net2ftp:
+<ul>
+	<li> <a href="02-user.html">Users</a> - how to upload files, how to copy a directory</li>
+	<li> <a href="03-administrator.html">Administrators</a> - how to install net2ftp on your own web server</li>
+	<li> <a href="04-developer.html">Developers</a> - how the code is structured</li>
+</ul>
+</div>
+
+<br />
+
+Follow the links above to go to the section that you're interested in, or continue to read below for a brief explanation of what is net2ftp.
+
+<br /><br />
+
+<div class="header21">What is net2ftp?</div>
+<b>net2ftp is a web-based FTP client written in PHP.</b> 
+Lets explain this in detail. 
+<i>Web-based</i> means that net2ftp runs on a web server, and that you use a browser (for example Internet Explorer or Mozilla).
+<i>FTP</i> is the communication method to access files on a remote computer. You need it to access your files on the account given by your provider to host your homepage. FTP is different from HTTP in that it was made specially to transfer (big) files. If a transfer is interrupted, with FTP you can resume it where it broke off, whereas with HTTP you can not.
+<i>PHP</i> is a programming language that is used to make dynamic websites.
+
+<br /><br />
+
+You can use net2ftp at <a href="http://www.net2ftp.com" target="_blank">http://www.net2ftp.com</a>, or you can install it on your own web server and use it from there.
+
+<br /><br />
+
+<div class="header21">Features</div>
+These are the <b>User Features</b> of net2ftp:
+<div class="header21">User features</div>
+<ul>
+<li> Navigate the FTP server. Once you have logged in, you can browse from directory to directory and see all the subdirectories and files.</li>
+<li> Upload files. The files are copied from your computer to the FTP server.</li>
+<li> Download files. Click on a filename in the list of files, and a window will pop up to ask you where you want to save it on your computer.</li>
+<li> Upload-and-unzip archives (zip, tar, tgz and gz). This feature is great to upload many files at once (for example if you want to install an application on your web server). This is how it works: specify a Zip file on your computer; the Zip file is transferred to the web server where it is unzipped; the files it contains are transferred to the FTP server.</li>
+<li> Zip files and directories. You can download the zip, email it, or save it on the FTP server.</li>
+<li> Copy, move and delete directories and files. Directories are handled recursively, meaning that their content (subdirectories and files) will also be copied, moved or deleted.</li>
+<li> Copy or move directories and files directly to a second FTP server.</li>
+<li> Rename and chmod directories and files.</li>
+<li> View code with syntax highlighting. PHP functions are linked to the documentation on php.net.</li>
+<li> Edit text right from your browser. Every time you save the changes the new file is transferred to the FTP server.</li>
+<li> Edit HTML in a WYSIWYG form. This form was developed by Interactivetools under the BSD license. View a <a href="http://www.interactivetools.com/products/htmlarea/index.html#demo" target="_blank">demo</a> here. For the moment, this form can only be used with Internet Explorer 5.5 or 6, but the next version also supports Mozilla based browsers.</li>
+<li> Search for words or phrases in selected directories and files; filter out files based on the filename, last modification time and filesize. <span style="font-size: 80%; color: red;">new</span></li>
+<li> Calculate the space used by directories and files. <span style="font-size: 80%; color: red;">new</span></li>
+</ul>
+
+<br />
+
+These are the <b>Administrator Features</b> of net2ftp:
+<ul>
+<li> net2ftp works perfectly under safemode.</li>
+<li> A database(MySQL) is only required for logging.</li>
+<li> Security. Allow the users to connect to all FTP servers, or to only a predefined list of FTP servers. The input box on the login page will change accordingly.</li>
+<li> Logging. Activate or deactivate 3 kinds of logging: pages requested, logins and errors.</li>
+<li> Skins. The layout can easily be changed.</li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+/*
+File name: imprime.js
+Autored by: Lyma
+Date authored: 01/10/2002
+Modified by:
+Date last modified:
+Description:
+	This include file detects the browser, version and platform, then handles print requests accordingly.
+
+<script language="JavaScript" src="printCheck.js"></script>
+<a href="javascript:void.null()" onClick="printCheck();"><img src="imprimir.gif" width="70" height="15" border="0"></a>
+
+*/
+function printCheck(){
+	var msg;
+	if ((navigator.appName.indexOf("Microsoft") != -1) && (navigator.appVersion.indexOf("Mac") != -1)) { /* Check for Internet Explorer and Macintosh */
+		msg = "O Internet Explorer do Macintosh não oferece esta opção.\nPara imprimir esta página, segure a tecla Command e pressione P, ou\nselecione Imprimir... no menu arquivo.";
+		alert(msg);
+		}
+	else {
+		window.print();
+		}
+	return;
+	}
+

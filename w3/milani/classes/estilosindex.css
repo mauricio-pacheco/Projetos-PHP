@@ -1,0 +1,349 @@
+.pontilhada{ 
+border-style: dashed;
+border-width: 1px; 
+border-color: 660033; 
+background-color: #EFEFEF; 
+font-family: verdana, arial; 
+font-size: 10pt; 
+} 
+
+.pontilhada2{ 
+border-style: dashed;
+border-width: 1px; 
+border-color: 660033; 
+background-color: #ffffff; 
+font-family: verdana, arial; 
+font-size: 10pt; 
+} 
+FONT {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #000000; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+BODY {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: left; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT: 11px/1.5 Verdana, Arial, Helvetica, sans-serif; BACKGROUND: #ffffff; background:url(../imagens/bg2.gif); background-position:center; COLOR: #333; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0px
+}
+#top {
+	BACKGROUND-IMAGE: url(../imagens/barra_bg.png); BACKGROUND-COLOR: #FF7200; WIDTH: 100%; DISPLAY: block; HEIGHT: 55px
+}
+#cabecalho {
+	POSITION: absolute; WIDTH: 880px; DISPLAY: block; HEIGHT: 55px; MARGIN-LEFT: -381px; TOP: 92px; LEFT: 631px
+}
+#topo_principal {
+	BACKGROUND-COLOR: #ffffff; MARGIN: 0px auto; WIDTH: 760px; DISPLAY: block; HEIGHT: 260px
+}
+#banner {
+	Z-INDEX: 1; POSITION: fixed; WIDTH: 121px; DISPLAY: none; HEIGHT: 600px; TOP: 23px
+}
+#cabecalho_principal {
+	MARGIN: 0px auto; WIDTH: 760px; DISPLAY: block; HEIGHT: 25px
+}
+#barra_login {
+	BACKGROUND-IMAGE: url(../imagens/bg_login.gif); POSITION: static; MARGIN: 0px auto; WIDTH: 100%; BOTTOM: 0px; HEIGHT: 21px; CLEAR: both
+}
+#bottom {
+	POSITION: static; BACKGROUND-COLOR: #F5F5F5; MARGIN: 0px auto; WIDTH: 100%; BOTTOM: 0px; HEIGHT: auto; CLEAR: both
+}
+#rodape {
+	PADDING-BOTTOM: 20px; MARGIN: 0px auto; WIDTH: 760px; HEIGHT: auto; PADDING-TOP: 20px
+}
+.rodapeTitulo {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #2a4264; FONT-SIZE: 14px
+}
+.rodape {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #2a4264; FONT-SIZE: 10px
+}
+#principal {
+	BACKGROUND-COLOR: #ffffff; MARGIN: 0px auto; WIDTH: 760px; DISPLAY: block; HEIGHT: 100%; PADDING-TOP: 5px
+}
+#menu {
+	TEXT-ALIGN: left; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 5px; WIDTH: 205px; PADDING-RIGHT: 5px; FLOAT: left; HEIGHT: 100%
+}
+#menu-left {
+	WIDTH: 200px
+}
+.menu-left-links {
+	MARGIN: 5px auto auto; WIDTH: 188px
+}
+#menu-left-revista {
+	MARGIN-BOTTOM: 20px
+}
+#conteudo {
+	TEXT-ALIGN: left; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 10px; WIDTH: 525px; PADDING-RIGHT: 10px; FLOAT: right; HEIGHT: 100%
+}
+.espacador {
+	BACKGROUND-IMAGE: url(../imagens/barra_espacador.jpg); MARGIN: 10px auto; WIDTH: 188px; HEIGHT: 1px
+}
+.espacador2 {
+	BACKGROUND-COLOR: #efefef; MARGIN: 10px auto; WIDTH: 188px; HEIGHT: 1px
+}
+.table_busca SELECT {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #666; FONT-SIZE: 12px
+}
+.table_busca INPUT {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #666; FONT-SIZE: 12px
+}
+.table_imovel_detalhes TR {
+	BACKGROUND-IMAGE: url(../imagens/bg_tr_imovel_detalhe.jpg); BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 50% bottom
+}
+.table-contato INPUT {
+	WIDTH: 400px
+}
+.table-contato TEXTAREA {
+	WIDTH: 475px
+}
+.table-trabalheconosco INPUT {
+	WIDTH: 400px
+}
+.table-trabalheconosco TEXTAREA {
+	WIDTH: 490px
+}
+.table-trabalheconosco SELECT {
+	WIDTH: 260px
+}
+.table-financiamento INPUT {
+	WIDTH: 400px
+}
+.table-financiamento TEXTAREA {
+	WIDTH: 515px
+}
+.table-financiamento SELECT {
+	WIDTH: 260px
+}
+.table-avaliacao INPUT {
+	WIDTH: 400px
+}
+.table-avaliacao TEXTAREA {
+	WIDTH: 515px
+}
+.table-avaliacao SELECT {
+	WIDTH: 260px
+}
+.table-indique INPUT {
+	WIDTH: 400px
+}
+.table-indique TEXTAREA {
+	WIDTH: 515px
+}
+.table-indique SELECT {
+	WIDTH: 260px
+}
+.table-contatoexterior INPUT {
+	WIDTH: 400px
+}
+.table-contatoexterior TEXTAREA {
+	WIDTH: 400px
+}
+.table-contatoexterior SELECT {
+	WIDTH: 260px
+}
+.campo-dica {
+	COLOR: #666; FONT-SIZE: 9px
+}
+.div_experiencia {
+	BORDER-BOTTOM: #666 1px solid; FONT-WEIGHT: bold
+}
+.tit_sessao {
+	PADDING-BOTTOM: 5px; TEXT-TRANSFORM: uppercase; BACKGROUND-COLOR: #dae2eb; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+H1 {
+	MARGIN: 0.3em 0px; COLOR: #bd0000; FONT-SIZE: 1.4em
+}
+H2 {
+	MARGIN: 0.3em 0px; COLOR: #bd0000; FONT-SIZE: 1.4em
+}
+H3 {
+	MARGIN: 0.3em 0px; COLOR: #bd0000; FONT-SIZE: 1.4em
+}
+H2 {
+	FONT-SIZE: 1.2em
+}
+H3 {
+	FONT-SIZE: 1em
+}
+.celulaTitulo {
+	BACKGROUND-COLOR: #f9f9f9; HEIGHT: 20px
+}
+.celulaLinks {
+	BACKGROUND-COLOR: #efefef; HEIGHT: 20px
+}
+.celulaHotLinks {
+	BACKGROUND-COLOR: #f9f9f9; HEIGHT: 30px; FONT-WEIGHT: bold
+}
+.dest {
+	COLOR: #333
+}
+.texto_valor {
+	COLOR: #bd0000; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.manchete_textocasa {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #ffffff; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.manchete_textocasa:hover {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #ffffff; FONT-SIZE: 11px; TEXT-DECORATION: underline
+}
+.manchete_texto5 {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #000000; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.manchete_texto5:hover {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #FF7600; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.manchete_texto {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #000000; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.manchete_texto2 {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #ffffff; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.manchete_texto3 {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #008040; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.manchete_texto4 {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #0080FF; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.manchete_texto4:hover {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #636363; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+
+.manchete_textobaixo {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #ffffff; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.manchete_textobaixo:hover {
+	FONT-FAMILY: Tahoma, "Trebuchet MS", Verdana, Arial; COLOR: #f9f9f9; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+
+A.link {
+	COLOR: #333; TEXT-DECORATION: none
+}
+A.link:visited {
+	COLOR: #333; TEXT-DECORATION: none
+}
+A.link:hover {
+	COLOR: #333; TEXT-DECORATION: underline
+}
+A.linkBold {
+	COLOR: #333; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.linkBold:visited {
+	COLOR: #333; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.linkBold:hover {
+	COLOR: #333; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.linkMenu {
+	COLOR: #F5F5F5; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.linkMenu:visited {
+	COLOR: #F5F5F5; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.linkMenu:hover {
+	COLOR: #F5F5F5; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+A.linkMenuDestaque {
+	COLOR: #F5F5F5; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.linkMenuDestaque:visited {
+	COLOR: #F5F5F5; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.linkMenuDestaque:hover {
+	COLOR: #F5F5F5; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.linkBranco {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+A.linkBranco:visited {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+A.linkBranco:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+A.rodapeTitulo {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #2a4264; FONT-SIZE: 14px; CURSOR: pointer; TEXT-DECORATION: none
+}
+A.rodapeTitulo:visited {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #2a4264; FONT-SIZE: 14px; CURSOR: pointer; TEXT-DECORATION: none
+}
+A.rodapeTitulo:hover {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #2a4264; FONT-SIZE: 14px; CURSOR: pointer; TEXT-DECORATION: none
+}
+A.rodapeLink {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #2a4264; FONT-SIZE: 10px; CURSOR: pointer; TEXT-DECORATION: none
+}
+A.rodapeLink:visited {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #2a4264; FONT-SIZE: 10px; CURSOR: pointer; TEXT-DECORATION: none
+}
+A.rodapeLink:hover {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #2a4264; FONT-SIZE: 10px; CURSOR: pointer; TEXT-DECORATION: none
+}
+A.linkTxt {
+	COLOR: #1f4a80; CURSOR: pointer; TEXT-DECORATION: none
+}
+A.linkTxt:visited {
+	COLOR: #1f4a80; CURSOR: pointer; TEXT-DECORATION: none
+}
+A.linkTxt:hover {
+	COLOR: #1f4a80; CURSOR: pointer; TEXT-DECORATION: none
+}
+A.linkTxt:hover {
+	COLOR: #f90
+}
+.textoBranco {
+	COLOR: #fff
+}
+.textoBrancoNegrito {
+	COLOR: #fff; FONT-WEIGHT: bold
+}
+.textoNegrito {
+	FONT-WEIGHT: bold
+}
+.textoMenu {
+	COLOR: #F5F5F5; FONT-SIZE: 12px
+}
+.textoTitulo {
+	FONT-FAMILY: sans-serif, Tahoma, Geneva,; COLOR: #3c95d3; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.box_busca {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; WIDTH: 140px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 14px; FONT-SIZE: 11px; BORDER-TOP: 1px solid; BORDER-RIGHT: 1px solid
+}
+.comboBox {
+	WIDTH: 192px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 20px; FONT-SIZE: 11px
+}
+.comboBoxValor {
+	WIDTH: 162px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 20px; FONT-SIZE: 11px
+}
+.box_busca {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; WIDTH: 100px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 14px; FONT-SIZE: 11px; BORDER-TOP: 1px solid; BORDER-RIGHT: 1px solid
+}
+.form_inputText {
+	BORDER-BOTTOM: #6699cc 1px solid; BORDER-LEFT: #6699cc 1px solid; BACKGROUND-COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 14px; FONT-SIZE: 11px; BORDER-TOP: #6699cc 1px solid; BORDER-RIGHT: #6699cc 1px solid
+}
+.form_comboBox {
+	BORDER-BOTTOM: #6699cc 1px solid; BORDER-LEFT: #6699cc 1px solid; BACKGROUND-COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 18px; FONT-SIZE: 10px; BORDER-TOP: #6699cc 1px solid; BORDER-RIGHT: #6699cc 1px solid
+}
+.form_botao {
+	BORDER-BOTTOM: #6699cc 1px solid; BORDER-LEFT: #6699cc 1px solid; BACKGROUND-COLOR: #e9e9e9; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 18px; FONT-SIZE: 8pt; BORDER-TOP: #6699cc 1px solid; BORDER-RIGHT: #6699cc 1px solid
+}
+.inputButton {
+	BORDER-BOTTOM: #333 1px solid; BORDER-LEFT: #333 1px solid; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #e9e9e9; PADDING-LEFT: 3px; WIDTH: 100%; PADDING-RIGHT: 3px; HEIGHT: 25px; COLOR: #333; BORDER-TOP: #333 1px solid; BORDER-RIGHT: #333 1px solid; PADDING-TOP: 3px
+}
+.inputCliente {
+	BORDER-BOTTOM: #333 1px solid; BORDER-LEFT: #333 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 20px; WIDTH: 120px; PADDING-RIGHT: 0px; BACKGROUND: url(../imagens/icones/person.png) #fff no-repeat left 50%; HEIGHT: 12px; FONT-SIZE: 11px; BORDER-TOP: #333 1px solid; BORDER-RIGHT: #333 1px solid; PADDING-TOP: 2px
+}
+.inputUsuario {
+	BORDER-BOTTOM: #333 1px solid; BORDER-LEFT: #333 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; WIDTH: 130px; PADDING-RIGHT: 0px; BACKGROUND: url(../imagens/icones/person.png) #fff no-repeat left 50%; HEIGHT: 12px; FONT-SIZE: 11px; BORDER-TOP: #333 1px solid; BORDER-RIGHT: #333 1px solid; PADDING-TOP: 2px
+}
+.inputSenha {
+	BORDER-BOTTOM: #333 1px solid; BORDER-LEFT: #333 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; WIDTH: 80px; PADDING-RIGHT: 0px; BACKGROUND: url(../imagens/icones/key-yellow.png) #fff no-repeat left 50%; HEIGHT: 12px; FONT-SIZE: 11px; BORDER-TOP: #333 1px solid; BORDER-RIGHT: #333 1px solid; PADDING-TOP: 2px
+}
+.thumbBd {
+	BORDER-BOTTOM: #aeaeae 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #aeaeae 1px solid; MARGIN: 6px; BORDER-TOP: #aeaeae 1px solid; BORDER-RIGHT: #aeaeae 1px solid
+}
+.divMsgPadraoSucesso {
+	BACKGROUND-IMAGE: url(../imagens/bt_fechar-sucesso.png); BORDER-BOTTOM: #339933 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #339933 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #e6fff2; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right 50%; MARGIN-BOTTOM: 15px; BORDER-TOP: #339933 1px solid; CURSOR: pointer; BORDER-RIGHT: #339933 1px solid; PADDING-TOP: 10px
+}
+.divMsgPadraoErro {
+	BACKGROUND-IMAGE: url(../imagens/bt_fechar-erro.png); BORDER-BOTTOM: #df0000 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #df0000 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #fff0f0; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right 50%; MARGIN-BOTTOM: 15px; BORDER-TOP: #df0000 1px solid; CURSOR: pointer; BORDER-RIGHT: #df0000 1px solid; PADDING-TOP: 10px
+}

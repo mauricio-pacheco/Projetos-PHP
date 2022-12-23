@@ -1,0 +1,50 @@
+BODY { background-image: url(../imagens/bg.png); background-color:#251401; background-repeat:repeat-x; margin:0;
+}
+.boxSombra {
+	behavior: url(PIE.htc); box-shadow: 0px 0px 0.95em #000; -moz-box-shadow: 0 0 .95em #000; -webkit-box-shadow: 0 0 .95em #000;
+}
+.fontemenu {
+	color: rgb(85, 155, 191); font-family: Tahoma, Geneva, sans-serif; font-size: 12px;
+}
+.fontemenu2 {
+	color: #006A00; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-decoration: none;
+}
+.fontemenu2 a:hover {
+	color: #000000; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-decoration: none;
+}
+.fontetabela5 {
+	color: rgb(249, 249, 249); font-family: Tahoma, Geneva, sans-serif; font-size: 18px; text-decoration: none;
+}
+.fontetitulon {
+	color: rgb(51, 51, 51); font-family: Tahoma, Geneva, sans-serif; font-size: 16px; text-decoration: none;
+}
+.fontetabela {
+	color: rgb(51, 51, 51); font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: none;
+}
+.fontetabela a:hover {
+	color: #106039; font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: underline;
+}
+.fonteadm {
+	color: rgb(51, 51, 51); font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: none;
+}
+.fontetitulo {
+	color: rgb(249, 249, 249); font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: none;
+}
+.fontetitulo a:hover {
+	color: rgb(249, 249, 249); font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: underline;
+}
+.fonteadm a:hover {
+	color: #026DA2; font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: none;
+}
+.fonterodape {
+	color: rgb(249, 249, 249); font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: none;
+}
+.manchete_textorp {
+	color: rgb(249, 249, 249); font-family: Tahoma, Geneva, sans-serif; font-size: 14px; text-decoration: none;
+}
+.fonterodape a:hover {
+	color: rgb(253, 224, 82); font-family: Tahoma, Geneva, sans-serif; font-size: 11px; text-decoration: none;
+}
+.pontilhada {
+	border: 1px dashed #17753B; font-size: 10pt;
+}

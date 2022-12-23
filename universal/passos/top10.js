@@ -1,0 +1,4 @@
+var counter=0;var top10scroller=setInterval("updateCounter()",1);function updateCounter()
+{if(counter>0)
+counter--;}
+$(document).ready(function(){if($('.ie6_body').length==0){if($('.top-item').length>0){$('.top-item').mouseover(function(){if(counter==0){counter=80;$(this).slideUp("slow");$('.top-over-showing').slideUp("slow");$(this).next().slideDown("slow",function(){counter=0;});$('.top-hidden').slideDown("slow");$('.top-over-showing').removeClass('top-over-showing');$(this).next().addClass('top-over-showing');$('.top-hidden').removeClass('top-hidden');$(this).addClass('top-hidden');}});$('.top-over-showing').mouseout(function(){counter=0;});}}});

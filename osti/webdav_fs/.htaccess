@@ -1,0 +1,7 @@
+AuthUserFile NONONO
+AuthGroupFile None
+AuthName YOU_CANNOT_LOGIN_HERE_DONT_TRY
+AuthType Basic
+
+require user YOU_CANNOT_LOGIN_HERE_DONT_TRY
+

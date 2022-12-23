@@ -1,0 +1,53 @@
+/******************************************************\
+* Interspire Shopping Cart Style File                *
+*                                                    *
+* Name: Default                                      *
+* Author: Chris Boulton (Interspire Pty. Ltd.)       *
+* Id: $Id$                                           *
+\*****************************************************/
+
+/* Gobal Reset */    
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* General */
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	text-align: center;
+	margin: 10px;
+}
+
+p {
+	line-height: 1.3;
+	margin-bottom: 8px;
+}
+
+h1 {
+	font-size: 1.6em;
+	font-weight: bold;
+	color: #034285;
+	margin: 10px 0;
+}
+
+a {
+	color: #075899;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+
+/* Page Breadcrumbs */
+.Nav {
+	font-size: 0.9em;
+	padding-bottom: 4px;
+	color: #075899;
+	border-bottom: 1px solid #DCDFE2;
+	margin-bottom: 20px;
+}
+
+.Nav .PrevLink { position: absolute; left: 8px; }
+.Nav .NextLink { position: absolute; right: 8px; }
+.Nav .ImageCount { font-weight: bold; }

@@ -1,0 +1,1 @@
+<template><id>Wine</id><name>Wine</name><version>1.5</version><colors><color><name>Red</name><hex>#3c0200</hex><preview>%%ISCURL%%templates/previews/Wine_red_thumb.jpg</preview><previewFull>%%ISCURL%%templates/previews/Wine_red.jpg</previewFull></color></colors></template>

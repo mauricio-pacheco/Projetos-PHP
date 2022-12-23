@@ -1,0 +1,93 @@
+#head_bar {
+	PADDING-RIGHT: 0px; DISPLAY: none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 6px; WIDTH: 745px; PADDING-TOP: 0px
+}
+#intro {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 6px; WIDTH: 744px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#content {
+	DISPLAY: none
+}
+#intro_swf {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 745px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#content2 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 745px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#content2 {
+	CLEAR: both; PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; TEXT-ALIGN: left
+}
+#abt_main_area1 {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; WIDTH: 744px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#abt_area1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 6px 6px 0px; WIDTH: 556px; PADDING-TOP: 0px
+}
+#abt_scope_header {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 9px; BACKGROUND: #969696; PADDING-BOTTOM: 2px; MARGIN: 0px 0px 6px; WIDTH: 547px; PADDING-TOP: 2px; TEXT-ALIGN: left
+}
+#abt_scope_header H2 {
+	FONT-SIZE: 12px; MARGIN: 0px; COLOR: #fefefe
+}
+#abt_scope {
+	BORDER-RIGHT: #d6d6ce 0px solid; PADDING-RIGHT: 6px; BORDER-TOP: #848484 0px solid; PADDING-LEFT: 6px; PADDING-BOTTOM: 4px; BORDER-LEFT: #848484 0px solid; WIDTH: 544px; PADDING-TOP: 4px; BORDER-BOTTOM: #d6d6ce 0px solid; TEXT-ALIGN: left
+}
+#abt_area2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 6px; WIDTH: 181px; PADDING-TOP: 0px
+}
+#news_header {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 9px; BACKGROUND: #969696; PADDING-BOTTOM: 2px; MARGIN: 0px 0px 6px; WIDTH: 172px; PADDING-TOP: 2px; TEXT-ALIGN: left
+}
+#news_header H2 {
+	FONT-SIZE: 12px; MARGIN: 0px; COLOR: #fefefe
+}
+#news {
+	BORDER-RIGHT: #d6d6ce 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #848484 1px solid; PADDING-LEFT: 6px; PADDING-BOTTOM: 4px; MARGIN: 0px; BORDER-LEFT: #848484 1px solid; WIDTH: 167px; PADDING-TOP: 4px; BORDER-BOTTOM: #d6d6ce 1px solid; HEIGHT: 100px; TEXT-ALIGN: left
+}
+#abt_services {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; MARGIN: 6px 0px 0px; WIDTH: 744px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#abt_services_header {
+	PADDING-RIGHT: 0px; DISPLAY: none; PADDING-LEFT: 9px; BACKGROUND: #969696; PADDING-BOTTOM: 2px; MARGIN: 0px 0px 6px; WIDTH: 734px; PADDING-TOP: 2px; TEXT-ALIGN: left
+}
+#abt_services_header H2 {
+	FONT-SIZE: 12px; MARGIN: 0px; COLOR: #fefefe
+}
+#web_design2 {
+	BORDER-RIGHT: #d6d6ce 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #848484 1px solid; PADDING-LEFT: 6px; FLOAT: left; PADDING-BOTTOM: 4px; MARGIN: 0px 0px 6px; BORDER-LEFT: #848484 1px solid; WIDTH: 167px; PADDING-TOP: 4px; BORDER-BOTTOM: #d6d6ce 1px solid; HEIGHT: 218px; TEXT-ALIGN: left
+}
+#web_hosting2 {
+	BORDER-RIGHT: #d6d6ce 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #848484 1px solid; PADDING-LEFT: 6px; FLOAT: left; PADDING-BOTTOM: 4px; MARGIN: 0px 0px 6px; BORDER-LEFT: #848484 1px solid; WIDTH: 167px; PADDING-TOP: 4px; BORDER-BOTTOM: #d6d6ce 1px solid; HEIGHT: 218px; TEXT-ALIGN: left
+}
+#internet_marketing2 {
+	BORDER-RIGHT: #d6d6ce 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #848484 1px solid; PADDING-LEFT: 6px; FLOAT: left; PADDING-BOTTOM: 4px; MARGIN: 0px 0px 6px; BORDER-LEFT: #848484 1px solid; WIDTH: 167px; PADDING-TOP: 4px; BORDER-BOTTOM: #d6d6ce 1px solid; HEIGHT: 218px; TEXT-ALIGN: left
+}
+#custom_programming2 {
+	BORDER-RIGHT: #d6d6ce 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #848484 1px solid; PADDING-LEFT: 6px; FLOAT: left; PADDING-BOTTOM: 4px; MARGIN: 0px 0px 6px; BORDER-LEFT: #848484 1px solid; WIDTH: 167px; PADDING-TOP: 4px; BORDER-BOTTOM: #d6d6ce 1px solid; HEIGHT: 218px; TEXT-ALIGN: left
+}
+#web_design2 {
+	MARGIN-RIGHT: 6px
+}
+#web_hosting2 {
+	MARGIN-RIGHT: 7px
+}
+#internet_marketing2 {
+	MARGIN-RIGHT: 6px
+}
+#custom_programming2 {
+	MARGIN-RIGHT: 0px
+}
+#copyright {
+	CLEAR: both; FONT-SIZE: 10px; WIDTH: 745px; TEXT-ALIGN: center
+}
+.services_webdesign {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BACKGROUND: url(images/bg_serv_webdesign.gif) #fff repeat-x left bottom; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 6px; COLOR: #336699; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+.services_webhosting {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BACKGROUND: url(images/bg_serv_hosting.gif) #fff repeat-x left bottom; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 6px; COLOR: #336699; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+.services_internet {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BACKGROUND: url(images/bg_serv_internet.gif) #fff repeat-x left bottom; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 6px; COLOR: #336699; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+.services_programming {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BACKGROUND: url(images/bg_serv_program.gif) #fff repeat-x left bottom; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 6px; COLOR: #336699; PADDING-TOP: 0px; TEXT-DECORATION: none
+}

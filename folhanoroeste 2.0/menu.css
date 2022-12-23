@@ -1,0 +1,15 @@
+.texto {
+	FONT-SIZE: 11px; COLOR: black; 
+}
+.menusup {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 9px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; MARGIN: 2px 0px 0px; TEXT-TRANSFORM: uppercase; CURSOR: pointer; COLOR: #202020; PADDING-TOP: 2px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.menusupliga {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 9px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; MARGIN: 2px 0px 0px; TEXT-TRANSFORM: uppercase; CURSOR: pointer; COLOR: #ffffff; PADDING-TOP: 2px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.mouse {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 9px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; MARGIN: 2px 0px 0px; TEXT-TRANSFORM: uppercase; CURSOR: pointer; COLOR: #ffffff; PADDING-TOP: 2px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.boxSombra {
+	behavior: url(PIE.htc); box-shadow: 0px 0px 0.45em #000; -moz-box-shadow: 0 0 .45em #000; -webkit-box-shadow: 0 0 .45em #000;
+}

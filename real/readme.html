@@ -1,0 +1,554 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>OpenRealty Documentation</title>
+	<link rel=stylesheet href="http://jonroig.com/freecode/openlistings/template/generic/style.css" type="text/css">
+</head>
+
+<body>
+<h3>OpenRealty 3.0 </h3>
+<p>by Jon Roig (jon@jonroig.com)<br>
+Release 7-1-2002
+</p>
+
+<p>
+<b>LATEST VERSION:</b><br>
+<a href="http://jonroig.com/freecode/openrealty/">http://jonroig.com/freecode/openrealty/</a>
+<p>
+
+<h3>PLEASE READ THIS ENTIRE FILE BEFORE INSTALLING OPENREALTY</h3>
+<p>
+(Thus, you will avoid my wrath when you ask a question answered in this FAQ)
+</p>
+<h3>Support and News</h3>
+<p>
+<a href="http://jonroig.com/freecode/phpBB/">http://jonroig.com/freecode/phpBB/</a><br>
+<p>
+<b>I DO NOT HAVE TIME TO ANSWER QUESTIONS VIA EMAIL!</b> Please post all comments, questions, etc... to the message board and I will respond as quickly as possible.
+Also, you might try reading through the posts -- your question may be answered already.
+</p>
+<p>
+I do, however, have time for consulting gigs from time to time. If you need a hand with customization or installs, feel free
+to drop me an email at <a href="mailto:jon@jonroig.com">jon@jonroig.com</a>. I think you'll find my rates are
+reasonable and that I'm an easy guy to work with...
+</p>
+
+<h3>This is Free?</h3>
+<p>
+OpenRealty is 100% free. You will never be charged a cent to use it and there are no restrictions on its use. There are no hidden catches -- 
+all we ask is that you leave the hidden comment in that appears on every page generated
+by OpenRealty intact. This is my calling card, so it's very important to me that I get recognition
+for my work.
+</p>
+<p>This is a fun project to work on. I enjoy it. Frankly,
+I get a kick out of seeing sites all over the world running my script. A strange hobby, maybe...
+but one has to do something during the hours away from work. ('Sides, the chicks LOVE it)
+</p>
+<p>
+If you want to contribute to the project, there are several ways you can do so:
+<ul>
+	<li> Find bugs and report them on <a href="http://jonroig.com/freecode/phpBB/">the forums</a>!
+	<li> Hack code! Got an improvement? Share it with the rest of the world (literally).
+	<li> Translate the english.php include file to your native tongue -- post on the forums if you
+	can help with this.
+	<li> <a href="http://www.amazon.com/exec/obidos/registry/M20P6BE4B4CM/ref%3Dcm%5Fwed%5Fsearch%5Fregistry/102-0546019-6714514">Purchase 
+	something off my Amazon wedding registry</a>. Like I said, the chicks love open source programmers, 
+	but sometimes my fiance can't understand why I forgo sleep to work on this. Bribe her with stuff
+	and she'll let me work more. :)
+</ul>
+</p>
+
+<h3>Using and Installing OpenRealty</h3>
+
+<ol>
+	<li> Download OpenRealty. Unzip the file.
+	<li> Create a new folder on your server.
+	<li> Configure and set parameters (explained below).
+	<li> Upload the contents of the zip file to your server.
+	<li> Create and configure your database tables (also explained below).
+	<li> Go on to live a healthy, happy, real-estate driven life...
+</ol>
+
+
+<h3>Required to run Openrealty</h3>
+<ol>
+	<li> MySQL or another database
+	<li> PHP 4 or better
+</ol>
+
+<h3>Summary of Functionality</h3>
+<p>
+This system is intended to become a toolkit for listings sites. Whether you're listing
+real estate, autos, penpals, or churches, this tool should help you along your way.
+Here's a basic overview of the functionality.
+</p>
+<ul>
+	<li>Allows visitors to look through your real estate listings 24 hours a day, 7 days a week, 365.25 days a year.
+	<li>Easily keep your property listings updated -- no HTML coding required to add, delete, or modify listings.
+	<li>Built-in image manager -- upload photos via your web browser, either when creating new listings or modifying an existing one. If photos are not uploaded for a property, a &quot;photo not available&quot; image will be automatically displayed for the listing.
+	<li>Automatically thumbnails -- smaller versions of your images are automatically created through the GD library.
+	<li>Automagically interfaces with Yahoo Maps -- potential customers will always know exactly where to find your property.
+	<li>Flexible database backend -- compatible with mysql, oracle, microsoft SQL, etc... through the ADODB abstraction layer.
+	<li>Secure -- no one but you can change your listings.
+	<li>Viral Marketing -- visitors can email listings to their friends right from OpenRealty.
+	<li>Easy to install -- just edit a single configuration file.
+	<li>Showcase specific properties -- built-in featured listing manager allows you to place special offerings right on your front page.
+	<li>Flexible search -- browse properties according to whatever criteria you like.
+	<li>Easy setup -- configurator tool makes OpenRealty 3.0 easy to install.
+	<li>Configurable forms -- Don't like the form choices included in OpenRealty? Change them to meet your needs!
+	<li>Template system -- produce a sophisticated site without any knowledge of PHP
+	<li>Supports CSS stylesheets.
+	<li>Multilanguage capable (coming soon -- I need help with translation!)
+</ul>
+
+<h4>Changes Since Last Version</h4>
+<p>
+This version of OpenRealty is a complete rewrite of the OpenRealty engine. Based on 
+a system I wrote called OpenListings, this is the first use of my new listings engine.
+Designed to be completely flexible, OpenListings allows you create fully featured listings sites for whatever
+you want to put online, be it homes, or cars, or airplanes, or pets.
+</p>
+<p>
+The changes are almost too numerous to mention -- templates, automatic thumbnailing of images, 
+configurable forms, improved password handling, etc... the list goes on and on...
+</p>
+<p>
+This should always be considered a work in progress. Spot a bug? Let us know in the <a href="http://jonroig.com/freecode/phpBB/">forums</a>.
+It has been because of the community involvement of people all over the world that this project has
+been as successful as it has.
+</p>
+
+<h3>Plans for next version</h3>
+<ul>
+	<li> XML/web services export/import
+	<li> True, simultaneous multi-language capability.
+	<li> "Notify me when a listing that contains XXX becomes available"
+	<li> Paypal integration/more advanced moderation facilities
+	<li> What else...? Let us know in <a href="http://jonroig.com/freecode/phpBB/">the forums</a>...
+</ul>
+
+
+
+<h3>Getting Started</h3>
+<ol>
+<li> Obviously, you've already unpacked the file, or you wouldn't be looking at this.
+<li> You need to CHMOD the contents of the images folder to 777, including the listing_photos and user_photos
+subfolders. This is where your images are stored.
+<li> Edit the /include/common.php file. (More on this in a moment...)
+<li> Set up a database that OpenRealty can use. (Again, see below...)
+<li> Run the configurator. If everything goes alright, you should be able to log in:
+<br>
+Default login = admin
+<br>
+Default pass = password
+<br><br>You should change this password ASAP.
+</ol>
+
+<h3>The common.php File</h3>
+<p>In the include directory, you should find the common.php file. This file contains
+all the settings for OpenRealty. Open it up with your favorite text editor and you should see a 
+whole bunch of settings...
+</p>
+<p>For those of you who are new to the world of PHP, don't be scared. We could have put all 
+these settings into a database or something, but we'd take a hit in performance with all
+those extra queries...
+</p>
+<p>... and you like speed, don't you...?
+</p>
+<p>
+Make a backup copy before you do anything drastic and maybe just adjust one thing at a time. Although each item has
+an explanation next to it, I might be able to shed some additional light on how this works...
+</p>
+<p>
+<b>SITE INFORMATION</b><br>
+This area is where you set up the base info for your site. This includes information like your site's
+address, the basepath (where the files are located on your server), your name, email address, and the site's
+name. Make sure you leave the trailing slash off the basepath and url, or everything will get all messed up.
+</p>
+<p>The most common error has to do with the distinction between basepath and baseurl. The baseurl is the actual web
+address that users see -- IE, http://jonroig.com/freecode/openrealty
+</p>
+<p>The basepath, however, is for your machine's use only -- it's the physical location of the openrealty
+scripts on your box. You'll know instantly if you got it wrong, because it'll give you an error that looks like:<br>
+Warning: Failed opening '/template/generic/style.php' for inclusion (include_path='') in /usr/www/users/linuxuser/openrealty/include/common.php on line 42 
+</p>
+<p>
+Here's a little trick: in the example above, "/usr/www/users/linuxuser/openrealty" is the correct basepath. Make sense?
+</p>
+
+<p>
+<b>DATABASE TYPE</b><br>
+You may not have to set anything here -- it depends entirely on what kind of database you choose to use.
+Because we're using the <a href="http://php.weblogs.com/ADODB">ADODB</a> database abstraction library,
+you pretty much get your pick of databases. Nice, eh?
+</p>
+<p>
+Possible choices are: access, ado, db2, ado_access, vfp, fbsql, ibase,firebird, borland_ibase, informix, mssql, mysql, mysqlt, maxsql, oci8,
+oci8po, odbc, oracle, postgres, postgres7, sqlanywhere, sybase
+</p>
+<p>
+It might be worth noting that we really haven't tried it too extensively with some of the more exotic databases out there... so if you're using anything
+other than postgres, mysql, or mssql, let us know. I'd be curious to hear if you have any problems...
+</p>
+<p>
+This is also where you set up your database user name, password, the db name, and the server to use.
+</p>
+
+</p>
+<p>
+<b>TEMPLATE DATA</b><br>
+This is where you set up the path to the templates. Eventually, we hope to develop a wide variety of different 
+styles that can just be dropped into place. For the initial release, I'm distributing one style. It's plain...
+admitted rather boring... and we call it "generic."
+</p>
+<p>
+Probably, you won't have to mess with these settings, at least at first. The template_path refers to the internal
+server path to the folder, while template_url is for browsers to hit things like the CSS file. There's an
+explanation of all the files later in the document.
+</p>
+<p>
+If you do take it on yourself, make sure you leave the off the trailing slashes or everything will crash
+and you will cry. (We'd rather have you crying tears of joy, rather than frustration.)
+</p>
+
+<p>
+<b>LANGUAGE FILE PATH -- USED FOR MULTI-LANGUAGE SUPPORT</b><br>
+This distribution of OpenRealty contains only one language file, but we hope to make more available for download soon...
+If you can help translate the english.php file, post a message on the forums (so people don't duplicate each other's work).
+<p>
+Ultimately, we hope to make OpenRealty as universal as we can... Also, as of right now, OR only supports
+one language at a time (no multilingual sites), but that's something we'll improve on ASAP.
+</p>
+
+<p>
+<b>DISPLAY SETTINGS</b><br>
+European users rejoice! You can now change the money sign that appears by default. We also now support a wide
+variety of numbering formats, designated by numbers you put in for the $config[number_format_style]
+in the common.php file:
+<ul>
+<li> 1 - Good old American formatting -- 123,456.78 (for the blokes in the UK, too)
+<li> 2 - Spain/Germany -- 123.456,78 
+<li> 3 - Estonia -- 123 456.78
+<li> 4 - France/Norway -- 123 456,78
+<li> 5 - Switzerland -- 123'456.78
+<li> 6 - Kazahistan -- 123 456-78
+</ul>
+</p>
+<p>
+Thanks, Satoko, for cluing me into the mysteries of the international numbering system.
+</p>
+<p>
+Next up is the way that prices are displayed... since you've already set your money sign, there's 
+a little function called "money_format" that displays it properly. The default is the US/UK, but I've left
+it open, so you can do whatever you need to do to make it work for your native land.
+</p>
+
+
+<p>
+<b>UPLOAD SETTINGS</b><br>
+OpenRealty now contains a thumbnailing engine that works with the GD library -- this is usually included
+with most linux-based hosting plans, you never know. Windows users will probably have to change $config[make_thumbnail]
+to "no". If you get a "undefined function: imagecreatefromjpeg()" error, then you know that you have to turn this option off.
+</p>
+<p>
+Now I know what some of you are thinking... why GD? Why not imagemajick -- it can handles GIF files as
+well as jpg and png. The reason is simple. I don't have it on my test machine. If someone wants to write
+an imagemajick thumbnailler, let me know. It should be pretty straightforward, and it is something
+I'd like to include.
+</p>
+
+<p>
+<b>LISTING EXPIRATION SETTINGS</b><br>
+You can now set up OpenRealty so that listings expire automatically after a set amount of time. The settings
+should be pretty obvious.
+</p>
+
+<p>
+<b>USER SETTINGS</b><br>
+In an effort to give administrators more fine-grained control over OpenRealty, we developed a new
+user settings area. You can make it so users can't sign up for the system -- instead, all new users
+would have to be created through the administrative tool.
+</p>
+<p>
+I also added a bunch of default privileges for new users. Maybe you want all the users to be able to view the logs
+for some reason, I don't know... I figured it would be better to create the option than live a life of regretting
+that I had not done so.
+</p>
+
+<p>
+<b>MODERATION SETTINGS</b><br>
+This is a popular one. OpenRealty now supports a moderated setting -- if you flip this on, listings will
+require an administrator to flip them on. Inactive listings can be previewed by either the listing's creator
+or an admin, but the general public will not be able to see them.
+</p>
+<p>
+You can also set OpenRealty to email you when someone adds a new listing. This email will go to the address
+you defined way back in the USER SETTINGS section.
+</p>
+
+<p>
+
+<b>MISCELLENEOUS SETTINGS</b><br>
+In general, you shouldn't have to mess with these files... If you don't know what they are, leave 'em alone.
+</p>
+
+
+<h3>Setting up the database</h3>
+<p>
+Due to OpenRealty's use of the <a href="http://php.weblogs.com/ADODB">ADODB Database Abstraction Layer</a>,
+OpenRealty can support a wide variety of different databases. It cannot, however, create the database
+for you. You must first create a database through your preferred method -- usually, this is something
+like phpMyAdmin for folks with mysql or the enterprise manager for those of you blessed with
+microsoft sql servers. Your mileage may vary -- my host, for instance, makes me use their tool to
+add mysql. They're trying to limit me to a single mysql db.
+</p>
+<p>
+For those power users out there, you actually have to grant OpenRealty the ability to create databases -- it uses
+a temporary table to do the sorting on the listingssearch.php page.
+</p>
+
+<h3>The Files</h3>
+<p>
+What do all these files do... well... let me tell you about it.
+</p>
+<ul>
+
+	<li> /openrealty
+	<li> email_listing.php - Allows users to send listings to friends
+	<li> index.php -- The main index page -- contains the featured listings, etc...
+	<li> listing_browse.php -- The search form page (more on customizing this below)
+	<li> listingsearch.php -- Displays search results
+	<li> listingview.php -- Displays a given listing's data (customization info below...)
+	<li> readme.html -- This file. You're looking at it.
+	<li> user_form_submit.php -- The receiving end of the form on user_signup.php
+	<li> user_signup.php -- Lets users sign up for your site (if you let them)
+	<li> userview.php -- Displays info about a given user
+	<li> viewimage.php -- Displays images attached to users or files
+	<li> /admin
+		<ul>
+		<li> add_listing.php -- Add a listing to the site
+		<li> add_user.php -- Add a user to the site
+		<li> edit_listings_images.php -- Add or edit a given listing's images
+		<li> edit_my_account.php -- Edit user data for non-admins
+		<li> edit_my_listings.php -- Edit listings for non-admins
+		<li> edit_user_images -- Add or edit a given user's images
+		<li> emailpass.php -- Lost your password? Retrieve it here...
+		<li> index.php -- A pretty much blank page
+		<li> listings_edit.php -- Allows admins to edit listings
+		<li> log_view.php -- Almost all administrative activities are logged -- read the logs here
+		<li> logout.php -- Log out after you've finished your session
+		<li> moderation_queue.php -- View inactive items on the site
+		<li> template_editor.php -- Edit the listings templates
+		<li> user_edit.php -- Allows admins to edit users
+		<li> user_form_editor.php -- Edit the user form templates
+		</ul>
+	<li> /images
+		<ul>
+		<li> nophoto.gif -- The default "No Photo Available" image
+		<li> /listing_photos -- Contains all the images connected to listings
+		<li> /user_photos -- Contains all the images connected to users
+		</ul>
+	<li> /include
+		<ul>
+		<li> common.php -- The main settings for the site
+		<li> main.php -- Shared code for the site. Don't mess with this unless you know what you're doing...
+		<li> thumbnail_gd.php -- The default thumbailing tool
+		<li> /adodb (this is this ADODB database abstraction library -- you shouldn't have to mess with it)
+		<li> /language -- languages supported by OpenRealty
+		</ul>
+	<li>/template/generic
+		<ul>
+		<li> admin_bottom.html -- The bottom template for the admin area
+		<li> admin_top.html -- The top template for the admin area
+		<li> style.css -- All the css style defs for OpenRealty
+		<li> style.php -- All the template code and misc look and feel defs for OpenRealty
+		<li> user_bottom.html -- The bottom template for the user area
+		<li> user_top.html -- The top template for the user area
+		</ul>
+</ul>
+		
+		
+
+
+<h3>Customizing OpenRealty</h3>
+<p>
+I've tried to document the code as much as possible to aid with customization... but 
+most of what you're probably looking for will be in the /template/generic folder. The idea here 
+is that you could distribute an entirely different system by only swapping out that folder.
+</p>
+<h4>Styles and Stylesheets</h4>
+<p>
+You can control a lot of the look and feel of the system through the info contained in the style.php
+and style.css files. Editing them should be reasonably straightforward...
+</p>
+
+<h4>Form Setup</h4>
+<p>
+If you login as admin/password, you'll have access to the form editors. Please take a few 
+moments to examine the example before you mess with it... but let me break it down
+for you:
+</p>
+<ul>
+<li> Field Name: The name of the field. Users won't see it, so keep it to a single word.
+<li> Field Type: What type of field is it? You have the following choices:
+<ul>
+<li> Text -- Standard single line text input box.
+<li> Textarea -- Multi line text input area.
+<li> Select List -- Pulldown list
+<li> Select Multiple -- Select where you can choose multiple items
+<li> Option Box -- Radio buttons
+<li> Check Box Divider -- List of items with checkboxes (like for features)
+<li> Price -- Text-type input, but automatically formatted as $amount. (or whatever, you can
+control this via the common.php file)
+<li> URL -- Text-type input, but auto formats the <a href="http://jonroig.com">url</a>.
+<li> Email -- Text-type input, but auto formats the <a href="mailto:jonroig.com">email address</a>.
+<li> Number -- Text-type input, but auto formats the number to include commas
+</ul>
+<li> Required: Does the user have to fill this out to submit/update a listing? 
+<li> Field Caption:  This is that the user sees next to the item
+<li> Field Elements: What are the choices for select lists and option boxes? Separated with double bars like 
+so: Alabama||Alaska||Arizona  
+<li> Default Text:  Should the form have some pre-defined text in it when the form is first
+viewed?
+<li> Display Location: This corresponds with the built in template system. Where on 
+the listingview.php page should this item appear? You have the following choices:
+top_right, top_left, bottom_right, bottom_left, headline, center, feature1, feature2  
+<li> Display When Browsing:  Choosing "yes" here will include this item as a column on
+the search page. If the form item is a text area, then it'll display on it's own line on the search results page.
+<li> Rank: The lower the rank, the closer to the top of the page it'll appear.
+</ul>
+
+<h4>Templates</h4>
+<p>
+To aid non-php-type folks, I've added a number of little functions to the 
+/template/generic/style.php file. These are then called on the listingview.php 
+userview.php pages as part of a kind of template system. This should not be considered 
+finished -- I need to centralize it all a bit and add one or two more functions...
+</p>
+<p>The actual code for these functions is located in the /include/template/generic/style.php
+file.
+</p>
+<p>
+Let me run down the list of options -- you'll find examples of how to use these functions
+in a given page's code:
+</p>
+<p>
+In <b>Listingview.php</b> you can call the following functions:
+</p>
+<ul>
+<li> <b>renderListingsImages($listingID)</b> This outputs the listing's
+images in a vertical column.
+<li> <b>renderSingleListingItem($listingID, $name)</b> Let's say you only want
+to output a single item in a listing -- like, say, zip code or something.
+You would do that like so: renderSingleListingItem($listingID, "zip")
+<li> <b>renderSingleListingItemNoCaption($listingID, $name)</b> Like the example
+above, but instead of outputing "Zip: 90210" it will simply output "90210"
+<li> <b>renderSingleListingItemRaw($listingID, $name)</b> This is sort of like renderSingleListingItemNoCaption
+except the script makes absolutely no effort to format the data being spit out. Handy if you 
+have to plug a variable into a popup mortgage calculator, for instance.
+<li> <b>renderTemplateArea($templateArea, $listingID)</b> Relates to the template system --
+shows all the items for a given template area.
+<li> <b>renderTemplateAreaNoCaption($templateArea, $listingID)</b>Same as above,
+but without the corresponding captions.
+<li> <b>getMainListingData($listingID)</b> Outputs the title of the listing
+and the user who created it.
+<li> <b>hitcount($listingID)</b> This allows you to add a hit counter to any listing.
+<li> <b>renderUserInfoOnListingsPage($listingID)</b> Include information about the
+user who created the listing.
+<li> <b>getListingEmail($listingID)</b> Include the email address of the user who created the
+listing.
+<li> <b>makeYahooMap($listingID, $address_field, $city_field, $state_field)</b> Builds a link to
+Yahoo maps. The various fields refer to the names of field setup through the template building tool.
+
+</ul>
+
+<p>
+In <b>userview.php</b> you can call the following functions:
+</p>
+<ul>
+<li> <b>renderUserImages($user)</b> Outputs a given user's images in a 
+vertical column.
+<li> <b>renderUserInfo($user)</b> Outputs the information attached to a user.
+<li> <b>getMainUserData($user)</b> Shows the name of the user.
+<li> <b>getUserEmail($user)</b> Shows the email address of the user.
+</ul>
+
+<p>
+<b>listing_browse.php</b>, the main search page in the demo, has these functions to help you:
+</p>
+<ul>
+<li> <b>browse_all_listings()</b> This simply outputs a link to browse all the listings
+with the number of available listings. 
+<li> <b>searchbox_select ($browse_caption, $browse_field_name)</b> Outputs a search multiple
+select box containing the elements and caption of your choice. Should be contained within a 
+table.
+<li> <b>searchbox_select_vert ($browse_caption, $browse_field_name)</b> Just like searchbox_select,
+except it doesn't need a table and the caption is located above the select box.
+<li> <b>searchbox_pulldown ($browse_caption, $browse_field_name)</b> Same as above, but with a pulldown
+menu. There's also a corresponding searchbox_pulldown_vert.
+<li> <b>searchbox_checkbox ($browse_caption, $browse_field_name)</b> Sensing a trend here? This lets you
+build a search box with checkboxes. You can also, by the way, use <b>searchbox_option ($browse_caption, $browse_field_name)</b>
+if you want radio buttons. For that matter, there are also searchbox_checkbox_vert and searchbox_option_vert functions, too.
+<li> <b>renderFeaturedListingsVertical($num_of_listings)</b> This displays however many featured listings you'd like in a vertical column. A horizontal version
+will be in the next revision...
+<li> <b>latestListings($num_of_listings)</b> This lists the latest X number of listings.
+</ul>
+<p>
+By the way, you can add these functions anywhere. If you want to layout search boxes horizontally rather than vertically, just through a table
+tag around each of the searchbox functions.
+</p>
+
+<h3>Licensing Info</h3>
+<p>
+OpenRealty is OpenSource and released under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU Public License</a>.
+</p>
+<p>
+Feel free to use it for whatever you like -- sell it, customize it, turn it into something different, anything is possible. All I ask is
+that you leave the hidden comment about myself and the tool's origins intact. If you want to be really cool, feel 
+free to put a link to my site somewhere on your site.
+</p>
+<p>
+Other licenses are available for this software, so if you want to remove my copywrite info from the 
+code for some reason, get in touch with me and we'll talk.
+</p>
+
+<h3>Conclusion</h3>
+<p>
+I just want to take a moment to thank everyone who's helped out on this project, whether it's 
+contributing code, assisting other users in the forums, or just generally being encouraging. I hope you
+already all know how much I appreciate it.
+</p>
+<p>
+A special shoutout goes to Jason Dulberg -- he's been a supporter/contributor to the project for awhile, essentially
+keeping it going while I was fully immersed in my day job.
+</p>
+<p>
+Any bug reports and/or suggestions will only make this project better. Post 'em to the forums....
+</p>
+
+
+<h3>Changelog</h3>
+<p>
+<b>V 3.01 (07-06-2002)</b>
+<ul>
+<li> Fixed problem with allowed HTML in text fields.
+<li> Occasionally the PHPSESSID would throw off the search results. NO MORE!
+<li> Cleaned up the search results code a tiny bit.
+<li> Fixed problem with image uploads on machines that use safe_mode.
+<li> On the listingsearch.php page, and textarea item marked "Show on Browse" will display on its own line.
+<li> When you delete a listing now, it deletes all the images associated with it.
+<li> When a user is deleted, the user's listings are all deleted, along with any images associated with them.
+<li> Added support a default image if no image is available.
+<li> You can now allow users to edit their own listing's expiration dates, if you like.
+<li> Speaking of expiration dates, listings expire properly now.
+<li> Upgraded to ADODB 2.12 (details @ <a href="http://php.weblogs.com/ADODB" target="_adodb">http://php.weblogs.com/ADODB</a>.
+<li> We now support international numbering and money amounts.
+<li> Added new functions: renderSingleListingItemRaw, latestListings.
+<li> New translations: German, Spanish, French, Italian, Finnish, Swedish.
+<li> Completed support for Access databases (I think).
+</ul>
+
+</p>
+</body>
+</html>

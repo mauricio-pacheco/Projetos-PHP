@@ -1,0 +1,8 @@
+AuthUserFile /web/net2ftp/admin/.htpasswd
+AuthGroupFile /dev/null
+AuthName ByPassword
+AuthType Basic
+
+<limit GET POST>
+require valid-user
+</Limit>
